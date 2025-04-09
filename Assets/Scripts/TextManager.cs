@@ -29,7 +29,7 @@ public class TextManager : MonoBehaviour
             "!",
         };
 
-        dialogueManager.EnterDialogueMode(inkJSON);
+        //dialogueManager.EnterDialogueMode(inkJSON);
         ///StartCoroutine(DisplayPhraseInSyllables(testPhrase, timeBetweenSyllables, timeBetweenWords, timeBetweenSentences));
     }
 
