@@ -139,6 +139,8 @@ public class TextManager : MonoBehaviour
 
     public static string[] SplitSyllables(string word, bool firstWord)
     {
+        Debug.Log($"Split Syllables Input: {word}, {firstWord}");
+
         if((firstWord || word == "i") && (word != "")) word = word.ToLower();
         string[] foundArray;
 
@@ -156,6 +158,8 @@ public class TextManager : MonoBehaviour
         
         foundArray = CMUDictLoader.Pronunciations[word];
         if((firstWord || word == "i") && (word != "")) foundArray[0] = char.ToUpper(foundArray[0][0]) + foundArray[0].Substring(1);
+
+        Debug.Log($"Split Syllables Output: {foundArray.Length}");
         return foundArray;
     }
 }

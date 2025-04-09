@@ -11,7 +11,7 @@ do
 Squirtle
 Bulbasaur
 Charmander
-pokemon
+po=ke=mon
 
 fun=sies
 a =cap=pel=la
