@@ -13,6 +13,8 @@ public class TextManager : MonoBehaviour
     [SerializeField] Transform textHolder;
     List<string> sentenceEndingPunctiation;
     [SerializeField] DialogueManager dialogueManager;
+    [SerializeField] CMUDictLoader cmuDictLoader;
+
     [Header("Ink JSON")]
     [SerializeField] TextAsset inkJSON;
     public bool showingText;
@@ -137,26 +139,28 @@ public class TextManager : MonoBehaviour
         return words;
     }
 
-    public static string[] SplitSyllables(string word, bool firstWord)
+    public string[] SplitSyllables(string word, bool firstWord)
     {
+        var dictToCheck = cmuDictLoader.pronunciations;
+
         Debug.Log($"Split Syllables Input: {word}, {firstWord}");
 
         if((firstWord || word == "i") && (word != "")) word = word.ToLower();
         string[] foundArray;
 
-        if (!CMUDictLoader.Pronunciations.ContainsKey(word) && word.Length > 0) 
+        if (!dictToCheck.ContainsKey(word) && word.Length > 0) 
         {
             string removedChar = word[word.Length - 1].ToString();  // Get the last character
             word = word.Substring(0, word.Length - 1);
-            if(!CMUDictLoader.Pronunciations.ContainsKey(word)) return new string[0];
-            foundArray = CMUDictLoader.Pronunciations[word];
+            if(!dictToCheck.ContainsKey(word)) return new string[0];
+            foundArray = dictToCheck[word];
             foundArray[foundArray.Length - 1] += removedChar;
             if(firstWord || word == "i") foundArray[0] = char.ToUpper(foundArray[0][0]) + foundArray[0].Substring(1);
             return foundArray;
         }
-        if(!CMUDictLoader.Pronunciations.ContainsKey(word)) return new string[0];
+        if(!dictToCheck.ContainsKey(word)) return new string[0];
         
-        foundArray = CMUDictLoader.Pronunciations[word];
+        foundArray = dictToCheck[word];
         if((firstWord || word == "i") && (word != "")) foundArray[0] = char.ToUpper(foundArray[0][0]) + foundArray[0].Substring(1);
 
         Debug.Log($"Split Syllables Output: {foundArray.Length}");

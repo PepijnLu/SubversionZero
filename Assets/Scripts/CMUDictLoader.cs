@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class CMUDictLoader : MonoBehaviour
 {
-    public static Dictionary<string, string[]> Pronunciations = new Dictionary<string, string[]>();
-
+    public Dictionary<string, string[]> pronunciations;
     void Awake()
     {
+        pronunciations = new Dictionary<string, string[]>();
         LoadCMUDict();
     }
 
@@ -28,9 +28,9 @@ public class CMUDictLoader : MonoBehaviour
         {
             string spelledWord = Regex.Replace(line, "=", "");
             string[] splitArray = line.Split('=');
-            if(!Pronunciations.ContainsKey(spelledWord)) Pronunciations.Add(spelledWord, splitArray);
+            if(!pronunciations.ContainsKey(spelledWord)) pronunciations.Add(spelledWord, splitArray);
         }
 
-        Debug.Log($"✅ Loaded {Pronunciations.Count} words from CMU dictionary.");
+        Debug.Log($"✅ Loaded {pronunciations.Count} words from CMU dictionary.");
     }
 }
