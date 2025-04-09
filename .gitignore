@@ -9,7 +9,7 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+# /[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -49,9 +49,9 @@
 # *.VC.db
 
 # Unity3D generated meta files
-*.pidb.meta
-*.pdb.meta
-*.mdb.meta
+# *.pidb.meta
+# *.pdb.meta
+# *.mdb.meta
 
 # Unity3D generated file on crash reports
 sysinfo.txt
@@ -67,7 +67,7 @@ sysinfo.txt
 crashlytics-build.properties
 
 # Packed Addressables
-/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+# /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
