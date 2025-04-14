@@ -1883,6 +1883,7 @@ MonoBehaviour:
   fullText: {fileID: 819025195}
   textHolder: {fileID: 893829}
   dialogueManager: {fileID: 1702616885}
+  cmuDictLoader: {fileID: 2013167313}
   inkJSON: {fileID: 4900000, guid: 7f324e845499fa04bbf80956a270d1fa, type: 3}
   showingText: 0
 --- !u!4 &985497772

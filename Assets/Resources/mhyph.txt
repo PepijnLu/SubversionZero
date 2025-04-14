@@ -8,16 +8,16 @@ by
 of
 do
 
-Squirtle
-Bulbasaur
-Charmander
+Squir=tle
+Bul=ba=saur
+Char=man=der
 po=ke=mon
 
 fun=sies
-a =cap=pel=la
-a =go=go
-a =tem=po
-a-=plen=ty
+a=cap=pel=la
+a=go=go
+a=tem=po
+a=plen=ty
 aard=vark
 aard=wolf
 ab =o=vo

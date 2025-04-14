@@ -23,7 +23,7 @@ public class CMUDictLoader : MonoBehaviour
             return;
         }
 
-        string[] lines = dictFile.text.Split('\n');
+        string[] lines = dictFile.text.Split("\r\n");
         Debug.Log("Lines found = " + lines.Count());
 
         foreach (string line in lines)
