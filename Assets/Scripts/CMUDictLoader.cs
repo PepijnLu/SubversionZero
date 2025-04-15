@@ -30,9 +30,9 @@ public class CMUDictLoader : MonoBehaviour
         {
             string spelledWord = Regex.Replace(line, "=", "");
             string[] splitArray = line.Split('=');
-            if(!pronunciations.ContainsKey(spelledWord)) 
+            if (!pronunciations.ContainsKey(spelledWord))
             {
-                if(i < 50)
+                if (i < 50)
                 {
                     Debug.Log($"Adding to dict: {spelledWord}, {splitArray}");
                     firstFiftyWords.Add(spelledWord);
@@ -45,7 +45,7 @@ public class CMUDictLoader : MonoBehaviour
         Debug.Log($"✅ Loaded {pronunciations.Count} words from CMU dictionary.");
 
         i = 0;
-        for(int i2 = 0; i2 < firstFiftyWords.Count; i2++)
+        for (int i2 = 0; i2 < firstFiftyWords.Count; i2++)
         {
             Debug.Log($"Reading from dict: {firstFiftyWords[i]} : {pronunciations[firstFiftyWords[i]]}");
         }
