@@ -8,7 +8,7 @@ public class CrimeBoard : MonoBehaviour
     public Color boardLighting = new Color(0f, 0f, 0f);
     public Camera ogCam, boardCam;
     [SerializeField] RawImage stuffplayersees;
-    bool showingBoard, swappingView;
+    //bool GameManager.instance.isTransitioning;
     public Light boardLight;
     [SerializeField] Image bottomEyelid, topEyelid;
     [SerializeField] float eyelidDistance, eyelidTime, delayAfterClosing, fadeDuration;
@@ -29,13 +29,13 @@ public class CrimeBoard : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            if(!swappingView) StartCoroutine(SwapView(showingBoard));
+            if(!GameManager.instance.isTransitioning) StartCoroutine(SwapView(GameManager.instance.inBoardView));
         }
     }
 
     IEnumerator SwapView(bool _showingBoard)
     {
-        swappingView = true;
+        GameManager.instance.isTransitioning = true;
         //boardLight.enabled = false;
     //Board Startup
         //Disable 
@@ -50,11 +50,11 @@ public class CrimeBoard : MonoBehaviour
             bottomEyelid.gameObject.SetActive(true);
             topEyelid.gameObject.SetActive(true);
 
-            StartCoroutine(FadeImage(bottomEyelid, fadeDuration, 1));
-            yield return FadeImage(topEyelid, fadeDuration, 1);
+            StartCoroutine(GenericFunctions.instance.FadeImage(bottomEyelid, fadeDuration, 1));
+            yield return GenericFunctions.instance.FadeImage(topEyelid, fadeDuration, 1);
 
             ogCam.enabled = true;
-            showingBoard = false;
+            GameManager.instance.inBoardView = false;
             boardCam.enabled = false;
             //RenderSettings.ambientLight = originalLighting;
             yield return OpenCloseEyes(true);
@@ -65,7 +65,7 @@ public class CrimeBoard : MonoBehaviour
             yield return OpenCloseEyes(false);
             boardCam.enabled = true;
             ogCam.enabled = false;
-            showingBoard = true;
+            GameManager.instance.inBoardView = true;
             RenderSettings.ambientLight = boardLighting;
 
             yield return new WaitForSeconds(delayAfterClosing);
@@ -81,7 +81,7 @@ public class CrimeBoard : MonoBehaviour
             boardLight.enabled = true;
         }
 
-        swappingView = false;
+        GameManager.instance.isTransitioning = false;
     }
 
     IEnumerator OpenCloseEyes(bool _open)
@@ -101,42 +101,7 @@ public class CrimeBoard : MonoBehaviour
             topLidTargetPos.y -= eyelidDistance;
         }
 
-        StartCoroutine(LerpTransform(bottomEyelid.transform, bottomLidTargetPos, eyelidTime));
-        yield return LerpTransform(topEyelid.transform, topLidTargetPos, eyelidTime);
-    }
-
-    IEnumerator FadeImage(Image _image, float _duration, float _target)
-    {
-        float currentValue = _image.color.a;
-        float _elapsedTime = 0;
-        Color color = _image.color;
-
-        while (_elapsedTime <= _duration)
-        {
-            currentValue = Mathf.Lerp(currentValue, _target, _elapsedTime / _duration);
-            color.a = currentValue;
-            Debug.Log($"Changed {_image.name} alpha to {_image.color.a}");
-            _image.color = color;
-            _elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-
-        color.a = _target;
-        _image.color = color;
-    }
-
-    IEnumerator LerpTransform(Transform _transform, Vector3 _targetPos, float _duration)
-    {
-        Vector3 startPos = _transform.position;
-        float elapsed = 0f;
-
-        while (elapsed < _duration)
-        {
-            _transform.position = Vector3.Lerp(startPos, _targetPos, elapsed / _duration);
-            elapsed += Time.deltaTime;
-            yield return null;
-        }
-
-        _transform.position = _targetPos;
+        StartCoroutine(GenericFunctions.instance.LerpTransform(bottomEyelid.transform, bottomLidTargetPos, eyelidTime));
+        yield return GenericFunctions.instance.LerpTransform(topEyelid.transform, topLidTargetPos, eyelidTime);
     }
 }
