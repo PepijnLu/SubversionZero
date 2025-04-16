@@ -384,6 +384,8 @@ MonoBehaviour:
   boardLighting: {r: 0, g: 0, b: 0, a: 1}
   ogCam: {fileID: 330585545}
   boardCam: {fileID: 1166988508}
+  stuffplayersees: {fileID: 777721683}
+  boardLight: {fileID: 2123429989}
 --- !u!4 &106989417
 Transform:
   m_ObjectHideFlags: 0
@@ -2270,7 +2272,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: 9bd484f4e00b5144cbf2de3922182729, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
