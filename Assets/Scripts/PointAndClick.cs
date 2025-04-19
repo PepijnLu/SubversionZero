@@ -2,20 +2,21 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class PointAndClick : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] float transitionDuration, orthoSize, perspectiveFOV, perspectiveDistance, orthoDistance;
     [SerializeField] Light overheadLight;
     private bool isOrthographic = true;
-    private bool isTransitioning, transitioned, pannedToZone;
+    private bool isTransitioning, transitioned, pannedToZone, inPhotoMode;
     //bool panning;
     Vector2 renderTextCenter;
     [SerializeField] LayerMask inspectionAreaLayer;
     [SerializeField] Camera renderCam;
     [SerializeField] RawImage rawImage;
     RenderTexture renderTexture;
-    float originalFov;
+    float originalFov, originalFlashAlpha;
     Vector3 lastCamPos;
     Quaternion lastCamRot;
 
@@ -24,6 +25,18 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
     [SerializeField] float pannedDistance;
     [SerializeField] float panningDuration;
     [SerializeField] GameObject empty;
+    [Header("Polaraids")]
+    [SerializeField] GameObject polaroidCam, polaroidPrefab, pictureLocations;
+    [SerializeField] Image cameraFlashImg;
+    [SerializeField] AudioSource flashSfx;
+    [SerializeField] Transform boardTransform;
+    [SerializeField] int captureSize;
+    [SerializeField] LayerMask capturableLayer;
+    List<GameObject> picturedObjects = new();
+    [SerializeField] float flashFadeTime;
+    int picturesTaken;
+    bool takingPicture;
+
 
     void Start()
     {
@@ -42,6 +55,106 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
         {
             StartCoroutine(PanToOriginalPosition());
         }
+
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+            SwitchPhotoMode();
+        }
+
+    }
+
+    void SwitchPhotoMode()
+    {
+        if(GameManager.instance.isTransitioning) return;
+
+        if(inPhotoMode)
+        {
+            inPhotoMode = false;
+            polaroidCam.SetActive(false);
+        }
+        else
+        {
+            inPhotoMode = true;
+            polaroidCam.SetActive(true);
+        }
+    }
+
+    void TakePicture(RaycastHit _hit)
+    {
+        if(takingPicture) return;
+        if(_hit.collider == null) return;
+        if(picturedObjects.Contains(_hit.collider.gameObject)) return;
+
+        takingPicture = true;
+        GameObject hitObj = _hit.collider.gameObject;
+        int layer = hitObj.layer;
+        string layerName = LayerMask.LayerToName(layer);
+
+        Debug.Log($"Hit object: {hitObj.name} on layer: {layerName} ({layer})");
+
+        // Check if it's in the desired layer mask
+        if (((1 << layer) & capturableLayer) != 0)
+        {
+            Debug.Log("Hit correct layer!");
+
+            // --- Read from RenderTexture here like before ---
+            RenderTexture currentRT = RenderTexture.active;
+            RenderTexture.active = renderTexture;
+
+            Vector3 screenPoint = Input.mousePosition;
+
+            float rtX = (screenPoint.x / Screen.width) * renderTexture.width;
+            float rtY = (screenPoint.y / Screen.height) * renderTexture.height;
+
+            int x = Mathf.Clamp((int)rtX - captureSize / 2, 0, renderTexture.width - captureSize);
+            int y = Mathf.Clamp((int)rtY - captureSize / 2, 0, renderTexture.height - captureSize);
+
+            Texture2D texture = new Texture2D(captureSize, captureSize, TextureFormat.RGB24, false);
+            texture.ReadPixels(new Rect(x, y, captureSize, captureSize), 0, 0);
+            texture.Apply();
+
+            RenderTexture.active = currentRT;
+            Debug.Log("Texture captured around mouse!");
+            picturedObjects.Add(_hit.collider.gameObject);
+            CreatePolaroid(texture);
+        }
+    }
+
+    void CreatePolaroid(Texture2D _polaroid)
+    {
+        // Get pixels from your captured texture
+        Color[] pixels = _polaroid.GetPixels();
+
+        float brightnessMultiplier = 3; // Increase to make brighter (e.g. 1.5 = +50%)
+
+        // Modify each pixel
+        for (int i = 0; i < pixels.Length; i++)
+        {
+            Color c = pixels[i];
+            c *= brightnessMultiplier;
+            c.a = pixels[i].a; // Preserve alpha
+            pixels[i] = c;
+        }
+
+        // Set modified pixels
+        _polaroid.SetPixels(pixels);
+        _polaroid.Apply();
+
+        GameObject polaroid = Instantiate(polaroidPrefab, pictureLocations.transform.GetChild(picturesTaken).position, Quaternion.identity, boardTransform);
+        picturesTaken++;
+        RawImage polaroidImage = polaroid.transform.GetChild(1).GetComponent<RawImage>();
+        polaroidImage.texture = _polaroid;
+        StartCoroutine(CameraFlashEffect());
+    }
+
+    IEnumerator CameraFlashEffect()
+    {
+        yield return GenericFunctions.instance.FadeImage(cameraFlashImg, 0, originalFlashAlpha);
+        flashSfx.Play();
+        cameraFlashImg.gameObject.SetActive(true);
+        yield return GenericFunctions.instance.FadeImage(cameraFlashImg, flashFadeTime, 0);
+        cameraFlashImg.gameObject.SetActive(false);
+        takingPicture = false;
     }
 
     IEnumerator PanToOriginalPosition()
@@ -98,10 +211,16 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        if(GameManager.instance.isTransitioning) return;
+        
         Debug.Log("Click recorded");
         RectTransform rectTransform = rawImage.rectTransform;
-
         Vector2 localPoint;
+        LayerMask targetLayer;
+
+        if(inPhotoMode) targetLayer = capturableLayer;
+        else targetLayer = inspectionAreaLayer;
+
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rectTransform, eventData.position, eventData.pressEventCamera, out localPoint))
         {
             // Normalize to [0,1] within the RawImage
@@ -114,8 +233,11 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
             Vector2 textureCoord = new Vector2(texX, texY);
 
             //Draw needed rays
-            RaycastHit cameraPanHit = RaycastTargetLayer(textureCoord, 100f, inspectionAreaLayer);
-            if(cameraPanHit.collider != null && !pannedToZone && !GameManager.instance.isTransitioning && !GameManager.instance.inBoardView) StartCoroutine(PanToZone(cameraPanHit));
+            Debug.Log($"Raycasting to {targetLayer.value}");
+            RaycastHit cameraPanHit = RaycastTargetLayer(textureCoord, 100f, targetLayer);
+
+            if(inPhotoMode && !GameManager.instance.isTransitioning) TakePicture(cameraPanHit);
+            else if(cameraPanHit.collider != null && !pannedToZone && !GameManager.instance.isTransitioning && !GameManager.instance.inBoardView) StartCoroutine(PanToZone(cameraPanHit));
         }
     }
 
@@ -129,6 +251,7 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
         renderTexture = renderCam.targetTexture;
         renderTextCenter = new Vector2(renderTexture.width / 2f, renderTexture.height / 2f);
         originalFov = renderCam.fieldOfView;
+        originalFlashAlpha = cameraFlashImg.color.a;
     }
 
     void FirstClick()

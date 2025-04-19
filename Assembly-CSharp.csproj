@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CMUDictLoader.cs" />
+    <Compile Include="Assets\Scripts\PolaroidCam.cs" />
     <Compile Include="Assets\Scripts\PointAndClick.cs" />
     <Compile Include="Assets\Scripts\TextManager.cs" />
     <Compile Include="Assets\Scripts\GenericFunctions.cs" />

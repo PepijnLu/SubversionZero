@@ -12,6 +12,7 @@ public class CrimeBoard : MonoBehaviour
     public Light boardLight;
     [SerializeField] Image bottomEyelid, topEyelid;
     [SerializeField] float eyelidDistance, eyelidTime, delayAfterClosing, fadeDuration;
+    [SerializeField] GameObject board;
 
     void Start()
     {
@@ -56,6 +57,7 @@ public class CrimeBoard : MonoBehaviour
             ogCam.enabled = true;
             GameManager.instance.inBoardView = false;
             boardCam.enabled = false;
+            board.SetActive(false);
             //RenderSettings.ambientLight = originalLighting;
             yield return OpenCloseEyes(true);
         }
@@ -65,6 +67,7 @@ public class CrimeBoard : MonoBehaviour
             yield return OpenCloseEyes(false);
             boardCam.enabled = true;
             ogCam.enabled = false;
+            board.SetActive(true);
             GameManager.instance.inBoardView = true;
             RenderSettings.ambientLight = boardLighting;
 
