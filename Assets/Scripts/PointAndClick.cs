@@ -26,7 +26,8 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
     [SerializeField] float panningDuration;
     [SerializeField] GameObject empty;
     [Header("Polaraids")]
-    [SerializeField] GameObject polaroidCam, polaroidPrefab, pictureLocations;
+    [SerializeField] GameObject polaroidCam, pictureLocations;
+    [SerializeField] Polaroid polaroidPrefab;
     [SerializeField] Image cameraFlashImg;
     [SerializeField] AudioSource flashSfx;
     [SerializeField] Transform boardTransform;
@@ -116,11 +117,11 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
             RenderTexture.active = currentRT;
             Debug.Log("Texture captured around mouse!");
             picturedObjects.Add(_hit.collider.gameObject);
-            CreatePolaroid(texture);
+            CreatePolaroid(texture, _hit.collider.gameObject.GetComponent<CapturableObject>());
         }
     }
 
-    void CreatePolaroid(Texture2D _polaroid)
+    void CreatePolaroid(Texture2D _polaroid, CapturableObject _capturableObject)
     {
         // Get pixels from your captured texture
         Color[] pixels = _polaroid.GetPixels();
@@ -140,7 +141,8 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
         _polaroid.SetPixels(pixels);
         _polaroid.Apply();
 
-        GameObject polaroid = Instantiate(polaroidPrefab, pictureLocations.transform.GetChild(picturesTaken).position, Quaternion.identity, boardTransform);
+        Polaroid polaroid = Instantiate(polaroidPrefab, pictureLocations.transform.GetChild(picturesTaken).position, Quaternion.identity, boardTransform);
+        polaroid.CustomStart(_capturableObject);
         picturesTaken++;
         RawImage polaroidImage = polaroid.transform.GetChild(1).GetComponent<RawImage>();
         polaroidImage.texture = _polaroid;

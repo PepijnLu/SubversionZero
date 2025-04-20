@@ -577,7 +577,7 @@ GameObject:
   - component: {fileID: 258719649}
   - component: {fileID: 258719648}
   m_Layer: 9
-  m_Name: Cube (4)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1097,8 +1097,8 @@ MonoBehaviour:
   panningDuration: 2
   empty: {fileID: 0}
   polaroidCam: {fileID: 0}
-  polaroidPrefab: {fileID: 0}
   pictureLocations: {fileID: 0}
+  polaroidPrefab: {fileID: 0}
   cameraFlashImg: {fileID: 0}
   flashSfx: {fileID: 0}
   boardTransform: {fileID: 0}
@@ -2053,7 +2053,7 @@ GameObject:
   - component: {fileID: 745105731}
   - component: {fileID: 745105730}
   m_Layer: 9
-  m_Name: Cube (3)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2249,8 +2249,8 @@ MonoBehaviour:
   panningDuration: 0.5
   empty: {fileID: 6448700822760782012, guid: 4d9718cb1d0194a44b42dcc163c74c96, type: 3}
   polaroidCam: {fileID: 285650215}
-  polaroidPrefab: {fileID: 3398378838179624746, guid: e4cc4918b7d5fde4fb3a43ff8cf03169, type: 3}
   pictureLocations: {fileID: 2056027313}
+  polaroidPrefab: {fileID: 1669710522553790135, guid: e4cc4918b7d5fde4fb3a43ff8cf03169, type: 3}
   cameraFlashImg: {fileID: 1714191491}
   flashSfx: {fileID: 1541513703}
   boardTransform: {fileID: 94022354}
@@ -2629,7 +2629,7 @@ GameObject:
   - component: {fileID: 936473773}
   - component: {fileID: 936473772}
   m_Layer: 9
-  m_Name: Cube (1)
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2737,7 +2737,7 @@ GameObject:
   - component: {fileID: 942732931}
   - component: {fileID: 942732930}
   m_Layer: 9
-  m_Name: Cube (2)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2906,8 +2906,9 @@ GameObject:
   - component: {fileID: 1158109987}
   - component: {fileID: 1158109986}
   - component: {fileID: 1158109985}
+  - component: {fileID: 1158109988}
   m_Layer: 9
-  m_Name: Sphere
+  m_Name: Suspicious Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3002,6 +3003,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158109983}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1158109988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158109983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b4b60ecd906aa409ac54e3aae127b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectDescription: This 0sphere0 has a 0blue0 color.
 --- !u!1 &1166988505
 GameObject:
   m_ObjectHideFlags: 0
@@ -4455,8 +4469,9 @@ GameObject:
   - component: {fileID: 1552226439}
   - component: {fileID: 1552226438}
   - component: {fileID: 1552226437}
+  - component: {fileID: 1552226440}
   m_Layer: 9
-  m_Name: Cube
+  m_Name: Suspicious Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4551,6 +4566,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552226435}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1552226440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552226435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b4b60ecd906aa409ac54e3aae127b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectDescription: This is a 0cube0.
 --- !u!1 &1702616884
 GameObject:
   m_ObjectHideFlags: 0
@@ -4873,7 +4901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1963154717}
   m_Layer: 0
-  m_Name: Level
+  m_Name: Level1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
