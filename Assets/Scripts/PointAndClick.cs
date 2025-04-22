@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
 public class PointAndClick : MonoBehaviour, IPointerClickHandler
 {
@@ -173,23 +174,27 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
 
     IEnumerator PanToZone(RaycastHit _hit)
     {
+        Camera targetCam = _hit.collider.transform.GetChild(0).GetComponent<Camera>();
+
         GameManager.instance.isTransitioning = true;
 
         lastCamPos = renderCam.transform.position;
         lastCamRot = renderCam.transform.rotation;
 
-        GameObject targetBox = _hit.collider.gameObject;
-        Vector3 targetPostion = targetBox.transform.position + (pannedDistance * targetBox.transform.forward);
+        //GameObject targetBox = _hit.collider.gameObject;
+        Vector3 targetPostion = targetCam.transform.position;
+        Quaternion targetRotation = targetCam.transform.rotation;
+        float targetPov = targetCam.fieldOfView;
 
-        GameObject directioncheck = Instantiate(empty, targetPostion, renderCam.transform.rotation);
-        directioncheck.transform.LookAt(targetBox.transform);
-        Quaternion targetRotation = directioncheck.transform.rotation;
+        // GameObject directioncheck = Instantiate(empty, targetPostion, renderCam.transform.rotation);
+        // directioncheck.transform.LookAt(targetBox.transform);
+
         
-        BoxCollider boxCollider = targetBox.GetComponent<BoxCollider>();
-        float newCameraPov = GetPannedCameraFov(boxCollider);
+        // BoxCollider boxCollider = targetBox.GetComponent<BoxCollider>();
+        // float newCameraPov = GetPannedCameraFov(boxCollider);
 
         StartCoroutine(GenericFunctions.instance.LerpRotation(renderCam.transform, targetRotation, panningDuration));
-        StartCoroutine(GenericFunctions.instance.LerpFov(originalFov, newCameraPov, panningDuration, renderCam));
+        StartCoroutine(GenericFunctions.instance.LerpFov(originalFov, targetPov, panningDuration, renderCam));
         yield return StartCoroutine(GenericFunctions.instance.LerpTransform(renderCam.transform, targetPostion, panningDuration));
 
         GameManager.instance.isTransitioning = false;
