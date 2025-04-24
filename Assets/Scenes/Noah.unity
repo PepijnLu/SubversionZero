@@ -717,7 +717,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inBoardView: 0
   isTransitioning: 0
-  renderCam: {fileID: 330585546}
+  renderCamTransform: {fileID: 330585546}
   levels: {fileID: 429055153}
   levelTransitionImg: {fileID: 470496786}
   currentLevelIndex: 0
@@ -1064,8 +1064,8 @@ Camera:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 0
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0.30083853, b: 0.7735849, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

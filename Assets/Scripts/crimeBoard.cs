@@ -16,12 +16,12 @@ public class CrimeBoard : MonoBehaviour
 
     void Start()
     {
-        //RenderSettings.ambientLight = originalLighting;
+        RenderSettings.ambientLight = originalLighting;
         Debug.Log("Ambient color changed to " + originalLighting);
         ogCam.enabled = true;
         boardCam.enabled = false;
+        RenderSettings.ambientLight = boardLighting;
     }
-    //RenderSettings.ambientLight = boardLighting;
     //ogCam.enabled = !ogCam.enabled;
     //        ogCam.depth = 0;
     //        boardCam.enabled = !boardCam.enabled;

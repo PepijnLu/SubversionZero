@@ -21,7 +21,6 @@ public class GenericFunctions : MonoBehaviour
         {
             currentValue = Mathf.Lerp(currentValue, _target, _elapsedTime / _duration);
             color.a = currentValue;
-            Debug.Log($"Changed {_image.name} alpha to {_image.color.a}");
             _image.color = color;
             _elapsedTime += Time.deltaTime;
             yield return null;

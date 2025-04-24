@@ -7,7 +7,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public bool inBoardView, isTransitioning;
-    [SerializeField] Transform renderCam;
+    [SerializeField] Transform renderCamTransform;
+    Color originalColor;
+    Camera renderCam;
     [Header("Levels")]
     [SerializeField] GameObject levels;
     [SerializeField] Image levelTransitionImg;
@@ -15,11 +17,14 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         instance = this;   
+        renderCam = renderCamTransform.gameObject.GetComponent<Camera>();
+        originalColor = renderCam.backgroundColor;
     }
 
     public IEnumerator TransitionLevel(int _newLevelIndex)
     {
         isTransitioning = true;
+        StartCoroutine(LerpBackgroundColor(renderCam.backgroundColor, new Color(0, 0, 0, 0), 2, renderCam));
         yield return GenericFunctions.instance.FadeImage(levelTransitionImg, 2, 1);
         levels.transform.GetChild(currentLevelIndex).gameObject.SetActive(false);
 
@@ -31,12 +36,35 @@ public class GameManager : MonoBehaviour
 
         renderCam.transform.position = newLevelCam.transform.position;
 
-        yield return GenericFunctions.instance.FadeImage(levelTransitionImg, 2, 0);
+        StartCoroutine(GenericFunctions.instance.FadeImage(levelTransitionImg, 0, 0));
+        yield return GenericFunctions.instance.FlickerLight(newLevelLight);
+
+        yield return LerpBackgroundColor(renderCam.backgroundColor, originalColor, 2, renderCam);
 
         currentLevelIndex++;
 
-        yield return GenericFunctions.instance.FlickerLight(newLevelLight);
-
         isTransitioning = false;
+    }
+
+    public IEnumerator LerpBackgroundColor(Color _startColor, Color _endColor, float _duration, Camera _camera)
+    {
+        float elapsed = 0f;
+        float biggestColorDifference = 0;
+
+        while (elapsed < _duration)
+        {
+            float t = elapsed / _duration;
+            Color currentColor = _camera.backgroundColor;
+            _camera.backgroundColor = Color.Lerp(_startColor, _endColor, t);
+
+            float colorDifference = Mathf.Abs(currentColor.r - _camera.backgroundColor.r);
+
+            if(colorDifference > biggestColorDifference) biggestColorDifference = colorDifference;
+
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+        Debug.Log($"Biggest color diff: {biggestColorDifference}");
+        _camera.backgroundColor = _endColor;
     }
 }
