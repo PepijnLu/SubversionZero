@@ -11,21 +11,21 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
     [SerializeField] Light overheadLight;
     private bool isOrthographic = true;
     private bool isTransitioning, transitioned, pannedToZone, inPhotoMode;
-    //bool panning;
-    Vector2 renderTextCenter;
-    [SerializeField] LayerMask inspectionAreaLayer;
     [SerializeField] Camera renderCam;
     [SerializeField] RawImage rawImage;
     RenderTexture renderTexture;
     float originalFov, originalFlashAlpha;
     Vector3 lastCamPos;
     Quaternion lastCamRot;
+    [Header("LayerMasks")]
+    [SerializeField] LayerMask inspectionAreaLayer;
+    [SerializeField] LayerMask capturableLayer;
+    [SerializeField] LayerMask doorLayer;
 
     [Header("Panning")]
     [SerializeField] float pannedZoom;
     [SerializeField] float pannedDistance;
     [SerializeField] float panningDuration;
-    [SerializeField] GameObject empty;
     [Header("Polaraids")]
     [SerializeField] GameObject polaroidCam, pictureLocations;
     [SerializeField] Polaroid polaroidPrefab;
@@ -33,7 +33,6 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
     [SerializeField] AudioSource flashSfx;
     [SerializeField] Transform boardTransform;
     [SerializeField] int captureSize;
-    [SerializeField] LayerMask capturableLayer;
     List<GameObject> picturedObjects = new();
     [SerializeField] float flashFadeTime;
     int picturesTaken;
@@ -149,7 +148,6 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
         polaroidImage.texture = _polaroid;
         StartCoroutine(CameraFlashEffect());
     }
-
     IEnumerator CameraFlashEffect()
     {
         yield return GenericFunctions.instance.FadeImage(cameraFlashImg, 0, originalFlashAlpha);
@@ -181,17 +179,9 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
         lastCamPos = renderCam.transform.position;
         lastCamRot = renderCam.transform.rotation;
 
-        //GameObject targetBox = _hit.collider.gameObject;
         Vector3 targetPostion = targetCam.transform.position;
         Quaternion targetRotation = targetCam.transform.rotation;
         float targetPov = targetCam.fieldOfView;
-
-        // GameObject directioncheck = Instantiate(empty, targetPostion, renderCam.transform.rotation);
-        // directioncheck.transform.LookAt(targetBox.transform);
-
-        
-        // BoxCollider boxCollider = targetBox.GetComponent<BoxCollider>();
-        // float newCameraPov = GetPannedCameraFov(boxCollider);
 
         StartCoroutine(GenericFunctions.instance.LerpRotation(renderCam.transform, targetRotation, panningDuration));
         StartCoroutine(GenericFunctions.instance.LerpFov(originalFov, targetPov, panningDuration, renderCam));
@@ -201,33 +191,15 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
         pannedToZone = true;
     }
 
-    float GetPannedCameraFov(BoxCollider box)
-    {
-        Bounds bounds = box.bounds;
-        Vector3 objectCenter = bounds.center;
-
-        float objectHeight = bounds.size.y;
-        float objectWidth = bounds.size.x;
-
-        float biggestConstraint = Mathf.Max(objectHeight, objectWidth);
-        Debug.Log($"Biggest Constraint = {biggestConstraint}");
-
-        float requiredFov = 42.86f * biggestConstraint - 27.52f;
-        return requiredFov;
-    }
-
     public void OnPointerClick(PointerEventData eventData)
     {
+        Debug.Log($"Tried record click: {transitioned} , {GameManager.instance.isTransitioning}");
+        if(!transitioned) return;
         if(GameManager.instance.isTransitioning) return;
         
         Debug.Log("Click recorded");
         RectTransform rectTransform = rawImage.rectTransform;
         Vector2 localPoint;
-        LayerMask targetLayer;
-
-        if(inPhotoMode) targetLayer = capturableLayer;
-        else targetLayer = inspectionAreaLayer;
-
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rectTransform, eventData.position, eventData.pressEventCamera, out localPoint))
         {
             // Normalize to [0,1] within the RawImage
@@ -239,24 +211,36 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
 
             Vector2 textureCoord = new Vector2(texX, texY);
 
-            //Draw needed rays
-            Debug.Log($"Raycasting to {targetLayer.value}");
-            RaycastHit cameraPanHit = RaycastTargetLayer(textureCoord, 100f, targetLayer);
+            RaycastHit cameraPanHit = RaycastTargetLayer(textureCoord, 100f);
+            HandleRaycast(cameraPanHit);
+        }
+    }
 
-            if(inPhotoMode && !GameManager.instance.isTransitioning) TakePicture(cameraPanHit);
-            else if(cameraPanHit.collider != null && !pannedToZone && !GameManager.instance.isTransitioning && !GameManager.instance.inBoardView) StartCoroutine(PanToZone(cameraPanHit));
+    void HandleRaycast(RaycastHit _hit)
+    {
+        if(GameManager.instance.isTransitioning) return;
+
+        if(CheckColliderLayerMask(_hit.collider, capturableLayer)) 
+        {
+            if(inPhotoMode) TakePicture(_hit);
+        }
+        else if(CheckColliderLayerMask(_hit.collider, inspectionAreaLayer)) 
+        {
+            if(_hit.collider != null && !pannedToZone && !GameManager.instance.inBoardView) StartCoroutine(PanToZone(_hit));
+        }
+        else if(CheckColliderLayerMask(_hit.collider, doorLayer)) 
+        {
+            StartCoroutine(GameManager.instance.TransitionLevel(GameManager.instance.currentLevelIndex + 1));
         }
     }
 
     void SetupCamera()
     {
-        overheadLight.enabled = false;
         renderCam.orthographic = true;
         renderCam.orthographicSize = orthoSize;
         renderCam.transform.position = new Vector3(0, 1.6f, orthoDistance);
         renderCam.transform.rotation = Quaternion.Euler(0, 0, 0);
         renderTexture = renderCam.targetTexture;
-        renderTextCenter = new Vector2(renderTexture.width / 2f, renderTexture.height / 2f);
         originalFov = renderCam.fieldOfView;
         originalFlashAlpha = cameraFlashImg.color.a;
     }
@@ -266,7 +250,7 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
         if (Input.GetMouseButtonDown(0) && !isTransitioning)
         {
             StartCoroutine(SwitchProjection(!isOrthographic));
-            StartCoroutine(Flicker());
+            StartCoroutine(GenericFunctions.instance.FlickerLight(overheadLight));
         }
     }
 
@@ -278,8 +262,6 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
 
         float startFOV = renderCam.fieldOfView;
         float startSize = renderCam.orthographicSize;
-        float endFOV = perspectiveFOV;
-        float endSize = orthoSize;
 
         Vector3 startPos = renderCam.transform.position;
         Vector3 endPos = toOrthographic
@@ -333,17 +315,7 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
         transitioned = true;
     }
 
-    IEnumerator Flicker() 
-    {
-        yield return new WaitForSeconds(0.5f);
-        overheadLight.enabled = true;
-        yield return new WaitForSeconds(0.1f);
-        overheadLight.enabled = false;
-        yield return new WaitForSeconds(0.5f);
-        overheadLight.enabled = true;
-    }
-
-    RaycastHit RaycastTargetLayer(Vector2 direction, float distance, LayerMask layerMask)
+    RaycastHit RaycastTargetLayer(Vector2 direction, float distance)
     {
         // Cast a ray from the camera's render texture
         Ray ray = renderCam.ScreenPointToRay(direction);
@@ -352,11 +324,23 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
         // Visualize the ray in Scene view
         Debug.DrawRay(ray.origin, ray.direction * distance, Color.cyan, 0.5f);
 
-        if (Physics.Raycast(ray, out RaycastHit hit, distance, layerMask))
+        if (Physics.Raycast(ray, out RaycastHit hit, distance))
         {
             hitTarget = hit;
         }
 
         return hitTarget;
+    }
+
+    bool CheckColliderLayerMask(Collider col, LayerMask layerMask)
+    {
+        if (((1 << col.gameObject.layer) & layerMask) != 0)
+        {
+            Debug.Log($"Raycast: {col.gameObject.name} is on {layerMask}");
+            return true;
+        }
+
+        Debug.Log($"Raycast: {col.gameObject.name} is not on {layerMask}");
+        return false;
     }
 }
