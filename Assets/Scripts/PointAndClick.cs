@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using FMODUnity;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 
@@ -30,7 +31,7 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
     [SerializeField] GameObject polaroidCam, pictureLocations;
     [SerializeField] Polaroid polaroidPrefab;
     [SerializeField] Image cameraFlashImg;
-    [SerializeField] AudioSource flashSfx;
+    [SerializeField] StudioEventEmitter flashSfx;
     [SerializeField] Transform boardTransform;
     [SerializeField] int captureSize;
     List<GameObject> picturedObjects = new();
