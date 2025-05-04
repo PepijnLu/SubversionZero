@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public TextManager textManager;
     public static GameManager instance;
     public bool inBoardView, isTransitioning;
     [SerializeField] Transform renderCamTransform;

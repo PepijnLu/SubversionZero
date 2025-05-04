@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+using UnityEngine.UI;
 using TMPro;
 using UnityEngine;
 
@@ -29,7 +30,8 @@ public class TextManager : MonoBehaviour
             "!",
         };
 
-        dialogueManager.EnterDialogueMode(inkJSON);
+        //dialogueManager.EnterDialogueMode(inkJSON);
+
         ///StartCoroutine(DisplayPhraseInSyllables(testPhrase, timeBetweenSyllables, timeBetweenWords, timeBetweenSentences));
     }
 
@@ -137,6 +139,12 @@ public class TextManager : MonoBehaviour
         List<string> words;
         words = _phrase.Split().ToList();
         return words;
+    }
+
+    public void DisableText()
+    {
+        fullText.text = "";
+        alphaText.text = "";
     }
 
     public string[] SplitSyllables(string word, bool firstWord)
