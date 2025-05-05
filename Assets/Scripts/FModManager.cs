@@ -4,10 +4,14 @@ using FMODUnity;
 public class FModManager : MonoBehaviour
 {
     public static FModManager instance;
+    [SerializeField] StudioEventEmitter footsteps;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        instance = this;    
+        instance = this; 
+
+        footsteps.Play();
+        SetParameter(footsteps, "Surface Type", 0);   
     }
 
     public void SetParameter(StudioEventEmitter _emitter, string paramName, float value)

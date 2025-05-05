@@ -81,8 +81,8 @@
     <Compile Include="Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\Sequence.cs" />
     <Compile Include="Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\List.cs" />
     <Compile Include="Assets\Ink\InkLibs\InkRuntime\StatePatch.cs" />
-    <Compile Include="Assets\Ink\InkLibs\InkRuntime\INamedContent.cs" />
     <Compile Include="Assets\Ink\InkLibs\InkCompiler\Plugins\Plugin.cs" />
+    <Compile Include="Assets\Ink\InkLibs\InkRuntime\INamedContent.cs" />
     <Compile Include="Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\ContentList.cs" />
     <Compile Include="Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\Identifier.cs" />
     <Compile Include="Assets\Ink\InkLibs\InkRuntime\VariablesState.cs" />
