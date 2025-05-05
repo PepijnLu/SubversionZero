@@ -43,6 +43,9 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
     void Start()
     {
         SetupCamera();
+
+        //Example of how to set an emitters parameter
+        FModManager.instance.SetParameter(flashSfx, "Surface Type", 1);
     }
 
     void Update()
