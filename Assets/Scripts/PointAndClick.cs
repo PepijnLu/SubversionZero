@@ -31,7 +31,7 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
     [SerializeField] GameObject polaroidCam, pictureLocations;
     [SerializeField] Polaroid polaroidPrefab;
     [SerializeField] Image cameraFlashImg;
-    [SerializeField] StudioEventEmitter flashSfx, footstepsSfx;
+    [SerializeField] StudioEventEmitter flashSfx;
     [SerializeField] Transform boardTransform;
     [SerializeField] int captureSize;
     List<GameObject> picturedObjects = new();
