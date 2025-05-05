@@ -11,7 +11,7 @@ public class FModManager : MonoBehaviour
         instance = this; 
 
         footsteps.Play();
-        SetParameter(footsteps, "Surface Type", 0);   
+        SetParameter(footsteps, "Surface Type", 1);   
     }
 
     public void SetParameter(StudioEventEmitter _emitter, string paramName, float value)
