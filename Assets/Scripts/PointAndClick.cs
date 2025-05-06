@@ -6,7 +6,7 @@ using FMODUnity;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 
-public class PointAndClick : MonoBehaviour, IPointerClickHandler
+public class PointAndClick : MonoBehaviour
 {
     [SerializeField] float transitionDuration, orthoSize, perspectiveFOV, perspectiveDistance, orthoDistance;
     [SerializeField] Light overheadLight;
@@ -18,10 +18,13 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
     float originalFov, originalFlashAlpha;
     Vector3 lastCamPos;
     Quaternion lastCamRot;
+    GameObject lastHoveringChar;
+    public Character hoveringChar, dialoguingChar;
     [Header("LayerMasks")]
     [SerializeField] LayerMask inspectionAreaLayer;
     [SerializeField] LayerMask capturableLayer;
     [SerializeField] LayerMask doorLayer;
+    [SerializeField] LayerMask characterLayer;
 
     [Header("Panning")]
     [SerializeField] float pannedZoom;
@@ -43,7 +46,7 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
     void Start()
     {
         SetupCamera();
-
+        lastHoveringChar = gameObject;
         //Example of how to set an emitters parameter
         ///FModManager.instance.SetParameter(flashSfx, "Surface Type", 1);
     }
@@ -66,6 +69,14 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
             SwitchPhotoMode();
         }
 
+        if(Input.GetMouseButtonDown(0) && hoveringChar != null) 
+        {
+            Character tempChar = hoveringChar.InitiateDialogue();
+            if(tempChar != null) dialoguingChar = tempChar;
+        }
+
+
+        InitiateRaycast();
     }
 
     void SwitchPhotoMode()
@@ -195,28 +206,31 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
         pannedToZone = true;
     }
 
-    public void OnPointerClick(PointerEventData eventData)
+    void InitiateRaycast()
     {
-        Debug.Log($"Tried record click: {transitioned} , {GameManager.instance.isTransitioning}");
-        if(!transitioned) return;
-        if(GameManager.instance.isTransitioning) return;
-        
-        Debug.Log("Click recorded");
-        RectTransform rectTransform = rawImage.rectTransform;
+        if (!transitioned) return;
+        if (GameManager.instance.isTransitioning) return;
+
         Vector2 localPoint;
-        if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rectTransform, eventData.position, eventData.pressEventCamera, out localPoint))
+        Vector2 screenPosition = Input.mousePosition;
+
+        RectTransform rectTransform = rawImage.rectTransform;
+        Camera eventCamera = null; // If Canvas is Overlay; otherwise use your UI camera
+
+        if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rectTransform, screenPosition, eventCamera, out localPoint))
         {
-            // Normalize to [0,1] within the RawImage
-            Vector2 normalized = Rect.PointToNormalized(rectTransform.rect, localPoint);
+            if (rectTransform.rect.Contains(localPoint))
+            {
+                Debug.Log("Clicked inside RawImage");
 
-            // Convert to texture pixel coordinates
-            float texX = normalized.x * renderTexture.width;
-            float texY = normalized.y * renderTexture.height;
+                Vector2 normalized = Rect.PointToNormalized(rectTransform.rect, localPoint);
+                float texX = normalized.x * renderTexture.width;
+                float texY = normalized.y * renderTexture.height;
+                Vector2 textureCoord = new Vector2(texX, texY);
 
-            Vector2 textureCoord = new Vector2(texX, texY);
-
-            RaycastHit cameraPanHit = RaycastTargetLayer(textureCoord, 100f);
-            HandleRaycast(cameraPanHit);
+                RaycastHit cameraPanHit = RaycastTargetLayer(textureCoord, 100f);
+                HandleRaycast(cameraPanHit);
+            }
         }
     }
 
@@ -224,17 +238,48 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
     {
         if(GameManager.instance.isTransitioning) return;
 
-        if(CheckColliderLayerMask(_hit.collider, capturableLayer)) 
+        if(Input.GetMouseButtonDown(0))
         {
-            if(inPhotoMode) TakePicture(_hit);
+            if(CheckColliderLayerMask(_hit.collider, capturableLayer)) 
+            {
+                if(inPhotoMode) TakePicture(_hit);
+            }
+            if(CheckColliderLayerMask(_hit.collider, inspectionAreaLayer)) 
+            {
+                if(_hit.collider != null && !pannedToZone && !GameManager.instance.inBoardView) StartCoroutine(PanToZone(_hit));
+            }
+            if(CheckColliderLayerMask(_hit.collider, doorLayer)) 
+            {
+                StartCoroutine(GameManager.instance.TransitionLevel(GameManager.instance.currentLevelIndex + 1));
+            }
         }
-        else if(CheckColliderLayerMask(_hit.collider, inspectionAreaLayer)) 
+
+        if(CheckColliderLayerMask(_hit.collider, characterLayer)) 
         {
-            if(_hit.collider != null && !pannedToZone && !GameManager.instance.inBoardView) StartCoroutine(PanToZone(_hit));
+            if(_hit.collider.gameObject != lastHoveringChar)
+            {
+                if(hoveringChar != null)
+                {
+                    hoveringChar.meshRenderer.material = hoveringChar.defaultCharacterMaterial;
+                    hoveringChar = null;
+                    lastHoveringChar = null;
+                }
+
+                lastHoveringChar = _hit.collider.gameObject;
+                Debug.Log("New Hovering Char: " + lastHoveringChar.name);
+                hoveringChar = lastHoveringChar.GetComponent<Character>();
+                Debug.Log("New Hovering Char Script: " + hoveringChar.name);
+                hoveringChar.meshRenderer.material = hoveringChar.hoverCharacterMaterial;
+            }
         }
-        else if(CheckColliderLayerMask(_hit.collider, doorLayer)) 
+        else
         {
-            StartCoroutine(GameManager.instance.TransitionLevel(GameManager.instance.currentLevelIndex + 1));
+            if(hoveringChar != null)
+            {
+                if(dialoguingChar != hoveringChar) hoveringChar.meshRenderer.material = hoveringChar.defaultCharacterMaterial;
+                hoveringChar = null;
+                lastHoveringChar = null;
+            }
         }
     }
 
@@ -338,6 +383,8 @@ public class PointAndClick : MonoBehaviour, IPointerClickHandler
 
     bool CheckColliderLayerMask(Collider col, LayerMask layerMask)
     {
+        if(col == null) return false;
+
         if (((1 << col.gameObject.layer) & layerMask) != 0)
         {
             Debug.Log($"Raycast: {col.gameObject.name} is on {layerMask}");

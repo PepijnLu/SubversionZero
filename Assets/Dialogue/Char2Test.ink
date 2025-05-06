@@ -1,3 +1,3 @@
-I am character two ! <green>
-I am a blue square . <red>
-Type shit . <red>
+This is me talking with my hands out ! <default>
+Now my hands are put together . <happy>
+Type shit . <sad>

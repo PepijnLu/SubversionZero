@@ -6,16 +6,18 @@ using System.Collections.Generic;
 using System.Collections;
 using UnityEngine.UI;
 using System;
+using System.Drawing;
 
 public class DialogueManager : MonoBehaviour
 {
     Story currentStory;
     bool dialogueIsPlaying;
     [SerializeField] TextManager textManager;
+    [SerializeField] PointAndClick pointAndClick;
     [SerializeField] List<TextMeshProUGUI> choicesTexts;
     Dictionary<Character, Story> charactersStories = new();
     bool leftCharOnScreen, rightCharOnScreen;
-    Character currentLeftCharacter, currentRightCharacter;  
+    public Character currentLeftCharacter, currentRightCharacter;  
     string pattern = @"^(.*?)<([^<>]+)>$";
     [Header("Dialogue Scene Elements")]
     [SerializeField] float transitionTime;
@@ -71,6 +73,8 @@ public class DialogueManager : MonoBehaviour
     void ExitDialogueMode()
     {
         dialogueIsPlaying = false;
+        pointAndClick.dialoguingChar.meshRenderer.material = pointAndClick.dialoguingChar.defaultCharacterMaterial;
+        pointAndClick.dialoguingChar = null;
         textManager.DisableText();
     }
 
@@ -88,6 +92,8 @@ public class DialogueManager : MonoBehaviour
             string tag = GetTagFromString(textFromJson);
             string mainText = GetMainTextFromString(textFromJson);
 
+            HandleTag(tag);
+
             Debug.Log($"New main text: {mainText}");
             
             StartCoroutine(textManager.DisplayPhraseInSyllables(mainText, tag, textManager.timeBetweenSyllables, textManager.timeBetweenWords, textManager.timeBetweenSentences));
@@ -97,6 +103,26 @@ public class DialogueManager : MonoBehaviour
         {
             StartCoroutine(TransitionCharacter(false, true, false, false));
         }
+    }
+
+    void HandleTag(string _tag)
+    {
+        //right character only for now
+        if(!currentRightCharacter.characterSprites.ContainsKey(_tag)) _tag = "default";
+        
+        rightCharacter.sprite = currentRightCharacter.characterSprites[_tag];
+        // switch(_tag)
+        // {
+        //     case "default":
+                
+        //         break;
+        //     case "happy":
+
+        //         break;
+        //     case "sad":
+
+        //         break;
+        // }
     }
 
     void DisplayChoices()
@@ -160,6 +186,9 @@ public class DialogueManager : MonoBehaviour
 
         if(_in)
         {   
+            //Right for now
+            rightCharacter.sprite = currentRightCharacter.characterSprites["default"];
+
             //Darken background
             if(!_switch) StartCoroutine(GenericFunctions.instance.FadeImage(darkenImg, 0, .1f));
             //Fade in textbox
