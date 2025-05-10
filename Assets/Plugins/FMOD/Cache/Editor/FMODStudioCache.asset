@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638820612121912193
+  lastModified: 638824092164537424
   FileSizes: []
   Exists: 1
 --- !u!114 &-4791227890199254371
@@ -88,10 +88,10 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638820612121912193
+  lastModified: 638824092164547944
   FileSizes:
   - Name: 
-    Value: 876
+    Value: 974
   Exists: 1
 --- !u!114 &-70907424925277902
 MonoBehaviour:
@@ -135,15 +135,70 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -4334324450762749267}
   - {fileID: -4791227890199254371}
+  - {fileID: 1296876624693567557}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4997359098897101286}
   StringsBanks:
   - {fileID: -1724225176518313470}
   cacheVersion: 131847
-  cacheTime: 638820612121912193
+  cacheTime: 638824092164547944
   SerializableEventsDict:
   - key: event:/cam flash
     index: 0
   - key: event:/footsteps
     index: 1
+  - key: event:/dialogue
+    index: 2
+--- !u!114 &1296876624693567557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/dialogue
+  m_EditorClassIdentifier: 
+  Path: event:/dialogue
+  Guid:
+    Data1: 1043482090
+    Data2: 1304360489
+    Data3: -492216444
+    Data4: 216464216
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3881574537725463376}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3881574537725463376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/dialogue/DialogueIsEnded
+  m_EditorClassIdentifier: 
+  Name: DialogueIsEnded
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 511769373
+    data2: 3529478014
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1

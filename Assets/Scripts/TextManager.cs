@@ -5,6 +5,7 @@ using System.Text.RegularExpressions;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine;
+using FMODUnity;
 
 public class TextManager : MonoBehaviour
 {
@@ -15,7 +16,6 @@ public class TextManager : MonoBehaviour
     List<string> sentenceEndingPunctiation;
     [SerializeField] DialogueManager dialogueManager;
     [SerializeField] CMUDictLoader cmuDictLoader;
-
     [Header("Ink JSON")]
     [SerializeField] TextAsset inkJSON;
     public bool showingText;
@@ -57,7 +57,8 @@ public class TextManager : MonoBehaviour
         {
             string _word = words[i];
             //Don't end the sentence
-            if(!sentenceEndingPunctiation.Contains(_word))
+            if (string.IsNullOrWhiteSpace(_word)) continue;
+            if (!sentenceEndingPunctiation.Contains(_word))
             {
                 //Split the word into syllables
                 List<string> syllables = SplitSyllables(_word, capitalizeNextWord).ToList();
@@ -67,6 +68,33 @@ public class TextManager : MonoBehaviour
                 {
                     //Wait and then display a new syllable
                     string _syllable = syllables[i2];
+
+                    //FMOD - Plays standard talking sounds except for the last syllable, which plays an ending sound based on punctuation (period, question mark, exclamation mark)
+                    bool nextIsPunctuation = (i + 1 < words.Count) && sentenceEndingPunctiation.Contains(words[i + 1]);
+                    bool isLastSyllableOfLastWord = nextIsPunctuation && (i2 == syllables.Count - 1);
+                    string punctuation = nextIsPunctuation ? words[i + 1] : "";
+
+                    FMOD.Studio.EventInstance instance = RuntimeManager.CreateInstance("event:/dialogue");
+
+                    if (isLastSyllableOfLastWord)
+                    {
+                        float paramValue = punctuation switch
+                        {
+                            "." => 1f,
+                            "?" => 2f,
+                            "!" => 3f,
+                            _ => 0f
+                        };
+                        instance.setParameterByName("DialogueIsEnded", paramValue);
+                    }
+                    else
+                    {
+                        instance.setParameterByName("DialogueIsEnded", 0f);
+                    }
+
+                    instance.start();
+                    instance.release();
+
                     alphaText.text += _syllable;
                     StartCoroutine(FadeInText(fadeInTime));
                     if(i2 + 1 <= syllables.Count) yield return new WaitForSeconds(_timeBetweenSyllables);

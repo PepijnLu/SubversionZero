@@ -10,7 +10,7 @@ public class FModManager : MonoBehaviour
     {
         instance = this; 
 
-        footsteps.Play();
+        //footsteps.Play();
         SetParameter(footsteps, "Surface Type", 1);   
     }
 
