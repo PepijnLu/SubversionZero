@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using FMODUnity;
+using FMOD.Studio;
 
 public class CrimeBoard : MonoBehaviour
 {
@@ -43,6 +45,7 @@ public class CrimeBoard : MonoBehaviour
         if (_showingBoard)
         {
             //Fade in eyelids
+            FModManager.instance.StopPinboard();
             Color alpha0 = bottomEyelid.color;
             alpha0.a = 0;
             bottomEyelid.color = alpha0;
@@ -64,6 +67,7 @@ public class CrimeBoard : MonoBehaviour
         //Enable
         else
         {
+            FModManager.instance.StartPinboard();
             yield return OpenCloseEyes(false);
             boardCam.enabled = true;
             ogCam.enabled = false;
