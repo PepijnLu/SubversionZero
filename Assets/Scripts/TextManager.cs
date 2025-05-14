@@ -5,6 +5,7 @@ using System.Text.RegularExpressions;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine;
+using FMODUnity;
 
 public class TextManager : MonoBehaviour
 {
@@ -15,7 +16,6 @@ public class TextManager : MonoBehaviour
     List<string> sentenceEndingPunctiation;
     [SerializeField] DialogueManager dialogueManager;
     [SerializeField] CMUDictLoader cmuDictLoader;
-
     [Header("Ink JSON")]
     [SerializeField] TextAsset inkJSON;
     public bool showingText;
@@ -38,7 +38,7 @@ public class TextManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public IEnumerator DisplayPhraseInSyllables(string _phrase, string tag, float _timeBetweenSyllables, float _timeBetweenWords, float _timeBetweenSentences)
@@ -53,29 +53,50 @@ public class TextManager : MonoBehaviour
         bool capitalizeNextWord = true;
 
         //Run each word through the loop
-        for(int i = 0; i < words.Count; i++)
+        for (int i = 0; i < words.Count; i++)
         {
             string _word = words[i];
             //Don't end the sentence
-            if(!sentenceEndingPunctiation.Contains(_word))
+            if (string.IsNullOrWhiteSpace(_word)) continue;
+            if (!sentenceEndingPunctiation.Contains(_word))
             {
                 //Split the word into syllables
                 List<string> syllables = SplitSyllables(_word, capitalizeNextWord).ToList();
                 capitalizeNextWord = false;
 
-                for(int i2 = 0; i2 < syllables.Count; i2++)
+                for (int i2 = 0; i2 < syllables.Count; i2++)
                 {
                     //Wait and then display a new syllable
                     string _syllable = syllables[i2];
+
+                    // Detect “will this be the last real syllable before a sentence‑ending punctuation?”
+                    bool nextIsPunctuation = (i + 1 < words.Count) && sentenceEndingPunctiation.Contains(words[i + 1]);
+                    bool isLastSyllableOfLastWord = nextIsPunctuation && (i2 == syllables.Count - 1);
+
+                    // Map punctuation mark to FMOD parameter value (1 = period, 2 = question, 3 = exclamation)
+                    int endType = 0;
+                    if (isLastSyllableOfLastWord)
+                    {
+                        switch (words[i + 1])
+                        {
+                            case ".": endType = 1; break;
+                            case "?": endType = 2; break;
+                            case "!": endType = 3; break;
+                        }
+                    }
+
+                    // Play syllable sounds with above code
+                    FModManager.instance.PlaySyllableSound(isLastSyllableOfLastWord, endType);
+
                     alphaText.text += _syllable;
                     StartCoroutine(FadeInText(fadeInTime));
-                    if(i2 + 1 <= syllables.Count) yield return new WaitForSeconds(_timeBetweenSyllables);
+                    if (i2 + 1 <= syllables.Count) yield return new WaitForSeconds(_timeBetweenSyllables);
                 }
 
                 //End of word, checks if theres another word, if so adds a space and waits
-                if(!(words.Count <= i + 1))
+                if (!(words.Count <= i + 1))
                 {
-                    if(!sentenceEndingPunctiation.Contains(words[i+1])) 
+                    if (!sentenceEndingPunctiation.Contains(words[i + 1]))
                     {
                         alphaText.text += " ";
                         yield return new WaitForSeconds(_timeBetweenWords);
@@ -91,7 +112,7 @@ public class TextManager : MonoBehaviour
                 capitalizeNextWord = true;
                 yield return new WaitForSeconds(_timeBetweenSentences);
             }
-            
+
         }
         showingText = false;
     }
@@ -100,7 +121,7 @@ public class TextManager : MonoBehaviour
     {
         TextMeshProUGUI newAlphaInstance = Instantiate(alphaText, textHolder);
         //SetAlpha(0, newAlphaInstance);
-        
+
         float startAlpha = newAlphaInstance.color.a;  // Get the current alpha value
         float elapsedTime = 0f;
         float targetAlpha = 1f;
@@ -153,23 +174,23 @@ public class TextManager : MonoBehaviour
 
         Debug.Log($"Split Syllables Input: {word}, {firstWord}");
 
-        if((firstWord || word == "i") && (word != "")) word = word.ToLower();
+        if ((firstWord || word == "i") && (word != "")) word = word.ToLower();
         string[] foundArray;
 
-        if (!dictToCheck.ContainsKey(word) && word.Length > 0) 
+        if (!dictToCheck.ContainsKey(word) && word.Length > 0)
         {
             string removedChar = word[word.Length - 1].ToString();  // Get the last character
             word = word.Substring(0, word.Length - 1);
-            if(!dictToCheck.ContainsKey(word)) return new string[0];
+            if (!dictToCheck.ContainsKey(word)) return new string[0];
             foundArray = dictToCheck[word];
             foundArray[foundArray.Length - 1] += removedChar;
-            if(firstWord || word == "i") foundArray[0] = char.ToUpper(foundArray[0][0]) + foundArray[0].Substring(1);
+            if (firstWord || word == "i") foundArray[0] = char.ToUpper(foundArray[0][0]) + foundArray[0].Substring(1);
             return foundArray;
         }
-        if(!dictToCheck.ContainsKey(word)) return new string[0];
-        
+        if (!dictToCheck.ContainsKey(word)) return new string[0];
+
         foundArray = dictToCheck[word];
-        if((firstWord || word == "i") && (word != "")) foundArray[0] = char.ToUpper(foundArray[0][0]) + foundArray[0].Substring(1);
+        if ((firstWord || word == "i") && (word != "")) foundArray[0] = char.ToUpper(foundArray[0][0]) + foundArray[0].Substring(1);
 
         Debug.Log($"Split Syllables Output: {foundArray.Length}");
         return foundArray;

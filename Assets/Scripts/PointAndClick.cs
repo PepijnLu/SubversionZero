@@ -106,7 +106,7 @@ public class PointAndClick : MonoBehaviour
         int layer = hitObj.layer;
         string layerName = LayerMask.LayerToName(layer);
 
-        Debug.Log($"Hit object: {hitObj.name} on layer: {layerName} ({layer})");
+        //Debug.Log($"Hit object: {hitObj.name} on layer: {layerName} ({layer})");
 
         // Check if it's in the desired layer mask
         if (((1 << layer) & capturableLayer) != 0)
@@ -221,7 +221,7 @@ public class PointAndClick : MonoBehaviour
         {
             if (rectTransform.rect.Contains(localPoint))
             {
-                Debug.Log("Clicked inside RawImage");
+                //Debug.Log("Clicked inside RawImage");
 
                 Vector2 normalized = Rect.PointToNormalized(rectTransform.rect, localPoint);
                 float texX = normalized.x * renderTexture.width;
@@ -387,11 +387,11 @@ public class PointAndClick : MonoBehaviour
 
         if (((1 << col.gameObject.layer) & layerMask) != 0)
         {
-            Debug.Log($"Raycast: {col.gameObject.name} is on {layerMask}");
+            //Debug.Log($"Raycast: {col.gameObject.name} is on {layerMask}");
             return true;
         }
 
-        Debug.Log($"Raycast: {col.gameObject.name} is not on {layerMask}");
+        //Debug.Log($"Raycast: {col.gameObject.name} is not on {layerMask}");
         return false;
     }
 }

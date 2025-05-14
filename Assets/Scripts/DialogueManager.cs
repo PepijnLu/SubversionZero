@@ -96,6 +96,7 @@ public class DialogueManager : MonoBehaviour
 
             Debug.Log($"New main text: {mainText}");
             
+            FModManager.instance.StartDialogue(currentRightCharacter);
             StartCoroutine(textManager.DisplayPhraseInSyllables(mainText, tag, textManager.timeBetweenSyllables, textManager.timeBetweenWords, textManager.timeBetweenSentences));
             DisplayChoices();
         }
