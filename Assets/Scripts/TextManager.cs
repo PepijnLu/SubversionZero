@@ -174,23 +174,51 @@ public class TextManager : MonoBehaviour
 
         Debug.Log($"Split Syllables Input: {word}, {firstWord}");
 
-        if ((firstWord || word == "i") && (word != "")) word = word.ToLower();
+        //Decapitalize the word if necessary to check
+        if ((firstWord || word == "i") && (word != ""))
+        {
+            word = word.ToLower();
+        }
+
         string[] foundArray;
 
+        //Account for plural words
         if (!dictToCheck.ContainsKey(word) && word.Length > 0)
         {
-            string removedChar = word[word.Length - 1].ToString();  // Get the last character
+            //Remove the last character
+            string removedChar = word[word.Length - 1].ToString();
+            Debug.Log($"123: Removed {removedChar} from {word}");
             word = word.Substring(0, word.Length - 1);
-            if (!dictToCheck.ContainsKey(word)) return new string[0];
+
+            //Return empty if wordt still hasn't been found
+            if (!dictToCheck.ContainsKey(word) && (removedChar == "s" || removedChar == "d")) return new string[0];
+
+            //Otherwise find the string array
             foundArray = dictToCheck[word];
+
+            //And add the last letter back in
+            Debug.Log($"123: Adding {removedChar} back to {foundArray[foundArray.Length - 1]}");
+            
+            foundArray = (string[])dictToCheck[word].Clone();
             foundArray[foundArray.Length - 1] += removedChar;
-            if (firstWord || word == "i") foundArray[0] = char.ToUpper(foundArray[0][0]) + foundArray[0].Substring(1);
+            if (firstWord || word == "i")
+            {
+                foundArray[0] = char.ToUpper(foundArray[0][0]) + foundArray[0].Substring(1);
+            }
             return foundArray;
         }
+
+        //Return empty if wordt still hasn't been found
         if (!dictToCheck.ContainsKey(word)) return new string[0];
 
+        //Otherwise get the string array from the dictionary
         foundArray = dictToCheck[word];
-        if ((firstWord || word == "i") && (word != "")) foundArray[0] = char.ToUpper(foundArray[0][0]) + foundArray[0].Substring(1);
+
+        //Recapitalize the first word
+        if ((firstWord || word == "i") && (word != ""))
+        {
+            foundArray[0] = char.ToUpper(foundArray[0][0]) + foundArray[0].Substring(1);
+        }
 
         Debug.Log($"Split Syllables Output: {foundArray.Length}");
         return foundArray;
