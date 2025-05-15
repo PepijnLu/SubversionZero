@@ -246,11 +246,11 @@ MonoBehaviour:
   - state: 2
     musicEvent:
       Guid:
-        Data1: -2107677463
-        Data2: 1159075069
-        Data3: 515053719
-        Data4: 1498230291
-      Path: event:/char/footsteps
+        Data1: 1070810859
+        Data2: 1167338025
+        Data3: -1020001374
+        Data4: -544369958
+      Path: event:/music/investigation
 --- !u!1 &54802370
 GameObject:
   m_ObjectHideFlags: 0

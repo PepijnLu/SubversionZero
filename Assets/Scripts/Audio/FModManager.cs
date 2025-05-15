@@ -8,6 +8,7 @@ using FMOD.Studio;
 public class FModManager : MonoBehaviour
 {
     public static FModManager instance;
+    private float currentClueValue = 0f;
 
     [Serializable]
     public struct CharacterEvent
@@ -65,7 +66,28 @@ public class FModManager : MonoBehaviour
         // Check if the E key is pressed
         if (Input.GetKeyDown(KeyCode.E))
         {
-             FModManager.instance.StartPinboard();
+            FModManager.instance.PlayMusic(MusicState.Investigation);
+            _currentMusicInstance.setParameterByName("EnoughClues", currentClueValue);
+            Debug.Log($"EnoughClues set to: {currentClueValue}");
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            FModManager.instance.PlayMusic(MusicState.Freeroam);
+        }
+
+        // Check if the F key is pressed
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            currentClueValue = 1f - currentClueValue; // Toggle between 0 and 1
+            if (_currentMusicInstance.isValid())
+            {
+                _currentMusicInstance.setParameterByName("EnoughClues", currentClueValue);
+                Debug.Log($"EnoughClues set to: {currentClueValue}");
+            }
+            else
+            {
+                Debug.LogWarning("No active music instance to set parameter on.");
+            }
         }
     }
 
@@ -80,20 +102,22 @@ public class FModManager : MonoBehaviour
             Debug.LogWarning($"[FMOD] No dialogue event for {who}");
     }
 
-    /// <summary>Play one syllable’s sound (with optional end-of-sentence variant).</summary>
-    public void PlaySyllableSound(bool isEnd, int endType = 0)
+    /// <summary>Call this for each syllable with its exact type code.</summary>
+    public void PlaySyllableSound(int syllableType)
     {
         if (_currentEventPath.IsNull)
         {
-            Debug.LogWarning("[FMOD] No current dialogue event set.");
+            Debug.LogWarning("[FMOD] No current event set.");
             return;
         }
 
         var inst = RuntimeManager.CreateInstance(_currentEventPath);
-        inst.setParameterByName("DialogueIsEnded", isEnd ? endType : 0f);
+        // Always send the exact endType
+        inst.setParameterByName("SyllableType", syllableType);
         inst.start();
         inst.release();
     }
+
 
     /// <summary>Stop tracking dialogue (optional cleanup).</summary>
     public void StopDialogue()

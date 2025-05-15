@@ -66,7 +66,7 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638829130041851322
+  lastModified: 638828631980980741
   FileSizes: []
   Exists: 1
 --- !u!114 &-4334324450762749267
@@ -106,19 +106,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/humanchar/DialogueIsEnded
+  m_Name: parameter:/humanchar/SyllableType
   m_EditorClassIdentifier: 
-  Name: DialogueIsEnded
+  Name: SyllableType
   StudioPath: 
   Min: 0
-  Max: 3
+  Max: 7
   Default: 0
   ID:
     data1: 511769373
     data2: 3529478014
-  Type: 1
+  Type: 2
   IsGlobal: 0
-  Labels: []
+  Labels:
+  - Consonant
+  - Vowel
+  - PeriodConsonant
+  - QuestionConsonant
+  - ExclamationConsonant
+  - PeriodVowel
+  - QuestionVowel
+  - ExclamationVowel
   Exists: 1
 --- !u!114 &-3569650472029103349
 MonoBehaviour:
@@ -190,11 +198,39 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638829130041861293
+  lastModified: 638828631980990829
   FileSizes:
   - Name: 
-    Value: 1414
+    Value: 1520
   Exists: 1
+--- !u!114 &-1109767399459117860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music/investigation
+  m_EditorClassIdentifier: 
+  Path: event:/music/investigation
+  Guid:
+    Data1: 1070810859
+    Data2: 1167338025
+    Data3: -1020001374
+    Data4: -544369958
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5118871658851888271}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 276705
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,13 +255,14 @@ MonoBehaviour:
   - {fileID: 951563620545404126}
   - {fileID: 3167311598890847064}
   - {fileID: -3569650472029103349}
+  - {fileID: -1109767399459117860}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4997359098897101286}
   StringsBanks:
   - {fileID: -1724225176518313470}
   cacheVersion: 131847
-  cacheTime: 638829130041861293
+  cacheTime: 638828631980990829
   SerializableEventsDict:
   - key: event:/cam flash
     index: 0
@@ -243,6 +280,8 @@ MonoBehaviour:
     index: 6
   - key: event:/ui/pinboard_enter
     index: 7
+  - key: event:/music/investigation
+    index: 8
 --- !u!114 &951563620545404126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,6 +363,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2800
+--- !u!114 &5118871658851888271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/investigation/EnoughClues
+  m_EditorClassIdentifier: 
+  Name: EnoughClues
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3756288785
+    data2: 3611684572
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &7478892357440478533
 MonoBehaviour:
   m_ObjectHideFlags: 0

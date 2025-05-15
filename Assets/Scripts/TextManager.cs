@@ -20,7 +20,11 @@ public class TextManager : MonoBehaviour
     [SerializeField] TextAsset inkJSON;
     public bool showingText;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    bool IsVowel(char c)
+    {
+        return "aeiouyhAEIOUYH".IndexOf(c) >= 0;
+    }
+
     void Start()
     {
         sentenceEndingPunctiation = new()
@@ -31,15 +35,10 @@ public class TextManager : MonoBehaviour
         };
 
         //dialogueManager.EnterDialogueMode(inkJSON);
-
-        ///StartCoroutine(DisplayPhraseInSyllables(testPhrase, timeBetweenSyllables, timeBetweenWords, timeBetweenSentences));
+        //StartCoroutine(DisplayPhraseInSyllables(testPhrase, "default", timeBetweenSyllables, timeBetweenWords, timeBetweenSentences));
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    void Update() { }
 
     public IEnumerator DisplayPhraseInSyllables(string _phrase, string tag, float _timeBetweenSyllables, float _timeBetweenWords, float _timeBetweenSentences)
     {
@@ -48,81 +47,73 @@ public class TextManager : MonoBehaviour
         fullText.text = "";
         alphaText.text = "";
 
-        //Initialization
         List<string> words = GetWordsInPhrase(_phrase);
         bool capitalizeNextWord = true;
 
-        //Run each word through the loop
         for (int i = 0; i < words.Count; i++)
         {
             string _word = words[i];
-            //Don't end the sentence
             if (string.IsNullOrWhiteSpace(_word)) continue;
+
             if (!sentenceEndingPunctiation.Contains(_word))
             {
-                //Split the word into syllables
                 List<string> syllables = SplitSyllables(_word, capitalizeNextWord).ToList();
                 capitalizeNextWord = false;
 
                 for (int i2 = 0; i2 < syllables.Count; i2++)
                 {
-                    //Wait and then display a new syllable
-                    string _syllable = syllables[i2];
+                    string syll = syllables[i2];
 
-                    // Detect “will this be the last real syllable before a sentence‑ending punctuation?”
-                    bool nextIsPunctuation = (i + 1 < words.Count) && sentenceEndingPunctiation.Contains(words[i + 1]);
-                    bool isLastSyllableOfLastWord = nextIsPunctuation && (i2 == syllables.Count - 1);
+                    bool nextIsPunct = (i + 1 < words.Count) && sentenceEndingPunctiation.Contains(words[i + 1]);
+                    string punct = nextIsPunct ? words[i + 1] : null;
+                    bool startsWithVowel = syll.Length > 0 && IsVowel(syll[0]);
 
-                    // Map punctuation mark to FMOD parameter value (1 = period, 2 = question, 3 = exclamation)
-                    int endType = 0;
-                    if (isLastSyllableOfLastWord)
+                    int syllableType;
+                    if (!nextIsPunct)
                     {
-                        switch (words[i + 1])
+                        syllableType = startsWithVowel ? 1 : 0;
+                    }
+                    else
+                    {
+                        switch (punct)
                         {
-                            case ".": endType = 1; break;
-                            case "?": endType = 2; break;
-                            case "!": endType = 3; break;
+                            case ".": syllableType = startsWithVowel ? 5 : 2; break;
+                            case "?": syllableType = startsWithVowel ? 6 : 3; break;
+                            case "!": syllableType = startsWithVowel ? 7 : 4; break;
+                            default: syllableType = startsWithVowel ? 1 : 0; break;
                         }
                     }
 
-                    // Play syllable sounds with above code
-                    FModManager.instance.PlaySyllableSound(isLastSyllableOfLastWord, endType);
+                    Debug.Log($"Playing syllable sound -> nextIsPunct: {nextIsPunct}, syllableType: {syllableType}, syllable: '{syll}'");
+                    FModManager.instance.PlaySyllableSound(syllableType);
 
-                    alphaText.text += _syllable;
+                    alphaText.text += syll;
                     StartCoroutine(FadeInText(fadeInTime));
-                    if (i2 + 1 <= syllables.Count) yield return new WaitForSeconds(_timeBetweenSyllables);
+                    yield return new WaitForSeconds(_timeBetweenSyllables);
                 }
 
-                //End of word, checks if theres another word, if so adds a space and waits
-                if (!(words.Count <= i + 1))
+                if (i + 1 < words.Count && !sentenceEndingPunctiation.Contains(words[i + 1]))
                 {
-                    if (!sentenceEndingPunctiation.Contains(words[i + 1]))
-                    {
-                        alphaText.text += " ";
-                        yield return new WaitForSeconds(_timeBetweenWords);
-                    }
+                    alphaText.text += " ";
+                    yield return new WaitForSeconds(_timeBetweenWords);
                 }
             }
-            //End the sentence based on punctuation
             else
             {
-                alphaText.text += _word;
-                alphaText.text += " ";
+                alphaText.text += _word + " ";
                 StartCoroutine(FadeInText(fadeInTime));
                 capitalizeNextWord = true;
                 yield return new WaitForSeconds(_timeBetweenSentences);
             }
-
         }
+
         showingText = false;
     }
 
     IEnumerator FadeInText(float duration)
     {
         TextMeshProUGUI newAlphaInstance = Instantiate(alphaText, textHolder);
-        //SetAlpha(0, newAlphaInstance);
-
-        float startAlpha = newAlphaInstance.color.a;  // Get the current alpha value
+        float startAlpha = newAlphaInstance.color.a;
         float elapsedTime = 0f;
         float targetAlpha = 1f;
 
@@ -131,10 +122,9 @@ public class TextManager : MonoBehaviour
             elapsedTime += Time.deltaTime;
             float alpha = Mathf.Lerp(startAlpha, targetAlpha, elapsedTime / duration);
             SetAlpha(alpha, newAlphaInstance);
-            yield return null;  // Wait for the next frame
+            yield return null;
         }
 
-        // Ensure the target alpha is set at the end of the lerp
         SetAlpha(targetAlpha, newAlphaInstance);
         SwitchTextToFull(newAlphaInstance);
     }
@@ -157,9 +147,7 @@ public class TextManager : MonoBehaviour
 
     List<string> GetWordsInPhrase(string _phrase)
     {
-        List<string> words;
-        words = _phrase.Split().ToList();
-        return words;
+        return _phrase.Split().ToList();
     }
 
     public void DisableText()
@@ -171,7 +159,6 @@ public class TextManager : MonoBehaviour
     public string[] SplitSyllables(string word, bool firstWord)
     {
         var dictToCheck = cmuDictLoader.pronunciations;
-
         Debug.Log($"Split Syllables Input: {word}, {firstWord}");
 
         //Decapitalize the word if necessary to check
