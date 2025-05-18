@@ -77,11 +77,11 @@ public class GenericFunctions : MonoBehaviour
 
     public IEnumerator FlickerLight(Light _light) 
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.1f);
         _light.enabled = true;
         yield return new WaitForSeconds(0.1f);
         _light.enabled = false;
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
         _light.enabled = true;
     }
 }

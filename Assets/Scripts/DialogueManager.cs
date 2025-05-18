@@ -54,6 +54,7 @@ public class DialogueManager : MonoBehaviour
         //Initiate story
         if(!charactersStories.ContainsKey(_character))
         {
+            GameManager.instance.inDialogue = true;
             charactersStories.Add(_character, new Story(_txt.text));
             currentStory = charactersStories[_character];
             //Fade in to the right for now
@@ -63,6 +64,7 @@ public class DialogueManager : MonoBehaviour
         //Switch to another chars story
         else if(currentStory != charactersStories[_character])
         {
+            GameManager.instance.inDialogue = true;
             //Fade in to the right for now
             currentRightCharacter = _character;
             StartCoroutine(TransitionCharacter(true, true, false, false));
@@ -75,6 +77,7 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = false;
         pointAndClick.dialoguingChar.meshRenderer.material = pointAndClick.dialoguingChar.defaultCharacterMaterial;
         pointAndClick.dialoguingChar = null;
+        GameManager.instance.inDialogue = false;
         textManager.DisableText();
     }
 
@@ -191,7 +194,7 @@ public class DialogueManager : MonoBehaviour
             rightCharacter.sprite = currentRightCharacter.characterSprites["default"];
 
             //Darken background
-            if(!_switch) StartCoroutine(GenericFunctions.instance.FadeImage(darkenImg, 0, .1f));
+            if(!_switch) StartCoroutine(GenericFunctions.instance.FadeImage(darkenImg, .2f, .7f));
             //Fade in textbox
             if(!_switch) StartCoroutine(GenericFunctions.instance.LerpTransform(textBox.transform, textBoxTargetTransform.position, transitionTime));
             //Fade in character sprite
@@ -202,7 +205,7 @@ public class DialogueManager : MonoBehaviour
         else
         {
             //Undarken background
-            if(!_switch) StartCoroutine(GenericFunctions.instance.FadeImage(darkenImg, 0, 0f));
+            if(!_switch) StartCoroutine(GenericFunctions.instance.FadeImage(darkenImg, .2f, 0f));
             //Fade out textbox
             if(!_switch) StartCoroutine(GenericFunctions.instance.LerpTransform(textBox.transform, offScreenTextBoxPosition, transitionTime));
             //Fade out character sprite

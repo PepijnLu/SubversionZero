@@ -15,14 +15,15 @@ public class CrimeBoard : MonoBehaviour
     [SerializeField] Image bottomEyelid, topEyelid;
     [SerializeField] float eyelidDistance, eyelidTime, delayAfterClosing, fadeDuration;
     [SerializeField] GameObject board;
+    [SerializeField] Image canvasLighting;
 
     void Start()
     {
-        RenderSettings.ambientLight = originalLighting;
+        //RenderSettings.ambientLight = originalLighting;
         Debug.Log("Ambient color changed to " + originalLighting);
         ogCam.enabled = true;
         boardCam.enabled = false;
-        RenderSettings.ambientLight = boardLighting;
+        //RenderSettings.ambientLight = boardLighting;
     }
     //ogCam.enabled = !ogCam.enabled;
     //        ogCam.depth = 0;
@@ -32,7 +33,7 @@ public class CrimeBoard : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            if(!GameManager.instance.isTransitioning) StartCoroutine(SwapView(GameManager.instance.inBoardView));
+            if(!GameManager.instance.isTransitioning && !GameManager.instance.inDialogue) StartCoroutine(SwapView(GameManager.instance.inBoardView));
         }
     }
 
@@ -50,23 +51,29 @@ public class CrimeBoard : MonoBehaviour
             alpha0.a = 0;
             bottomEyelid.color = alpha0;
             topEyelid.color = alpha0;
+            canvasLighting.color = alpha0;
 
+            canvasLighting.gameObject.SetActive(true);
             bottomEyelid.gameObject.SetActive(true);
             topEyelid.gameObject.SetActive(true);
 
             StartCoroutine(GenericFunctions.instance.FadeImage(bottomEyelid, fadeDuration, 1));
+            StartCoroutine(GenericFunctions.instance.FadeImage(canvasLighting, fadeDuration, 1));
             yield return GenericFunctions.instance.FadeImage(topEyelid, fadeDuration, 1);
 
             ogCam.enabled = true;
             GameManager.instance.inBoardView = false;
             boardCam.enabled = false;
             board.SetActive(false);
+            canvasLighting.gameObject.SetActive(false);
             //RenderSettings.ambientLight = originalLighting;
             yield return OpenCloseEyes(true);
         }
         //Enable
         else
         {
+            StartCoroutine(GenericFunctions.instance.FadeImage(canvasLighting, 0, 1));
+            canvasLighting.gameObject.SetActive(true);
             FModManager.instance.StartPinboard();
             yield return OpenCloseEyes(false);
             boardCam.enabled = true;
@@ -82,10 +89,13 @@ public class CrimeBoard : MonoBehaviour
             //Flicker board light
             yield return new WaitForSeconds(0.1f);
             boardLight.enabled = true;
+            canvasLighting.gameObject.SetActive(false);
             yield return new WaitForSeconds(0.2f);
             boardLight.enabled = false;
+            canvasLighting.gameObject.SetActive(true);
             yield return new WaitForSeconds(0.4f);
             boardLight.enabled = true;
+            canvasLighting.gameObject.SetActive(false);
         }
 
         GameManager.instance.isTransitioning = false;

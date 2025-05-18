@@ -31,7 +31,7 @@ public class PointAndClick : MonoBehaviour
     [SerializeField] float pannedDistance;
     [SerializeField] float panningDuration;
     [Header("Polaraids")]
-    [SerializeField] GameObject polaroidCam, pictureLocations;
+    [SerializeField] GameObject polaroidCam, pictureLocations, pictureTakenUI;
     [SerializeField] Polaroid polaroidPrefab;
     [SerializeField] Image cameraFlashImg;
     [SerializeField] StudioEventEmitter flashSfx;
@@ -46,6 +46,7 @@ public class PointAndClick : MonoBehaviour
     void Start()
     {
         SetupCamera();
+        transitioned = true;
         lastHoveringChar = gameObject;
         //Example of how to set an emitters parameter
         ///FModManager.instance.SetParameter(flashSfx, "Surface Type", 1);
@@ -64,7 +65,7 @@ public class PointAndClick : MonoBehaviour
             StartCoroutine(PanToOriginalPosition());
         }
 
-        if(Input.GetKeyDown(KeyCode.P))
+        if(Input.GetKeyDown(KeyCode.P) && !GameManager.instance.isTransitioning && !GameManager.instance.inDialogue)
         {
             SwitchPhotoMode();
         }
@@ -132,6 +133,7 @@ public class PointAndClick : MonoBehaviour
             RenderTexture.active = currentRT;
             Debug.Log("Texture captured around mouse!");
             picturedObjects.Add(_hit.collider.gameObject);
+
             CreatePolaroid(texture, _hit.collider.gameObject.GetComponent<CapturableObject>());
         }
     }
@@ -159,9 +161,12 @@ public class PointAndClick : MonoBehaviour
         Polaroid polaroid = Instantiate(polaroidPrefab, pictureLocations.transform.GetChild(picturesTaken).position, Quaternion.identity, boardTransform);
         polaroid.CustomStart(_capturableObject);
         picturesTaken++;
-        RawImage polaroidImage = polaroid.transform.GetChild(1).GetComponent<RawImage>();
-        polaroidImage.texture = _polaroid;
+        //RawImage polaroidImage = polaroid.transform.GetChild(1).GetComponent<RawImage>();
+        //polaroidImage.texture = _polaroid;
+        Image polaroidImage = polaroid.transform.GetChild(1).GetComponent<Image>();
+        polaroidImage.sprite = _capturableObject.objectPicture;
         StartCoroutine(CameraFlashEffect());
+        StartCoroutine(PictureTakenUI());
     }
     IEnumerator CameraFlashEffect()
     {
@@ -173,12 +178,20 @@ public class PointAndClick : MonoBehaviour
         takingPicture = false;
     }
 
+    IEnumerator PictureTakenUI()
+    {
+        pictureTakenUI.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        pictureTakenUI.SetActive(false);
+    }
+
     IEnumerator PanToOriginalPosition()
     {
         GameManager.instance.isTransitioning = true;
+        float startFov = renderCam.fieldOfView;
 
         StartCoroutine(GenericFunctions.instance.LerpRotation(renderCam.transform, lastCamRot, panningDuration));
-        StartCoroutine(GenericFunctions.instance.LerpFov(originalFov, originalFov, panningDuration, renderCam));
+        StartCoroutine(GenericFunctions.instance.LerpFov(startFov, originalFov, panningDuration, renderCam));
         yield return StartCoroutine(GenericFunctions.instance.LerpTransform(renderCam.transform, lastCamPos, panningDuration));
 
         GameManager.instance.isTransitioning = false;
@@ -210,6 +223,7 @@ public class PointAndClick : MonoBehaviour
     {
         if (!transitioned) return;
         if (GameManager.instance.isTransitioning) return;
+        if(GameManager.instance.inDialogue) return;
 
         Vector2 localPoint;
         Vector2 screenPosition = Input.mousePosition;
@@ -250,7 +264,8 @@ public class PointAndClick : MonoBehaviour
             }
             if(CheckColliderLayerMask(_hit.collider, doorLayer)) 
             {
-                StartCoroutine(GameManager.instance.TransitionLevel(GameManager.instance.currentLevelIndex + 1));
+                string connectingRooms = _hit.collider.GetComponent<Door>().connectingRooms;
+                StartCoroutine(GameManager.instance.TransitionLevel(connectingRooms));
             }
         }
 
@@ -285,10 +300,10 @@ public class PointAndClick : MonoBehaviour
 
     void SetupCamera()
     {
-        renderCam.orthographic = true;
-        renderCam.orthographicSize = orthoSize;
-        renderCam.transform.position = new Vector3(0, 1.6f, orthoDistance);
-        renderCam.transform.rotation = Quaternion.Euler(0, 0, 0);
+        //renderCam.orthographic = true;
+        //renderCam.orthographicSize = orthoSize;
+        //renderCam.transform.position = new Vector3(0, 1.6f, orthoDistance);
+        //renderCam.transform.rotation = Quaternion.Euler(0, 0, 0);
         renderTexture = renderCam.targetTexture;
         originalFov = renderCam.fieldOfView;
         originalFlashAlpha = cameraFlashImg.color.a;
