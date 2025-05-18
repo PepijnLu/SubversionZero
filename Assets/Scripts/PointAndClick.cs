@@ -266,6 +266,7 @@ public class PointAndClick : MonoBehaviour
             {
                 string connectingRooms = _hit.collider.GetComponent<Door>().connectingRooms;
                 StartCoroutine(GameManager.instance.TransitionLevel(connectingRooms));
+                pannedToZone = false;
             }
         }
 
