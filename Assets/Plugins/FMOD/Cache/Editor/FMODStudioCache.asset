@@ -115,6 +115,33 @@ MonoBehaviour:
   - QuestionVowel
   - ExclamationVowel
   Exists: 1
+--- !u!114 &-5445913370315889164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/Polaroid/PolaroidGrab
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/Polaroid/PolaroidGrab
+  Guid:
+    Data1: 618705386
+    Data2: 1190153580
+    Data3: 1665679028
+    Data4: -1055252466
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-5149414866966332058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,7 +189,7 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638846364270064100
+  lastModified: 638846390316152624
   FileSizes: []
   Exists: 1
 --- !u!114 &-4421671963120496869
@@ -192,33 +219,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &-4334324450762749267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/cam flash
-  m_EditorClassIdentifier: 
-  Path: event:/cam flash
-  Guid:
-    Data1: 425802884
-    Data2: 1253401636
-    Data3: -2141858930
-    Data4: -1664933475
-  Banks:
-  - {fileID: -4997359098897101286}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 100
-  Length: 0
 --- !u!114 &-4186475432024525392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,6 +244,33 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: -8803345705920303992}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4180372984890732527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/Polaroid/PolaroidAway
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/Polaroid/PolaroidAway
+  Guid:
+    Data1: -371216498
+    Data2: 1283688064
+    Data3: 1645971073
+    Data4: -1943900478
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -316,10 +343,10 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638846364270124224
+  lastModified: 638846390316212905
   FileSizes:
   - Name: 
-    Value: 1912
+    Value: 2048
   Exists: 1
 --- !u!114 &-1122138807009194882
 MonoBehaviour:
@@ -448,7 +475,6 @@ MonoBehaviour:
   - {fileID: -1724225176518313470}
   - {fileID: -4997359098897101286}
   EditorEvents:
-  - {fileID: -4334324450762749267}
   - {fileID: -9116125018311567026}
   - {fileID: 1333389021337981714}
   - {fileID: 7478892357440478533}
@@ -466,50 +492,84 @@ MonoBehaviour:
   - {fileID: -4421671963120496869}
   - {fileID: 6089789446115884778}
   - {fileID: -1122138807009194882}
+  - {fileID: 303946794561022137}
+  - {fileID: -4180372984890732527}
+  - {fileID: -5445913370315889164}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4997359098897101286}
   StringsBanks:
   - {fileID: -1724225176518313470}
   cacheVersion: 131847
-  cacheTime: 638846364270124224
+  cacheTime: 638846390316212905
   SerializableEventsDict:
-  - key: event:/cam flash
-    index: 0
   - key: snapshot:/Pinboard
-    index: 1
+    index: 0
   - key: event:/music/freeroam
-    index: 2
+    index: 1
   - key: event:/char/footsteps
-    index: 3
+    index: 2
   - key: event:/amb/pinboard
-    index: 4
+    index: 3
   - key: event:/ui/pinboard_exit
-    index: 5
+    index: 4
   - key: event:/ui/pinboard_enter
-    index: 6
+    index: 5
   - key: event:/music/investigation
-    index: 7
+    index: 6
   - key: event:/char/dialogue/blonde
-    index: 8
+    index: 7
   - key: event:/char/dialogue/nerd
-    index: 9
+    index: 8
   - key: event:/char/dialogue/jock
-    index: 10
+    index: 9
   - key: event:/char/dialogue/joshua
-    index: 11
+    index: 10
   - key: event:/char/dialogue/fool
-    index: 12
+    index: 11
   - key: event:/char/dialogue/stoner
-    index: 13
+    index: 12
   - key: snapshot:/ReverbZones/Kitchen
-    index: 14
+    index: 13
   - key: snapshot:/ReverbZones/Living Room
-    index: 15
+    index: 14
   - key: snapshot:/ReverbZones/Bedroom
-    index: 16
+    index: 15
   - key: event:/music/maintheme
+    index: 16
+  - key: event:/sfx/Polaroid/PolaroidPic
     index: 17
+  - key: event:/sfx/Polaroid/PolaroidAway
+    index: 18
+  - key: event:/sfx/Polaroid/PolaroidGrab
+    index: 19
+--- !u!114 &303946794561022137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/Polaroid/PolaroidPic
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/Polaroid/PolaroidPic
+  Guid:
+    Data1: 775342468
+    Data2: 1139363397
+    Data3: -535153218
+    Data4: 788625786
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &951563620545404126
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -88,11 +88,15 @@ public class PointAndClick : MonoBehaviour
         {
             inPhotoMode = false;
             polaroidCam.SetActive(false);
+            // Play sound for putting camera away
+            RuntimeManager.PlayOneShot("event:/sfx/Polaroid/PolaroidAway");
         }
         else
         {
             inPhotoMode = true;
             polaroidCam.SetActive(true);
+            // Play sound for equipping the camera
+        RuntimeManager.PlayOneShot("event:/sfx/Polaroid/PolaroidGrab");
         }
     }
 
@@ -102,10 +106,13 @@ public class PointAndClick : MonoBehaviour
         if(_hit.collider == null) return;
         if(picturedObjects.Contains(_hit.collider.gameObject)) return;
 
+        
         takingPicture = true;
         GameObject hitObj = _hit.collider.gameObject;
         int layer = hitObj.layer;
         string layerName = LayerMask.LayerToName(layer);
+        // Play sound for taking a picture
+        RuntimeManager.PlayOneShot("event:/sfx/Polaroid/PolaroidPic");
 
         //Debug.Log($"Hit object: {hitObj.name} on layer: {layerName} ({layer})");
 
@@ -171,7 +178,6 @@ public class PointAndClick : MonoBehaviour
     IEnumerator CameraFlashEffect()
     {
         yield return GenericFunctions.instance.FadeImage(cameraFlashImg, 0, originalFlashAlpha);
-        flashSfx.Play();
         cameraFlashImg.gameObject.SetActive(true);
         yield return GenericFunctions.instance.FadeImage(cameraFlashImg, flashFadeTime, 0);
         cameraFlashImg.gameObject.SetActive(false);
