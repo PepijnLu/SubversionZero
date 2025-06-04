@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stoner Happy_0: -940305128567826188
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

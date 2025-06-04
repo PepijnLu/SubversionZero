@@ -234,7 +234,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterEvents:
+  - character: {fileID: 449499333}
+    dialogueEventPath:
+      Guid:
+        Data1: -1381455266
+        Data2: 1271787672
+        Data3: 1098919596
+        Data4: 215543892
+      Path: event:/char/dialogue/blonde
+  - character: {fileID: 1092695968}
+    dialogueEventPath:
+      Guid:
+        Data1: 278704361
+        Data2: 1128855356
+        Data3: -1638428798
+        Data4: 801436995
+      Path: event:/char/dialogue/fool
   - character: {fileID: 287235201}
+    dialogueEventPath:
+      Guid:
+        Data1: 339643287
+        Data2: 1287091151
+        Data3: 230905730
+        Data4: -838945491
+      Path: event:/char/dialogue/jock
+  - character: {fileID: 1991062895}
+    dialogueEventPath:
+      Guid:
+        Data1: 1106238851
+        Data2: 1092199059
+        Data3: 2074984608
+        Data4: -1936524282
+      Path: event:/char/dialogue/nerd
+  - character: {fileID: 1637732381}
     dialogueEventPath:
       Guid:
         Data1: 1043482090
