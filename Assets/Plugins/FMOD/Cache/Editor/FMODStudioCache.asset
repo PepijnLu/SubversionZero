@@ -162,7 +162,7 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638837868535877001
+  lastModified: 638846355580145788
   FileSizes: []
   Exists: 1
 --- !u!114 &-4421671963120496869
@@ -316,11 +316,38 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638837868535957117
+  lastModified: 638846355580205858
   FileSizes:
   - Name: 
-    Value: 1872
+    Value: 1912
   Exists: 1
+--- !u!114 &-1122138807009194882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music/maintheme
+  m_EditorClassIdentifier: 
+  Path: event:/music/maintheme
+  Guid:
+    Data1: 932931261
+    Data2: 1227374748
+    Data3: -381104503
+    Data4: -535791214
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 180660
 --- !u!114 &-1109767399459117860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,13 +465,14 @@ MonoBehaviour:
   - {fileID: -3751883532273888763}
   - {fileID: -4421671963120496869}
   - {fileID: 6089789446115884778}
+  - {fileID: -1122138807009194882}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4997359098897101286}
   StringsBanks:
   - {fileID: -1724225176518313470}
   cacheVersion: 131847
-  cacheTime: 638837868535957117
+  cacheTime: 638846355580205858
   SerializableEventsDict:
   - key: event:/cam flash
     index: 0
@@ -480,6 +508,8 @@ MonoBehaviour:
     index: 15
   - key: snapshot:/ReverbZones/Bedroom
     index: 16
+  - key: event:/music/maintheme
+    index: 17
 --- !u!114 &951563620545404126
 MonoBehaviour:
   m_ObjectHideFlags: 0

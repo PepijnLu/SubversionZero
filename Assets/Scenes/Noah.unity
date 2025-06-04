@@ -235,11 +235,11 @@ MonoBehaviour:
   - character: {fileID: 287235201}
     dialogueEventPath:
       Guid:
-        Data1: -1381455266
-        Data2: 1271787672
-        Data3: 1098919596
-        Data4: 215543892
-      Path: event:/char/dialogue/blonde
+        Data1: 1043482090
+        Data2: 1304360489
+        Data3: -492216444
+        Data4: 216464216
+      Path: event:/char/dialogue/stoner
   pinboardSnapshotEvent:
     Guid:
       Data1: 2125597524
