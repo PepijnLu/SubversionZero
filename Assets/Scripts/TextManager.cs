@@ -32,6 +32,7 @@ public class TextManager : MonoBehaviour
             ".",
             "?",
             "!",
+            "..."
         };
 
         //dialogueManager.EnterDialogueMode(inkJSON);
@@ -178,7 +179,7 @@ public class TextManager : MonoBehaviour
             word = word.Substring(0, word.Length - 1);
 
             //Return empty if wordt still hasn't been found
-            if (!dictToCheck.ContainsKey(word) && (removedChar == "s" || removedChar == "d")) return new string[0];
+            if (!dictToCheck.ContainsKey(word) || (removedChar != "s" || removedChar != "d")) return new string[0];
 
             //Otherwise find the string array
             foundArray = dictToCheck[word];
@@ -188,8 +189,12 @@ public class TextManager : MonoBehaviour
             
             foundArray = (string[])dictToCheck[word].Clone();
             foundArray[foundArray.Length - 1] += removedChar;
-            if (firstWord || word == "i")
+
+            //Recapitalize the first word
+            if ((firstWord || word == "i") && (word != ""))
             {
+                Debug.Log($"123: Capitalizing first letter, firstword: {firstWord}, word = i: {word == "i" }");
+                foundArray = (string[])dictToCheck[word].Clone();
                 foundArray[0] = char.ToUpper(foundArray[0][0]) + foundArray[0].Substring(1);
             }
             return foundArray;
@@ -204,6 +209,8 @@ public class TextManager : MonoBehaviour
         //Recapitalize the first word
         if ((firstWord || word == "i") && (word != ""))
         {
+            Debug.Log($"123: Capitalizing first letter, firstword: {firstWord}, word = i: {word == "i" }");
+            foundArray = (string[])dictToCheck[word].Clone();
             foundArray[0] = char.ToUpper(foundArray[0][0]) + foundArray[0].Substring(1);
         }
 
