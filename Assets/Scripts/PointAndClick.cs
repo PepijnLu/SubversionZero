@@ -276,7 +276,8 @@ public class PointAndClick : MonoBehaviour
             {
                 if(hoveringChar != null)
                 {
-                    hoveringChar.meshRenderer.material = hoveringChar.defaultCharacterMaterial;
+                    //hoveringChar.meshRenderer.material = hoveringChar.defaultCharacterMaterial;
+                    hoveringChar.charImg.sprite = hoveringChar.defaultSprite;
                     hoveringChar = null;
                     lastHoveringChar = null;
                 }
@@ -285,14 +286,19 @@ public class PointAndClick : MonoBehaviour
                 Debug.Log("New Hovering Char: " + lastHoveringChar.name);
                 hoveringChar = lastHoveringChar.GetComponent<Character>();
                 Debug.Log("New Hovering Char Script: " + hoveringChar.name);
-                hoveringChar.meshRenderer.material = hoveringChar.hoverCharacterMaterial;
+                //hoveringChar.meshRenderer.material = hoveringChar.hoverCharacterMaterial;
+                hoveringChar.charImg.sprite = hoveringChar.hoverSprite;
             }
         }
         else
         {
             if(hoveringChar != null)
             {
-                if(dialoguingChar != hoveringChar) hoveringChar.meshRenderer.material = hoveringChar.defaultCharacterMaterial;
+                if(dialoguingChar != hoveringChar) 
+                {
+                    //hoveringChar.meshRenderer.material = hoveringChar.defaultCharacterMaterial;
+                    hoveringChar.charImg.sprite = hoveringChar.defaultSprite;
+                }
                 hoveringChar = null;
                 lastHoveringChar = null;
             }
