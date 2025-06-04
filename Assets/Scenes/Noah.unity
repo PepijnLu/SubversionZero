@@ -232,14 +232,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterEvents:
-  - character: {fileID: 1751207587}
+  - character: {fileID: 287235201}
     dialogueEventPath:
       Guid:
-        Data1: 1043482090
-        Data2: 1304360489
-        Data3: -492216444
-        Data4: 216464216
-      Path: event:/char/dialogue/humanchar
+        Data1: -1381455266
+        Data2: 1271787672
+        Data3: 1098919596
+        Data4: 215543892
+      Path: event:/char/dialogue/blonde
   pinboardSnapshotEvent:
     Guid:
       Data1: 2125597524
@@ -284,6 +284,31 @@ MonoBehaviour:
         Data3: -1020001374
         Data4: -544369958
       Path: event:/music/investigation
+  roomSnapshots:
+  - roomName: LivingRoom
+    snapshotEvent:
+      Guid:
+        Data1: -1455784795
+        Data2: 1224939908
+        Data3: 1903847603
+        Data4: 370618387
+      Path: snapshot:/ReverbZones/Living Room
+  - roomName: Kitchen
+    snapshotEvent:
+      Guid:
+        Data1: 1293264489
+        Data2: 1187963404
+        Data3: -1578988401
+        Data4: -1704104078
+      Path: snapshot:/ReverbZones/Kitchen
+  - roomName: Bedroom
+    snapshotEvent:
+      Guid:
+        Data1: -953392645
+        Data2: 1263468628
+        Data3: -1013758325
+        Data4: 424932165
+      Path: snapshot:/ReverbZones/Bedroom
 --- !u!1 &54802370
 GameObject:
   m_ObjectHideFlags: 0
@@ -3403,7 +3428,7 @@ Transform:
   m_GameObject: {fileID: 688645416}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5240,10 +5265,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   testPhrase: Visiting the doctor was really stressful because I don't like doctors
     . New sentence!
-  timeBetweenSyllables: 0.07
-  timeBetweenWords: 0.13
+  timeBetweenSyllables: 0.09
+  timeBetweenWords: 0.04
   timeBetweenSentences: 0.5
-  fadeInTime: 0.2
+  fadeInTime: 0.1
   alphaText: {fileID: 622958297}
   fullText: {fileID: 819025195}
   textHolder: {fileID: 893829}

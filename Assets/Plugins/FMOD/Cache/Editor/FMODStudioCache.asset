@@ -27,6 +27,38 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-8803345705920303992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/jock/SyllableType
+  m_EditorClassIdentifier: 
+  Name: SyllableType
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 511769373
+    data2: 3529478014
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Consonant
+  - Vowel
+  - PeriodConsonant
+  - QuestionConsonant
+  - ExclamationConsonant
+  - PeriodVowel
+  - QuestionVowel
+  - ExclamationVowel
+  Exists: 1
 --- !u!114 &-8466837839534893638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51,6 +83,70 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-6285220666011988287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/nerd/SyllableType
+  m_EditorClassIdentifier: 
+  Name: SyllableType
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 511769373
+    data2: 3529478014
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Consonant
+  - Vowel
+  - PeriodConsonant
+  - QuestionConsonant
+  - ExclamationConsonant
+  - PeriodVowel
+  - QuestionVowel
+  - ExclamationVowel
+  Exists: 1
+--- !u!114 &-5149414866966332058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/blonde/SyllableType
+  m_EditorClassIdentifier: 
+  Name: SyllableType
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 511769373
+    data2: 3529478014
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Consonant
+  - Vowel
+  - PeriodConsonant
+  - QuestionConsonant
+  - ExclamationConsonant
+  - PeriodVowel
+  - QuestionVowel
+  - ExclamationVowel
+  Exists: 1
 --- !u!114 &-4997359098897101286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,9 +162,36 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638831688406852526
+  lastModified: 638837868535877001
   FileSizes: []
   Exists: 1
+--- !u!114 &-4421671963120496869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/ReverbZones/Living Room
+  m_EditorClassIdentifier: 
+  Path: snapshot:/ReverbZones/Living Room
+  Guid:
+    Data1: -1455784795
+    Data2: 1224939908
+    Data3: 1903847603
+    Data4: 370618387
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-4334324450762749267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,7 +219,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 100
   Length: 0
---- !u!114 &-3911057249199988894
+--- !u!114 &-4186475432024525392
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,29 +228,52 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/humanchar/SyllableType
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/char/dialogue/jock
   m_EditorClassIdentifier: 
-  Name: SyllableType
-  StudioPath: 
-  Min: 0
-  Max: 7
-  Default: 0
-  ID:
-    data1: 511769373
-    data2: 3529478014
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Consonant
-  - Vowel
-  - PeriodConsonant
-  - QuestionConsonant
-  - ExclamationConsonant
-  - PeriodVowel
-  - QuestionVowel
-  - ExclamationVowel
-  Exists: 1
+  Path: event:/char/dialogue/jock
+  Guid:
+    Data1: 339643287
+    Data2: 1287091151
+    Data3: 230905730
+    Data4: -838945491
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8803345705920303992}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3751883532273888763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/ReverbZones/Kitchen
+  m_EditorClassIdentifier: 
+  Path: snapshot:/ReverbZones/Kitchen
+  Guid:
+    Data1: 1293264489
+    Data2: 1187963404
+    Data3: -1578988401
+    Data4: -1704104078
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-3569650472029103349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,34 +301,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1150
---- !u!114 &-2322047499422452502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/char/dialogue/humanchar
-  m_EditorClassIdentifier: 
-  Path: event:/char/dialogue/humanchar
-  Guid:
-    Data1: 1043482090
-    Data2: 1304360489
-    Data3: -492216444
-    Data4: 216464216
-  Banks:
-  - {fileID: -4997359098897101286}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -3911057249199988894}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-1724225176518313470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,10 +316,10 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638831688406902379
+  lastModified: 638837868535957117
   FileSizes:
   - Name: 
-    Value: 1520
+    Value: 1872
   Exists: 1
 --- !u!114 &-1109767399459117860
 MonoBehaviour:
@@ -231,6 +349,62 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 276705
+--- !u!114 &-674914184413596670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/char/dialogue/fool
+  m_EditorClassIdentifier: 
+  Path: event:/char/dialogue/fool
+  Guid:
+    Data1: 278704361
+    Data2: 1128855356
+    Data3: -1638428798
+    Data4: 801436995
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2513245418660115533}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-99949773005201845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/char/dialogue/blonde
+  m_EditorClassIdentifier: 
+  Path: event:/char/dialogue/blonde
+  Guid:
+    Data1: -1381455266
+    Data2: 1271787672
+    Data3: 1098919596
+    Data4: 215543892
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5149414866966332058}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -251,18 +425,26 @@ MonoBehaviour:
   - {fileID: -9116125018311567026}
   - {fileID: 1333389021337981714}
   - {fileID: 7478892357440478533}
-  - {fileID: -2322047499422452502}
   - {fileID: 951563620545404126}
   - {fileID: 3167311598890847064}
   - {fileID: -3569650472029103349}
   - {fileID: -1109767399459117860}
+  - {fileID: -99949773005201845}
+  - {fileID: 6037180975923887063}
+  - {fileID: -4186475432024525392}
+  - {fileID: 5612774436657959316}
+  - {fileID: -674914184413596670}
+  - {fileID: 6814558035609912053}
+  - {fileID: -3751883532273888763}
+  - {fileID: -4421671963120496869}
+  - {fileID: 6089789446115884778}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4997359098897101286}
   StringsBanks:
   - {fileID: -1724225176518313470}
   cacheVersion: 131847
-  cacheTime: 638831688406902379
+  cacheTime: 638837868535957117
   SerializableEventsDict:
   - key: event:/cam flash
     index: 0
@@ -272,16 +454,32 @@ MonoBehaviour:
     index: 2
   - key: event:/char/footsteps
     index: 3
-  - key: event:/char/dialogue/humanchar
-    index: 4
   - key: event:/amb/pinboard
-    index: 5
+    index: 4
   - key: event:/ui/pinboard_exit
-    index: 6
+    index: 5
   - key: event:/ui/pinboard_enter
-    index: 7
+    index: 6
   - key: event:/music/investigation
+    index: 7
+  - key: event:/char/dialogue/blonde
     index: 8
+  - key: event:/char/dialogue/nerd
+    index: 9
+  - key: event:/char/dialogue/jock
+    index: 10
+  - key: event:/char/dialogue/joshua
+    index: 11
+  - key: event:/char/dialogue/fool
+    index: 12
+  - key: event:/char/dialogue/stoner
+    index: 13
+  - key: snapshot:/ReverbZones/Kitchen
+    index: 14
+  - key: snapshot:/ReverbZones/Living Room
+    index: 15
+  - key: snapshot:/ReverbZones/Bedroom
+    index: 16
 --- !u!114 &951563620545404126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,6 +534,70 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 63157
+--- !u!114 &2513245418660115533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/fool/SyllableType
+  m_EditorClassIdentifier: 
+  Name: SyllableType
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 511769373
+    data2: 3529478014
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Consonant
+  - Vowel
+  - PeriodConsonant
+  - QuestionConsonant
+  - ExclamationConsonant
+  - PeriodVowel
+  - QuestionVowel
+  - ExclamationVowel
+  Exists: 1
+--- !u!114 &2824112026539720266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/stoner/SyllableType
+  m_EditorClassIdentifier: 
+  Name: SyllableType
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 511769373
+    data2: 3529478014
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Consonant
+  - Vowel
+  - PeriodConsonant
+  - QuestionConsonant
+  - ExclamationConsonant
+  - PeriodVowel
+  - QuestionVowel
+  - ExclamationVowel
+  Exists: 1
 --- !u!114 &3167311598890847064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -363,6 +625,38 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2800
+--- !u!114 &3387832994353103790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/joshua/SyllableType
+  m_EditorClassIdentifier: 
+  Name: SyllableType
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 511769373
+    data2: 3529478014
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Consonant
+  - Vowel
+  - PeriodConsonant
+  - QuestionConsonant
+  - ExclamationConsonant
+  - PeriodVowel
+  - QuestionVowel
+  - ExclamationVowel
+  Exists: 1
 --- !u!114 &5118871658851888271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -387,6 +681,117 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &5612774436657959316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/char/dialogue/joshua
+  m_EditorClassIdentifier: 
+  Path: event:/char/dialogue/joshua
+  Guid:
+    Data1: -1107224403
+    Data2: 1291437693
+    Data3: -692480892
+    Data4: -1236872873
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3387832994353103790}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6037180975923887063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/char/dialogue/nerd
+  m_EditorClassIdentifier: 
+  Path: event:/char/dialogue/nerd
+  Guid:
+    Data1: 1106238851
+    Data2: 1092199059
+    Data3: 2074984608
+    Data4: -1936524282
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6285220666011988287}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6089789446115884778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/ReverbZones/Bedroom
+  m_EditorClassIdentifier: 
+  Path: snapshot:/ReverbZones/Bedroom
+  Guid:
+    Data1: -953392645
+    Data2: 1263468628
+    Data3: -1013758325
+    Data4: 424932165
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &6814558035609912053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/char/dialogue/stoner
+  m_EditorClassIdentifier: 
+  Path: event:/char/dialogue/stoner
+  Guid:
+    Data1: 1043482090
+    Data2: 1304360489
+    Data3: -492216444
+    Data4: 216464216
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2824112026539720266}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7478892357440478533
 MonoBehaviour:
   m_ObjectHideFlags: 0

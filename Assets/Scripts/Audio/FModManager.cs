@@ -51,15 +51,30 @@ public class FModManager : MonoBehaviour
 
     void Awake()
     {
+        _roomSnapshotLookup = roomSnapshots.ToDictionary(r => r.roomName, r => r.snapshotEvent);
+
         instance = this;
         _eventLookup = characterEvents
             .ToDictionary(x => x.character, x => x.dialogueEventPath);
         _musicLookup = musicTracks
             .ToDictionary(x => x.state, x => x.musicEvent);
 
-        FModManager.instance.PlayMusic(MusicState.Freeroam);
+        FModManager.instance.PlayMusic(MusicState.Investigation);
 
     }
+
+    [Serializable]
+    public struct RoomSnapshot
+    {
+        public string roomName;
+        public EventReference snapshotEvent;
+    }
+
+    [Header("Room Snapshots")]
+    [SerializeField] List<RoomSnapshot> roomSnapshots;
+
+    Dictionary<string, EventReference> _roomSnapshotLookup;
+    EventInstance _currentRoomSnapshotInstance;
 
     void Update()
     {
@@ -88,6 +103,12 @@ public class FModManager : MonoBehaviour
             {
                 Debug.LogWarning("No active music instance to set parameter on.");
             }
+        }
+
+        // Check if the W key is pressed
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            // FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/tester");
         }
     }
 
@@ -213,4 +234,25 @@ public class FModManager : MonoBehaviour
             _currentMusicInstance.release();
         }
     }
+
+    public void EnterRoom(string roomName)
+{
+    if (_currentRoomSnapshotInstance.isValid())
+    {
+        _currentRoomSnapshotInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        _currentRoomSnapshotInstance.release();
+    }
+
+        if (_roomSnapshotLookup.TryGetValue(roomName, out var snapshotEvent))
+        {
+            _currentRoomSnapshotInstance = RuntimeManager.CreateInstance(snapshotEvent);
+            _currentRoomSnapshotInstance.start();
+        Debug.Log($"Switching room snapshot to '{roomName}'");
+    }
+        else
+        {
+            Debug.LogWarning($"[FMOD] No snapshot defined for room '{roomName}'");
+        }
+}
+
 }
