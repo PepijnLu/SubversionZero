@@ -189,7 +189,7 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638846390316152624
+  lastModified: 638850119633505299
   FileSizes: []
   Exists: 1
 --- !u!114 &-4421671963120496869
@@ -328,6 +328,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1150
+--- !u!114 &-2999894986652017446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/cabinet/CabinetClose
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/cabinet/CabinetClose
+  Guid:
+    Data1: -1867685464
+    Data2: 1277326332
+    Data3: 1694064517
+    Data4: 637318636
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1744011232998739766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ui/ui_select
+  m_EditorClassIdentifier: 
+  Path: event:/ui/ui_select
+  Guid:
+    Data1: 359320661
+    Data2: 1210594983
+    Data3: 1610267067
+    Data4: 1067424787
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-1724225176518313470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,11 +397,38 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638846390316212905
+  lastModified: 638850119633586960
   FileSizes:
   - Name: 
-    Value: 2048
+    Value: 2478
   Exists: 1
+--- !u!114 &-1233296606768162690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/door_openclose
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/door_openclose
+  Guid:
+    Data1: 284629787
+    Data2: 1211112631
+    Data3: -167397705
+    Data4: 2118382112
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2435
 --- !u!114 &-1122138807009194882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -495,13 +576,21 @@ MonoBehaviour:
   - {fileID: 303946794561022137}
   - {fileID: -4180372984890732527}
   - {fileID: -5445913370315889164}
+  - {fileID: 5970937056573003441}
+  - {fileID: -1233296606768162690}
+  - {fileID: -1744011232998739766}
+  - {fileID: 312418305798545786}
+  - {fileID: 8753931297408411485}
+  - {fileID: 2670282613070421814}
+  - {fileID: -2999894986652017446}
+  - {fileID: 62332142439187926}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4997359098897101286}
   StringsBanks:
   - {fileID: -1724225176518313470}
   cacheVersion: 131847
-  cacheTime: 638846390316212905
+  cacheTime: 638850119633586960
   SerializableEventsDict:
   - key: snapshot:/Pinboard
     index: 0
@@ -543,6 +632,49 @@ MonoBehaviour:
     index: 18
   - key: event:/sfx/Polaroid/PolaroidGrab
     index: 19
+  - key: event:/ui/ui_slider
+    index: 20
+  - key: event:/sfx/door_openclose
+    index: 21
+  - key: event:/ui/ui_select
+    index: 22
+  - key: event:/ui/ui_startgame
+    index: 23
+  - key: event:/sfx/cabinet/CabinetOpen
+    index: 24
+  - key: event:/ui/ui_hover
+    index: 25
+  - key: event:/sfx/cabinet/CabinetClose
+    index: 26
+  - key: event:/sfx/Polaroid/PolaroidHover
+    index: 27
+--- !u!114 &62332142439187926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/Polaroid/PolaroidHover
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/Polaroid/PolaroidHover
+  Guid:
+    Data1: 918234339
+    Data2: 1145405667
+    Data3: 2024566168
+    Data4: 947965688
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &303946794561022137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -561,6 +693,33 @@ MonoBehaviour:
     Data2: 1139363397
     Data3: -535153218
     Data4: 788625786
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &312418305798545786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ui/ui_startgame
+  m_EditorClassIdentifier: 
+  Path: event:/ui/ui_startgame
+  Guid:
+    Data1: 307066489
+    Data2: 1227446444
+    Data3: 818226876
+    Data4: 427456371
   Banks:
   - {fileID: -4997359098897101286}
   IsStream: 0
@@ -656,6 +815,33 @@ MonoBehaviour:
   - QuestionVowel
   - ExclamationVowel
   Exists: 1
+--- !u!114 &2670282613070421814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ui/ui_hover
+  m_EditorClassIdentifier: 
+  Path: event:/ui/ui_hover
+  Guid:
+    Data1: -940205678
+    Data2: 1235961832
+    Data3: -2107393653
+    Data4: -301645326
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &2824112026539720266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -799,6 +985,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &5970937056573003441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ui/ui_slider
+  m_EditorClassIdentifier: 
+  Path: event:/ui/ui_slider
+  Guid:
+    Data1: -1334005320
+    Data2: 1082700096
+    Data3: 1445036455
+    Data4: -80562055
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &6037180975923887063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -907,6 +1120,33 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: -8466837839534893638}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8753931297408411485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/cabinet/CabinetOpen
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/cabinet/CabinetOpen
+  Guid:
+    Data1: 1765917561
+    Data2: 1097698343
+    Data3: 618351798
+    Data4: -152838391
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0

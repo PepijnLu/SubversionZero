@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using FMODUnity;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using SubversionZero.Audio;
 
 public class PointAndClick : MonoBehaviour
 {
@@ -89,14 +90,14 @@ public class PointAndClick : MonoBehaviour
             inPhotoMode = false;
             polaroidCam.SetActive(false);
             // Play sound for putting camera away
-            RuntimeManager.PlayOneShot("event:/sfx/Polaroid/PolaroidAway");
+            FModManager.instance.PlaySfx(SfxKey.PolaroidAway);
         }
         else
         {
             inPhotoMode = true;
             polaroidCam.SetActive(true);
             // Play sound for equipping the camera
-        RuntimeManager.PlayOneShot("event:/sfx/Polaroid/PolaroidGrab");
+        FModManager.instance.PlaySfx(SfxKey.PolaroidGrab);
         }
     }
 
@@ -112,7 +113,7 @@ public class PointAndClick : MonoBehaviour
         int layer = hitObj.layer;
         string layerName = LayerMask.LayerToName(layer);
         // Play sound for taking a picture
-        RuntimeManager.PlayOneShot("event:/sfx/Polaroid/PolaroidPic");
+        FModManager.instance.PlaySfx(SfxKey.PolaroidPic);
 
         //Debug.Log($"Hit object: {hitObj.name} on layer: {layerName} ({layer})");
 

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using SubversionZero.Audio;
 
 public class GameManager : MonoBehaviour
 {
@@ -47,6 +48,7 @@ public class GameManager : MonoBehaviour
     public IEnumerator TransitionLevel(string _connectingRooms)
     {
         isTransitioning = true;
+        FModManager.instance.PlaySfx(SfxKey.Door);
         StartCoroutine(LerpBackgroundColor(renderCam.backgroundColor, new Color(0, 0, 0, 0), 2, renderCam));
         yield return GenericFunctions.instance.FadeImage(levelTransitionImg, 2, 1);
 

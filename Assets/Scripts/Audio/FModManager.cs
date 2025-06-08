@@ -4,6 +4,28 @@ using System.Linq;
 using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
+using SubversionZero.Audio;
+
+namespace SubversionZero.Audio
+{
+    public enum SfxKey
+    {
+        PolaroidGrab,
+        PolaroidAway,
+        PolaroidPic,
+        PolaroidHover,
+        Door,
+        CabinetOpen,
+        CabinetClose,
+        // …etc
+    }
+    [Serializable]
+    public struct SfxEntry
+    {
+        public SfxKey        key;
+        public EventReference eventPath;
+    }
+}
 
 public class FModManager : MonoBehaviour
 {
@@ -49,20 +71,6 @@ public class FModManager : MonoBehaviour
     Dictionary<MusicState, EventReference> _musicLookup;
     EventInstance _currentMusicInstance;
 
-    void Awake()
-    {
-        _roomSnapshotLookup = roomSnapshots.ToDictionary(r => r.roomName, r => r.snapshotEvent);
-
-        instance = this;
-        _eventLookup = characterEvents
-            .ToDictionary(x => x.character, x => x.dialogueEventPath);
-        _musicLookup = musicTracks
-            .ToDictionary(x => x.state, x => x.musicEvent);
-
-        FModManager.instance.PlayMusic(MusicState.Investigation);
-
-    }
-
     [Serializable]
     public struct RoomSnapshot
     {
@@ -75,6 +83,42 @@ public class FModManager : MonoBehaviour
 
     Dictionary<string, EventReference> _roomSnapshotLookup;
     EventInstance _currentRoomSnapshotInstance;
+
+     [Header("All SFX")]
+    [SerializeField] List<SfxEntry> sfxEntries;
+    Dictionary<SfxKey, EventReference> _sfxLookup;
+
+    // [Header("SFX")]
+    // [SerializeField] EventReference polaroidGrab;
+    // [SerializeField] EventReference polaroidAway;
+    // [SerializeField] EventReference polaroidPic;
+    // [SerializeField] EventReference polaroidHover;
+    // [SerializeField] EventReference door;
+    // [SerializeField] EventReference cabinetOpen;
+    // [SerializeField] EventReference cabinetClose;
+    // [SerializeField] List<EventReference> testEvents;
+    // readonly List<EventInstance> _testInstances = new();
+
+    // [Header("UI")]
+    // [SerializeField] EventReference hover;
+    // [SerializeField] EventReference select;
+    // [SerializeField] EventReference slider;
+    // [SerializeField] EventReference start;
+
+    void Awake()
+    {
+         _sfxLookup = sfxEntries.ToDictionary(x => x.key, x => x.eventPath);
+        _roomSnapshotLookup = roomSnapshots.ToDictionary(r => r.roomName, r => r.snapshotEvent);
+
+        instance = this;
+        _eventLookup = characterEvents
+            .ToDictionary(x => x.character, x => x.dialogueEventPath);
+        _musicLookup = musicTracks
+            .ToDictionary(x => x.state, x => x.musicEvent);
+
+        FModManager.instance.PlayMusic(MusicState.Investigation);
+
+    }
 
     void Update()
     {
@@ -108,7 +152,7 @@ public class FModManager : MonoBehaviour
         // Check if the W key is pressed
         if (Input.GetKeyDown(KeyCode.W))
         {
-            // FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/tester");
+            // Test();
         }
     }
 
@@ -236,23 +280,42 @@ public class FModManager : MonoBehaviour
     }
 
     public void EnterRoom(string roomName)
-{
-    if (_currentRoomSnapshotInstance.isValid())
     {
-        _currentRoomSnapshotInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-        _currentRoomSnapshotInstance.release();
-    }
+        if (_currentRoomSnapshotInstance.isValid())
+        {
+            _currentRoomSnapshotInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            _currentRoomSnapshotInstance.release();
+        }
 
         if (_roomSnapshotLookup.TryGetValue(roomName, out var snapshotEvent))
         {
             _currentRoomSnapshotInstance = RuntimeManager.CreateInstance(snapshotEvent);
             _currentRoomSnapshotInstance.start();
-        Debug.Log($"Switching room snapshot to '{roomName}'");
-    }
+            Debug.Log($"Switching room snapshot to '{roomName}'");
+        }
         else
         {
             Debug.LogWarning($"[FMOD] No snapshot defined for room '{roomName}'");
         }
-}
+    }
+    public void PlaySfx(SfxKey key)
+  {
+    if (!_sfxLookup.TryGetValue(key, out var path))
+    {
+      Debug.LogWarning($"[FMOD] No SFX registered for {key}");
+      return;
+    }
+    RuntimeManager.PlayOneShot(path);
+  }
+    // public void Test()
+    // {
+    //     // 3) start new enter-events
+    //     foreach (var ev in testEvents)
+    //     {
+    //         var inst = RuntimeManager.CreateInstance(ev);
+    //         inst.start();
+    //         _testInstances.Add(inst);
+    //     }
+    // }
 
 }
