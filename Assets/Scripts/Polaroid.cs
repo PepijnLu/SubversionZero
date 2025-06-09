@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using SubversionZero.Audio;
 
 public class Polaroid : MonoBehaviour, IPointerClickHandler
 {
@@ -40,6 +41,7 @@ public class Polaroid : MonoBehaviour, IPointerClickHandler
         {
             if(!showingDesc) 
             {
+                FModManager.instance.PlaySfx(SfxKey.PolaroidHover);
                 showingDesc = true;
                 description.SetActive(true);
             }

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using SubversionZero.Audio;
 
 public class GameManager : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         levelNames = new();
-        foreach(GameObject _level in levels)
+        foreach (GameObject _level in levels)
         {
             levelNames.Add(_level.name, _level);
         }
@@ -41,11 +42,13 @@ public class GameManager : MonoBehaviour
         renderCam.transform.position = newLevelCam.transform.position;
         renderCam.transform.rotation = newLevelCam.transform.rotation;
         renderCam.fieldOfView = newLevelCam.fieldOfView;
+        FModManager.instance.EnterRoom(currentLevel);
     }
 
     public IEnumerator TransitionLevel(string _connectingRooms)
     {
         isTransitioning = true;
+        FModManager.instance.PlaySfx(SfxKey.Door);
         StartCoroutine(LerpBackgroundColor(renderCam.backgroundColor, new Color(0, 0, 0, 0), 2, renderCam));
         yield return GenericFunctions.instance.FadeImage(levelTransitionImg, 2, 1);
 
@@ -72,6 +75,7 @@ public class GameManager : MonoBehaviour
 
         isTransitioning = false;
         currentLevel = roomToMoveTo;
+        FModManager.instance.EnterRoom(roomToMoveTo);
     }
 
     public IEnumerator LerpBackgroundColor(Color _startColor, Color _endColor, float _duration, Camera _camera)
