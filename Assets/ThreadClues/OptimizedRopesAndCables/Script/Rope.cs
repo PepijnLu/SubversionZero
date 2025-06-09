@@ -74,8 +74,8 @@ namespace GogoGaga.OptimizedRopesAndCables
         
         
         public bool IsPrefab => gameObject.scene.rootCount == 0;
-        
-        private void Start()
+        //
+        public void CustomStart()
         {
             InitializeLineRenderer();
             if (AreEndPointsValid())
@@ -85,6 +85,26 @@ namespace GogoGaga.OptimizedRopesAndCables
                 currentVelocity = Vector3.zero;
                 SetSplinePoint(); // Ensure initial spline point is set correctly
             }
+        }
+        private bool skipNextSimFrame = false;
+        public void Recalculate()
+        {
+            InitializeLineRenderer();
+
+            if (!AreEndPointsValid())
+            {
+                lineRenderer.positionCount = 0;
+                return;
+            }
+
+            currentValue = GetMidPoint();
+            targetValue = currentValue;
+            currentVelocity = Vector3.zero;
+
+            SetSplinePoint();
+            NotifyPointsChanged();
+
+            skipNextSimFrame = true; // ← avoid override on next FixedUpdate
         }
 
         private void OnValidate()
@@ -126,11 +146,11 @@ namespace GogoGaga.OptimizedRopesAndCables
             {
                 SetSplinePoint();
 
-                if (!Application.isPlaying && (IsPointsMoved() || IsRopeSettingsChanged()))
-                {
+                //if (IsPointsMoved() || IsRopeSettingsChanged())
+                //{
                     SimulatePhysics();
                     NotifyPointsChanged();
-                }
+                //}
 
                 prevStartPointPosition = startPoint.position;
                 prevEndPointPosition = endPoint.position;
@@ -157,9 +177,7 @@ namespace GogoGaga.OptimizedRopesAndCables
                 lineRenderer.positionCount = linePoints + 1;
             }
 
-            Vector3 mid = GetMidPoint();
-            targetValue = mid;
-            mid = currentValue;
+            Vector3 mid = currentValue;
 
             if (midPoint != null)
             {
@@ -168,7 +186,8 @@ namespace GogoGaga.OptimizedRopesAndCables
 
             for (int i = 0; i < linePoints; i++)
             {
-                Vector3 p = GetRationalBezierPoint(startPoint.position, mid, endPoint.position, i / (float)linePoints, StartPointWeight, midPointWeight, EndPointWeight);
+                float t = i / (float)linePoints;
+                Vector3 p = GetRationalBezierPoint(startPoint.position, mid, endPoint.position, t, StartPointWeight, midPointWeight, EndPointWeight);
                 lineRenderer.SetPosition(i, p);
             }
 
@@ -221,20 +240,20 @@ namespace GogoGaga.OptimizedRopesAndCables
 
         private void FixedUpdate()
         {
-            if (IsPrefab)
+            if (IsPrefab || !AreEndPointsValid()) return;
+
+            if (skipNextSimFrame)
             {
+                skipNextSimFrame = false;
                 return;
             }
-            
-            if (AreEndPointsValid())
-            {
-                if (!isFirstFrame)
-                {
-                    SimulatePhysics();
-                }
 
-                isFirstFrame = false;
+            if (!isFirstFrame)
+            {
+                SimulatePhysics();
             }
+
+            isFirstFrame = false;
         }
 
         private void SimulatePhysics()
@@ -244,11 +263,11 @@ namespace GogoGaga.OptimizedRopesAndCables
             currentVelocity = currentVelocity * dampingFactor + acceleration + otherPhysicsFactors;
             currentValue += currentVelocity * Time.fixedDeltaTime;
 
-            if (Vector3.Distance(currentValue, targetValue) < valueThreshold && currentVelocity.magnitude < velocityThreshold)
-            {
+            //if (Vector3.Distance(currentValue, targetValue) < valueThreshold && currentVelocity.magnitude < velocityThreshold)
+            //{
                 currentValue = targetValue;
                 currentVelocity = Vector3.zero;
-            }
+            //}
         }
 
         private void OnDrawGizmos()
@@ -302,6 +321,7 @@ namespace GogoGaga.OptimizedRopesAndCables
             }
 
             NotifyPointsChanged();
+            CustomStart();
         }
 
         public void RecalculateRope()

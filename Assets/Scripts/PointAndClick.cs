@@ -6,6 +6,7 @@ using FMODUnity;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using SubversionZero.Audio;
+using GogoGaga.OptimizedRopesAndCables;
 
 public class PointAndClick : MonoBehaviour
 {
@@ -20,12 +21,19 @@ public class PointAndClick : MonoBehaviour
     Vector3 lastCamPos;
     Quaternion lastCamRot;
     GameObject lastHoveringChar;
+    Polaroid lastPolaroid;
     public Character hoveringChar, dialoguingChar;
     [Header("LayerMasks")]
+    [SerializeField] Camera normalRaycastCam;
+    [SerializeField] Camera boardRaycastCam;
     [SerializeField] LayerMask inspectionAreaLayer;
     [SerializeField] LayerMask capturableLayer;
     [SerializeField] LayerMask doorLayer;
     [SerializeField] LayerMask characterLayer;
+    [SerializeField] LayerMask pinLayer;
+    [SerializeField] LayerMask polaroidHoverLayer;
+    [SerializeField] LayerMask wordLayer;
+
 
     [Header("Panning")]
     [SerializeField] float pannedZoom;
@@ -40,8 +48,13 @@ public class PointAndClick : MonoBehaviour
     [SerializeField] int captureSize;
     List<GameObject> picturedObjects = new();
     [SerializeField] float flashFadeTime;
+    [SerializeField] GameObject pin;
+    [SerializeField] Rope thread;
     int picturesTaken;
     bool takingPicture;
+    bool placingPin;
+    GameObject originPin, pinToBePlaced, otherPin;
+    Rope ropeToBePlaced;
 
 
     void Start()
@@ -166,12 +179,12 @@ public class PointAndClick : MonoBehaviour
         _polaroid.SetPixels(pixels);
         _polaroid.Apply();
 
-        Polaroid polaroid = Instantiate(polaroidPrefab, pictureLocations.transform.GetChild(picturesTaken).position, Quaternion.identity, boardTransform);
-        polaroid.CustomStart(_capturableObject);
+        Polaroid polaroid = Instantiate(polaroidPrefab, pictureLocations.transform.GetChild(picturesTaken).position, Quaternion.Euler(0, 180, 0), boardTransform);
+        polaroid.CustomStart(_capturableObject, rawImage, renderCam);
         picturesTaken++;
         //RawImage polaroidImage = polaroid.transform.GetChild(1).GetComponent<RawImage>();
         //polaroidImage.texture = _polaroid;
-        Image polaroidImage = polaroid.transform.GetChild(1).GetComponent<Image>();
+        Image polaroidImage = polaroid.polaroidImage;
         polaroidImage.sprite = _capturableObject.objectPicture;
         StartCoroutine(CameraFlashEffect());
         StartCoroutine(PictureTakenUI());
@@ -242,8 +255,8 @@ public class PointAndClick : MonoBehaviour
         {
             if (rectTransform.rect.Contains(localPoint))
             {
-                //Debug.Log("Clicked inside RawImage");
-
+                
+                if(eventCamera != null) Debug.Log("Using: " + eventCamera.name);
                 Vector2 normalized = Rect.PointToNormalized(rectTransform.rect, localPoint);
                 float texX = normalized.x * renderTexture.width;
                 float texY = normalized.y * renderTexture.height;
@@ -259,57 +272,146 @@ public class PointAndClick : MonoBehaviour
     {
         if(GameManager.instance.isTransitioning) return;
 
-        if(Input.GetMouseButtonDown(0))
+        if(!GameManager.instance.inBoardView)
         {
-            if(CheckColliderLayerMask(_hit.collider, capturableLayer)) 
+            if(Input.GetMouseButtonDown(0))
             {
-                if(inPhotoMode) TakePicture(_hit);
+                if(CheckColliderLayerMask(_hit.collider, capturableLayer)) 
+                {
+                    if(inPhotoMode) TakePicture(_hit);
+                }
+                if(CheckColliderLayerMask(_hit.collider, inspectionAreaLayer)) 
+                {
+                    if(_hit.collider != null && !pannedToZone && !GameManager.instance.inBoardView) StartCoroutine(PanToZone(_hit));
+                }
+                if(CheckColliderLayerMask(_hit.collider, doorLayer)) 
+                {
+                    string connectingRooms = _hit.collider.GetComponent<Door>().connectingRooms;
+                    StartCoroutine(GameManager.instance.TransitionLevel(connectingRooms));
+                    pannedToZone = false;
+                }
             }
-            if(CheckColliderLayerMask(_hit.collider, inspectionAreaLayer)) 
-            {
-                if(_hit.collider != null && !pannedToZone && !GameManager.instance.inBoardView) StartCoroutine(PanToZone(_hit));
-            }
-            if(CheckColliderLayerMask(_hit.collider, doorLayer)) 
-            {
-                string connectingRooms = _hit.collider.GetComponent<Door>().connectingRooms;
-                StartCoroutine(GameManager.instance.TransitionLevel(connectingRooms));
-                pannedToZone = false;
-            }
-        }
 
-        if(CheckColliderLayerMask(_hit.collider, characterLayer)) 
-        {
-            if(_hit.collider.gameObject != lastHoveringChar)
+            if(CheckColliderLayerMask(_hit.collider, characterLayer)) 
+            {
+                if(_hit.collider.gameObject != lastHoveringChar)
+                {
+                    if(hoveringChar != null)
+                    {
+                        //hoveringChar.meshRenderer.material = hoveringChar.defaultCharacterMaterial;
+                        hoveringChar.charImg.sprite = hoveringChar.defaultSprite;
+                        hoveringChar = null;
+                        lastHoveringChar = null;
+                    }
+
+                    lastHoveringChar = _hit.collider.gameObject;
+                    Debug.Log("New Hovering Char: " + lastHoveringChar.name);
+                    hoveringChar = lastHoveringChar.GetComponent<Character>();
+                    Debug.Log("New Hovering Char Script: " + hoveringChar.name);
+                    //hoveringChar.meshRenderer.material = hoveringChar.hoverCharacterMaterial;
+                    hoveringChar.charImg.sprite = hoveringChar.hoverSprite;
+                }
+            }
+            else
             {
                 if(hoveringChar != null)
                 {
-                    //hoveringChar.meshRenderer.material = hoveringChar.defaultCharacterMaterial;
-                    hoveringChar.charImg.sprite = hoveringChar.defaultSprite;
+                    if(dialoguingChar != hoveringChar) 
+                    {
+                        //hoveringChar.meshRenderer.material = hoveringChar.defaultCharacterMaterial;
+                        hoveringChar.charImg.sprite = hoveringChar.defaultSprite;
+                    }
                     hoveringChar = null;
                     lastHoveringChar = null;
                 }
-
-                lastHoveringChar = _hit.collider.gameObject;
-                Debug.Log("New Hovering Char: " + lastHoveringChar.name);
-                hoveringChar = lastHoveringChar.GetComponent<Character>();
-                Debug.Log("New Hovering Char Script: " + hoveringChar.name);
-                //hoveringChar.meshRenderer.material = hoveringChar.hoverCharacterMaterial;
-                hoveringChar.charImg.sprite = hoveringChar.hoverSprite;
             }
         }
         else
         {
             if(hoveringChar != null)
             {
-                if(dialoguingChar != hoveringChar) 
-                {
-                    //hoveringChar.meshRenderer.material = hoveringChar.defaultCharacterMaterial;
-                    hoveringChar.charImg.sprite = hoveringChar.defaultSprite;
-                }
+                hoveringChar.charImg.sprite = hoveringChar.defaultSprite;
                 hoveringChar = null;
                 lastHoveringChar = null;
             }
+
+            if(_hit.collider == null) return;
+            Vector3 hitPoint = _hit.point;
+
+            if(placingPin) 
+            {
+                Debug.Log("Placing pin at " + hitPoint);
+                ropeToBePlaced.Recalculate();
+                Vector3 placePosition = hitPoint;
+                placePosition.z = pinToBePlaced.transform.position.z;
+                pinToBePlaced.transform.position = placePosition;
+                if(CheckColliderLayerMask(_hit.collider, pinLayer) && Input.GetMouseButtonDown(0) && _hit.collider.gameObject != originPin) 
+                {
+                    PlacePin();
+                }
+                else if(Input.GetKeyDown(KeyCode.Escape))
+                {
+                    StopPlacingPin();
+                }
+                return;
+            }
+
+
+            if(CheckColliderLayerMask(_hit.collider, polaroidHoverLayer)) 
+            {
+                if(lastPolaroid == null) lastPolaroid = _hit.collider.gameObject.GetComponent<Polaroid>();
+                if(lastPolaroid != null) lastPolaroid.HandleShowingDescription(true);
+            }
+            else if(!CheckColliderLayerMask(_hit.collider, wordLayer)) 
+            {
+                if(lastPolaroid != null)
+                {  
+                    lastPolaroid.HandleShowingDescription(false);
+                    lastPolaroid = null;
+                }
+            }
+
+            if(CheckColliderLayerMask(_hit.collider, wordLayer) && Input.GetMouseButtonDown(0)) 
+            {
+                if(lastPolaroid != null)
+                {
+                    lastPolaroid.SetWord(_hit.collider.gameObject.name);
+                }
+            }
+
+            if(CheckColliderLayerMask(_hit.collider, pinLayer) && Input.GetMouseButtonDown(0)) 
+            {
+                //Create pin and thread
+                Transform pinLocation = _hit.collider.transform;
+                originPin = _hit.collider.gameObject;
+                placingPin = true;
+                GameManager.instance.placingPin = true;
+                otherPin = Instantiate(pin, pinLocation);
+                pinToBePlaced = Instantiate(pin, pinLocation);
+                ropeToBePlaced = Instantiate(thread, pinLocation);
+
+                ropeToBePlaced.SetStartPoint(originPin.transform);
+                ropeToBePlaced.SetEndPoint(pinToBePlaced.transform);
+
+                //ropeToBePlaced.Recalculate();
+                //ropeToBePlaced.CustomStart();
+            }
         }
+    }
+
+    void PlacePin()
+    {
+        placingPin = false;
+        GameManager.instance.placingPin = false;
+    }
+
+    void StopPlacingPin()
+    {
+        Destroy(otherPin);
+        Destroy(pinToBePlaced);
+        Destroy(ropeToBePlaced.gameObject);
+        placingPin = false;
+        GameManager.instance.placingPin = false;
     }
 
     void SetupCamera()

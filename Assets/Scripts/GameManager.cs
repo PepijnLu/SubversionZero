@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 {
     public TextManager textManager;
     public static GameManager instance;
-    public bool inBoardView, isTransitioning, inDialogue;
+    public bool inBoardView, isTransitioning, inDialogue, placingPin;
     [SerializeField] Transform renderCamTransform;
     Color originalColor;
     Camera renderCam;

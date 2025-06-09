@@ -28,7 +28,7 @@ namespace GogoGaga.OptimizedRopesAndCables
         private List<int> triangles = new List<int>();
         private List<Vector2> uvs = new List<Vector2>();
 
-        private void OnValidate()
+        private void Start()
         {
             InitializeComponents();
             if (rope.IsPrefab)
