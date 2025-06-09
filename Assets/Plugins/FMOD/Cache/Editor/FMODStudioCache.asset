@@ -174,6 +174,33 @@ MonoBehaviour:
   - QuestionVowel
   - ExclamationVowel
   Exists: 1
+--- !u!114 &-5061622928612472922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/pinboardtonal
+  m_EditorClassIdentifier: 
+  Path: event:/amb/pinboardtonal
+  Guid:
+    Data1: 753252832
+    Data2: 1239540087
+    Data3: 143232413
+    Data4: -1712043805
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 165000
 --- !u!114 &-4997359098897101286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,7 +216,7 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638850119633505299
+  lastModified: 638850840950453916
   FileSizes: []
   Exists: 1
 --- !u!114 &-4421671963120496869
@@ -397,10 +424,10 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638850119633586960
+  lastModified: 638850840950548517
   FileSizes:
   - Name: 
-    Value: 2478
+    Value: 2676
   Exists: 1
 --- !u!114 &-1233296606768162690
 MonoBehaviour:
@@ -455,7 +482,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 180660
+  Length: 324665
 --- !u!114 &-1109767399459117860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -584,13 +611,15 @@ MonoBehaviour:
   - {fileID: 2670282613070421814}
   - {fileID: -2999894986652017446}
   - {fileID: 62332142439187926}
+  - {fileID: -5061622928612472922}
+  - {fileID: 7970840081925780195}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4997359098897101286}
   StringsBanks:
   - {fileID: -1724225176518313470}
   cacheVersion: 131847
-  cacheTime: 638850119633586960
+  cacheTime: 638850840950548517
   SerializableEventsDict:
   - key: snapshot:/Pinboard
     index: 0
@@ -648,6 +677,10 @@ MonoBehaviour:
     index: 26
   - key: event:/sfx/Polaroid/PolaroidHover
     index: 27
+  - key: event:/amb/pinboardtonal
+    index: 28
+  - key: event:/amb/snowwind
+    index: 29
 --- !u!114 &62332142439187926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1123,6 +1156,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &7970840081925780195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/snowwind
+  m_EditorClassIdentifier: 
+  Path: event:/amb/snowwind
+  Guid:
+    Data1: -1801972526
+    Data2: 1127089135
+    Data3: -395130699
+    Data4: -14604751
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 67434
 --- !u!114 &8753931297408411485
 MonoBehaviour:
   m_ObjectHideFlags: 0
