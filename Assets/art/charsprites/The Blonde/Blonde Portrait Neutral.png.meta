@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blonde Portrait Neutral_0: -9184953801941304096
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
