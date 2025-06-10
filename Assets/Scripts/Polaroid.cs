@@ -1,19 +1,24 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using SubversionZero.Audio;
+using System.Linq;
 
-public class Polaroid : MonoBehaviour, IPointerClickHandler
+public class Polaroid : MonoBehaviour
 {
     public CapturableObject capturedObject;
     [SerializeField] RectTransform polaroidHoverDet, textHoverDet;
     [SerializeField] TextMeshProUGUI imageDescription, keyword;
     [SerializeField] GameObject description;
+    public Image polaroidImage;
     bool showingDesc;
     string originalText;
     string[] originalWords;
+    public List<int> indexesOfBoldedWords = new();
 
-    public void CustomStart(CapturableObject _capturedObj)
+    public void CustomStart(CapturableObject _capturedObj, RawImage _renderTextureDisplay, Camera _renderCamera)
     {
         capturedObject = _capturedObj;
         originalText = _capturedObj.objectDescription;
@@ -21,64 +26,49 @@ public class Polaroid : MonoBehaviour, IPointerClickHandler
         originalWords = originalText.Split(' ');
         List<string> boldedWords = new();
 
-        foreach (string word in originalWords)
+        for(int i = 0; i < originalWords.Length; i++)
         {
-            Debug.Log("original word: " + word);
-            string boldedWord = GetBoldedString(word);
+            Debug.Log("original word: " + originalWords[i]);
+            string boldedWord = GetBoldedString(originalWords[i], i);
             boldedWords.Add(boldedWord);
         }
+
+        // foreach (string word in originalWords)
+        // {
+        //     Debug.Log("original word: " + word);
+        //     string boldedWord = GetBoldedString(word);
+        //     boldedWords.Add(boldedWord);
+        // }
 
         string boldedDescirption = string.Join(" ", boldedWords);
 
         imageDescription.text = boldedDescirption;
     }
-    void Update()
-    {
-        bool overPolaroid = RectTransformUtility.RectangleContainsScreenPoint(polaroidHoverDet, Input.mousePosition);
 
-        if(overPolaroid)
+    public void HandleShowingDescription(bool _overPolaroid)
+    {
+        if(_overPolaroid)
         {
             if(!showingDesc) 
             {
+                FModManager.instance.PlaySfx(SfxKey.PolaroidHover);
                 showingDesc = true;
                 description.SetActive(true);
             }
         }
         else if(showingDesc)
         {
-            bool overText = RectTransformUtility.RectangleContainsScreenPoint(textHoverDet, Input.mousePosition);
-
-            if(!overText)
-            {
-                showingDesc = false;
-                description.SetActive(false);
-            }
+            showingDesc = false;
+            description.SetActive(false);
         }
     }
 
-    public void OnPointerClick(PointerEventData eventData)
+    public void SetWord(string _text)
     {
-        int wordIndex = TMP_TextUtilities.FindIntersectingWord(imageDescription, Input.mousePosition, null);
-
-        if (wordIndex != -1)
-        {
-            TMP_WordInfo wordInfo = imageDescription.textInfo.wordInfo[wordIndex];
-            string clickedWord = wordInfo.GetWord();
-
-            Debug.Log("You clicked the word: " + clickedWord);
-
-            foreach(string _word in originalWords)
-            {
-                if(_word.Contains("0" + clickedWord + "0"))
-                {
-                    keyword.text = clickedWord;
-                    break;
-                }
-            }  
-        }
+        keyword.text = _text;
     }
 
-    string GetBoldedString(string _input)
+    string GetBoldedString(string _input, int _index)
     {
         int firstIndex = _input.IndexOf('0');
 
@@ -91,6 +81,7 @@ public class Polaroid : MonoBehaviour, IPointerClickHandler
             if (secondIndex != -1)
             {
                 _input = _input.Remove(secondIndex, 1).Insert(secondIndex, "</b>");
+                indexesOfBoldedWords.Add(_index);
             }
         }
 

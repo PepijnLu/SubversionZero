@@ -1,19 +1,23 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using SubversionZero.Audio;
 
 public class GameManager : MonoBehaviour
 {
+    public TextManager textManager;
     public static GameManager instance;
-    public bool inBoardView, isTransitioning;
+    public bool inBoardView, isTransitioning, inDialogue, placingPin;
     [SerializeField] Transform renderCamTransform;
     Color originalColor;
     Camera renderCam;
     [Header("Levels")]
-    [SerializeField] GameObject levels;
+    [SerializeField] List<GameObject> levels;
+    Dictionary<string, GameObject> levelNames;
     [SerializeField] Image levelTransitionImg;
-    public int currentLevelIndex;
+    public string currentLevel;
     void Awake()
     {
         instance = this;   
@@ -21,29 +25,57 @@ public class GameManager : MonoBehaviour
         originalColor = renderCam.backgroundColor;
     }
 
-    public IEnumerator TransitionLevel(int _newLevelIndex)
+    void Start()
     {
-        isTransitioning = true;
-        StartCoroutine(LerpBackgroundColor(renderCam.backgroundColor, new Color(0, 0, 0, 0), 2, renderCam));
-        yield return GenericFunctions.instance.FadeImage(levelTransitionImg, 2, 1);
-        levels.transform.GetChild(currentLevelIndex).gameObject.SetActive(false);
+        levelNames = new();
+        foreach (GameObject _level in levels)
+        {
+            levelNames.Add(_level.name, _level);
+        }
+        currentLevel = "LivingRoom";
 
-        Transform newLevel = levels.transform.GetChild(_newLevelIndex); 
+        Transform newLevel = levelNames["LivingRoom"].transform;
         newLevel.gameObject.SetActive(true);
 
-        Transform newLevelCam = newLevel.GetChild(0);
+        Camera newLevelCam = newLevel.GetChild(0).GetComponent<Camera>();
+
+        renderCam.transform.position = newLevelCam.transform.position;
+        renderCam.transform.rotation = newLevelCam.transform.rotation;
+        renderCam.fieldOfView = newLevelCam.fieldOfView;
+        FModManager.instance.EnterRoom(currentLevel);
+    }
+
+    public IEnumerator TransitionLevel(string _connectingRooms)
+    {
+        isTransitioning = true;
+        FModManager.instance.PlaySfx(SfxKey.Door);
+        StartCoroutine(LerpBackgroundColor(renderCam.backgroundColor, new Color(0, 0, 0, 0), 2, renderCam));
+        yield return GenericFunctions.instance.FadeImage(levelTransitionImg, 2, 1);
+
+
+        //levels.transform.GetChild(currentLevelIndex).gameObject.SetActive(false);
+        levelNames[currentLevel].SetActive(false);
+
+        //Transform newLevel = levels.transform.GetChild(_newLevelIndex);
+        string roomToMoveTo = GetRoomToMoveTo(_connectingRooms);
+        Transform newLevel = levelNames[roomToMoveTo].transform;
+        newLevel.gameObject.SetActive(true);
+
+        Camera newLevelCam = newLevel.GetChild(0).GetComponent<Camera>();
         Light newLevelLight = newLevel.GetChild(1).GetComponent<Light>();
 
         renderCam.transform.position = newLevelCam.transform.position;
+        renderCam.transform.rotation = newLevelCam.transform.rotation;
+        renderCam.fieldOfView = newLevelCam.fieldOfView;
 
         StartCoroutine(GenericFunctions.instance.FadeImage(levelTransitionImg, 0, 0));
         yield return GenericFunctions.instance.FlickerLight(newLevelLight);
 
-        yield return LerpBackgroundColor(renderCam.backgroundColor, originalColor, 2, renderCam);
-
-        currentLevelIndex++;
+        //yield return LerpBackgroundColor(renderCam.backgroundColor, originalColor, 2, renderCam);
 
         isTransitioning = false;
+        currentLevel = roomToMoveTo;
+        FModManager.instance.EnterRoom(roomToMoveTo);
     }
 
     public IEnumerator LerpBackgroundColor(Color _startColor, Color _endColor, float _duration, Camera _camera)
@@ -66,5 +98,17 @@ public class GameManager : MonoBehaviour
         }
         Debug.Log($"Biggest color diff: {biggestColorDifference}");
         _camera.backgroundColor = _endColor;
+    }
+
+    string GetRoomToMoveTo(string _connectingRooms)
+    {
+        string[] rooms = _connectingRooms.Split(','); // Split by space
+
+        foreach (string _room in rooms)
+        {
+            if(!_room.Contains(currentLevel)) return _room;
+        }
+
+        throw new Exception("Can't Transition");
     }
 }

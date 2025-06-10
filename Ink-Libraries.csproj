@@ -42,7 +42,7 @@
     <UnityVersion>6000.0.36f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\pepijn\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\pepijn\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -81,8 +81,8 @@
     <Compile Include="Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\Sequence.cs" />
     <Compile Include="Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\List.cs" />
     <Compile Include="Assets\Ink\InkLibs\InkRuntime\StatePatch.cs" />
-    <Compile Include="Assets\Ink\InkLibs\InkRuntime\INamedContent.cs" />
     <Compile Include="Assets\Ink\InkLibs\InkCompiler\Plugins\Plugin.cs" />
+    <Compile Include="Assets\Ink\InkLibs\InkRuntime\INamedContent.cs" />
     <Compile Include="Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\ContentList.cs" />
     <Compile Include="Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\Identifier.cs" />
     <Compile Include="Assets\Ink\InkLibs\InkRuntime\VariablesState.cs" />

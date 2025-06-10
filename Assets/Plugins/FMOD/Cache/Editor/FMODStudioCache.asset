@@ -1,0 +1,1152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9116125018311567026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Pinboard
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Pinboard
+  Guid:
+    Data1: 2125597524
+    Data2: 1201480727
+    Data3: 564245945
+    Data4: 2073410284
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-8803345705920303992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/jock/SyllableType
+  m_EditorClassIdentifier: 
+  Name: SyllableType
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 511769373
+    data2: 3529478014
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Consonant
+  - Vowel
+  - PeriodConsonant
+  - QuestionConsonant
+  - ExclamationConsonant
+  - PeriodVowel
+  - QuestionVowel
+  - ExclamationVowel
+  Exists: 1
+--- !u!114 &-8466837839534893638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/footsteps/Surface Type
+  m_EditorClassIdentifier: 
+  Name: Surface Type
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3843996120
+    data2: 2179076527
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6285220666011988287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/nerd/SyllableType
+  m_EditorClassIdentifier: 
+  Name: SyllableType
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 511769373
+    data2: 3529478014
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Consonant
+  - Vowel
+  - PeriodConsonant
+  - QuestionConsonant
+  - ExclamationConsonant
+  - PeriodVowel
+  - QuestionVowel
+  - ExclamationVowel
+  Exists: 1
+--- !u!114 &-5445913370315889164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/Polaroid/PolaroidGrab
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/Polaroid/PolaroidGrab
+  Guid:
+    Data1: 618705386
+    Data2: 1190153580
+    Data3: 1665679028
+    Data4: -1055252466
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5149414866966332058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/blonde/SyllableType
+  m_EditorClassIdentifier: 
+  Name: SyllableType
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 511769373
+    data2: 3529478014
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Consonant
+  - Vowel
+  - PeriodConsonant
+  - QuestionConsonant
+  - ExclamationConsonant
+  - PeriodVowel
+  - QuestionVowel
+  - ExclamationVowel
+  Exists: 1
+--- !u!114 &-4997359098897101286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Desktop/Master.bank
+  Name: Desktop/Master
+  StudioPath: bank:/Master
+  lastModified: 638850911569571137
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4421671963120496869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/ReverbZones/Living Room
+  m_EditorClassIdentifier: 
+  Path: snapshot:/ReverbZones/Living Room
+  Guid:
+    Data1: -1455784795
+    Data2: 1224939908
+    Data3: 1903847603
+    Data4: 370618387
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-4186475432024525392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/char/dialogue/jock
+  m_EditorClassIdentifier: 
+  Path: event:/char/dialogue/jock
+  Guid:
+    Data1: 339643287
+    Data2: 1287091151
+    Data3: 230905730
+    Data4: -838945491
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8803345705920303992}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4180372984890732527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/Polaroid/PolaroidAway
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/Polaroid/PolaroidAway
+  Guid:
+    Data1: -371216498
+    Data2: 1283688064
+    Data3: 1645971073
+    Data4: -1943900478
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3751883532273888763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/ReverbZones/Kitchen
+  m_EditorClassIdentifier: 
+  Path: snapshot:/ReverbZones/Kitchen
+  Guid:
+    Data1: 1293264489
+    Data2: 1187963404
+    Data3: -1578988401
+    Data4: -1704104078
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-3569650472029103349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ui/pinboard_enter
+  m_EditorClassIdentifier: 
+  Path: event:/ui/pinboard_enter
+  Guid:
+    Data1: 1500484484
+    Data2: 1180065545
+    Data3: 1475967423
+    Data4: 920122901
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1150
+--- !u!114 &-2999894986652017446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/cabinet/CabinetClose
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/cabinet/CabinetClose
+  Guid:
+    Data1: -1867685464
+    Data2: 1277326332
+    Data3: 1694064517
+    Data4: 637318636
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1744011232998739766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ui/ui_select
+  m_EditorClassIdentifier: 
+  Path: event:/ui/ui_select
+  Guid:
+    Data1: 359320661
+    Data2: 1210594983
+    Data3: 1610267067
+    Data4: 1067424787
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1724225176518313470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMODAssets/Desktop/Master.strings.bank
+  Name: Desktop/Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638850911569581131
+  FileSizes:
+  - Name: 
+    Value: 2478
+  Exists: 1
+--- !u!114 &-1233296606768162690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/door_openclose
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/door_openclose
+  Guid:
+    Data1: 284629787
+    Data2: 1211112631
+    Data3: -167397705
+    Data4: 2118382112
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2435
+--- !u!114 &-1122138807009194882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music/maintheme
+  m_EditorClassIdentifier: 
+  Path: event:/music/maintheme
+  Guid:
+    Data1: 932931261
+    Data2: 1227374748
+    Data3: -381104503
+    Data4: -535791214
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 180660
+--- !u!114 &-1109767399459117860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music/investigation
+  m_EditorClassIdentifier: 
+  Path: event:/music/investigation
+  Guid:
+    Data1: 1070810859
+    Data2: 1167338025
+    Data3: -1020001374
+    Data4: -544369958
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5118871658851888271}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 276705
+--- !u!114 &-674914184413596670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/char/dialogue/fool
+  m_EditorClassIdentifier: 
+  Path: event:/char/dialogue/fool
+  Guid:
+    Data1: 278704361
+    Data2: 1128855356
+    Data3: -1638428798
+    Data4: 801436995
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2513245418660115533}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-99949773005201845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/char/dialogue/blonde
+  m_EditorClassIdentifier: 
+  Path: event:/char/dialogue/blonde
+  Guid:
+    Data1: -1381455266
+    Data2: 1271787672
+    Data3: 1098919596
+    Data4: 215543892
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5149414866966332058}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -1724225176518313470}
+  - {fileID: -4997359098897101286}
+  EditorEvents:
+  - {fileID: -9116125018311567026}
+  - {fileID: 1333389021337981714}
+  - {fileID: 7478892357440478533}
+  - {fileID: 951563620545404126}
+  - {fileID: 3167311598890847064}
+  - {fileID: -3569650472029103349}
+  - {fileID: -1109767399459117860}
+  - {fileID: -99949773005201845}
+  - {fileID: 6037180975923887063}
+  - {fileID: -4186475432024525392}
+  - {fileID: 5612774436657959316}
+  - {fileID: -674914184413596670}
+  - {fileID: 6814558035609912053}
+  - {fileID: -3751883532273888763}
+  - {fileID: -4421671963120496869}
+  - {fileID: 6089789446115884778}
+  - {fileID: -1122138807009194882}
+  - {fileID: 303946794561022137}
+  - {fileID: -4180372984890732527}
+  - {fileID: -5445913370315889164}
+  - {fileID: 5970937056573003441}
+  - {fileID: -1233296606768162690}
+  - {fileID: -1744011232998739766}
+  - {fileID: 312418305798545786}
+  - {fileID: 8753931297408411485}
+  - {fileID: 2670282613070421814}
+  - {fileID: -2999894986652017446}
+  - {fileID: 62332142439187926}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -4997359098897101286}
+  StringsBanks:
+  - {fileID: -1724225176518313470}
+  cacheVersion: 131847
+  cacheTime: 638850911569581131
+  SerializableEventsDict:
+  - key: snapshot:/Pinboard
+    index: 0
+  - key: event:/music/freeroam
+    index: 1
+  - key: event:/char/footsteps
+    index: 2
+  - key: event:/amb/pinboard
+    index: 3
+  - key: event:/ui/pinboard_exit
+    index: 4
+  - key: event:/ui/pinboard_enter
+    index: 5
+  - key: event:/music/investigation
+    index: 6
+  - key: event:/char/dialogue/blonde
+    index: 7
+  - key: event:/char/dialogue/nerd
+    index: 8
+  - key: event:/char/dialogue/jock
+    index: 9
+  - key: event:/char/dialogue/joshua
+    index: 10
+  - key: event:/char/dialogue/fool
+    index: 11
+  - key: event:/char/dialogue/stoner
+    index: 12
+  - key: snapshot:/ReverbZones/Kitchen
+    index: 13
+  - key: snapshot:/ReverbZones/Living Room
+    index: 14
+  - key: snapshot:/ReverbZones/Bedroom
+    index: 15
+  - key: event:/music/maintheme
+    index: 16
+  - key: event:/sfx/Polaroid/PolaroidPic
+    index: 17
+  - key: event:/sfx/Polaroid/PolaroidAway
+    index: 18
+  - key: event:/sfx/Polaroid/PolaroidGrab
+    index: 19
+  - key: event:/ui/ui_slider
+    index: 20
+  - key: event:/sfx/door_openclose
+    index: 21
+  - key: event:/ui/ui_select
+    index: 22
+  - key: event:/ui/ui_startgame
+    index: 23
+  - key: event:/sfx/cabinet/CabinetOpen
+    index: 24
+  - key: event:/ui/ui_hover
+    index: 25
+  - key: event:/sfx/cabinet/CabinetClose
+    index: 26
+  - key: event:/sfx/Polaroid/PolaroidHover
+    index: 27
+--- !u!114 &62332142439187926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/Polaroid/PolaroidHover
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/Polaroid/PolaroidHover
+  Guid:
+    Data1: 918234339
+    Data2: 1145405667
+    Data3: 2024566168
+    Data4: 947965688
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &303946794561022137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/Polaroid/PolaroidPic
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/Polaroid/PolaroidPic
+  Guid:
+    Data1: 775342468
+    Data2: 1139363397
+    Data3: -535153218
+    Data4: 788625786
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &312418305798545786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ui/ui_startgame
+  m_EditorClassIdentifier: 
+  Path: event:/ui/ui_startgame
+  Guid:
+    Data1: 307066489
+    Data2: 1227446444
+    Data3: 818226876
+    Data4: 427456371
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &951563620545404126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/pinboard
+  m_EditorClassIdentifier: 
+  Path: event:/amb/pinboard
+  Guid:
+    Data1: 80612253
+    Data2: 1107038365
+    Data3: 1460405387
+    Data4: 2123617939
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9100
+--- !u!114 &1333389021337981714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music/freeroam
+  m_EditorClassIdentifier: 
+  Path: event:/music/freeroam
+  Guid:
+    Data1: 917863095
+    Data2: 1230418856
+    Data3: 233668795
+    Data4: -278211372
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 63157
+--- !u!114 &2513245418660115533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/fool/SyllableType
+  m_EditorClassIdentifier: 
+  Name: SyllableType
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 511769373
+    data2: 3529478014
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Consonant
+  - Vowel
+  - PeriodConsonant
+  - QuestionConsonant
+  - ExclamationConsonant
+  - PeriodVowel
+  - QuestionVowel
+  - ExclamationVowel
+  Exists: 1
+--- !u!114 &2670282613070421814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ui/ui_hover
+  m_EditorClassIdentifier: 
+  Path: event:/ui/ui_hover
+  Guid:
+    Data1: -940205678
+    Data2: 1235961832
+    Data3: -2107393653
+    Data4: -301645326
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2824112026539720266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/stoner/SyllableType
+  m_EditorClassIdentifier: 
+  Name: SyllableType
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 511769373
+    data2: 3529478014
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Consonant
+  - Vowel
+  - PeriodConsonant
+  - QuestionConsonant
+  - ExclamationConsonant
+  - PeriodVowel
+  - QuestionVowel
+  - ExclamationVowel
+  Exists: 1
+--- !u!114 &3167311598890847064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ui/pinboard_exit
+  m_EditorClassIdentifier: 
+  Path: event:/ui/pinboard_exit
+  Guid:
+    Data1: 1160154579
+    Data2: 1223480066
+    Data3: -951013226
+    Data4: 954728188
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2800
+--- !u!114 &3387832994353103790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/joshua/SyllableType
+  m_EditorClassIdentifier: 
+  Name: SyllableType
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 511769373
+    data2: 3529478014
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Consonant
+  - Vowel
+  - PeriodConsonant
+  - QuestionConsonant
+  - ExclamationConsonant
+  - PeriodVowel
+  - QuestionVowel
+  - ExclamationVowel
+  Exists: 1
+--- !u!114 &5118871658851888271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/investigation/EnoughClues
+  m_EditorClassIdentifier: 
+  Name: EnoughClues
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3756288785
+    data2: 3611684572
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5612774436657959316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/char/dialogue/joshua
+  m_EditorClassIdentifier: 
+  Path: event:/char/dialogue/joshua
+  Guid:
+    Data1: -1107224403
+    Data2: 1291437693
+    Data3: -692480892
+    Data4: -1236872873
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3387832994353103790}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5970937056573003441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ui/ui_slider
+  m_EditorClassIdentifier: 
+  Path: event:/ui/ui_slider
+  Guid:
+    Data1: -1334005320
+    Data2: 1082700096
+    Data3: 1445036455
+    Data4: -80562055
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6037180975923887063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/char/dialogue/nerd
+  m_EditorClassIdentifier: 
+  Path: event:/char/dialogue/nerd
+  Guid:
+    Data1: 1106238851
+    Data2: 1092199059
+    Data3: 2074984608
+    Data4: -1936524282
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6285220666011988287}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6089789446115884778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/ReverbZones/Bedroom
+  m_EditorClassIdentifier: 
+  Path: snapshot:/ReverbZones/Bedroom
+  Guid:
+    Data1: -953392645
+    Data2: 1263468628
+    Data3: -1013758325
+    Data4: 424932165
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &6814558035609912053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/char/dialogue/stoner
+  m_EditorClassIdentifier: 
+  Path: event:/char/dialogue/stoner
+  Guid:
+    Data1: 1043482090
+    Data2: 1304360489
+    Data3: -492216444
+    Data4: 216464216
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2824112026539720266}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7478892357440478533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/char/footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/char/footsteps
+  Guid:
+    Data1: -2107677463
+    Data2: 1159075069
+    Data3: 515053719
+    Data4: 1498230291
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8466837839534893638}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8753931297408411485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/cabinet/CabinetOpen
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/cabinet/CabinetOpen
+  Guid:
+    Data1: 1765917561
+    Data2: 1097698343
+    Data3: 618351798
+    Data4: -152838391
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0

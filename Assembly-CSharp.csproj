@@ -42,24 +42,36 @@
     <UnityVersion>6000.0.36f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\pepijn\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\pepijn\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\CMUDictLoader.cs" />
+    <Compile Include="Assets\Scripts\PolaroidText.cs" />
+    <Compile Include="Assets\ThreadClues\OptimizedRopesAndCables\Script\RopeMesh.cs" />
+    <Compile Include="Assets\Scripts\crimeBoard.cs" />
     <Compile Include="Assets\Scripts\PolaroidCam.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PointAndClick.cs" />
+    <Compile Include="Assets\ThreadClues\OptimizedRopesAndCables\Script\RopeWindEffect.cs" />
+    <Compile Include="Assets\Scripts\Audio\MusicState.cs" />
     <Compile Include="Assets\Scripts\TextManager.cs" />
     <Compile Include="Assets\Scripts\GenericFunctions.cs" />
     <Compile Include="Assets\Scripts\InspectionArea.cs" />
+    <Compile Include="Assets\Scripts\Audio\SliderSoundTest.cs" />
+    <Compile Include="Assets\ThreadClues\OptimizedRopesAndCables\Example\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Ink\Demos\Basic Demo\Scripts\QuitGameOnKeypress.cs" />
     <Compile Include="Assets\Scripts\ColliderGizmoDrawer.cs" />
     <Compile Include="Assets\Scripts\Polaroid.cs" />
+    <Compile Include="Assets\ThreadClues\OptimizedRopesAndCables\Example\Scripts\PointsAssignExample.cs" />
+    <Compile Include="Assets\ThreadClues\OptimizedRopesAndCables\Script\Rope.cs" />
     <Compile Include="Assets\Ink\Demos\Basic Demo\Scripts\BasicInkExample.cs" />
-    <Compile Include="Assets\Scripts\CrimeBoard.cs" />
+    <Compile Include="Assets\Scripts\Audio\FModManager.cs" />
     <Compile Include="Assets\Scripts\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\CapturableObject.cs" />
   </ItemGroup>
@@ -70,6 +82,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\ThreadClues\OptimizedRopesAndCables\Third-Party Notices.txt" />
     <None Include="Assets\Resources\mhyph.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
@@ -1158,12 +1171,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections">
@@ -1336,7 +1349,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="FMODUnityResonance.csproj" />
     <ProjectReference Include="Ink-Libraries.csproj" />
+    <ProjectReference Include="FMODUnityEditor.csproj" />
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj" />
+    <ProjectReference Include="FMODUnity.csproj" />
     <ProjectReference Include="InkEditor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
