@@ -37,8 +37,10 @@ B : to Bridget ? I can’t say for certain . I mean like , I don’t wanna mess 
 P : doubt that ?
 B : there could’ve been a million other reasons , for all we know she was having an allergic reaction , or a heart attack .. then she tripped or stumbled , and hit her head on the fireplace .
 P : that seems kind of unlikely -
+Hayleigh pinched the bridge of her nose , suddenly looking a lot more tired . 
 B : well Joshua , I’m not here to play detective .
 P : suit yourself .
+the quiet that follows makes it clear that she had no interest in continuing the conversation , instead bringing her phone up to her ear once again . 
 -> END
 
 == blondewho ==
@@ -46,10 +48,12 @@ P : who do you think did it ?
 B : I beg your pardon ?
 P : like who killed -
 B : no I heard you , just - I don’t think any of us killed Bridget , are you out of your mind ?
+she stares at you with wide eyes , lip curled in disdain . 
 P : but -
 B : no I - oh my god , it could’ve been anything else . for all we know she had a heart attack and hit her head when she fell down . why are you immediately jumping to the fact that it’s a murder ! ?
 P : it's just - this entire situation is so strange ! how can it not be a murder ? we’re basically in an Agatha Christie novel !
-B : bridget is dead , joshua . stop treating this like a game . 
-On that note she ends the conversation , turning away and bringing the phone to her ear once again .
+B : Bridget is dead , Joshua . stop treating this like a game . 
+on that note she ends the conversation , turning away and bringing the phone to her ear once again .
+no matter , you knew you were right . you didn't need her help to solve this mystery . 
 -> END
 
