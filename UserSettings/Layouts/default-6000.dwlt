@@ -1263,6 +1263,7 @@ MonoBehaviour:
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -9.702246, y: 1.28235, z: 1.7127223}
     speed: 2
     m_Value: {x: -9.702246, y: 1.28235, z: 1.7127223}
@@ -1271,6 +1272,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.17395358, y: 4.750719, z: -66.45838}
 >>>>>>> origin/toby
+=======
+    m_Target: {x: -18.227627, y: 2.0218518, z: -4.5328994}
+    speed: 2
+    m_Value: {x: -4.570443, y: 7.9698815, z: -66.44799}
+>>>>>>> origin/Pim
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1317,6 +1323,7 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.14090922, y: 0.7255278, z: -0.15600821, w: 0.6552568}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
@@ -1333,6 +1340,15 @@ MonoBehaviour:
     speed: 2
     m_Value: 20.537554
 >>>>>>> origin/toby
+=======
+    m_Target: {x: -0.34382522, y: -0.64995116, z: 0.5318779, w: -0.4201872}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 7.056337
+    speed: 2
+    m_Value: 19.500023
+>>>>>>> origin/Pim
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2564,6 +2580,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 12.75}
     m_SelectedIDs: 64bc0000
     m_LastClickedID: 48228
@@ -2580,6 +2597,12 @@ MonoBehaviour:
     m_LastClickedID: 65408
     m_ExpandedIDs: 000000003abc0000
 >>>>>>> origin/toby
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 12bc0000
+    m_LastClickedID: 48146
+    m_ExpandedIDs: 00000000f8c20000fac20000fcc20000fec2000000c3000002c30000
+>>>>>>> origin/Pim
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2609,10 +2632,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000072bc000074bc000076bc000078bc00007abc00007cbc0000
 =======
     m_ExpandedIDs: 000000003abc0000
 >>>>>>> origin/toby
+=======
+    m_ExpandedIDs: 00000000f8c20000fac20000fcc20000fec2000000c3000002c30000
+>>>>>>> origin/Pim
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

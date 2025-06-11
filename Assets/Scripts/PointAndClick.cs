@@ -55,7 +55,14 @@ public class PointAndClick : MonoBehaviour
     bool placingPin;
     GameObject originPin, pinToBePlaced, otherPin;
     Rope ropeToBePlaced;
+    // Track mouse speed to adjust FMOD parameter
+    [SerializeField] private float maxMouseSpeed = 100f;
+    [SerializeField] private float moveDecayTime = 0.1f; // How long before we decay to 0
+    [SerializeField] private float moveThreshold = 0.05f; // Minimum move speed to count as movement
+    private float lastMoveAmount;
+    private float lastMoveTime;
 
+    private Vector2 _lastMousePos;
 
     void Start()
     {
@@ -68,26 +75,26 @@ public class PointAndClick : MonoBehaviour
 
     void Update()
     {
-        if(!transitioned) 
+        if (!transitioned)
         {
-            if(!GameManager.instance.inBoardView) FirstClick();
+            if (!GameManager.instance.inBoardView) FirstClick();
             return;
         }
 
-        if(Input.GetKeyDown(KeyCode.Escape) && pannedToZone && !GameManager.instance.isTransitioning && !GameManager.instance.inBoardView)
+        if (Input.GetKeyDown(KeyCode.Escape) && pannedToZone && !GameManager.instance.isTransitioning && !GameManager.instance.inBoardView)
         {
             StartCoroutine(PanToOriginalPosition());
         }
 
-        if(Input.GetKeyDown(KeyCode.P) && !GameManager.instance.isTransitioning && !GameManager.instance.inDialogue)
+        if (Input.GetKeyDown(KeyCode.P) && !GameManager.instance.isTransitioning && !GameManager.instance.inDialogue)
         {
             SwitchPhotoMode();
         }
 
-        if(Input.GetMouseButtonDown(0) && hoveringChar != null) 
+        if (Input.GetMouseButtonDown(0) && hoveringChar != null)
         {
             Character tempChar = hoveringChar.InitiateDialogue();
-            if(tempChar != null) dialoguingChar = tempChar;
+            if (tempChar != null) dialoguingChar = tempChar;
         }
 
 
@@ -96,9 +103,9 @@ public class PointAndClick : MonoBehaviour
 
     void SwitchPhotoMode()
     {
-        if(GameManager.instance.isTransitioning) return;
+        if (GameManager.instance.isTransitioning) return;
 
-        if(inPhotoMode)
+        if (inPhotoMode)
         {
             inPhotoMode = false;
             polaroidCam.SetActive(false);
@@ -110,17 +117,17 @@ public class PointAndClick : MonoBehaviour
             inPhotoMode = true;
             polaroidCam.SetActive(true);
             // Play sound for equipping the camera
-        FModManager.instance.PlaySfx(SfxKey.PolaroidGrab);
+            FModManager.instance.PlaySfx(SfxKey.PolaroidGrab);
         }
     }
 
     void TakePicture(RaycastHit _hit)
     {
-        if(takingPicture) return;
-        if(_hit.collider == null) return;
-        if(picturedObjects.Contains(_hit.collider.gameObject)) return;
+        if (takingPicture) return;
+        if (_hit.collider == null) return;
+        if (picturedObjects.Contains(_hit.collider.gameObject)) return;
 
-        
+
         takingPicture = true;
         GameObject hitObj = _hit.collider.gameObject;
         int layer = hitObj.layer;
@@ -243,7 +250,7 @@ public class PointAndClick : MonoBehaviour
     {
         if (!transitioned) return;
         if (GameManager.instance.isTransitioning) return;
-        if(GameManager.instance.inDialogue) return;
+        if (GameManager.instance.inDialogue) return;
 
         Vector2 localPoint;
         Vector2 screenPosition = Input.mousePosition;
@@ -255,8 +262,8 @@ public class PointAndClick : MonoBehaviour
         {
             if (rectTransform.rect.Contains(localPoint))
             {
-                
-                if(eventCamera != null) Debug.Log("Using: " + eventCamera.name);
+
+                if (eventCamera != null) Debug.Log("Using: " + eventCamera.name);
                 Vector2 normalized = Rect.PointToNormalized(rectTransform.rect, localPoint);
                 float texX = normalized.x * renderTexture.width;
                 float texY = normalized.y * renderTexture.height;
@@ -270,21 +277,21 @@ public class PointAndClick : MonoBehaviour
 
     void HandleRaycast(RaycastHit _hit)
     {
-        if(GameManager.instance.isTransitioning) return;
+        if (GameManager.instance.isTransitioning) return;
 
-        if(!GameManager.instance.inBoardView)
+        if (!GameManager.instance.inBoardView)
         {
-            if(Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0))
             {
-                if(CheckColliderLayerMask(_hit.collider, capturableLayer)) 
+                if (CheckColliderLayerMask(_hit.collider, capturableLayer))
                 {
-                    if(inPhotoMode) TakePicture(_hit);
+                    if (inPhotoMode) TakePicture(_hit);
                 }
-                if(CheckColliderLayerMask(_hit.collider, inspectionAreaLayer)) 
+                if (CheckColliderLayerMask(_hit.collider, inspectionAreaLayer))
                 {
-                    if(_hit.collider != null && !pannedToZone && !GameManager.instance.inBoardView) StartCoroutine(PanToZone(_hit));
+                    if (_hit.collider != null && !pannedToZone && !GameManager.instance.inBoardView) StartCoroutine(PanToZone(_hit));
                 }
-                if(CheckColliderLayerMask(_hit.collider, doorLayer)) 
+                if (CheckColliderLayerMask(_hit.collider, doorLayer))
                 {
                     string connectingRooms = _hit.collider.GetComponent<Door>().connectingRooms;
                     StartCoroutine(GameManager.instance.TransitionLevel(connectingRooms));
@@ -292,11 +299,11 @@ public class PointAndClick : MonoBehaviour
                 }
             }
 
-            if(CheckColliderLayerMask(_hit.collider, characterLayer)) 
+            if (CheckColliderLayerMask(_hit.collider, characterLayer))
             {
-                if(_hit.collider.gameObject != lastHoveringChar)
+                if (_hit.collider.gameObject != lastHoveringChar)
                 {
-                    if(hoveringChar != null)
+                    if (hoveringChar != null)
                     {
                         //hoveringChar.meshRenderer.material = hoveringChar.defaultCharacterMaterial;
                         hoveringChar.charImg.sprite = hoveringChar.defaultSprite;
@@ -314,9 +321,9 @@ public class PointAndClick : MonoBehaviour
             }
             else
             {
-                if(hoveringChar != null)
+                if (hoveringChar != null)
                 {
-                    if(dialoguingChar != hoveringChar) 
+                    if (dialoguingChar != hoveringChar)
                     {
                         //hoveringChar.meshRenderer.material = hoveringChar.defaultCharacterMaterial;
                         hoveringChar.charImg.sprite = hoveringChar.defaultSprite;
@@ -328,28 +335,43 @@ public class PointAndClick : MonoBehaviour
         }
         else
         {
-            if(hoveringChar != null)
+            if (hoveringChar != null)
             {
                 hoveringChar.charImg.sprite = hoveringChar.defaultSprite;
                 hoveringChar = null;
                 lastHoveringChar = null;
             }
 
-            if(_hit.collider == null) return;
+            if (_hit.collider == null) return;
             Vector3 hitPoint = _hit.point;
 
-            if(placingPin) 
+            if (placingPin)
             {
-                Debug.Log("Placing pin at " + hitPoint);
+                // compute mouse velocity→[0,1]
+                Vector2 currentMousePos = Input.mousePosition;
+                float speed = Vector2.Distance(currentMousePos, _lastMousePos) / Time.deltaTime;
+                float normalized = Mathf.Clamp01(speed / maxMouseSpeed);
+
+                if (normalized > moveThreshold)
+                {
+                    lastMoveAmount = normalized;
+                    lastMoveTime = Time.time;
+                }
+                float moveParam = (Time.time - lastMoveTime > moveDecayTime) ? 0f : lastMoveAmount;
+                // Adjust MoveAmount to change the sound depending on mousespeed
+                FModManager.instance.SetLoopParameter(SfxKey.MovePin, "MoveAmount", moveParam);
+                Debug.Log($"MovePin MoveAmount = {normalized:F2}");
+                _lastMousePos = currentMousePos;
+                // Debug.Log("Placing pin at " + hitPoint);
                 ropeToBePlaced.Recalculate();
                 Vector3 placePosition = hitPoint;
                 placePosition.z = pinToBePlaced.transform.position.z;
                 pinToBePlaced.transform.position = placePosition;
-                if(CheckColliderLayerMask(_hit.collider, pinLayer) && Input.GetMouseButtonDown(0) && _hit.collider.gameObject != originPin) 
+                if (CheckColliderLayerMask(_hit.collider, pinLayer) && Input.GetMouseButtonDown(0) && _hit.collider.gameObject != originPin)
                 {
                     PlacePin();
                 }
-                else if(Input.GetKeyDown(KeyCode.Escape))
+                else if (Input.GetKeyDown(KeyCode.Escape))
                 {
                     StopPlacingPin();
                 }
@@ -357,34 +379,36 @@ public class PointAndClick : MonoBehaviour
             }
 
 
-            if(CheckColliderLayerMask(_hit.collider, polaroidHoverLayer)) 
+            if (CheckColliderLayerMask(_hit.collider, polaroidHoverLayer))
             {
-                if(lastPolaroid == null) lastPolaroid = _hit.collider.gameObject.GetComponent<Polaroid>();
-                if(lastPolaroid != null) lastPolaroid.HandleShowingDescription(true);
+                if (lastPolaroid == null) lastPolaroid = _hit.collider.gameObject.GetComponent<Polaroid>();
+                if (lastPolaroid != null) lastPolaroid.HandleShowingDescription(true);
             }
-            else if(!CheckColliderLayerMask(_hit.collider, wordLayer)) 
+            else if (!CheckColliderLayerMask(_hit.collider, wordLayer))
             {
-                if(lastPolaroid != null)
-                {  
+                if (lastPolaroid != null)
+                {
                     lastPolaroid.HandleShowingDescription(false);
                     lastPolaroid = null;
                 }
             }
 
-            if(CheckColliderLayerMask(_hit.collider, wordLayer) && Input.GetMouseButtonDown(0)) 
+            if (CheckColliderLayerMask(_hit.collider, wordLayer) && Input.GetMouseButtonDown(0))
             {
-                if(lastPolaroid != null)
+                if (lastPolaroid != null)
                 {
                     lastPolaroid.SetWord(_hit.collider.gameObject.name);
                 }
             }
 
-            if(CheckColliderLayerMask(_hit.collider, pinLayer) && Input.GetMouseButtonDown(0)) 
+            if (CheckColliderLayerMask(_hit.collider, pinLayer) && Input.GetMouseButtonDown(0))
             {
                 //Create pin and thread
+                FModManager.instance.PlaySfx(SfxKey.PlacePin);
                 Transform pinLocation = _hit.collider.transform;
                 originPin = _hit.collider.gameObject;
                 placingPin = true;
+                FModManager.instance.PlayLoopingSfx(SfxKey.MovePin);
                 GameManager.instance.placingPin = true;
                 otherPin = Instantiate(pin, pinLocation);
                 pinToBePlaced = Instantiate(pin, pinLocation);
@@ -401,12 +425,16 @@ public class PointAndClick : MonoBehaviour
 
     void PlacePin()
     {
+        FModManager.instance.StopLoopingSfx(SfxKey.MovePin);
+        FModManager.instance.PlaySfx(SfxKey.PlacePin);
         placingPin = false;
         GameManager.instance.placingPin = false;
     }
 
     void StopPlacingPin()
     {
+        FModManager.instance.StopLoopingSfx(SfxKey.MovePin);
+        FModManager.instance.PlaySfx(SfxKey.DestroyPin);
         Destroy(otherPin);
         Destroy(pinToBePlaced);
         Destroy(ropeToBePlaced.gameObject);
@@ -514,7 +542,7 @@ public class PointAndClick : MonoBehaviour
 
     bool CheckColliderLayerMask(Collider col, LayerMask layerMask)
     {
-        if(col == null) return false;
+        if (col == null) return false;
 
         if (((1 << col.gameObject.layer) & layerMask) != 0)
         {
