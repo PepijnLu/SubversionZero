@@ -1,0 +1,917 @@
+fileFormatVersion: 2
+guid: d0e654c0e61ad7f44b3319ade12e2856
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1767109580916764775
+    second: T_Toilet128_0
+  - first:
+      213: -2240197898603715848
+    second: T_Toilet128_1
+  - first:
+      213: -7989409246975112761
+    second: T_Toilet128_2
+  - first:
+      213: -4788185690271630098
+    second: T_Toilet128_3
+  - first:
+      213: 3372994245205341597
+    second: T_Toilet128_4
+  - first:
+      213: -1131481162390939912
+    second: T_Toilet128_5
+  - first:
+      213: 5341481360470997490
+    second: T_Toilet128_6
+  - first:
+      213: -6959046997634675197
+    second: T_Toilet128_7
+  - first:
+      213: -4881232494782485877
+    second: T_Toilet128_8
+  - first:
+      213: 1130893483478962357
+    second: T_Toilet128_9
+  - first:
+      213: 3419699140563297688
+    second: T_Toilet128_10
+  - first:
+      213: 6508370396759280132
+    second: T_Toilet128_11
+  - first:
+      213: 375499564358181355
+    second: T_Toilet128_12
+  - first:
+      213: -4509307092508662260
+    second: T_Toilet128_13
+  - first:
+      213: 143410625931137833
+    second: T_Toilet128_14
+  - first:
+      213: 8855897526551355322
+    second: T_Toilet128_15
+  - first:
+      213: 702486355445902885
+    second: T_Toilet128_16
+  - first:
+      213: 2242938111374057694
+    second: T_Toilet128_17
+  - first:
+      213: -1849921656921472178
+    second: T_Toilet128_18
+  - first:
+      213: 6686260659345001100
+    second: T_Toilet128_19
+  - first:
+      213: -8649134101666639062
+    second: T_Toilet128_20
+  - first:
+      213: 1733423258780547031
+    second: T_Toilet128_21
+  - first:
+      213: 4229876652032338117
+    second: T_Toilet128_22
+  - first:
+      213: 4007437922526457087
+    second: T_Toilet128_23
+  - first:
+      213: -8292254743724170166
+    second: T_Toilet128_24
+  - first:
+      213: 5266949550680705421
+    second: T_Toilet128_25
+  - first:
+      213: 5500317864433641472
+    second: T_Toilet128_26
+  - first:
+      213: 244650258726067809
+    second: T_Toilet128_27
+  - first:
+      213: 1182222875127183908
+    second: T_Toilet128_28
+  - first:
+      213: -8907381202294218792
+    second: T_Toilet128_29
+  - first:
+      213: -894904359184662860
+    second: T_Toilet128_30
+  - first:
+      213: -570662898577248128
+    second: T_Toilet128_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_Toilet128_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1009
+        width: 301
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f444ed237f977e0800000000000000
+      internalID: -1767109580916764775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1029
+        width: 122
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2262b51e739e0e0800000000000000
+      internalID: -2240197898603715848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_2
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1009
+        width: 272
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9c3dc9e9aef1190800000000000000
+      internalID: -7989409246975112761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_3
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1159
+        width: 242
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec30cccb72fc8db0800000000000000
+      internalID: -4788185690271630098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_4
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 729
+        width: 272
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95b6e625684fce20800000000000000
+      internalID: 3372994245205341597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_5
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1009
+        width: 232
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f654ada0eb2c40f0800000000000000
+      internalID: -1131481162390939912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 809
+        width: 221
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f97e393ff0c02a40800000000000000
+      internalID: 5341481360470997490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 709
+        width: 252
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e8cb250af7c6f90800000000000000
+      internalID: -6959046997634675197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_8
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 859
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a656a68e0624cb0800000000000000
+      internalID: -4881232494782485877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_9
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 959
+        width: 182
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b05199a1adb1bf00800000000000000
+      internalID: 1130893483478962357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_10
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 909
+        width: 182
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895ebffff36357f20800000000000000
+      internalID: 3419699140563297688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_11
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 859
+        width: 172
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a418d9460625a50800000000000000
+      internalID: 6508370396759280132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509
+        width: 321
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be122e24dda063500800000000000000
+      internalID: 375499564358181355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_13
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 789
+        width: 222
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c062fd73719bb61c0800000000000000
+      internalID: -4509307092508662260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_14
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 489
+        width: 322
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92354a7543f7df100800000000000000
+      internalID: 143410625931137833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_15
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 639
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf9a5d31e776ea70800000000000000
+      internalID: 8855897526551355322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_16
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 659
+        width: 222
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e69eb4e9bbfb900800000000000000
+      internalID: 702486355445902885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_17
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 369
+        width: 132
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0e2a52454802f10800000000000000
+      internalID: 2242938111374057694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_18
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 569
+        width: 282
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43c4e8ed02c356e0800000000000000
+      internalID: -1849921656921472178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 389
+        width: 541
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a8de3f4ae5acc50800000000000000
+      internalID: 6686260659345001100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_20
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 469
+        width: 172
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23517f0c5a18f780800000000000000
+      internalID: -8649134101666639062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_21
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 339
+        width: 202
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7b301154b5e0810800000000000000
+      internalID: 1733423258780547031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_22
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 339
+        width: 102
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c82b18776a83ba30800000000000000
+      internalID: 4229876652032338117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_23
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 389
+        width: 222
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc6e97ee874d9730800000000000000
+      internalID: 4007437922526457087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 101
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44e54dae3efbec80800000000000000
+      internalID: -8292254743724170166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_25
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 289
+        width: 102
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d890a3af5b6f71940800000000000000
+      internalID: 5266949550680705421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_26
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 319
+        width: 102
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0086d4da4fd055c40800000000000000
+      internalID: 5500317864433641472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_27
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 289
+        width: 102
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e13953d1c256300800000000000000
+      internalID: 244650258726067809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_28
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 339
+        width: 182
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42afb45f079186010800000000000000
+      internalID: 1182222875127183908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_29
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 289
+        width: 102
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfd2466dff926480800000000000000
+      internalID: -8907381202294218792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_30
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 289
+        width: 112
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be79da0a39a493f0800000000000000
+      internalID: -894904359184662860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Toilet128_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 471
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080fec30e199418f0800000000000000
+      internalID: -570662898577248128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

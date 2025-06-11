@@ -1,0 +1,1242 @@
+fileFormatVersion: 2
+guid: 4e51582b6fbe3744993cb0b507e79266
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5645002332305545896
+    second: T_diningchair_0
+  - first:
+      213: 6802729223411006366
+    second: T_diningchair_1
+  - first:
+      213: -1413186285082588910
+    second: T_diningchair_2
+  - first:
+      213: 5786828762741696762
+    second: T_diningchair_3
+  - first:
+      213: -4068891956228489676
+    second: T_diningchair_4
+  - first:
+      213: 7576493738104933623
+    second: T_diningchair_5
+  - first:
+      213: 2967468388902213505
+    second: T_diningchair_6
+  - first:
+      213: 5848490691718420845
+    second: T_diningchair_7
+  - first:
+      213: -3923692588578487006
+    second: T_diningchair_8
+  - first:
+      213: 5535355349626508557
+    second: T_diningchair_9
+  - first:
+      213: 928377293837176480
+    second: T_diningchair_10
+  - first:
+      213: -2918196869965380278
+    second: T_diningchair_11
+  - first:
+      213: -6730077992565465139
+    second: T_diningchair_12
+  - first:
+      213: -2997042590930549542
+    second: T_diningchair_13
+  - first:
+      213: -3042088188696061456
+    second: T_diningchair_14
+  - first:
+      213: -2986659611777354526
+    second: T_diningchair_15
+  - first:
+      213: 6724686228589865562
+    second: T_diningchair_16
+  - first:
+      213: 2991190143770702613
+    second: T_diningchair_17
+  - first:
+      213: -136803568698562594
+    second: T_diningchair_18
+  - first:
+      213: 6516030279680547793
+    second: T_diningchair_19
+  - first:
+      213: -5901286244490941434
+    second: T_diningchair_20
+  - first:
+      213: 8566178895404428789
+    second: T_diningchair_21
+  - first:
+      213: -4432444315868186053
+    second: T_diningchair_22
+  - first:
+      213: -2617877264631577003
+    second: T_diningchair_23
+  - first:
+      213: -7326546328125764036
+    second: T_diningchair_24
+  - first:
+      213: -8315780774460851008
+    second: T_diningchair_25
+  - first:
+      213: 7375287939620776942
+    second: T_diningchair_26
+  - first:
+      213: -8252369984896729071
+    second: T_diningchair_27
+  - first:
+      213: 6150896099404108036
+    second: T_diningchair_28
+  - first:
+      213: 3559723305361289399
+    second: T_diningchair_29
+  - first:
+      213: 6027823228726770583
+    second: T_diningchair_30
+  - first:
+      213: -8851956766498694278
+    second: T_diningchair_31
+  - first:
+      213: -1604315662742743827
+    second: T_diningchair_32
+  - first:
+      213: 8314911270438794476
+    second: T_diningchair_33
+  - first:
+      213: 8113278661722718824
+    second: T_diningchair_34
+  - first:
+      213: -3707787584123560265
+    second: T_diningchair_35
+  - first:
+      213: -8092548940859464424
+    second: T_diningchair_36
+  - first:
+      213: -1685133432988467894
+    second: T_diningchair_37
+  - first:
+      213: 6409860988619611267
+    second: T_diningchair_38
+  - first:
+      213: 256801221860229795
+    second: T_diningchair_39
+  - first:
+      213: 5852466899146004687
+    second: T_diningchair_40
+  - first:
+      213: 2330396785626711060
+    second: T_diningchair_41
+  - first:
+      213: -4495505564772242717
+    second: T_diningchair_42
+  - first:
+      213: 6826525339591997282
+    second: T_diningchair_43
+  - first:
+      213: 7382965059728393917
+    second: T_diningchair_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_diningchair_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8552daa894ce8a1b0800000000000000
+      internalID: -5645002332305545896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 509
+        width: 112
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bf490bf26286e50800000000000000
+      internalID: 6802729223411006366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 619
+        width: 142
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219c234af8a536ce0800000000000000
+      internalID: -1413186285082588910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_3
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 589
+        width: 132
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af86b3b8912fe4050800000000000000
+      internalID: 5786828762741696762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 549
+        width: 122
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e7e8fd2546887c0800000000000000
+      internalID: -4068891956228489676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_5
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 559
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc47bea9ec152960800000000000000
+      internalID: 7576493738104933623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 519
+        width: 132
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18797b207c09e2920800000000000000
+      internalID: 2967468388902213505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369
+        width: 131
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d691e082c430a2150800000000000000
+      internalID: 5848490691718420845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 299
+        width: 112
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22542f9116e3c89c0800000000000000
+      internalID: -3923692588578487006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_9
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 489
+        width: 112
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05db08ec5881dc40800000000000000
+      internalID: 5535355349626508557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_10
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 489
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae04b0ea3242ec00800000000000000
+      internalID: 928377293837176480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 459
+        width: 112
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a458e05786b7087d0800000000000000
+      internalID: -2918196869965380278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_12
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 459
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf167629b5f992a0800000000000000
+      internalID: -6730077992565465139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_13
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 339
+        width: 22
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad44ede74ad5866d0800000000000000
+      internalID: -2997042590930549542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_14
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 389
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f91c59f8e458c5d0800000000000000
+      internalID: -3042088188696061456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_15
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 389
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4310738e04d86d0800000000000000
+      internalID: -2986659611777354526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_16
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 389
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a6f09fe72e25d50800000000000000
+      internalID: 6724686228589865562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_17
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 429
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5133a177697d28920800000000000000
+      internalID: 2991190143770702613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_18
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 399
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed767bb01e9f91ef0800000000000000
+      internalID: -136803568698562594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_19
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 319
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db5c0614079d6a50800000000000000
+      internalID: 6516030279680547793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 319
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ce73f4d6b6a1ea0800000000000000
+      internalID: -5901286244490941434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_21
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 319
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd670fd15e21e670800000000000000
+      internalID: 8566178895404428789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_22
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 369
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a3af9f06bcc72c0800000000000000
+      internalID: -4432444315868186053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249
+        width: 21
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55640187f7e6babd0800000000000000
+      internalID: -2617877264631577003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_24
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 299
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e0f99aee0e25a90800000000000000
+      internalID: -7326546328125764036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_25
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 299
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ccfc3cc179689c80800000000000000
+      internalID: -8315780774460851008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_26
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 299
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeba15d1e494a5660800000000000000
+      internalID: 7375287939620776942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_27
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 299
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110822fb831b97d80800000000000000
+      internalID: -8252369984896729071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_28
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 339
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401515fd96f5c5550800000000000000
+      internalID: 6150896099404108036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_29
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 269
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b03dba6c7da66130800000000000000
+      internalID: 3559723305361289399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_30
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 249
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b7b1d2a4127a350800000000000000
+      internalID: 6027823228726770583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_31
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 249
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bdab57838872580800000000000000
+      internalID: -8851956766498694278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_32
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 249
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de49f9e97635cb9e0800000000000000
+      internalID: -1604315662742743827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_33
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 289
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce475650fbf746370800000000000000
+      internalID: 8314911270438794476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_34
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 309
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8624db3f4f7289070800000000000000
+      internalID: 8113278661722718824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_35
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 229
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be16b146da4b8cc0800000000000000
+      internalID: -3707787584123560265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_36
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 229
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815ab9c4d9d71bf80800000000000000
+      internalID: -8092548940859464424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_37
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 229
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d769722143d98e0800000000000000
+      internalID: -1685133432988467894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_38
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 229
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c5e46bb9664f850800000000000000
+      internalID: 6409860988619611267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_39
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 229
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a28dd6c957509300800000000000000
+      internalID: 256801221860229795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_40
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 229
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8545713a3283150800000000000000
+      internalID: 5852466899146004687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_41
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 229
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4140ef0978b375020800000000000000
+      internalID: 2330396785626711060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_42
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 259
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea65fdc181cc91c0800000000000000
+      internalID: -4495505564772242717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_43
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 279
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267759cb0a0bcbe50800000000000000
+      internalID: 6826525339591997282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningchair_44
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 239
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db64b3eea9f857660800000000000000
+      internalID: 7382965059728393917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

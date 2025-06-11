@@ -1,0 +1,942 @@
+fileFormatVersion: 2
+guid: cef2ef3eda6986441a5b697ddbdee3b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1030296928901088771
+    second: T_diningtable_0
+  - first:
+      213: -4016515754862327878
+    second: T_diningtable_1
+  - first:
+      213: -795795279325486389
+    second: T_diningtable_2
+  - first:
+      213: -5940604055575762275
+    second: T_diningtable_3
+  - first:
+      213: -4653986314129022253
+    second: T_diningtable_4
+  - first:
+      213: -7418280649556209076
+    second: T_diningtable_5
+  - first:
+      213: -8539171314482512450
+    second: T_diningtable_6
+  - first:
+      213: -5710346155955743466
+    second: T_diningtable_7
+  - first:
+      213: 6682728158990876635
+    second: T_diningtable_8
+  - first:
+      213: 6670825191572204569
+    second: T_diningtable_9
+  - first:
+      213: 6833533138832115056
+    second: T_diningtable_10
+  - first:
+      213: -7659168552608988071
+    second: T_diningtable_11
+  - first:
+      213: -6640953369543140589
+    second: T_diningtable_12
+  - first:
+      213: 4537961956092885070
+    second: T_diningtable_13
+  - first:
+      213: 7481717773532061785
+    second: T_diningtable_14
+  - first:
+      213: 7262364959572835283
+    second: T_diningtable_15
+  - first:
+      213: -3322557724525068847
+    second: T_diningtable_16
+  - first:
+      213: 1399868746541576490
+    second: T_diningtable_17
+  - first:
+      213: 5943269943270612877
+    second: T_diningtable_18
+  - first:
+      213: -7469842839463425973
+    second: T_diningtable_19
+  - first:
+      213: -2542890211285712952
+    second: T_diningtable_20
+  - first:
+      213: -2959903405981556365
+    second: T_diningtable_21
+  - first:
+      213: -5849153451499994041
+    second: T_diningtable_22
+  - first:
+      213: -8436775114146313123
+    second: T_diningtable_23
+  - first:
+      213: 8503351678014822359
+    second: T_diningtable_24
+  - first:
+      213: 2717186978405291565
+    second: T_diningtable_25
+  - first:
+      213: 8003148554347599031
+    second: T_diningtable_26
+  - first:
+      213: 759073779311570652
+    second: T_diningtable_27
+  - first:
+      213: 4551003276140691342
+    second: T_diningtable_28
+  - first:
+      213: -752867894905124063
+    second: T_diningtable_29
+  - first:
+      213: -8789799910442846620
+    second: T_diningtable_30
+  - first:
+      213: 3260327671067956124
+    second: T_diningtable_31
+  - first:
+      213: -6013495775286718273
+    second: T_diningtable_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_diningtable_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 879
+        width: 221
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9bca3e666a3b1f0800000000000000
+      internalID: -1030296928901088771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 879
+        width: 222
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7cbac83387248c0800000000000000
+      internalID: -4016515754862327878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1239
+        width: 402
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc22fd5e864c4f4f0800000000000000
+      internalID: -795795279325486389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1169
+        width: 182
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a692c061cbe8da0800000000000000
+      internalID: -5940604055575762275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1099
+        width: 182
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d26fccea18b96fb0800000000000000
+      internalID: -4653986314129022253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_5
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1049
+        width: 222
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c425c0f8d09fc0990800000000000000
+      internalID: -7418280649556209076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_6
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 969
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd70149ee4ce7980800000000000000
+      internalID: -8539171314482512450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_7
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 969
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6159db50d66c0c0b0800000000000000
+      internalID: -5710346155955743466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_8
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 969
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfb62f9ad1ddbc50800000000000000
+      internalID: 6682728158990876635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_9
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 889
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c636e0b28839c50800000000000000
+      internalID: 6670825191572204569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_10
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 889
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075c2f42f2695de50800000000000000
+      internalID: 6833533138832115056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_11
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 939
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95406ea08ca25b590800000000000000
+      internalID: -7659168552608988071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_12
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 909
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b927e781896d3a0800000000000000
+      internalID: -6640953369543140589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_13
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 879
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48372d1b541afe30800000000000000
+      internalID: 4537961956092885070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 459
+        width: 181
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950ea19dca664d760800000000000000
+      internalID: 7481717773532061785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_15
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 829
+        width: 402
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db359cf37a19c460800000000000000
+      internalID: 7262364959572835283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_16
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 779
+        width: 222
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddf3fb6a57e3e1d0800000000000000
+      internalID: -3322557724525068847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_17
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 749
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2138c945355d6310800000000000000
+      internalID: 1399868746541576490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_18
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 749
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f96ec468cba7250800000000000000
+      internalID: 5943269943270612877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_19
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 749
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4889c1b389c55890800000000000000
+      internalID: -7469842839463425973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_20
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 749
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf3f7d53d6d5bcd0800000000000000
+      internalID: -2542890211285712952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_21
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 799
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3712005d88f4ce6d0800000000000000
+      internalID: -2959903405981556365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_22
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 699
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744c79e0de1a3dea0800000000000000
+      internalID: -5849153451499994041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_23
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 699
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c047fcbbd8aea80800000000000000
+      internalID: -8436775114146313123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_24
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 699
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d79b486c49f10670800000000000000
+      internalID: 8503351678014822359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_25
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 699
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d261a2c192365b520800000000000000
+      internalID: 2717186978405291565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_26
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 699
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4d19a2535e01f60800000000000000
+      internalID: 8003148554347599031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_27
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 699
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdeed2e9495c88a00800000000000000
+      internalID: 759073779311570652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_28
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 699
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f310e0e59682f30800000000000000
+      internalID: 4551003276140691342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_29
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 719
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b426173a64d85f0800000000000000
+      internalID: -752867894905124063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_30
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 719
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4663b434d8b540680800000000000000
+      internalID: -8789799910442846620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_31
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 719
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93d16d2eb20f3d20800000000000000
+      internalID: 3260327671067956124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_diningtable_32
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 719
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb019b70475cb8ca0800000000000000
+      internalID: -6013495775286718273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1517 @@
+fileFormatVersion: 2
+guid: 084fd07b4872fad4a91212736395b605
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1311931427249259175
+    second: T_Lamp_0
+  - first:
+      213: -4918971866041439865
+    second: T_Lamp_1
+  - first:
+      213: -8337451835047543563
+    second: T_Lamp_2
+  - first:
+      213: 5697610802293641129
+    second: T_Lamp_3
+  - first:
+      213: 2366164110806633860
+    second: T_Lamp_4
+  - first:
+      213: 3760785800425304265
+    second: T_Lamp_5
+  - first:
+      213: -1375689690846586914
+    second: T_Lamp_6
+  - first:
+      213: 3225942967528695149
+    second: T_Lamp_7
+  - first:
+      213: 7963489570821192666
+    second: T_Lamp_8
+  - first:
+      213: 6863578273672708771
+    second: T_Lamp_9
+  - first:
+      213: 5568993951306595144
+    second: T_Lamp_10
+  - first:
+      213: -3004676883665177242
+    second: T_Lamp_11
+  - first:
+      213: -9166999940987151665
+    second: T_Lamp_12
+  - first:
+      213: 1066781293494456695
+    second: T_Lamp_13
+  - first:
+      213: -3087479343304312910
+    second: T_Lamp_14
+  - first:
+      213: 4634565819178869911
+    second: T_Lamp_15
+  - first:
+      213: 2820302106015219244
+    second: T_Lamp_16
+  - first:
+      213: -850931071869217669
+    second: T_Lamp_17
+  - first:
+      213: -1539591522151647939
+    second: T_Lamp_18
+  - first:
+      213: 2156799527128424566
+    second: T_Lamp_19
+  - first:
+      213: 6931026459857171996
+    second: T_Lamp_20
+  - first:
+      213: -4768024298645959404
+    second: T_Lamp_21
+  - first:
+      213: 4395901191961470533
+    second: T_Lamp_22
+  - first:
+      213: -2759822783217271244
+    second: T_Lamp_23
+  - first:
+      213: -2634818825079217597
+    second: T_Lamp_24
+  - first:
+      213: 6844318735800825889
+    second: T_Lamp_25
+  - first:
+      213: -4804545026513785108
+    second: T_Lamp_26
+  - first:
+      213: 6105972707972161607
+    second: T_Lamp_27
+  - first:
+      213: 7849618955567770111
+    second: T_Lamp_28
+  - first:
+      213: -5354870510809242283
+    second: T_Lamp_29
+  - first:
+      213: 7245213379183176911
+    second: T_Lamp_30
+  - first:
+      213: 5569209708969890725
+    second: T_Lamp_31
+  - first:
+      213: 2610798491951966833
+    second: T_Lamp_32
+  - first:
+      213: 5055974008932672166
+    second: T_Lamp_33
+  - first:
+      213: -5851804325800001718
+    second: T_Lamp_34
+  - first:
+      213: -6009601715127338994
+    second: T_Lamp_35
+  - first:
+      213: 3873354251375370628
+    second: T_Lamp_36
+  - first:
+      213: -8139387242572470701
+    second: T_Lamp_37
+  - first:
+      213: 6809560613954140083
+    second: T_Lamp_38
+  - first:
+      213: 2730287509960182023
+    second: T_Lamp_39
+  - first:
+      213: 4628462105941269721
+    second: T_Lamp_40
+  - first:
+      213: -1402462631258800719
+    second: T_Lamp_41
+  - first:
+      213: 2401740063160649040
+    second: T_Lamp_42
+  - first:
+      213: 2016757454408882063
+    second: T_Lamp_43
+  - first:
+      213: -893943683303650940
+    second: T_Lamp_44
+  - first:
+      213: 7315796985934849027
+    second: T_Lamp_45
+  - first:
+      213: 1619980957134099125
+    second: T_Lamp_46
+  - first:
+      213: -5884428623480801883
+    second: T_Lamp_47
+  - first:
+      213: 9161841890133715431
+    second: T_Lamp_48
+  - first:
+      213: -5379450173134569057
+    second: T_Lamp_49
+  - first:
+      213: 6596966885935791679
+    second: T_Lamp_50
+  - first:
+      213: -4420211959794415787
+    second: T_Lamp_51
+  - first:
+      213: -6728432250417497137
+    second: T_Lamp_52
+  - first:
+      213: 8342381948663592798
+    second: T_Lamp_53
+  - first:
+      213: -9089329902005763972
+    second: T_Lamp_54
+  - first:
+      213: -2248084914687717838
+    second: T_Lamp_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_Lamp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 519
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95df22d51551bcde0800000000000000
+      internalID: -1311931427249259175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 539
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789a570562d4cbbb0800000000000000
+      internalID: -4918971866041439865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 539
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcff00dabb6b4c80800000000000000
+      internalID: -8337451835047543563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_3
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 539
+        width: 22
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af042366daf11f40800000000000000
+      internalID: 5697610802293641129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_4
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 619
+        width: 102
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d48e8e8bd46d020800000000000000
+      internalID: 2366164110806633860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_5
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 579
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0feae82cef03430800000000000000
+      internalID: 3760785800425304265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_6
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 569
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed71cefc38198ece0800000000000000
+      internalID: -1375689690846586914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 539
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65a735890ad4cc20800000000000000
+      internalID: 3225942967528695149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb3351829ff38e60800000000000000
+      internalID: 7963489570821192666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_9
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 399
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2c95a3314504f50800000000000000
+      internalID: 6863578273672708771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_10
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 419
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bbdef2e7a094d40800000000000000
+      internalID: 5568993951306595144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 439
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6653f443b4e3d46d0800000000000000
+      internalID: -3004676883665177242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_12
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 499
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca1f6d5f1648c080800000000000000
+      internalID: -9166999940987151665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_13
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 359
+        width: 22
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771d4c33fe7fdce00800000000000000
+      internalID: 1066781293494456695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_14
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 459
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b77dfa35e11725d0800000000000000
+      internalID: -3087479343304312910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_15
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 439
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794e25cbe09415040800000000000000
+      internalID: 4634565819178869911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 299
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2eb254a2d9b32720800000000000000
+      internalID: 2820302106015219244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_17
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 339
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7494e4d2b2e034f0800000000000000
+      internalID: -850931071869217669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_18
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 399
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35b2feeaa542aae0800000000000000
+      internalID: -1539591522151647939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_19
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 389
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67068322ebd7eed10800000000000000
+      internalID: 2156799527128424566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16be94d7d3ff2060800000000000000
+      internalID: 6931026459857171996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_21
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 279
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41dc6c6992394ddb0800000000000000
+      internalID: -4768024298645959404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_22
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 329
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5466496f7d0610d30800000000000000
+      internalID: 4395901191961470533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_23
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 299
+        width: 102
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43efd430dc323b9d0800000000000000
+      internalID: -2759822783217271244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_24
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 199
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34224ab0d3e3f6bd0800000000000000
+      internalID: -2634818825079217597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_25
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 259
+        width: 102
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12875f0a0a7ebfe50800000000000000
+      internalID: 6844318735800825889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_26
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 269
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceea64301c3d25db0800000000000000
+      internalID: -4804545026513785108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 21
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74029eab3d5ccb450800000000000000
+      internalID: 6105972707972161607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_28
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 239
+        width: 102
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff92accd9d27fec60800000000000000
+      internalID: 7849618955567770111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_29
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 179
+        width: 22
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555200944adafa5b0800000000000000
+      internalID: -5354870510809242283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_30
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 179
+        width: 22
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccee1c7e2b2c8460800000000000000
+      internalID: 7245213379183176911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_31
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 219
+        width: 102
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a39ece29bec94d40800000000000000
+      internalID: 5569209708969890725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_32
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 229
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a2ce4556b6b3420800000000000000
+      internalID: 2610798491951966833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_33
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 159
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a22a0cc29d6a2640800000000000000
+      internalID: 5055974008932672166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_34
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 59
+        width: 22
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fb89948f63acea0800000000000000
+      internalID: -5851804325800001718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_35
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 59
+        width: 22
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08b140941b999ca0800000000000000
+      internalID: -6009601715127338994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_36
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 179
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4816a727b2be0c530800000000000000
+      internalID: 3873354251375370628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_37
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 179
+        width: 82
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3562f1d5d661b0f80800000000000000
+      internalID: -8139387242572470701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_38
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 169
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b73a3fbc4b608e50800000000000000
+      internalID: 6809560613954140083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_39
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 39
+        width: 22
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709ccdd460ee3e520800000000000000
+      internalID: 2730287509960182023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_40
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 139
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc5cf043c99b3040800000000000000
+      internalID: 4628462105941269721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_41
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 149
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd3f0ddaa3798ce0800000000000000
+      internalID: -1402462631258800719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_42
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 139
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055c38bccd1b45120800000000000000
+      internalID: 2401740063160649040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_43
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 139
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8799243836fcfb10800000000000000
+      internalID: 2016757454408882063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_44
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 129
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4894b73d4f21893f0800000000000000
+      internalID: -893943683303650940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3042583199ee68560800000000000000
+      internalID: 7315796985934849027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_46
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 119
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b210e4f8145b7610800000000000000
+      internalID: 1619980957134099125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_47
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 119
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5394f085f465ea0800000000000000
+      internalID: -5884428623480801883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_48
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 89
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9a6b558a6652f70800000000000000
+      internalID: 9161841890133715431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91866fa19a5855b0800000000000000
+      internalID: -5379450173134569057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_50
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 69
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3eb7373e622d8b50800000000000000
+      internalID: 6596966885935791679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_51
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 59
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557458054a048a2c0800000000000000
+      internalID: -4420211959794415787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_52
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 79
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb359a548ecf92a0800000000000000
+      internalID: -6728432250417497137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_53
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 79
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5779b6be2816c370800000000000000
+      internalID: 8342381948663592798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_54
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 79
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c704c988c963cd180800000000000000
+      internalID: -9089329902005763972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Lamp_55
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 79
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ecf135ea23dc0e0800000000000000
+      internalID: -2248084914687717838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

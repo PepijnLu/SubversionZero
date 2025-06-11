@@ -1,0 +1,6517 @@
+fileFormatVersion: 2
+guid: 9457cdfc286474d4bbe9f8dddb0cdd4d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2477421709548186198
+    second: T_Chandelier_Ex_0
+  - first:
+      213: -3754904427179103587
+    second: T_Chandelier_Ex_1
+  - first:
+      213: -1955355598250074810
+    second: T_Chandelier_Ex_2
+  - first:
+      213: 5179602324467439174
+    second: T_Chandelier_Ex_3
+  - first:
+      213: 5088800189028433469
+    second: T_Chandelier_Ex_4
+  - first:
+      213: 3287871555326317626
+    second: T_Chandelier_Ex_5
+  - first:
+      213: -4288738038990026087
+    second: T_Chandelier_Ex_6
+  - first:
+      213: -2267962927334650172
+    second: T_Chandelier_Ex_7
+  - first:
+      213: -6689443024100605490
+    second: T_Chandelier_Ex_8
+  - first:
+      213: -8697200233066372060
+    second: T_Chandelier_Ex_9
+  - first:
+      213: 7454637610820043081
+    second: T_Chandelier_Ex_10
+  - first:
+      213: -4653622452217686188
+    second: T_Chandelier_Ex_11
+  - first:
+      213: -7388815115358177814
+    second: T_Chandelier_Ex_12
+  - first:
+      213: 7377839774552093283
+    second: T_Chandelier_Ex_13
+  - first:
+      213: 3784180102669267409
+    second: T_Chandelier_Ex_14
+  - first:
+      213: -7236457431311014250
+    second: T_Chandelier_Ex_15
+  - first:
+      213: -8320229049477568603
+    second: T_Chandelier_Ex_16
+  - first:
+      213: 1146191447162147057
+    second: T_Chandelier_Ex_17
+  - first:
+      213: 4571419640184122243
+    second: T_Chandelier_Ex_18
+  - first:
+      213: 7831968851812718506
+    second: T_Chandelier_Ex_19
+  - first:
+      213: -69368823160864801
+    second: T_Chandelier_Ex_20
+  - first:
+      213: 7714209362984357526
+    second: T_Chandelier_Ex_21
+  - first:
+      213: 3191795942636840921
+    second: T_Chandelier_Ex_22
+  - first:
+      213: 3144542361912412506
+    second: T_Chandelier_Ex_23
+  - first:
+      213: 5605267430877287753
+    second: T_Chandelier_Ex_24
+  - first:
+      213: -4570962717043277310
+    second: T_Chandelier_Ex_25
+  - first:
+      213: -7620710774116172327
+    second: T_Chandelier_Ex_26
+  - first:
+      213: -7992716398372621547
+    second: T_Chandelier_Ex_27
+  - first:
+      213: 3179619927269586510
+    second: T_Chandelier_Ex_28
+  - first:
+      213: 5474061918257962513
+    second: T_Chandelier_Ex_29
+  - first:
+      213: 5215058815219844569
+    second: T_Chandelier_Ex_30
+  - first:
+      213: 7728849371641277987
+    second: T_Chandelier_Ex_31
+  - first:
+      213: -1517634996575330283
+    second: T_Chandelier_Ex_32
+  - first:
+      213: 5857823531205992324
+    second: T_Chandelier_Ex_33
+  - first:
+      213: -5321572339589409090
+    second: T_Chandelier_Ex_34
+  - first:
+      213: 1587890783854520651
+    second: T_Chandelier_Ex_35
+  - first:
+      213: 5457357640541494339
+    second: T_Chandelier_Ex_36
+  - first:
+      213: 5623508016077853470
+    second: T_Chandelier_Ex_37
+  - first:
+      213: 2083076595149042034
+    second: T_Chandelier_Ex_38
+  - first:
+      213: 1022189502448723733
+    second: T_Chandelier_Ex_39
+  - first:
+      213: -2442107766301615231
+    second: T_Chandelier_Ex_40
+  - first:
+      213: -3789903278084939702
+    second: T_Chandelier_Ex_41
+  - first:
+      213: 1803930173149912666
+    second: T_Chandelier_Ex_42
+  - first:
+      213: -2770942423961524023
+    second: T_Chandelier_Ex_43
+  - first:
+      213: 6260289594048454030
+    second: T_Chandelier_Ex_44
+  - first:
+      213: 2168359713024023093
+    second: T_Chandelier_Ex_45
+  - first:
+      213: -1109780716156864408
+    second: T_Chandelier_Ex_46
+  - first:
+      213: 5564210735945197028
+    second: T_Chandelier_Ex_47
+  - first:
+      213: 7922331919412914882
+    second: T_Chandelier_Ex_48
+  - first:
+      213: -4035144360689202293
+    second: T_Chandelier_Ex_49
+  - first:
+      213: 9183482925237094662
+    second: T_Chandelier_Ex_50
+  - first:
+      213: -2702456502966896296
+    second: T_Chandelier_Ex_51
+  - first:
+      213: 579374593553646048
+    second: T_Chandelier_Ex_52
+  - first:
+      213: -58204634674068436
+    second: T_Chandelier_Ex_53
+  - first:
+      213: -4149810592870626138
+    second: T_Chandelier_Ex_54
+  - first:
+      213: 6115303700681077985
+    second: T_Chandelier_Ex_55
+  - first:
+      213: -9168071305108224600
+    second: T_Chandelier_Ex_56
+  - first:
+      213: 6868461135894326065
+    second: T_Chandelier_Ex_57
+  - first:
+      213: -1479211686234541590
+    second: T_Chandelier_Ex_58
+  - first:
+      213: -1258338576970732988
+    second: T_Chandelier_Ex_59
+  - first:
+      213: 8695739029601964986
+    second: T_Chandelier_Ex_60
+  - first:
+      213: -243858169966363571
+    second: T_Chandelier_Ex_61
+  - first:
+      213: -337000663707179640
+    second: T_Chandelier_Ex_62
+  - first:
+      213: -5148915652618049339
+    second: T_Chandelier_Ex_63
+  - first:
+      213: 7541068910237470241
+    second: T_Chandelier_Ex_64
+  - first:
+      213: 5378456310952131731
+    second: T_Chandelier_Ex_65
+  - first:
+      213: -4078637510983437864
+    second: T_Chandelier_Ex_66
+  - first:
+      213: 1394549871368240762
+    second: T_Chandelier_Ex_67
+  - first:
+      213: -3953643173118493233
+    second: T_Chandelier_Ex_68
+  - first:
+      213: 2665826779970471094
+    second: T_Chandelier_Ex_69
+  - first:
+      213: 3143818408011848085
+    second: T_Chandelier_Ex_70
+  - first:
+      213: 8332189098632023483
+    second: T_Chandelier_Ex_71
+  - first:
+      213: -6433055220772491235
+    second: T_Chandelier_Ex_72
+  - first:
+      213: 2502672564580089662
+    second: T_Chandelier_Ex_73
+  - first:
+      213: 6231458808618295144
+    second: T_Chandelier_Ex_74
+  - first:
+      213: 495389726981949504
+    second: T_Chandelier_Ex_75
+  - first:
+      213: 798673083281252755
+    second: T_Chandelier_Ex_76
+  - first:
+      213: -431712001011701789
+    second: T_Chandelier_Ex_77
+  - first:
+      213: 2390983687705684326
+    second: T_Chandelier_Ex_78
+  - first:
+      213: -6047350038354434402
+    second: T_Chandelier_Ex_79
+  - first:
+      213: 1635495314594244460
+    second: T_Chandelier_Ex_80
+  - first:
+      213: 2491289699276870144
+    second: T_Chandelier_Ex_81
+  - first:
+      213: 5057417020376851832
+    second: T_Chandelier_Ex_82
+  - first:
+      213: 5844852003315363765
+    second: T_Chandelier_Ex_83
+  - first:
+      213: -6456142589475625662
+    second: T_Chandelier_Ex_84
+  - first:
+      213: -4789500693707154096
+    second: T_Chandelier_Ex_85
+  - first:
+      213: -8557043149921165048
+    second: T_Chandelier_Ex_86
+  - first:
+      213: 6027128411322238328
+    second: T_Chandelier_Ex_87
+  - first:
+      213: -7849103946350212795
+    second: T_Chandelier_Ex_88
+  - first:
+      213: -1715586495629444209
+    second: T_Chandelier_Ex_89
+  - first:
+      213: 5777686910477668297
+    second: T_Chandelier_Ex_90
+  - first:
+      213: -9144919524247880440
+    second: T_Chandelier_Ex_91
+  - first:
+      213: -3758790558273486480
+    second: T_Chandelier_Ex_92
+  - first:
+      213: 7656839652890677276
+    second: T_Chandelier_Ex_93
+  - first:
+      213: 781182625559754291
+    second: T_Chandelier_Ex_94
+  - first:
+      213: -3405378212915052145
+    second: T_Chandelier_Ex_95
+  - first:
+      213: 6320925895739903344
+    second: T_Chandelier_Ex_96
+  - first:
+      213: -6722477224661005579
+    second: T_Chandelier_Ex_97
+  - first:
+      213: -4837966123303753032
+    second: T_Chandelier_Ex_98
+  - first:
+      213: -6927575877575667872
+    second: T_Chandelier_Ex_99
+  - first:
+      213: 6336757519450641019
+    second: T_Chandelier_Ex_100
+  - first:
+      213: -4600194872443490183
+    second: T_Chandelier_Ex_101
+  - first:
+      213: 477674130512488953
+    second: T_Chandelier_Ex_102
+  - first:
+      213: -72598874220510229
+    second: T_Chandelier_Ex_103
+  - first:
+      213: 4267512063475694167
+    second: T_Chandelier_Ex_104
+  - first:
+      213: -4945435062024709789
+    second: T_Chandelier_Ex_105
+  - first:
+      213: 2207107793968695172
+    second: T_Chandelier_Ex_106
+  - first:
+      213: -436605786196066440
+    second: T_Chandelier_Ex_107
+  - first:
+      213: -1707615065309893461
+    second: T_Chandelier_Ex_108
+  - first:
+      213: -6004740625615076238
+    second: T_Chandelier_Ex_109
+  - first:
+      213: 8074260531329776292
+    second: T_Chandelier_Ex_110
+  - first:
+      213: -4776962267647184739
+    second: T_Chandelier_Ex_111
+  - first:
+      213: -1723804881487118305
+    second: T_Chandelier_Ex_112
+  - first:
+      213: -1103080358825600696
+    second: T_Chandelier_Ex_113
+  - first:
+      213: 6893868047704261451
+    second: T_Chandelier_Ex_114
+  - first:
+      213: 3807826191018076274
+    second: T_Chandelier_Ex_115
+  - first:
+      213: 4542388804615693558
+    second: T_Chandelier_Ex_116
+  - first:
+      213: 1886696847959859231
+    second: T_Chandelier_Ex_117
+  - first:
+      213: 5390424445446179273
+    second: T_Chandelier_Ex_118
+  - first:
+      213: 3453029460786625640
+    second: T_Chandelier_Ex_119
+  - first:
+      213: -933189850530593146
+    second: T_Chandelier_Ex_120
+  - first:
+      213: -6848209873385211479
+    second: T_Chandelier_Ex_121
+  - first:
+      213: -8611130411774972065
+    second: T_Chandelier_Ex_122
+  - first:
+      213: -1496991831496995624
+    second: T_Chandelier_Ex_123
+  - first:
+      213: -5508562161028340785
+    second: T_Chandelier_Ex_124
+  - first:
+      213: -3711224004024540949
+    second: T_Chandelier_Ex_125
+  - first:
+      213: 8961713505507410033
+    second: T_Chandelier_Ex_126
+  - first:
+      213: 6909929102398882551
+    second: T_Chandelier_Ex_127
+  - first:
+      213: 896259009406156719
+    second: T_Chandelier_Ex_128
+  - first:
+      213: -730084034946682273
+    second: T_Chandelier_Ex_129
+  - first:
+      213: 7015422124733756900
+    second: T_Chandelier_Ex_130
+  - first:
+      213: 533094221197806210
+    second: T_Chandelier_Ex_131
+  - first:
+      213: 4639497683494704342
+    second: T_Chandelier_Ex_132
+  - first:
+      213: -2013282771232024967
+    second: T_Chandelier_Ex_133
+  - first:
+      213: -6919751855569812502
+    second: T_Chandelier_Ex_134
+  - first:
+      213: -3113821646575029793
+    second: T_Chandelier_Ex_135
+  - first:
+      213: 7607145796177750993
+    second: T_Chandelier_Ex_136
+  - first:
+      213: -5142646594283958912
+    second: T_Chandelier_Ex_137
+  - first:
+      213: 8853985095404981546
+    second: T_Chandelier_Ex_138
+  - first:
+      213: -6944214215297400014
+    second: T_Chandelier_Ex_139
+  - first:
+      213: -7547750939584057254
+    second: T_Chandelier_Ex_140
+  - first:
+      213: 4026694393104715728
+    second: T_Chandelier_Ex_141
+  - first:
+      213: 7145706247791487003
+    second: T_Chandelier_Ex_142
+  - first:
+      213: -2830462068555030833
+    second: T_Chandelier_Ex_143
+  - first:
+      213: 1885495521481528733
+    second: T_Chandelier_Ex_144
+  - first:
+      213: 8910799769764357966
+    second: T_Chandelier_Ex_145
+  - first:
+      213: 2374373070826465910
+    second: T_Chandelier_Ex_146
+  - first:
+      213: -5652674332802582485
+    second: T_Chandelier_Ex_147
+  - first:
+      213: 8240424058858271849
+    second: T_Chandelier_Ex_148
+  - first:
+      213: -4343528442955612596
+    second: T_Chandelier_Ex_149
+  - first:
+      213: 9180777405459598208
+    second: T_Chandelier_Ex_150
+  - first:
+      213: -2956092933893382115
+    second: T_Chandelier_Ex_151
+  - first:
+      213: 6418625483150090267
+    second: T_Chandelier_Ex_152
+  - first:
+      213: -7310694101530035737
+    second: T_Chandelier_Ex_153
+  - first:
+      213: 789350858035436166
+    second: T_Chandelier_Ex_154
+  - first:
+      213: 269164875771252779
+    second: T_Chandelier_Ex_155
+  - first:
+      213: -5413750818943248569
+    second: T_Chandelier_Ex_156
+  - first:
+      213: 1426154610339437123
+    second: T_Chandelier_Ex_157
+  - first:
+      213: -4316423246761515199
+    second: T_Chandelier_Ex_158
+  - first:
+      213: 7928720459674803846
+    second: T_Chandelier_Ex_159
+  - first:
+      213: 6881331247102063485
+    second: T_Chandelier_Ex_160
+  - first:
+      213: -7447305415007639666
+    second: T_Chandelier_Ex_161
+  - first:
+      213: -5656287209250365892
+    second: T_Chandelier_Ex_162
+  - first:
+      213: -1560928263723836710
+    second: T_Chandelier_Ex_163
+  - first:
+      213: -2788576965156732326
+    second: T_Chandelier_Ex_164
+  - first:
+      213: -2457776022619189606
+    second: T_Chandelier_Ex_165
+  - first:
+      213: -1946475047049294030
+    second: T_Chandelier_Ex_166
+  - first:
+      213: 1026480291572791269
+    second: T_Chandelier_Ex_167
+  - first:
+      213: 8896444416044492353
+    second: T_Chandelier_Ex_168
+  - first:
+      213: -3798215039236834388
+    second: T_Chandelier_Ex_169
+  - first:
+      213: 6595584778323354139
+    second: T_Chandelier_Ex_170
+  - first:
+      213: -4016276326330623969
+    second: T_Chandelier_Ex_171
+  - first:
+      213: -6647175851023397561
+    second: T_Chandelier_Ex_172
+  - first:
+      213: 2604220795802284070
+    second: T_Chandelier_Ex_173
+  - first:
+      213: 7400469474649260288
+    second: T_Chandelier_Ex_174
+  - first:
+      213: 7958867514049068711
+    second: T_Chandelier_Ex_175
+  - first:
+      213: -8157434510022959327
+    second: T_Chandelier_Ex_176
+  - first:
+      213: 1723078113208471934
+    second: T_Chandelier_Ex_177
+  - first:
+      213: -7730097518416791050
+    second: T_Chandelier_Ex_178
+  - first:
+      213: -1666089734995944577
+    second: T_Chandelier_Ex_179
+  - first:
+      213: 3540797949595072048
+    second: T_Chandelier_Ex_180
+  - first:
+      213: 3038996291525229405
+    second: T_Chandelier_Ex_181
+  - first:
+      213: -4365246339966043928
+    second: T_Chandelier_Ex_182
+  - first:
+      213: -3743691737083029825
+    second: T_Chandelier_Ex_183
+  - first:
+      213: -8233433863163511861
+    second: T_Chandelier_Ex_184
+  - first:
+      213: -2141573218097384393
+    second: T_Chandelier_Ex_185
+  - first:
+      213: -8416541033114469678
+    second: T_Chandelier_Ex_186
+  - first:
+      213: -8296824351487254138
+    second: T_Chandelier_Ex_187
+  - first:
+      213: 627303410684336356
+    second: T_Chandelier_Ex_188
+  - first:
+      213: 171990524862312855
+    second: T_Chandelier_Ex_189
+  - first:
+      213: 6336532236187657743
+    second: T_Chandelier_Ex_190
+  - first:
+      213: 5474466500522952690
+    second: T_Chandelier_Ex_191
+  - first:
+      213: 7197346139038647675
+    second: T_Chandelier_Ex_192
+  - first:
+      213: 8503886745795579068
+    second: T_Chandelier_Ex_193
+  - first:
+      213: 8701867438260919915
+    second: T_Chandelier_Ex_194
+  - first:
+      213: 1347421247192967368
+    second: T_Chandelier_Ex_195
+  - first:
+      213: -6740321951918865402
+    second: T_Chandelier_Ex_196
+  - first:
+      213: -5738042213712501368
+    second: T_Chandelier_Ex_197
+  - first:
+      213: -5092930439260991944
+    second: T_Chandelier_Ex_198
+  - first:
+      213: -937768776245829140
+    second: T_Chandelier_Ex_199
+  - first:
+      213: 2856010587028266127
+    second: T_Chandelier_Ex_200
+  - first:
+      213: -2381105631926472098
+    second: T_Chandelier_Ex_201
+  - first:
+      213: 377531081488789758
+    second: T_Chandelier_Ex_202
+  - first:
+      213: 7874889941486349334
+    second: T_Chandelier_Ex_203
+  - first:
+      213: -2207898677687023361
+    second: T_Chandelier_Ex_204
+  - first:
+      213: 183846245841506043
+    second: T_Chandelier_Ex_205
+  - first:
+      213: -3201225162139882916
+    second: T_Chandelier_Ex_206
+  - first:
+      213: -404478514892119776
+    second: T_Chandelier_Ex_207
+  - first:
+      213: -2438031586484573965
+    second: T_Chandelier_Ex_208
+  - first:
+      213: 1985451699415117669
+    second: T_Chandelier_Ex_209
+  - first:
+      213: 5899210067677545159
+    second: T_Chandelier_Ex_210
+  - first:
+      213: 8959993046875785998
+    second: T_Chandelier_Ex_211
+  - first:
+      213: -1740370150602001514
+    second: T_Chandelier_Ex_212
+  - first:
+      213: -1503597936555787290
+    second: T_Chandelier_Ex_213
+  - first:
+      213: -4587078972046708924
+    second: T_Chandelier_Ex_214
+  - first:
+      213: 2331860055498495018
+    second: T_Chandelier_Ex_215
+  - first:
+      213: 2322092449990704441
+    second: T_Chandelier_Ex_216
+  - first:
+      213: 3460585322048036387
+    second: T_Chandelier_Ex_217
+  - first:
+      213: -2401925334176663094
+    second: T_Chandelier_Ex_218
+  - first:
+      213: -2442605460443293559
+    second: T_Chandelier_Ex_219
+  - first:
+      213: -1444550809204318864
+    second: T_Chandelier_Ex_220
+  - first:
+      213: 2032761409178833319
+    second: T_Chandelier_Ex_221
+  - first:
+      213: 1998637442427997893
+    second: T_Chandelier_Ex_222
+  - first:
+      213: 425651121092253010
+    second: T_Chandelier_Ex_223
+  - first:
+      213: 3392532071641818496
+    second: T_Chandelier_Ex_224
+  - first:
+      213: -675964466394361619
+    second: T_Chandelier_Ex_225
+  - first:
+      213: -5722047334555782005
+    second: T_Chandelier_Ex_226
+  - first:
+      213: -2052633082879274434
+    second: T_Chandelier_Ex_227
+  - first:
+      213: -3178457824304542727
+    second: T_Chandelier_Ex_228
+  - first:
+      213: -6096939295496996511
+    second: T_Chandelier_Ex_229
+  - first:
+      213: -3059639244800647276
+    second: T_Chandelier_Ex_230
+  - first:
+      213: -5633101418561575347
+    second: T_Chandelier_Ex_231
+  - first:
+      213: -5553583568878222896
+    second: T_Chandelier_Ex_232
+  - first:
+      213: 6987115683587832659
+    second: T_Chandelier_Ex_233
+  - first:
+      213: 2495033468999268991
+    second: T_Chandelier_Ex_234
+  - first:
+      213: -5361120163723274184
+    second: T_Chandelier_Ex_235
+  - first:
+      213: -1522116926723217773
+    second: T_Chandelier_Ex_236
+  - first:
+      213: -3264620532666529561
+    second: T_Chandelier_Ex_237
+  - first:
+      213: -7414312073763851913
+    second: T_Chandelier_Ex_238
+  - first:
+      213: -4301197803602156060
+    second: T_Chandelier_Ex_239
+  - first:
+      213: -8527793030130852301
+    second: T_Chandelier_Ex_240
+  - first:
+      213: -8845420259357338567
+    second: T_Chandelier_Ex_241
+  - first:
+      213: -5687656541545571548
+    second: T_Chandelier_Ex_242
+  - first:
+      213: -5242758032558219811
+    second: T_Chandelier_Ex_243
+  - first:
+      213: -5183274976767971046
+    second: T_Chandelier_Ex_244
+  - first:
+      213: 7139987530820703745
+    second: T_Chandelier_Ex_245
+  - first:
+      213: -5485586333760231260
+    second: T_Chandelier_Ex_246
+  - first:
+      213: 4313878486080012701
+    second: T_Chandelier_Ex_247
+  - first:
+      213: 3005840599642035502
+    second: T_Chandelier_Ex_248
+  - first:
+      213: 8243042244290044272
+    second: T_Chandelier_Ex_249
+  - first:
+      213: -3478154519890764350
+    second: T_Chandelier_Ex_250
+  - first:
+      213: -6838843957733178416
+    second: T_Chandelier_Ex_251
+  - first:
+      213: -7961318318356395718
+    second: T_Chandelier_Ex_252
+  - first:
+      213: -672051976958953646
+    second: T_Chandelier_Ex_253
+  - first:
+      213: 6517045391440768571
+    second: T_Chandelier_Ex_254
+  - first:
+      213: 7432604738628696236
+    second: T_Chandelier_Ex_255
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 949
+        width: 331
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ae57c3be1916220800000000000000
+      internalID: 2477421709548186198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1249
+        width: 142
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9aa27c5156e3ebc0800000000000000
+      internalID: -3754904427179103587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1249
+        width: 132
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d9bbc717e2dd4e0800000000000000
+      internalID: -1955355598250074810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_3
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1249
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6465ba31fd4a1e740800000000000000
+      internalID: 5179602324467439174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_4
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1239
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3efaff6fcc0f9640800000000000000
+      internalID: 5088800189028433469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_5
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1249
+        width: 72
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34165a72cdd0ad20800000000000000
+      internalID: 3287871555326317626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_6
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1259
+        width: 52
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a4b4be9775b74c0800000000000000
+      internalID: -4288738038990026087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_7
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1269
+        width: 42
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce8678dbb39680e0800000000000000
+      internalID: -2267962927334650172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_8
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1219
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1c44303035a23a0800000000000000
+      internalID: -6689443024100605490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_9
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1239
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42462afb7765d4780800000000000000
+      internalID: -8697200233066372060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_10
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1249
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94102322961347760800000000000000
+      internalID: 7454637610820043081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_11
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1209
+        width: 142
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45758c029030b6fb0800000000000000
+      internalID: -4653622452217686188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_12
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1209
+        width: 132
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5f90adcc7a57990800000000000000
+      internalID: -7388815115358177814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_13
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1189
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362fceb7f2a536660800000000000000
+      internalID: 7377839774552093283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_14
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1219
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1f3b101cb148430800000000000000
+      internalID: 3784180102669267409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_15
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1219
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696a87e7e40f29b90800000000000000
+      internalID: -7236457431311014250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_16
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1229
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7e00013cb988c80800000000000000
+      internalID: -8320229049477568603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_17
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1169
+        width: 142
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0d0b46c0718ef00800000000000000
+      internalID: 1146191447162147057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_18
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1169
+        width: 132
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b2b6c31f1f07f30800000000000000
+      internalID: 4571419640184122243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_19
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1179
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa79838dc2eb0bc60800000000000000
+      internalID: 7831968851812718506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_20
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1179
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf72014c6d890ff0800000000000000
+      internalID: -69368823160864801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_21
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1199
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ecca34b806e0b60800000000000000
+      internalID: 7714209362984357526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_22
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1129
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7e66cbf798b4c20800000000000000
+      internalID: 3191795942636840921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_23
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1179
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5905fe1e98a3ab20800000000000000
+      internalID: 3144542361912412506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_24
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1129
+        width: 142
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945d188c709e9cd40800000000000000
+      internalID: 5605267430877287753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_25
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1129
+        width: 132
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202c41970ada090c0800000000000000
+      internalID: -4570962717043277310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_26
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1159
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd30dc5debcd3690800000000000000
+      internalID: -7620710774116172327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_27
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1139
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5137f8c68ca241190800000000000000
+      internalID: -7992716398372621547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_28
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1139
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4638ad3a77402c20800000000000000
+      internalID: 3179619927269586510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_29
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1159
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e5244df46c7fb40800000000000000
+      internalID: 5474061918257962513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_30
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1119
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5c2f3ac5c9f5840800000000000000
+      internalID: 5215058815219844569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_31
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1139
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32eed27ed83624b60800000000000000
+      internalID: 7728849371641277987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_32
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1089
+        width: 142
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5102d6ae20740fae0800000000000000
+      internalID: -1517634996575330283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_33
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1089
+        width: 132
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f157e277b2b4150800000000000000
+      internalID: 5857823531205992324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_34
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1069
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb69a3ce62af526b0800000000000000
+      internalID: -5321572339589409090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_35
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1119
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49e3c14142590610800000000000000
+      internalID: 1587890783854520651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_36
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1099
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c5db81cdd6cbb40800000000000000
+      internalID: 5457357640541494339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_37
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1119
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13d1e9feb6ba0e40800000000000000
+      internalID: 5623508016077853470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_38
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1119
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271f9cd602398ec10800000000000000
+      internalID: 2083076595149042034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_39
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1089
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517e69acfeb8f2e00800000000000000
+      internalID: 1022189502448723733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_40
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1099
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b9e56ece3eb1ed0800000000000000
+      internalID: -2442107766301615231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_41
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1099
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40a8a06c0f876bc0800000000000000
+      internalID: -3789903278084939702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_42
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1049
+        width: 142
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e95325fe8d80910800000000000000
+      internalID: 1803930173149912666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_43
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1049
+        width: 132
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8a6b6eb82ab89d0800000000000000
+      internalID: -2770942423961524023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_44
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1059
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d1554a73401e650800000000000000
+      internalID: 6260289594048454030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_45
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1059
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a9018abaf871e10800000000000000
+      internalID: 2168359713024023093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_46
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1079
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86834ea81544990f0800000000000000
+      internalID: -1109780716156864408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_47
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1079
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5ad631f2c083d40800000000000000
+      internalID: 5564210735945197028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_48
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1059
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca685908e6c1fd60800000000000000
+      internalID: 7922331919412914882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_49
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1059
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b03b345994008c0800000000000000
+      internalID: -4035144360689202293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_50
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1029
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6094f977019427f70800000000000000
+      internalID: 9183482925237094662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_51
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1029
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859b6b7f022fe7ad0800000000000000
+      internalID: -2702456502966896296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_52
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 989
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1c6a88f1a5a0800800000000000000
+      internalID: 579374593553646048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_53
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 989
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2488f17137313ff0800000000000000
+      internalID: -58204634674068436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_54
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 999
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac0bce9049e866c0800000000000000
+      internalID: -4149810592870626138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_55
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1029
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e43ab4c05cedd450800000000000000
+      internalID: 6115303700681077985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_56
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1019
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a58297f8b774c080800000000000000
+      internalID: -9168071305108224600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_57
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1039
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bae8e230da15f50800000000000000
+      internalID: 6868461135894326065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_58
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 689
+        width: 332
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1326efec8c87be0800000000000000
+      internalID: -1479211686234541590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_59
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 999
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a2d703bbb798ee0800000000000000
+      internalID: -1258338576970732988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_60
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1019
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3dcee43987da870800000000000000
+      internalID: 8695739029601964986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_61
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 999
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cf3935944ad9cf0800000000000000
+      internalID: -243858169966363571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 389
+        width: 31
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885a9ae8eabb25bf0800000000000000
+      internalID: -337000663707179640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_63
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 979
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8a04b7e706b88b0800000000000000
+      internalID: -5148915652618049339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_64
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 929
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e4275383247a860800000000000000
+      internalID: 7541068910237470241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_65
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 959
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c724eb48d14aa40800000000000000
+      internalID: 5378456310952131731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_66
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 969
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1bf361bc4c567c0800000000000000
+      internalID: -4078637510983437864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_67
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 959
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e787828bf6a5310800000000000000
+      internalID: 1394549871368240762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_68
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 979
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdbf993b76d129c0800000000000000
+      internalID: -3953643173118493233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_69
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 909
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b40ddc055beef420800000000000000
+      internalID: 2665826779970471094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_70
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 929
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59951e77f2611ab20800000000000000
+      internalID: 3143818408011848085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_71
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 959
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd0851e6d1e1a370800000000000000
+      internalID: 8332189098632023483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_72
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 599
+        width: 32
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1032694c5239b6a0800000000000000
+      internalID: -6433055220772491235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_73
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 589
+        width: 32
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f79e010774bb220800000000000000
+      internalID: 2502672564580089662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_74
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 589
+        width: 32
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f1c2055c69a7650800000000000000
+      internalID: 6231458808618295144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_75
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 589
+        width: 32
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048032ef45affd600800000000000000
+      internalID: 495389726981949504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_76
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 889
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39125ac00f4751b00800000000000000
+      internalID: 798673083281252755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_77
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 919
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7ac6ee830420af0800000000000000
+      internalID: -431712001011701789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_78
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 939
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6696379fefa7e2120800000000000000
+      internalID: 2390983687705684326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_79
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 879
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96607b2e2f731ca0800000000000000
+      internalID: -6047350038354434402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_80
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 909
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67a43ac25272b610800000000000000
+      internalID: 1635495314594244460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_81
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 919
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002dcf538c6d29220800000000000000
+      internalID: 2491289699276870144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_82
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 879
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875a3941cfd8f2640800000000000000
+      internalID: 5057417020376851832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_83
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 879
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfa75efde51d1150800000000000000
+      internalID: 5844852003315363765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_84
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 879
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245e80f558c2766a0800000000000000
+      internalID: -6456142589475625662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_85
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 889
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d1914be76488db0800000000000000
+      internalID: -4789500693707154096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_86
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 829
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8016241a7964f3980800000000000000
+      internalID: -8557043149921165048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_87
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 829
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875c6846b59a4a350800000000000000
+      internalID: 6027128411322238328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_88
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 869
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549cda01c81621390800000000000000
+      internalID: -7849103946350212795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_89
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 839
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bbc8afb230138e0800000000000000
+      internalID: -1715586495629444209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_90
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 849
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf027232a77e2050800000000000000
+      internalID: 5777686910477668297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_91
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 869
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80dbba10528b61180800000000000000
+      internalID: -9144919524247880440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_92
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 849
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0714405f6e716dbc0800000000000000
+      internalID: -3758790558273486480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_93
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 819
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c109cacb81f824a60800000000000000
+      internalID: 7656839652890677276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_94
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 819
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3363235857157da00800000000000000
+      internalID: 781182625559754291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_95
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 829
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81085dce8aadb0d0800000000000000
+      internalID: -3405378212915052145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_96
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 829
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d052bcc9078b750800000000000000
+      internalID: 6320925895739903344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_97
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 769
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa4d65d496f4b2a0800000000000000
+      internalID: -6722477224661005579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_98
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 789
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba2b1981771cdcb0800000000000000
+      internalID: -4837966123303753032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_99
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 799
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f8986717e4cdf90800000000000000
+      internalID: -6927575877575667872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_100
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 809
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7214aee36fa0f750800000000000000
+      internalID: 6336757519450641019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_101
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 809
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970be6ae223d820c0800000000000000
+      internalID: -4600194872443490183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_102
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 749
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f92793471a01a600800000000000000
+      internalID: 477674130512488953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_103
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 759
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be34ef265b31efef0800000000000000
+      internalID: -72598874220510229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_104
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 779
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ab92a8c9f393b30800000000000000
+      internalID: 4267512063475694167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_105
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 789
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369514c53094e5bb0800000000000000
+      internalID: -4945435062024709789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_106
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 709
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487008848d831ae10800000000000000
+      internalID: 2207107793968695172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_107
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 749
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f37e6c95dd0f9f0800000000000000
+      internalID: -436605786196066440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_108
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 759
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac291b35255d48e0800000000000000
+      internalID: -1707615065309893461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_109
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 699
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2744bd92730eaaca0800000000000000
+      internalID: -6004740625615076238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_110
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 729
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa3ed98c298d0070800000000000000
+      internalID: 8074260531329776292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_111
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 699
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90f1738022d4bdb0800000000000000
+      internalID: -4776962267647184739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_112
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 729
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1040e8e790d318e0800000000000000
+      internalID: -1723804881487118305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_113
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 729
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8495d7d024211b0f0800000000000000
+      internalID: -1103080358825600696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_114
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 699
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4304dfc670fbaf50800000000000000
+      internalID: 6893868047704261451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_115
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 669
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278af0afebd18d430800000000000000
+      internalID: 3807826191018076274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_116
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 709
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f464da1d8ec90f30800000000000000
+      internalID: 4542388804615693558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_117
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 699
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f102f7d79c4ee2a10800000000000000
+      internalID: 1886696847959859231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_118
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 689
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9c6633972aeca40800000000000000
+      internalID: 5390424445446179273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_119
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 709
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c3529efff9bef20800000000000000
+      internalID: 3453029460786625640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_120
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 649
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686cf1376c4ac03f0800000000000000
+      internalID: -933189850530593146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_121
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 639
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a93d8d476546f0a0800000000000000
+      internalID: -6848209873385211479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_122
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 649
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fe693a38e1f7880800000000000000
+      internalID: -8611130411774972065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_123
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 679
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcc5f35cdd993be0800000000000000
+      internalID: -1496991831496995624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_124
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 659
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc36fb076e7ad83b0800000000000000
+      internalID: -5508562161028340785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_125
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 669
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0e6366e651f7cc0800000000000000
+      internalID: -3711224004024540949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_126
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 689
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170079ab3f66e5c70800000000000000
+      internalID: 8961713505507410033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_127
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 659
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f28e9388eff4ef50800000000000000
+      internalID: 6909929102398882551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_128
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 639
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafb56a02d6207c00800000000000000
+      internalID: 896259009406156719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_129
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 639
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52b1d830783ed5f0800000000000000
+      internalID: -730084034946682273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_130
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 629
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5fb2ec049cb5160800000000000000
+      internalID: 7015422124733756900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_131
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 659
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a0f46ae5ee56700800000000000000
+      internalID: 533094221197806210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_132
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 669
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d413f0ef8ec26040800000000000000
+      internalID: 4639497683494704342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_133
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 599
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9761d448cf16f04e0800000000000000
+      internalID: -2013282771232024967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_134
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 609
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae349ea895a18ff90800000000000000
+      internalID: -6919751855569812502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_135
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 619
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd139fdc5bb79c4d0800000000000000
+      internalID: -3113821646575029793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_136
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 639
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbe7c71cc2029960800000000000000
+      internalID: 7607145796177750993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_137
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 609
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d055e5b26a1a8b0800000000000000
+      internalID: -5142646594283958912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_138
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 639
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d873aa88cafda70800000000000000
+      internalID: 8853985095404981546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_139
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 619
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2330bf496f131af90800000000000000
+      internalID: -6944214215297400014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_140
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 649
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50b8f89280014790800000000000000
+      internalID: -7547750939584057254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_141
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 599
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df40185731b1e730800000000000000
+      internalID: 4026694393104715728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_142
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 599
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18a6e809f5aa2360800000000000000
+      internalID: 7145706247791487003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_143
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 629
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce5f8dbebd28b8d0800000000000000
+      internalID: -2830462068555030833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_144
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 609
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d951f7fdf20aa2a10800000000000000
+      internalID: 1885495521481528733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 629
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47ef6ddd2589ab70800000000000000
+      internalID: 8910799769764357966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_146
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 589
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a6dda5ab773f020800000000000000
+      internalID: 2374373070826465910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_147
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 599
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28755ab4aaad81b0800000000000000
+      internalID: -5652674332802582485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_148
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 589
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96474da950edb5270800000000000000
+      internalID: 8240424058858271849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_149
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 579
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e33d5e4efa8b3c0800000000000000
+      internalID: -4343528442955612596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_150
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 609
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b0a5e886ca86f70800000000000000
+      internalID: 9180777405459598208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_151
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 609
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d102e308329d9f6d0800000000000000
+      internalID: -2956092933893382115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_152
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 579
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b106e6d9ed9831950800000000000000
+      internalID: 6418625483150090267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_153
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 569
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e932c8c2723b8a90800000000000000
+      internalID: -7310694101530035737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_154
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 569
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a1a585c6654fa00800000000000000
+      internalID: 789350858035436166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_155
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 569
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b209b5647044cb300800000000000000
+      internalID: 269164875771252779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_156
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 579
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747586e305e7ed4b0800000000000000
+      internalID: -5413750818943248569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_157
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 589
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a5110ef08bac310800000000000000
+      internalID: 1426154610339437123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_158
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 589
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147aa8c2debf814c0800000000000000
+      internalID: -4316423246761515199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_159
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 589
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ed94aff39780e60800000000000000
+      internalID: 7928720459674803846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_160
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 559
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7370557f466f7f50800000000000000
+      internalID: 6881331247102063485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_161
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 559
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8760acbe2bd5a890800000000000000
+      internalID: -7447305415007639666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_162
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 559
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3edb0160c4d081b0800000000000000
+      internalID: -5656287209250365892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_163
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 549
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada9fd8a308765ae0800000000000000
+      internalID: -1560928263723836710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_164
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 519
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a520ff2560cfc49d0800000000000000
+      internalID: -2788576965156732326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_165
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 519
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e8f42bab934edd0800000000000000
+      internalID: -2457776022619189606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_166
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 559
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f0770f14bbcf4e0800000000000000
+      internalID: -1946475047049294030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_167
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 569
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7b22cf26ace3e00800000000000000
+      internalID: 1026480291572791269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_168
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 529
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146e65e9f05867b70800000000000000
+      internalID: 8896444416044492353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_169
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 519
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabfdbdab870a4bc0800000000000000
+      internalID: -3798215039236834388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_170
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 559
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12efe53969388b50800000000000000
+      internalID: 6595584778323354139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_171
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 559
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f189049d5f15348c0800000000000000
+      internalID: -4016276326330623969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_172
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 559
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d023028cc70c3a0800000000000000
+      internalID: -6647175851023397561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_173
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 499
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620fa7a140d042420800000000000000
+      internalID: 2604220795802284070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_174
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 529
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001479f17cfb3b660800000000000000
+      internalID: 7400469474649260288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_175
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 529
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae7a4d06d3937e60800000000000000
+      internalID: 7958867514049068711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_176
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 499
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f91977888face80800000000000000
+      internalID: -8157434510022959327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_177
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 509
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e719a0a2a6a99e710800000000000000
+      internalID: 1723078113208471934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_178
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 509
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f973a7434d29b490800000000000000
+      internalID: -7730097518416791050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_179
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 549
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b54ad963cd0e8e0800000000000000
+      internalID: -1666089734995944577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_180
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 499
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036bb07a9f0732130800000000000000
+      internalID: 3540797949595072048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_181
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 499
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b371e960fac2a20800000000000000
+      internalID: 3038996291525229405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_182
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 509
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8ff35f4978b63c0800000000000000
+      internalID: -4365246339966043928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_183
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 509
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6d996333cbb0cc0800000000000000
+      internalID: -3743691737083029825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_184
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 509
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb77782687fcbd80800000000000000
+      internalID: -8233433863163511861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_185
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 529
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734b0d2318a9742e0800000000000000
+      internalID: -2141573218097384393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_186
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 529
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da76bbe580723b80800000000000000
+      internalID: -8416541033114469678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_187
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 539
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681aac5f532cbdc80800000000000000
+      internalID: -8296824351487254138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_188
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 509
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e81b30e021a4b800800000000000000
+      internalID: 627303410684336356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_189
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 509
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791b62b9878036200800000000000000
+      internalID: 171990524862312855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_190
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 529
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06e6c51f72efe750800000000000000
+      internalID: 6336532236187657743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_191
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 529
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7427af64639fb40800000000000000
+      internalID: 5474466500522952690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_192
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 519
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b758de62e2c12e360800000000000000
+      internalID: 7197346139038647675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_193
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 489
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc4c4590ffd30670800000000000000
+      internalID: 8503886745795579068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_194
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 489
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e9414a45e33c870800000000000000
+      internalID: 8701867438260919915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_195
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 489
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c820c14c7003b210800000000000000
+      internalID: 1347421247192967368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_196
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 499
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604cb1085e09572a0800000000000000
+      internalID: -6740321951918865402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_197
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 509
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885687112016e50b0800000000000000
+      internalID: -5738042213712501368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_198
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e031ebfb64259b0800000000000000
+      internalID: -5092930439260991944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_199
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce12a6a34406cf2f0800000000000000
+      internalID: -937768776245829140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_200
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 509
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c13924f7692a720800000000000000
+      internalID: 2856010587028266127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_201
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 499
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52375c1b0d94fed0800000000000000
+      internalID: -2381105631926472098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_202
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 489
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0fec3b4824d3500800000000000000
+      internalID: 377531081488789758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_203
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 489
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c2797cdaa394d60800000000000000
+      internalID: 7874889941486349334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_204
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 489
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff80960c9d7fb51e0800000000000000
+      internalID: -2207898677687023361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_205
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 499
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe0ca0cf272d8200800000000000000
+      internalID: 183846245841506043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_206
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 479
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a2c940da6f293d0800000000000000
+      internalID: -3201225162139882916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_207
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 489
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021e3980fe0036af0800000000000000
+      internalID: -404478514892119776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_208
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 489
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8a768703f5a2ed0800000000000000
+      internalID: -2438031586484573965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_209
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 479
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f655e1dcdbd8b10800000000000000
+      internalID: 1985451699415117669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_210
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 479
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2045b1d443ed150800000000000000
+      internalID: 5899210067677545159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_211
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 489
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b400d343a485c70800000000000000
+      internalID: 8959993046875785998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_212
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 489
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693bca3a196f8d7e0800000000000000
+      internalID: -1740370150602001514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_213
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 479
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebf492a4a5222be0800000000000000
+      internalID: -1503597936555787290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_214
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 469
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fed727afb6750c0800000000000000
+      internalID: -4587078972046708924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_215
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 469
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2419e1ad5e6c5020800000000000000
+      internalID: 2331860055498495018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_216
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 459
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93dff41c7cab93020800000000000000
+      internalID: 2322092449990704441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_217
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 469
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e9a93f308760030800000000000000
+      internalID: 3460585322048036387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_218
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 469
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9736f62a5aaaed0800000000000000
+      internalID: -2401925334176663094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_219
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 459
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98819d3764f1a1ed0800000000000000
+      internalID: -2442605460443293559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_220
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 459
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d9f5d41bce3fbe0800000000000000
+      internalID: -1444550809204318864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_221
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 459
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a11a3b4bb1d53c10800000000000000
+      internalID: 2032761409178833319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_222
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 449
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce47b62a269cbb10800000000000000
+      internalID: 1998637442427997893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_223
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 469
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25553fe707738e500800000000000000
+      internalID: 425651121092253010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_224
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 469
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085a45bd1f1b41f20800000000000000
+      internalID: 3392532071641818496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_225
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 469
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de017c336ed7e96f0800000000000000
+      internalID: -675964466394361619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_226
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 469
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84f4d314443790b0800000000000000
+      internalID: -5722047334555782005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_227
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 469
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3214c026159383e0800000000000000
+      internalID: -2052633082879274434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_228
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 469
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb44c0f279d3e3d0800000000000000
+      internalID: -3178457824304542727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_229
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 449
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169f7c28302536ba0800000000000000
+      internalID: -6096939295496996511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_230
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 449
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f10d8415af985d0800000000000000
+      internalID: -3059639244800647276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_231
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 439
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4663e2fa1433d1b0800000000000000
+      internalID: -5633101418561575347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_232
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 449
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d141921b25bde2b0800000000000000
+      internalID: -5553583568878222896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_233
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 429
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b30d4e1b837f060800000000000000
+      internalID: 6987115683587832659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_234
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 439
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a796688b320a220800000000000000
+      internalID: 2495033468999268991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_235
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 449
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83817139d997995b0800000000000000
+      internalID: -5361120163723274184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_236
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 449
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396ad0c38ba50eae0800000000000000
+      internalID: -1522116926723217773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_237
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 449
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e807f71cecb1b2d0800000000000000
+      internalID: -3264620532666529561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_238
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 439
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7717a6d93721b1990800000000000000
+      internalID: -7414312073763851913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_239
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 439
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e56a97e2631f44c0800000000000000
+      internalID: -4301197803602156060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_240
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 439
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e9ff8db6137a980800000000000000
+      internalID: -8527793030130852301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_241
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 439
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93456ff9321ce3580800000000000000
+      internalID: -8845420259357338567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_242
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 439
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bdfbc82826111b0800000000000000
+      internalID: -5687656541545571548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_243
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 439
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd9a02c85bfd37b0800000000000000
+      internalID: -5242758032558219811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_244
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 449
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11f29ceede4118b0800000000000000
+      internalID: -5183274976767971046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_245
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 439
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106594b74d4561360800000000000000
+      internalID: 7139987530820703745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_246
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 439
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8eb771b484fd3b0800000000000000
+      internalID: -5485586333760231260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_247
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 439
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91cffe80a9fddb30800000000000000
+      internalID: 4313878486080012701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_248
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 439
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e255c198914e6b920800000000000000
+      internalID: 3005840599642035502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_249
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 439
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07162776f3b256270800000000000000
+      internalID: 8243042244290044272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_250
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 439
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdddf764ec1bbfc0800000000000000
+      internalID: -3478154519890764350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_251
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 449
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3ccf877ab8711a0800000000000000
+      internalID: -6838843957733178416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_252
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 429
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a398e8a9b27b38190800000000000000
+      internalID: -7961318318356395718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_253
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 429
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25733c2a9446ca6f0800000000000000
+      internalID: -672051976958953646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_254
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 429
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e6ce53142317a50800000000000000
+      internalID: 6517045391440768571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Chandelier_Ex_255
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 429
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca839d151aae52760800000000000000
+      internalID: 7432604738628696236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
