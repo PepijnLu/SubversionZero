@@ -12,6 +12,8 @@ public class Character : MonoBehaviour
     public Material defaultCharacterMaterial, hoverCharacterMaterial;
     [SerializeField] Sprite defaultDialogueSprite, happyDialogueSprite, sadDialogueSprite, angryDialogueSprite, scaredDialogueSprite;
     public Dictionary<string, Sprite> characterSprites;
+    public Image charImg;
+    public Sprite defaultSprite, hoverSprite;
 
     void Start()
     {

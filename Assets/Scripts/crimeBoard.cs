@@ -8,7 +8,7 @@ public class CrimeBoard : MonoBehaviour
 {
     public Color originalLighting = new Color(152f, 152f, 152f);
     public Color boardLighting = new Color(0f, 0f, 0f);
-    public Camera ogCam, boardCam;
+    public Camera renderCam, ogCam, boardCam;
     [SerializeField] RawImage stuffplayersees;
     //bool GameManager.instance.isTransitioning;
     public Light boardLight;
@@ -21,7 +21,7 @@ public class CrimeBoard : MonoBehaviour
     {
         //RenderSettings.ambientLight = originalLighting;
         Debug.Log("Ambient color changed to " + originalLighting);
-        ogCam.enabled = true;
+        renderCam.enabled = true;
         boardCam.enabled = false;
         //RenderSettings.ambientLight = boardLighting;
     }
@@ -33,7 +33,7 @@ public class CrimeBoard : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            if(!GameManager.instance.isTransitioning && !GameManager.instance.inDialogue) StartCoroutine(SwapView(GameManager.instance.inBoardView));
+            if(!GameManager.instance.isTransitioning && !GameManager.instance.inDialogue && !GameManager.instance.placingPin) StartCoroutine(SwapView(GameManager.instance.inBoardView));
         }
     }
 
@@ -61,9 +61,12 @@ public class CrimeBoard : MonoBehaviour
             StartCoroutine(GenericFunctions.instance.FadeImage(canvasLighting, fadeDuration, 1));
             yield return GenericFunctions.instance.FadeImage(topEyelid, fadeDuration, 1);
 
-            ogCam.enabled = true;
+            //ogCam.enabled = true;
+            renderCam.transform.position = ogCam.transform.position;
+            renderCam.transform.rotation = ogCam.transform.rotation;
+            renderCam.fieldOfView = ogCam.fieldOfView;
             GameManager.instance.inBoardView = false;
-            boardCam.enabled = false;
+            //boardCam.enabled = false;
             board.SetActive(false);
             canvasLighting.gameObject.SetActive(false);
             //RenderSettings.ambientLight = originalLighting;
@@ -76,8 +79,15 @@ public class CrimeBoard : MonoBehaviour
             canvasLighting.gameObject.SetActive(true);
             FModManager.instance.StartPinboard();
             yield return OpenCloseEyes(false);
-            boardCam.enabled = true;
-            ogCam.enabled = false;
+
+            ogCam.transform.position = renderCam.transform.position;
+            ogCam.transform.rotation = renderCam.transform.rotation;
+            ogCam.fieldOfView = renderCam.fieldOfView;
+
+            renderCam.transform.position = boardCam.transform.position;
+            renderCam.transform.rotation = boardCam.transform.rotation;
+            renderCam.fieldOfView = boardCam.fieldOfView;
+
             board.SetActive(true);
             GameManager.instance.inBoardView = true;
             RenderSettings.ambientLight = boardLighting;
