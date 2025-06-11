@@ -18,6 +18,9 @@ public class GameManager : MonoBehaviour
     Dictionary<string, GameObject> levelNames;
     [SerializeField] Image levelTransitionImg;
     public string currentLevel;
+
+    public Camera RenderCam => renderCam;
+    public Transform RenderCamTransform => renderCamTransform;
     void Awake()
     {
         instance = this;   

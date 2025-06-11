@@ -83,6 +83,34 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-7928931318104705155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/Polaroid/MovePin
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/Polaroid/MovePin
+  Guid:
+    Data1: 981440467
+    Data2: 1165665673
+    Data3: 391892653
+    Data4: -1444895910
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 77972057034418393}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-6285220666011988287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,7 +244,7 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638850840950453916
+  lastModified: 638852717225511684
   FileSizes: []
   Exists: 1
 --- !u!114 &-4421671963120496869
@@ -382,6 +410,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-2147888321418985146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/drain
+  m_EditorClassIdentifier: 
+  Path: event:/amb/drain
+  Guid:
+    Data1: -908253108
+    Data2: 1328115258
+    Data3: 1887673253
+    Data4: 1176664040
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 7.6
+  Length: 9303
+--- !u!114 &-1930580926412620964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/Polaroid/DestroyPin
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/Polaroid/DestroyPin
+  Guid:
+    Data1: -987849268
+    Data2: 1075952895
+    Data3: -507318606
+    Data4: -599596535
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-1744011232998739766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,10 +506,10 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638850840950548517
+  lastModified: 638852717225601915
   FileSizes:
   - Name: 
-    Value: 2676
+    Value: 2932
   Exists: 1
 --- !u!114 &-1233296606768162690
 MonoBehaviour:
@@ -613,13 +695,18 @@ MonoBehaviour:
   - {fileID: 62332142439187926}
   - {fileID: -5061622928612472922}
   - {fileID: 7970840081925780195}
+  - {fileID: 3423177855212892901}
+  - {fileID: -1930580926412620964}
+  - {fileID: -7928931318104705155}
+  - {fileID: -2147888321418985146}
+  - {fileID: 3401294054380772440}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4997359098897101286}
   StringsBanks:
   - {fileID: -1724225176518313470}
   cacheVersion: 131847
-  cacheTime: 638850840950548517
+  cacheTime: 638852717225601915
   SerializableEventsDict:
   - key: snapshot:/Pinboard
     index: 0
@@ -681,6 +768,16 @@ MonoBehaviour:
     index: 28
   - key: event:/amb/snowwind
     index: 29
+  - key: event:/sfx/Polaroid/PlacePin
+    index: 30
+  - key: event:/sfx/Polaroid/DestroyPin
+    index: 31
+  - key: event:/sfx/Polaroid/MovePin
+    index: 32
+  - key: event:/amb/drain
+    index: 33
+  - key: event:/amb/houseamb
+    index: 34
 --- !u!114 &62332142439187926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -708,6 +805,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &77972057034418393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MovePin/MoveAmount
+  m_EditorClassIdentifier: 
+  Name: MoveAmount
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4143752012
+    data2: 224427015
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &303946794561022137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -966,6 +1087,60 @@ MonoBehaviour:
   - QuestionVowel
   - ExclamationVowel
   Exists: 1
+--- !u!114 &3401294054380772440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/houseamb
+  m_EditorClassIdentifier: 
+  Path: event:/amb/houseamb
+  Guid:
+    Data1: -1618532159
+    Data2: 1307242155
+    Data3: 99057593
+    Data4: 2145903069
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0.2
+  MaxDistance: 10
+  Length: 10000
+--- !u!114 &3423177855212892901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/Polaroid/PlacePin
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/Polaroid/PlacePin
+  Guid:
+    Data1: -1697851116
+    Data2: 1107073287
+    Data3: 1783061162
+    Data4: -1896436894
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 9.400001
+  Length: 0
 --- !u!114 &5118871658851888271
 MonoBehaviour:
   m_ObjectHideFlags: 0
