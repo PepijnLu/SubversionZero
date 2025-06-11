@@ -934,7 +934,40 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T_diningtable_0: -1030296928901088771
+      T_diningtable_1: -4016515754862327878
+      T_diningtable_10: 6833533138832115056
+      T_diningtable_11: -7659168552608988071
+      T_diningtable_12: -6640953369543140589
+      T_diningtable_13: 4537961956092885070
+      T_diningtable_14: 7481717773532061785
+      T_diningtable_15: 7262364959572835283
+      T_diningtable_16: -3322557724525068847
+      T_diningtable_17: 1399868746541576490
+      T_diningtable_18: 5943269943270612877
+      T_diningtable_19: -7469842839463425973
+      T_diningtable_2: -795795279325486389
+      T_diningtable_20: -2542890211285712952
+      T_diningtable_21: -2959903405981556365
+      T_diningtable_22: -5849153451499994041
+      T_diningtable_23: -8436775114146313123
+      T_diningtable_24: 8503351678014822359
+      T_diningtable_25: 2717186978405291565
+      T_diningtable_26: 8003148554347599031
+      T_diningtable_27: 759073779311570652
+      T_diningtable_28: 4551003276140691342
+      T_diningtable_29: -752867894905124063
+      T_diningtable_3: -5940604055575762275
+      T_diningtable_30: -8789799910442846620
+      T_diningtable_31: 3260327671067956124
+      T_diningtable_32: -6013495775286718273
+      T_diningtable_4: -4653986314129022253
+      T_diningtable_5: -7418280649556209076
+      T_diningtable_6: -8539171314482512450
+      T_diningtable_7: -5710346155955743466
+      T_diningtable_8: 6682728158990876635
+      T_diningtable_9: 6670825191572204569
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
