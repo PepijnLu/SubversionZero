@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [LOG] AsyncManager::init                       : manager 000002AA77590F98 isAsync 0 updatePeriod 0.02
 =======
 [LOG] AsyncManager::init                       : manager 00000237ED4DF458 isAsync 0 updatePeriod 0.02
@@ -21,6 +22,9 @@
 =======
 [LOG] AsyncManager::init                       : manager 000001FAB48B0908 isAsync 0 updatePeriod 0.02
 >>>>>>> origin/Pim
+=======
+[LOG] AsyncManager::init                       : manager 0000022C61F2BD28 isAsync 0 updatePeriod 0.02
+>>>>>>> lorena
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.

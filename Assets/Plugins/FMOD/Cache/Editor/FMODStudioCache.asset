@@ -246,6 +246,7 @@ MonoBehaviour:
   StudioPath: bank:/Master
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastModified: 638852438908266192
 =======
   lastModified: 638851942304799121
@@ -253,6 +254,9 @@ MonoBehaviour:
 =======
   lastModified: 638852717225511684
 >>>>>>> origin/Pim
+=======
+  lastModified: 638852866169600670
+>>>>>>> lorena
   FileSizes: []
   Exists: 1
 --- !u!114 &-4421671963120496869
@@ -516,6 +520,7 @@ MonoBehaviour:
   StudioPath: bank:/Master.strings
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastModified: 638852438908283049
 =======
   lastModified: 638851942304799121
@@ -523,6 +528,9 @@ MonoBehaviour:
 =======
   lastModified: 638852717225601915
 >>>>>>> origin/Pim
+=======
+  lastModified: 638852866169600670
+>>>>>>> lorena
   FileSizes:
   - Name: 
     Value: 2932
@@ -724,6 +732,7 @@ MonoBehaviour:
   cacheVersion: 131847
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   cacheTime: 638852438908283049
 =======
   cacheTime: 638851942304799121
@@ -731,6 +740,9 @@ MonoBehaviour:
 =======
   cacheTime: 638852717225601915
 >>>>>>> origin/Pim
+=======
+  cacheTime: 638852866169600670
+>>>>>>> lorena
   SerializableEventsDict:
   - key: snapshot:/Pinboard
     index: 0

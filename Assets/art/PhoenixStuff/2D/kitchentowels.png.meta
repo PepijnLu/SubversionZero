@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kitchentowels_0: 73413092658093540
+      kitchentowels_1: -3704275578709510222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

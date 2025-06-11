@@ -1,0 +1,1703 @@
+fileFormatVersion: 2
+guid: 9a1e29b6ea26c1f448519453aecc0f6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8445009044894354884
+    second: T_Suitcase_0
+  - first:
+      213: -6833760698106800177
+    second: T_Suitcase_1
+  - first:
+      213: 3294013970760236917
+    second: T_Suitcase_2
+  - first:
+      213: -1114200883140209953
+    second: T_Suitcase_3
+  - first:
+      213: 1286190954588047295
+    second: T_Suitcase_4
+  - first:
+      213: -1858529462237281995
+    second: T_Suitcase_5
+  - first:
+      213: 262815902316929526
+    second: T_Suitcase_6
+  - first:
+      213: -8457826431913307593
+    second: T_Suitcase_7
+  - first:
+      213: -3467590441481876635
+    second: T_Suitcase_8
+  - first:
+      213: 7158112745468701017
+    second: T_Suitcase_9
+  - first:
+      213: 2083156932567244204
+    second: T_Suitcase_10
+  - first:
+      213: -1745529659707177533
+    second: T_Suitcase_11
+  - first:
+      213: -5965660661658182824
+    second: T_Suitcase_12
+  - first:
+      213: 2080968788997011603
+    second: T_Suitcase_13
+  - first:
+      213: 320181353080311344
+    second: T_Suitcase_14
+  - first:
+      213: 5882052925940469643
+    second: T_Suitcase_15
+  - first:
+      213: -4101332054903518853
+    second: T_Suitcase_16
+  - first:
+      213: -3635381679410883028
+    second: T_Suitcase_17
+  - first:
+      213: -4031284977117533347
+    second: T_Suitcase_18
+  - first:
+      213: 9008110557319862199
+    second: T_Suitcase_19
+  - first:
+      213: 1283747974190454366
+    second: T_Suitcase_20
+  - first:
+      213: -2486205593960351076
+    second: T_Suitcase_21
+  - first:
+      213: -9214532855733733785
+    second: T_Suitcase_22
+  - first:
+      213: 5047777284211670230
+    second: T_Suitcase_23
+  - first:
+      213: 4810497638176163114
+    second: T_Suitcase_24
+  - first:
+      213: 5406435544635435557
+    second: T_Suitcase_25
+  - first:
+      213: 515956123640424760
+    second: T_Suitcase_26
+  - first:
+      213: 950547518393747397
+    second: T_Suitcase_27
+  - first:
+      213: 1186716182197668479
+    second: T_Suitcase_28
+  - first:
+      213: -7678551519650020176
+    second: T_Suitcase_29
+  - first:
+      213: -8779892754315119927
+    second: T_Suitcase_30
+  - first:
+      213: 2071611067575704380
+    second: T_Suitcase_31
+  - first:
+      213: 2238864558833058063
+    second: T_Suitcase_32
+  - first:
+      213: 410564148992877171
+    second: T_Suitcase_33
+  - first:
+      213: -7517965830696970183
+    second: T_Suitcase_34
+  - first:
+      213: -5191212741883115780
+    second: T_Suitcase_35
+  - first:
+      213: -1896313963663846596
+    second: T_Suitcase_36
+  - first:
+      213: -2758301654318850779
+    second: T_Suitcase_37
+  - first:
+      213: -5963173805344360463
+    second: T_Suitcase_38
+  - first:
+      213: 4908503098286043587
+    second: T_Suitcase_39
+  - first:
+      213: 7387134503375705695
+    second: T_Suitcase_40
+  - first:
+      213: 1705008390065658287
+    second: T_Suitcase_41
+  - first:
+      213: 5846423543731488331
+    second: T_Suitcase_42
+  - first:
+      213: 6830897861124815343
+    second: T_Suitcase_43
+  - first:
+      213: -1875720225321506790
+    second: T_Suitcase_44
+  - first:
+      213: -3521684817575691535
+    second: T_Suitcase_45
+  - first:
+      213: -9120658080565617653
+    second: T_Suitcase_46
+  - first:
+      213: -2241912777698753005
+    second: T_Suitcase_47
+  - first:
+      213: -7378613422568286954
+    second: T_Suitcase_48
+  - first:
+      213: 1080947256999528427
+    second: T_Suitcase_49
+  - first:
+      213: 6229070521126543771
+    second: T_Suitcase_50
+  - first:
+      213: -3521205838811532255
+    second: T_Suitcase_51
+  - first:
+      213: -3836133247006572215
+    second: T_Suitcase_52
+  - first:
+      213: 3308863341258053799
+    second: T_Suitcase_53
+  - first:
+      213: 5686292220281376681
+    second: T_Suitcase_54
+  - first:
+      213: -7291811491895123414
+    second: T_Suitcase_55
+  - first:
+      213: -8083186528288759674
+    second: T_Suitcase_56
+  - first:
+      213: -5703393460269730517
+    second: T_Suitcase_57
+  - first:
+      213: 4191746895987242252
+    second: T_Suitcase_58
+  - first:
+      213: 2100179010320609025
+    second: T_Suitcase_59
+  - first:
+      213: 3786342322438430537
+    second: T_Suitcase_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_Suitcase_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1049
+        width: 171
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c327c1a640d4dca80800000000000000
+      internalID: -8445009044894354884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1079
+        width: 82
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc791551ada9921a0800000000000000
+      internalID: -6833760698106800177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_2
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1109
+        width: 102
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f76540140b6bd20800000000000000
+      internalID: 3294013970760236917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_3
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1259
+        width: 172
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2500833309980f0800000000000000
+      internalID: -1114200883140209953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_4
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1179
+        width: 172
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb78a81dbd779d110800000000000000
+      internalID: 1286190954588047295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_5
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1099
+        width: 172
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531cfbe0d4d2536e0800000000000000
+      internalID: -1858529462237281995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 849
+        width: 171
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1ace2bba5b5a300800000000000000
+      internalID: 262815902316929526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 839
+        width: 82
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732d5e1fba3cf9a80800000000000000
+      internalID: -8457826431913307593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_8
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 869
+        width: 82
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bcee49dd4a0efc0800000000000000
+      internalID: -3467590441481876635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_9
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 999
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959abdfdd99b65360800000000000000
+      internalID: 7158112745468701017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_10
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 919
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad1011713cd8ec10800000000000000
+      internalID: 2083156932567244204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_11
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 919
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5ce30d502a6c7e0800000000000000
+      internalID: -1745529659707177533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_12
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 919
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b97535c37b53da0800000000000000
+      internalID: -5965660661658182824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_13
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 919
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39877d0961611ec10800000000000000
+      internalID: 2080968788997011603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_14
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 839
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e4e068e33817400800000000000000
+      internalID: 320181353080311344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_15
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 839
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f8ab0c8ff31a150800000000000000
+      internalID: 5882052925940469643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_16
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 839
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b798d81d9342517c0800000000000000
+      internalID: -4101332054903518853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_17
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 849
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2650c7af978c8dc0800000000000000
+      internalID: -3635381679410883028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 779
+        width: 171
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b6a860caffd08c0800000000000000
+      internalID: -4031284977117533347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_19
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 759
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b71f7a23dc330d70800000000000000
+      internalID: 9008110557319862199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_20
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 759
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56dfbe1bf9c0d110800000000000000
+      internalID: 1283747974190454366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_21
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 759
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a776d4f293f7dd0800000000000000
+      internalID: -2486205593960351076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_22
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 759
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76633da30376f1080800000000000000
+      internalID: -9214532855733733785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_23
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 719
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcf8ba12be4d0640800000000000000
+      internalID: 5047777284211670230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_24
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 719
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2588546d1252c240800000000000000
+      internalID: 4810497638176163114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_25
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 679
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a6a0bbb74870b40800000000000000
+      internalID: 5406435544635435557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_26
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 679
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839664d5c5b092700800000000000000
+      internalID: 515956123640424760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_27
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 679
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c70df78ee5013d00800000000000000
+      internalID: 950547518393747397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_28
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 689
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a89198410187010800000000000000
+      internalID: 1186716182197668479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_29
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 639
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b489b9531e407590800000000000000
+      internalID: -7678551519650020176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_30
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 639
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2750dce0e872680800000000000000
+      internalID: -8779892754315119927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_31
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 599
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b1e934a47dfbc10800000000000000
+      internalID: 2071611067575704380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_32
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 599
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01c479447b021f10800000000000000
+      internalID: 2238864558833058063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_33
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 599
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3722b321bed92b500800000000000000
+      internalID: 410564148992877171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_34
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 559
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93858cba8e1daa790800000000000000
+      internalID: -7517965830696970183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_35
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 559
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf64396f38b15f7b0800000000000000
+      internalID: -5191212741883115780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_36
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 519
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3314354f70fea5e0800000000000000
+      internalID: -1896313963663846596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_37
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 519
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52dd3fe624b88b9d0800000000000000
+      internalID: -2758301654318850779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_38
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 519
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7f88ea40d8e3da0800000000000000
+      internalID: -5963173805344360463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_39
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 519
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c17e30cf818e1440800000000000000
+      internalID: 4908503098286043587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_40
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 519
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f569dbd21bf548660800000000000000
+      internalID: 7387134503375705695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa99ce4e81869a710800000000000000
+      internalID: 1705008390065658287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_42
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 479
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b468892cc3ba22150800000000000000
+      internalID: 5846423543731488331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_43
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 479
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9f15db9693cce50800000000000000
+      internalID: 6830897861124815343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_44
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 479
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1822bf946a18f5e0800000000000000
+      internalID: -1875720225321506790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_45
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 479
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fab38d2156702fc0800000000000000
+      internalID: -3521684817575691535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_46
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 439
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c171e8cc9ec6180800000000000000
+      internalID: -9120658080565617653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_47
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 439
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3164bd3f43023e0e0800000000000000
+      internalID: -2241912777698753005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_48
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 439
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61553ec8f26e99990800000000000000
+      internalID: -7378613422568286954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_49
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 439
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7c36a9dcb400f00800000000000000
+      internalID: 1080947256999528427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_50
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 439
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91ea9cc2aa127650800000000000000
+      internalID: 6229070521126543771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_51
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 439
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1247b9c12f9222fc0800000000000000
+      internalID: -3521205838811532255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9418b15f22153cac0800000000000000
+      internalID: -3836133247006572215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_53
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 399
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a89ff18da17bed20800000000000000
+      internalID: 3308863341258053799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_54
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 409
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af40f6a5a4c9ee40800000000000000
+      internalID: 5686292220281376681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_55
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 409
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22ea70f4184eca90800000000000000
+      internalID: -7291811491895123414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_56
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 9
+        width: 182
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6802028dda0c2df80800000000000000
+      internalID: -8083186528288759674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_57
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 9
+        width: 22
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b253652add979d0b0800000000000000
+      internalID: -5703393460269730517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_58
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 9
+        width: 202
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c057aa3d7931c2a30800000000000000
+      internalID: 4191746895987242252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_59
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 0
+        width: 42
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f24e2cea5552d10800000000000000
+      internalID: 2100179010320609025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Suitcase_60
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 0
+        width: 41
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f58f6084acb8430800000000000000
+      internalID: 3786342322438430537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      T_Suitcase_0: -8445009044894354884
+      T_Suitcase_1: -6833760698106800177
+      T_Suitcase_10: 2083156932567244204
+      T_Suitcase_11: -1745529659707177533
+      T_Suitcase_12: -5965660661658182824
+      T_Suitcase_13: 2080968788997011603
+      T_Suitcase_14: 320181353080311344
+      T_Suitcase_15: 5882052925940469643
+      T_Suitcase_16: -4101332054903518853
+      T_Suitcase_17: -3635381679410883028
+      T_Suitcase_18: -4031284977117533347
+      T_Suitcase_19: 9008110557319862199
+      T_Suitcase_2: 3294013970760236917
+      T_Suitcase_20: 1283747974190454366
+      T_Suitcase_21: -2486205593960351076
+      T_Suitcase_22: -9214532855733733785
+      T_Suitcase_23: 5047777284211670230
+      T_Suitcase_24: 4810497638176163114
+      T_Suitcase_25: 5406435544635435557
+      T_Suitcase_26: 515956123640424760
+      T_Suitcase_27: 950547518393747397
+      T_Suitcase_28: 1186716182197668479
+      T_Suitcase_29: -7678551519650020176
+      T_Suitcase_3: -1114200883140209953
+      T_Suitcase_30: -8779892754315119927
+      T_Suitcase_31: 2071611067575704380
+      T_Suitcase_32: 2238864558833058063
+      T_Suitcase_33: 410564148992877171
+      T_Suitcase_34: -7517965830696970183
+      T_Suitcase_35: -5191212741883115780
+      T_Suitcase_36: -1896313963663846596
+      T_Suitcase_37: -2758301654318850779
+      T_Suitcase_38: -5963173805344360463
+      T_Suitcase_39: 4908503098286043587
+      T_Suitcase_4: 1286190954588047295
+      T_Suitcase_40: 7387134503375705695
+      T_Suitcase_41: 1705008390065658287
+      T_Suitcase_42: 5846423543731488331
+      T_Suitcase_43: 6830897861124815343
+      T_Suitcase_44: -1875720225321506790
+      T_Suitcase_45: -3521684817575691535
+      T_Suitcase_46: -9120658080565617653
+      T_Suitcase_47: -2241912777698753005
+      T_Suitcase_48: -7378613422568286954
+      T_Suitcase_49: 1080947256999528427
+      T_Suitcase_5: -1858529462237281995
+      T_Suitcase_50: 6229070521126543771
+      T_Suitcase_51: -3521205838811532255
+      T_Suitcase_52: -3836133247006572215
+      T_Suitcase_53: 3308863341258053799
+      T_Suitcase_54: 5686292220281376681
+      T_Suitcase_55: -7291811491895123414
+      T_Suitcase_56: -8083186528288759674
+      T_Suitcase_57: -5703393460269730517
+      T_Suitcase_58: 4191746895987242252
+      T_Suitcase_59: 2100179010320609025
+      T_Suitcase_6: 262815902316929526
+      T_Suitcase_60: 3786342322438430537
+      T_Suitcase_7: -8457826431913307593
+      T_Suitcase_8: -3467590441481876635
+      T_Suitcase_9: 7158112745468701017
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

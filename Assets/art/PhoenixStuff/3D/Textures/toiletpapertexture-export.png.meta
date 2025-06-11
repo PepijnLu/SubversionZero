@@ -734,7 +734,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      toiletpapertexture-export_0: -4306299245544392026
+      toiletpapertexture-export_1: 6179342224738227390
+      toiletpapertexture-export_10: 5345248208428298943
+      toiletpapertexture-export_11: -7453021778515378924
+      toiletpapertexture-export_12: -7705357222933126237
+      toiletpapertexture-export_13: 5187616119632092373
+      toiletpapertexture-export_14: 5899133373603441607
+      toiletpapertexture-export_15: -4868241073077489467
+      toiletpapertexture-export_16: 8851670620994254615
+      toiletpapertexture-export_17: 6212663430023748157
+      toiletpapertexture-export_18: 72597206792847116
+      toiletpapertexture-export_19: -1706511693695613371
+      toiletpapertexture-export_2: -1550416219926606044
+      toiletpapertexture-export_20: 7663250522699680396
+      toiletpapertexture-export_21: -3356549164705048619
+      toiletpapertexture-export_22: -5459382651700815422
+      toiletpapertexture-export_23: 8379183199615592399
+      toiletpapertexture-export_24: 4759698249716201560
+      toiletpapertexture-export_3: -7418899347627710642
+      toiletpapertexture-export_4: 6473782658680802536
+      toiletpapertexture-export_5: -5657950915972554694
+      toiletpapertexture-export_6: -3745719294731746026
+      toiletpapertexture-export_7: 5159669808227879716
+      toiletpapertexture-export_8: -3774107890512521846
+      toiletpapertexture-export_9: 1733582272366653290
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

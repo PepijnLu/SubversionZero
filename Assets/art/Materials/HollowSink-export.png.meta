@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: d73102328c2417345bd01089fba17bcf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5783785255886583458
+    second: HollowSink-export_0
+  - first:
+      213: -3697447207107526024
+    second: HollowSink-export_1
+  - first:
+      213: -2258630657311822108
+    second: HollowSink-export_2
+  - first:
+      213: -5262377578733037386
+    second: HollowSink-export_3
+  - first:
+      213: 3817407779454307970
+    second: HollowSink-export_4
+  - first:
+      213: 4144807130654728581
+    second: HollowSink-export_5
+  - first:
+      213: 7717425681025070275
+    second: HollowSink-export_6
+  - first:
+      213: 8208836656061577392
+    second: HollowSink-export_7
+  - first:
+      213: 4798830395593694793
+    second: HollowSink-export_8
+  - first:
+      213: -2537470853019979105
+    second: HollowSink-export_9
+  - first:
+      213: 603430143201293657
+    second: HollowSink-export_10
+  - first:
+      213: -6791920168689355532
+    second: HollowSink-export_11
+  - first:
+      213: -4207960131000770124
+    second: HollowSink-export_12
+  - first:
+      213: 7839526342859679825
+    second: HollowSink-export_13
+  - first:
+      213: 8075529123998408623
+    second: HollowSink-export_14
+  - first:
+      213: 4837231146526329085
+    second: HollowSink-export_15
+  - first:
+      213: 2318436348510377209
+    second: HollowSink-export_16
+  - first:
+      213: 1921491473475186343
+    second: HollowSink-export_17
+  - first:
+      213: 7998823415295887692
+    second: HollowSink-export_18
+  - first:
+      213: 3745317299078182098
+    second: HollowSink-export_19
+  - first:
+      213: 4714529530101335121
+    second: HollowSink-export_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HollowSink-export_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 969
+        width: 241
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e590dbd14fddbbfa0800000000000000
+      internalID: -5783785255886583458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 969
+        width: 242
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8728894ea5700bcc0800000000000000
+      internalID: -3697447207107526024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_2
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1019
+        width: 212
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee2f18426bb7a0e0800000000000000
+      internalID: -2258630657311822108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_3
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1269
+        width: 212
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b813a1397748f6b0800000000000000
+      internalID: -5262377578733037386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_4
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 999
+        width: 152
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ecf2166282af430800000000000000
+      internalID: 3817407779454307970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_5
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 859
+        width: 212
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5816e2d0020558930800000000000000
+      internalID: 4144807130654728581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 649
+        width: 211
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4f9f9a4cdc91b60800000000000000
+      internalID: 7717425681025070275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_7
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 649
+        width: 212
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b871c74275abe170800000000000000
+      internalID: 8208836656061577392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_8
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 699
+        width: 212
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e95bac1ded89240800000000000000
+      internalID: 4798830395593694793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_9
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 809
+        width: 202
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9236d904b719ccd0800000000000000
+      internalID: -2537470853019979105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_10
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 759
+        width: 202
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955b644a480df5800800000000000000
+      internalID: 603430143201293657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_11
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 709
+        width: 192
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4b57a77904eb1a0800000000000000
+      internalID: -6791920168689355532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_12
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 479
+        width: 242
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b161ba3e825a95c0800000000000000
+      internalID: -4207960131000770124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_13
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 659
+        width: 192
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158e7795ca79bcc60800000000000000
+      internalID: 7839526342859679825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 429
+        width: 241
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf1f39c3fa021070800000000000000
+      internalID: 8075529123998408623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_15
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 379
+        width: 152
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df84829591c412340800000000000000
+      internalID: 4837231146526329085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_16
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 629
+        width: 212
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4905b439dbc2020800000000000000
+      internalID: 2318436348510377209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_17
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 609
+        width: 172
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae2e6b80528aaa10800000000000000
+      internalID: 1921491473475186343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_18
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 609
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49c9c14487810f60800000000000000
+      internalID: 7998823415295887692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_19
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 589
+        width: 232
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d43eae6d3a0af330800000000000000
+      internalID: 3745317299078182098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink-export_20
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 569
+        width: 212
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15487c401af5d6140800000000000000
+      internalID: 4714529530101335121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HollowSink-export_0: -5783785255886583458
+      HollowSink-export_1: -3697447207107526024
+      HollowSink-export_10: 603430143201293657
+      HollowSink-export_11: -6791920168689355532
+      HollowSink-export_12: -4207960131000770124
+      HollowSink-export_13: 7839526342859679825
+      HollowSink-export_14: 8075529123998408623
+      HollowSink-export_15: 4837231146526329085
+      HollowSink-export_16: 2318436348510377209
+      HollowSink-export_17: 1921491473475186343
+      HollowSink-export_18: 7998823415295887692
+      HollowSink-export_19: 3745317299078182098
+      HollowSink-export_2: -2258630657311822108
+      HollowSink-export_20: 4714529530101335121
+      HollowSink-export_3: -5262377578733037386
+      HollowSink-export_4: 3817407779454307970
+      HollowSink-export_5: 4144807130654728581
+      HollowSink-export_6: 7717425681025070275
+      HollowSink-export_7: 8208836656061577392
+      HollowSink-export_8: 4798830395593694793
+      HollowSink-export_9: -2537470853019979105
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
