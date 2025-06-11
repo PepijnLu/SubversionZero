@@ -17,13 +17,30 @@ namespace SubversionZero.Audio
         Door,
         CabinetOpen,
         CabinetClose,
-        // …etc
+        PlacePin,
+        MovePin,
+        DestroyPin,
     }
     [Serializable]
     public struct SfxEntry
     {
-        public SfxKey        key;
+        public SfxKey key;
         public EventReference eventPath;
+    }
+
+    [Serializable]
+    public struct ParameterValue
+    {
+        public string name;
+        public float value;
+    }
+
+    [Serializable]
+    public struct LoopingSfxEntry
+    {
+        public SfxKey key;
+        public EventReference eventPath;
+        public List<ParameterValue> defaultParams; // Now supports multiple params
     }
 }
 
@@ -31,6 +48,7 @@ public class FModManager : MonoBehaviour
 {
     public static FModManager instance;
     private float currentClueValue = 0f;
+    private Dictionary<SfxKey, EventInstance> _loopingSfx = new();
 
     [Serializable]
     public struct CharacterEvent
@@ -84,30 +102,19 @@ public class FModManager : MonoBehaviour
     Dictionary<string, EventReference> _roomSnapshotLookup;
     EventInstance _currentRoomSnapshotInstance;
 
-     [Header("All SFX")]
+    [Header("All SFX")]
     [SerializeField] List<SfxEntry> sfxEntries;
     Dictionary<SfxKey, EventReference> _sfxLookup;
+    [SerializeField] List<LoopingSfxEntry> loopingEntries;
+    Dictionary<SfxKey, LoopingSfxEntry> _loopingLookup;
 
-    // [Header("SFX")]
-    // [SerializeField] EventReference polaroidGrab;
-    // [SerializeField] EventReference polaroidAway;
-    // [SerializeField] EventReference polaroidPic;
-    // [SerializeField] EventReference polaroidHover;
-    // [SerializeField] EventReference door;
-    // [SerializeField] EventReference cabinetOpen;
-    // [SerializeField] EventReference cabinetClose;
-    // [SerializeField] List<EventReference> testEvents;
-    // readonly List<EventInstance> _testInstances = new();
-
-    // [Header("UI")]
-    // [SerializeField] EventReference hover;
-    // [SerializeField] EventReference select;
-    // [SerializeField] EventReference slider;
-    // [SerializeField] EventReference start;
-
+    [Header("3D SFX")]
+    [SerializeField] StudioEventEmitter drainEmitter;
+    
     void Awake()
     {
-         _sfxLookup = sfxEntries.ToDictionary(x => x.key, x => x.eventPath);
+        _sfxLookup = sfxEntries.ToDictionary(x => x.key, x => x.eventPath);
+        _loopingLookup = loopingEntries.ToDictionary(x => x.key, x => x);
         _roomSnapshotLookup = roomSnapshots.ToDictionary(r => r.roomName, r => r.snapshotEvent);
 
         instance = this;
@@ -152,7 +159,7 @@ public class FModManager : MonoBehaviour
         // Check if the W key is pressed
         if (Input.GetKeyDown(KeyCode.W))
         {
-            // Test();
+            drainEmitter.Play();
         }
     }
 
@@ -299,14 +306,50 @@ public class FModManager : MonoBehaviour
         }
     }
     public void PlaySfx(SfxKey key)
-  {
-    if (!_sfxLookup.TryGetValue(key, out var path))
     {
-      Debug.LogWarning($"[FMOD] No SFX registered for {key}");
-      return;
+        if (!_sfxLookup.TryGetValue(key, out var path))
+        {
+            Debug.LogWarning($"[FMOD] No SFX registered for {key}");
+            return;
+        }
+        RuntimeManager.PlayOneShot(path);
     }
-    RuntimeManager.PlayOneShot(path);
-  }
+
+    public void PlayLoopingSfx(SfxKey key)
+    {
+        if (_loopingSfx.ContainsKey(key) || !_loopingLookup.TryGetValue(key, out var entry))
+            return;
+
+        var inst = RuntimeManager.CreateInstance(entry.eventPath);
+
+        if (entry.defaultParams != null)
+        {
+            foreach (var param in entry.defaultParams)
+            {
+                if (!string.IsNullOrEmpty(param.name))
+                    inst.setParameterByName(param.name, param.value);
+            }
+        }
+
+        inst.start();
+        _loopingSfx[key] = inst;
+    }
+    /// <summary>Stops and releases a looping FMOD instance by key.</summary>
+    public void StopLoopingSfx(SfxKey key)
+    {
+        if (_loopingSfx.TryGetValue(key, out var inst))
+        {
+            inst.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            inst.release();
+            _loopingSfx.Remove(key);
+        }
+    }
+
+    public void SetLoopParameter(SfxKey key, string param, float value)
+    {
+        if (_loopingSfx.TryGetValue(key, out var inst))
+            inst.setParameterByName(param, value);
+    }
     // public void Test()
     // {
     //     // 3) start new enter-events
