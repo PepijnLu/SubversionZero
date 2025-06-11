@@ -1,0 +1,1042 @@
+fileFormatVersion: 2
+guid: 82fc974a8f939b34e906dbf049afc376
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6593454787652377542
+    second: bedroomclosettexture-export_0
+  - first:
+      213: 2858243681623085923
+    second: bedroomclosettexture-export_1
+  - first:
+      213: -907235581123598488
+    second: bedroomclosettexture-export_2
+  - first:
+      213: -7240577315160037385
+    second: bedroomclosettexture-export_3
+  - first:
+      213: -305241505970488584
+    second: bedroomclosettexture-export_4
+  - first:
+      213: 992040996043676842
+    second: bedroomclosettexture-export_5
+  - first:
+      213: 1378557282395232900
+    second: bedroomclosettexture-export_6
+  - first:
+      213: -7916823841169012162
+    second: bedroomclosettexture-export_7
+  - first:
+      213: -31379688348577796
+    second: bedroomclosettexture-export_8
+  - first:
+      213: -4831421575547893205
+    second: bedroomclosettexture-export_9
+  - first:
+      213: -237582634809354629
+    second: bedroomclosettexture-export_10
+  - first:
+      213: -3708292893745544632
+    second: bedroomclosettexture-export_11
+  - first:
+      213: 6772800893471066023
+    second: bedroomclosettexture-export_12
+  - first:
+      213: -1495839710182653324
+    second: bedroomclosettexture-export_13
+  - first:
+      213: 2073097616953989336
+    second: bedroomclosettexture-export_14
+  - first:
+      213: -3676480115244379491
+    second: bedroomclosettexture-export_15
+  - first:
+      213: -4474782785102278975
+    second: bedroomclosettexture-export_16
+  - first:
+      213: -3432778228469137419
+    second: bedroomclosettexture-export_17
+  - first:
+      213: 7859647415981208187
+    second: bedroomclosettexture-export_18
+  - first:
+      213: -1214563355842972595
+    second: bedroomclosettexture-export_19
+  - first:
+      213: -6692054160899305660
+    second: bedroomclosettexture-export_20
+  - first:
+      213: -6509926635846530968
+    second: bedroomclosettexture-export_21
+  - first:
+      213: 2215857933234614353
+    second: bedroomclosettexture-export_22
+  - first:
+      213: 1868362405630340331
+    second: bedroomclosettexture-export_23
+  - first:
+      213: 9081250466583802362
+    second: bedroomclosettexture-export_24
+  - first:
+      213: 3715348928600210375
+    second: bedroomclosettexture-export_25
+  - first:
+      213: 6515775108198189609
+    second: bedroomclosettexture-export_26
+  - first:
+      213: 5090209182658067439
+    second: bedroomclosettexture-export_27
+  - first:
+      213: -1335613683317877697
+    second: bedroomclosettexture-export_28
+  - first:
+      213: 7645586307748464321
+    second: bedroomclosettexture-export_29
+  - first:
+      213: 2324557660613129584
+    second: bedroomclosettexture-export_30
+  - first:
+      213: 7431393922459504647
+    second: bedroomclosettexture-export_31
+  - first:
+      213: 7447165726777228280
+    second: bedroomclosettexture-export_32
+  - first:
+      213: -6094782429057763417
+    second: bedroomclosettexture-export_33
+  - first:
+      213: -3561806159822014302
+    second: bedroomclosettexture-export_34
+  - first:
+      213: -3388698264889729159
+    second: bedroomclosettexture-export_35
+  - first:
+      213: -779380436202019672
+    second: bedroomclosettexture-export_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 849
+        width: 391
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34a163edc75f74a0800000000000000
+      internalID: -6593454787652377542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_1
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1269
+        width: 142
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36316ac1c758aa720800000000000000
+      internalID: 2858243681623085923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1269
+        width: 112
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8676883bb0ad863f0800000000000000
+      internalID: -907235581123598488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_3
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1269
+        width: 112
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f762294b4d448b90800000000000000
+      internalID: -7240577315160037385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_4
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1229
+        width: 352
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa7ce1b77093cbf0800000000000000
+      internalID: -305241505970488584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_5
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1249
+        width: 142
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacdec3a70074cd00800000000000000
+      internalID: 992040996043676842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_6
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1249
+        width: 112
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a12bf5b8e912310800000000000000
+      internalID: 1378557282395232900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_7
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 809
+        width: 392
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a07cd59aac12290800000000000000
+      internalID: -7916823841169012162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_8
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 889
+        width: 152
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff02d6f654809ff0800000000000000
+      internalID: -31379688348577796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_9
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 719
+        width: 212
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a4f4dcca753fcb0800000000000000
+      internalID: -4831421575547893205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 829
+        width: 141
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7613673adfe3bcf0800000000000000
+      internalID: -237582634809354629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 829
+        width: 142
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8420131b24f798cc0800000000000000
+      internalID: -3708292893745544632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_12
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 819
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a78acd5782ddfd50800000000000000
+      internalID: 6772800893471066023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_13
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 819
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472c3a975b5bd3be0800000000000000
+      internalID: -1495839710182653324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_14
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 829
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d850438c4f15cc10800000000000000
+      internalID: 2073097616953989336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_15
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 829
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92521360d48afcc0800000000000000
+      internalID: -3676480115244379491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_16
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 829
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce02fee3c066e1c0800000000000000
+      internalID: -4474782785102278975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_17
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 839
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fff66b83625c50d0800000000000000
+      internalID: -3432778228469137419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 809
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b727061cea3131d60800000000000000
+      internalID: 7859647415981208187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 599
+        width: 421
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44f5c91011052fe0800000000000000
+      internalID: -1214563355842972595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_20
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 759
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f0ce9523c0123a0800000000000000
+      internalID: -6692054160899305660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_21
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 789
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868838c373818a5a0800000000000000
+      internalID: -6509926635846530968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_22
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 379
+        width: 182
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1503e27dc0f40ce10800000000000000
+      internalID: 2215857933234614353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_23
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 759
+        width: 112
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec6a4b75b1cde910800000000000000
+      internalID: 1868362405630340331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 409
+        width: 391
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1f3115f25170e70800000000000000
+      internalID: 9081250466583802362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_25
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 299
+        width: 12
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbf7d17a229f8330800000000000000
+      internalID: 3715348928600210375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_26
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 319
+        width: 12
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a4c7850feac6a50800000000000000
+      internalID: 6515775108198189609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_27
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 329
+        width: 182
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febf3c4584e04a640800000000000000
+      internalID: 5090209182658067439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_28
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 389
+        width: 152
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34dfa07e62f67de0800000000000000
+      internalID: -1335613683317877697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_29
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 289
+        width: 212
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c600f42d349a1a60800000000000000
+      internalID: 7645586307748464321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 349
+        width: 351
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07532c450ec724020800000000000000
+      internalID: 2324557660613129584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_31
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 99
+        width: 12
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7001236366d912760800000000000000
+      internalID: 7431393922459504647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_32
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 99
+        width: 12
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb350095c5a95760800000000000000
+      internalID: 7447165726777228280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_33
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 99
+        width: 12
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a738bc1cabfa6ba0800000000000000
+      internalID: -6094782429057763417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_34
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 99
+        width: 12
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8b20d3b2ce19ec0800000000000000
+      internalID: -3561806159822014302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_35
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 109
+        width: 12
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97fd346d1ece8f0d0800000000000000
+      internalID: -3388698264889729159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedroomclosettexture-export_36
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 109
+        width: 12
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a42a436f951f25f0800000000000000
+      internalID: -779380436202019672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

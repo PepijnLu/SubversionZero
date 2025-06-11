@@ -1,0 +1,942 @@
+fileFormatVersion: 2
+guid: b3b006349b12db84aa9efe829607fa82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6707091427786154868
+    second: diningtabletexture-export_0
+  - first:
+      213: 3852201851369982798
+    second: diningtabletexture-export_1
+  - first:
+      213: 6338224267033225459
+    second: diningtabletexture-export_2
+  - first:
+      213: -8224472169749384185
+    second: diningtabletexture-export_3
+  - first:
+      213: -1931467778318646292
+    second: diningtabletexture-export_4
+  - first:
+      213: -9167376803126633933
+    second: diningtabletexture-export_5
+  - first:
+      213: 437017311542320552
+    second: diningtabletexture-export_6
+  - first:
+      213: -3433067414705571498
+    second: diningtabletexture-export_7
+  - first:
+      213: 2281106856589039884
+    second: diningtabletexture-export_8
+  - first:
+      213: 2593223233134512818
+    second: diningtabletexture-export_9
+  - first:
+      213: 469174598932984791
+    second: diningtabletexture-export_10
+  - first:
+      213: 2160800937025360068
+    second: diningtabletexture-export_11
+  - first:
+      213: 9003923881689519108
+    second: diningtabletexture-export_12
+  - first:
+      213: 7705691322119621874
+    second: diningtabletexture-export_13
+  - first:
+      213: -8470997741995189778
+    second: diningtabletexture-export_14
+  - first:
+      213: 5502495114076703171
+    second: diningtabletexture-export_15
+  - first:
+      213: -3123752513522344083
+    second: diningtabletexture-export_16
+  - first:
+      213: 5850800528996529951
+    second: diningtabletexture-export_17
+  - first:
+      213: 1949930603819423530
+    second: diningtabletexture-export_18
+  - first:
+      213: -2024501185557599734
+    second: diningtabletexture-export_19
+  - first:
+      213: -5251768752453789848
+    second: diningtabletexture-export_20
+  - first:
+      213: -8646842239576512997
+    second: diningtabletexture-export_21
+  - first:
+      213: -6528880932412490553
+    second: diningtabletexture-export_22
+  - first:
+      213: -3994338130152058434
+    second: diningtabletexture-export_23
+  - first:
+      213: 9047565426549950987
+    second: diningtabletexture-export_24
+  - first:
+      213: -7135016115763337570
+    second: diningtabletexture-export_25
+  - first:
+      213: 5802160611187295991
+    second: diningtabletexture-export_26
+  - first:
+      213: -3003761484972649206
+    second: diningtabletexture-export_27
+  - first:
+      213: 764881404126351132
+    second: diningtabletexture-export_28
+  - first:
+      213: -3546350729080603687
+    second: diningtabletexture-export_29
+  - first:
+      213: -7796718761725289570
+    second: diningtabletexture-export_30
+  - first:
+      213: 7302940277877519075
+    second: diningtabletexture-export_31
+  - first:
+      213: 4704484875753152865
+    second: diningtabletexture-export_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: diningtabletexture-export_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 879
+        width: 221
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c1db2d1ef9be2a0800000000000000
+      internalID: -6707091427786154868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 879
+        width: 222
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b820a8c25c57530800000000000000
+      internalID: 3852201851369982798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1239
+        width: 402
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8a647b365e5f750800000000000000
+      internalID: 6338224267033225459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1169
+        width: 182
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7047001032eccdd80800000000000000
+      internalID: -8224472169749384185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1099
+        width: 182
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3443af94c0235e0800000000000000
+      internalID: -1931467778318646292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_5
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1049
+        width: 222
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a1b7f4e5fe6c080800000000000000
+      internalID: -9167376803126633933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_6
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 969
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad1d2fede8901600800000000000000
+      internalID: 437017311542320552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_7
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 969
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6597180206b4b50d0800000000000000
+      internalID: -3433067414705571498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_8
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 969
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0992b9a99e18af10800000000000000
+      internalID: 2281106856589039884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_9
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 889
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bac5428acafcf320800000000000000
+      internalID: 2593223233134512818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_10
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 889
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3790bdfc7d28600800000000000000
+      internalID: 469174598932984791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_11
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 939
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c05ab9f005bcfd10800000000000000
+      internalID: 2160800937025360068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_12
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 909
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40492c8c01d54fc70800000000000000
+      internalID: 9003923881689519108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_13
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 879
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc00c35e6d10fa60800000000000000
+      internalID: 7705691322119621874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 459
+        width: 181
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee99d375f68f07a80800000000000000
+      internalID: -8470997741995189778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_15
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 829
+        width: 402
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c94ddc172acc5c40800000000000000
+      internalID: 5502495114076703171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_16
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 779
+        width: 222
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f5449a3a336a4d0800000000000000
+      internalID: -3123752513522344083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_17
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 749
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17718e0518323150800000000000000
+      internalID: 5850800528996529951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_18
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 749
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27d1519d8b8f0b10800000000000000
+      internalID: 1949930603819423530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_19
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 749
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a6b73e5e687e3e0800000000000000
+      internalID: -2024501185557599734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_20
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 749
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867de7b0528fd17b0800000000000000
+      internalID: -5251768752453789848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_21
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 799
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16e239cbce300880800000000000000
+      internalID: -8646842239576512997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_22
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 699
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc7bba2261c465a0800000000000000
+      internalID: -6528880932412490553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_23
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 699
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb11d7f22a24198c0800000000000000
+      internalID: -3994338130152058434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_24
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 699
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a8d93c1d86f8d70800000000000000
+      internalID: 9047565426549950987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_25
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 699
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e962d3945a45bfc90800000000000000
+      internalID: -7135016115763337570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_26
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 699
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6059fa55a658050800000000000000
+      internalID: 5802160611187295991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_27
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 699
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05943218de7056d0800000000000000
+      internalID: -3003761484972649206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_28
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 699
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fc044a5976d9a00800000000000000
+      internalID: 764881404126351132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_29
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 719
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbf3302dc4d8cec0800000000000000
+      internalID: -3546350729080603687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_30
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 719
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b9db1589d7cc390800000000000000
+      internalID: -7796718761725289570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_31
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 719
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e238c67d71495560800000000000000
+      internalID: 7302940277877519075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diningtabletexture-export_32
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 719
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161e67ea110b94140800000000000000
+      internalID: 4704484875753152865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
