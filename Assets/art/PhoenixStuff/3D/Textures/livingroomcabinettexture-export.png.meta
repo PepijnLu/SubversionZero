@@ -1,0 +1,1342 @@
+fileFormatVersion: 2
+guid: adb3167dad03b394696d2d9bd6b54a6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 332678860173982738
+    second: livingroomcabinettexture-export_0
+  - first:
+      213: -8754157280377946497
+    second: livingroomcabinettexture-export_1
+  - first:
+      213: 8470464503271262681
+    second: livingroomcabinettexture-export_2
+  - first:
+      213: -3460531780117625084
+    second: livingroomcabinettexture-export_3
+  - first:
+      213: 5594665264900081715
+    second: livingroomcabinettexture-export_4
+  - first:
+      213: 8915337562014132853
+    second: livingroomcabinettexture-export_5
+  - first:
+      213: -588544981097921297
+    second: livingroomcabinettexture-export_6
+  - first:
+      213: -8592727555954219976
+    second: livingroomcabinettexture-export_7
+  - first:
+      213: 5634664002864124389
+    second: livingroomcabinettexture-export_8
+  - first:
+      213: 3255890648805514793
+    second: livingroomcabinettexture-export_9
+  - first:
+      213: 2994416811775394034
+    second: livingroomcabinettexture-export_10
+  - first:
+      213: 4501064151288354160
+    second: livingroomcabinettexture-export_11
+  - first:
+      213: -3696755314966049801
+    second: livingroomcabinettexture-export_12
+  - first:
+      213: 7006356697733635256
+    second: livingroomcabinettexture-export_13
+  - first:
+      213: -2385944837739807584
+    second: livingroomcabinettexture-export_14
+  - first:
+      213: -156785761488523314
+    second: livingroomcabinettexture-export_15
+  - first:
+      213: 1757610372707479853
+    second: livingroomcabinettexture-export_16
+  - first:
+      213: 1513791548777112190
+    second: livingroomcabinettexture-export_17
+  - first:
+      213: -6286253923355464095
+    second: livingroomcabinettexture-export_18
+  - first:
+      213: -3519743384070407349
+    second: livingroomcabinettexture-export_19
+  - first:
+      213: -8993718079632668231
+    second: livingroomcabinettexture-export_20
+  - first:
+      213: -7942755083431632357
+    second: livingroomcabinettexture-export_21
+  - first:
+      213: 4695738104598375531
+    second: livingroomcabinettexture-export_22
+  - first:
+      213: 3346862813369080214
+    second: livingroomcabinettexture-export_23
+  - first:
+      213: 5088243347930994523
+    second: livingroomcabinettexture-export_24
+  - first:
+      213: -6354852341911323276
+    second: livingroomcabinettexture-export_25
+  - first:
+      213: 4715650197046343114
+    second: livingroomcabinettexture-export_26
+  - first:
+      213: -5328639566990699773
+    second: livingroomcabinettexture-export_27
+  - first:
+      213: -6582575728758876695
+    second: livingroomcabinettexture-export_28
+  - first:
+      213: -6714597467306463932
+    second: livingroomcabinettexture-export_29
+  - first:
+      213: 5402978289637732357
+    second: livingroomcabinettexture-export_30
+  - first:
+      213: 6943356450920628250
+    second: livingroomcabinettexture-export_31
+  - first:
+      213: -957654809937528514
+    second: livingroomcabinettexture-export_32
+  - first:
+      213: 1470551659937342864
+    second: livingroomcabinettexture-export_33
+  - first:
+      213: 1730718930536660494
+    second: livingroomcabinettexture-export_34
+  - first:
+      213: 7501503370789379864
+    second: livingroomcabinettexture-export_35
+  - first:
+      213: -7338871942433562480
+    second: livingroomcabinettexture-export_36
+  - first:
+      213: -3305262586091830099
+    second: livingroomcabinettexture-export_37
+  - first:
+      213: -2589948513944981660
+    second: livingroomcabinettexture-export_38
+  - first:
+      213: 2604522636804924894
+    second: livingroomcabinettexture-export_39
+  - first:
+      213: -2045088921419311140
+    second: livingroomcabinettexture-export_40
+  - first:
+      213: 5935398871214107801
+    second: livingroomcabinettexture-export_41
+  - first:
+      213: -1874120747039326982
+    second: livingroomcabinettexture-export_42
+  - first:
+      213: -6792360893659116249
+    second: livingroomcabinettexture-export_43
+  - first:
+      213: -2636261019890019423
+    second: livingroomcabinettexture-export_44
+  - first:
+      213: 8940839229877670106
+    second: livingroomcabinettexture-export_45
+  - first:
+      213: -2749141900387109440
+    second: livingroomcabinettexture-export_46
+  - first:
+      213: 1588689971240370572
+    second: livingroomcabinettexture-export_47
+  - first:
+      213: 4324727200848781031
+    second: livingroomcabinettexture-export_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cb3f429a9ed9400800000000000000
+      internalID: 332678860173982738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 539
+        width: 132
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e3c23c55cf28680800000000000000
+      internalID: -8754157280377946497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 609
+        width: 112
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d90a0856922d8570800000000000000
+      internalID: 8470464503271262681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 629
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40783204ea8b9ffc0800000000000000
+      internalID: -3460531780117625084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_4
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 609
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3380697aa6e34ad40800000000000000
+      internalID: 5594665264900081715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_5
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 569
+        width: 102
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57aac84f644a9bb70800000000000000
+      internalID: 8915337562014132853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_6
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 579
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4c15b357115d7f0800000000000000
+      internalID: -588544981097921297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_7
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 539
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83463a760df70c880800000000000000
+      internalID: -8592727555954219976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 539
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1956f8e09523e40800000000000000
+      internalID: 5634664002864124389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_9
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 539
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e919d6b4f3f2d20800000000000000
+      internalID: 3255890648805514793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_10
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 499
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f08457a93e4e8920800000000000000
+      internalID: 2994416811775394034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_11
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 559
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07599c87ffdf67e30800000000000000
+      internalID: 4501064151288354160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_12
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 539
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb49e590ac72bcc0800000000000000
+      internalID: -3696755314966049801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_13
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 509
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc971a9b449b3160800000000000000
+      internalID: 7006356697733635256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_14
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 509
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac77d4bfcb63eed0800000000000000
+      internalID: -2385944837739807584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 509
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf23ac3e2cf2ddf0800000000000000
+      internalID: -156785761488523314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_16
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 429
+        width: 132
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2175ce5259446810800000000000000
+      internalID: 1757610372707479853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_17
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 519
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7229d8a461120510800000000000000
+      internalID: 1513791548777112190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369
+        width: 101
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16eed7adc5db2c8a0800000000000000
+      internalID: -6286253923355464095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_19
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 389
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4bb3f36a0c572fc0800000000000000
+      internalID: -3519743384070407349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 499
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b98c7dae05ef2380800000000000000
+      internalID: -8993718079632668231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_21
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 429
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12212a855aa5c190800000000000000
+      internalID: -7942755083431632357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_22
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 479
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c2ad25dec9a2140800000000000000
+      internalID: 4695738104598375531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_23
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 459
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69914de0ff1727e20800000000000000
+      internalID: 3346862813369080214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_24
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 369
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57db24cd521d9640800000000000000
+      internalID: 5088243347930994523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_25
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 319
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47df058e6770fc7a0800000000000000
+      internalID: -6354852341911323276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_26
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 319
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5b2ff9eda517140800000000000000
+      internalID: 4715650197046343114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_27
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 319
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3039d61db8edc06b0800000000000000
+      internalID: -5328639566990699773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_28
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 319
+        width: 132
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5183c204ef5a4a0800000000000000
+      internalID: -6582575728758876695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_29
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 359
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44de57fcd25f0d2a0800000000000000
+      internalID: -6714597467306463932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 131
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5003103d02c3bfa40800000000000000
+      internalID: 5402978289637732357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_31
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 249
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a108a0697e1cb5060800000000000000
+      internalID: 6943356450920628250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_32
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 249
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39ba34360ab5b2f0800000000000000
+      internalID: -957654809937528514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_33
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 249
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0952d6281f2786410800000000000000
+      internalID: 1470551659937342864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_34
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 249
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e7ea492bfb40810800000000000000
+      internalID: 1730718930536660494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_35
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 249
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fdb413291ba1860800000000000000
+      internalID: 7501503370789379864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_36
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 249
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090aa23f9d6172a90800000000000000
+      internalID: -7338871942433562480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_37
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 249
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da48b92a0395122d0800000000000000
+      internalID: -3305262586091830099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_38
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 249
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f22c77c87ae0cd0800000000000000
+      internalID: -2589948513944981660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_39
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 289
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5a830f98f152420800000000000000
+      internalID: 2604522636804924894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 229
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd717b816726e93e0800000000000000
+      internalID: -2045088921419311140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_41
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 229
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ca8f683d5ce5250800000000000000
+      internalID: 5935398871214107801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_42
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 229
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcf78e2c19cdf5e0800000000000000
+      internalID: -1874120747039326982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_43
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 239
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d813331cfacb1a0800000000000000
+      internalID: -6792360893659116249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_44
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 239
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a31f36e19e1a6bd0800000000000000
+      internalID: -2636261019890019423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_45
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 229
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad05cb2b8ed341c70800000000000000
+      internalID: 8940839229877670106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_46
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 229
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5b846d10619d9d0800000000000000
+      internalID: -2749141900387109440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_47
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 229
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8102029c192c0610800000000000000
+      internalID: 1588689971240370572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livingroomcabinettexture-export_48
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 219
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee9f0dc974840c30800000000000000
+      internalID: 4324727200848781031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

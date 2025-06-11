@@ -1844,6 +1844,7 @@ MonoBehaviour:
   inBoardView: 0
   isTransitioning: 0
   inDialogue: 0
+  placingPin: 0
   renderCamTransform: {fileID: 330585546}
   levels:
   - {fileID: 32984996}
