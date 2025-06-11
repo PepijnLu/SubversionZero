@@ -111,6 +111,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7073998701135718994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music/intro
+  m_EditorClassIdentifier: 
+  Path: event:/music/intro
+  Guid:
+    Data1: -1890154420
+    Data2: 1312889126
+    Data3: 219091893
+    Data4: 674561515
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30344
+--- !u!114 &-7040343124874535794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/doors/door
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/doors/door
+  Guid:
+    Data1: -1807294502
+    Data2: 1089385066
+    Data3: -636139388
+    Data4: -1214292767
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 6.8
+  MaxDistance: 15
+  Length: 2435
 --- !u!114 &-6285220666011988287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,7 +298,7 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638852717225511684
+  lastModified: 638852861769138197
   FileSizes: []
   Exists: 1
 --- !u!114 &-4421671963120496869
@@ -383,6 +437,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1150
+--- !u!114 &-3291556211019763818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/doors/livingbeddoor
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/doors/livingbeddoor
+  Guid:
+    Data1: -1882872598
+    Data2: 1234589125
+    Data3: -1260216146
+    Data4: -752142406
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 6.8
+  MaxDistance: 25
+  Length: 2435
 --- !u!114 &-2999894986652017446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,38 +587,11 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638852717225601915
+  lastModified: 638852861769249168
   FileSizes:
   - Name: 
-    Value: 2932
+    Value: 3182
   Exists: 1
---- !u!114 &-1233296606768162690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/sfx/door_openclose
-  m_EditorClassIdentifier: 
-  Path: event:/sfx/door_openclose
-  Guid:
-    Data1: 284629787
-    Data2: 1211112631
-    Data3: -167397705
-    Data4: 2118382112
-  Banks:
-  - {fileID: -4997359098897101286}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2435
 --- !u!114 &-1122138807009194882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -686,7 +740,6 @@ MonoBehaviour:
   - {fileID: -4180372984890732527}
   - {fileID: -5445913370315889164}
   - {fileID: 5970937056573003441}
-  - {fileID: -1233296606768162690}
   - {fileID: -1744011232998739766}
   - {fileID: 312418305798545786}
   - {fileID: 8753931297408411485}
@@ -700,13 +753,19 @@ MonoBehaviour:
   - {fileID: -7928931318104705155}
   - {fileID: -2147888321418985146}
   - {fileID: 3401294054380772440}
+  - {fileID: 5277908471144387762}
+  - {fileID: 1000894157781949058}
+  - {fileID: -3291556211019763818}
+  - {fileID: 1174099516141321}
+  - {fileID: -7040343124874535794}
+  - {fileID: -7073998701135718994}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4997359098897101286}
   StringsBanks:
   - {fileID: -1724225176518313470}
   cacheVersion: 131847
-  cacheTime: 638852717225601915
+  cacheTime: 638852861769249168
   SerializableEventsDict:
   - key: snapshot:/Pinboard
     index: 0
@@ -750,34 +809,71 @@ MonoBehaviour:
     index: 19
   - key: event:/ui/ui_slider
     index: 20
-  - key: event:/sfx/door_openclose
-    index: 21
   - key: event:/ui/ui_select
-    index: 22
+    index: 21
   - key: event:/ui/ui_startgame
-    index: 23
+    index: 22
   - key: event:/sfx/cabinet/CabinetOpen
-    index: 24
+    index: 23
   - key: event:/ui/ui_hover
-    index: 25
+    index: 24
   - key: event:/sfx/cabinet/CabinetClose
-    index: 26
+    index: 25
   - key: event:/sfx/Polaroid/PolaroidHover
-    index: 27
+    index: 26
   - key: event:/amb/pinboardtonal
-    index: 28
+    index: 27
   - key: event:/amb/snowwind
-    index: 29
+    index: 28
   - key: event:/sfx/Polaroid/PlacePin
-    index: 30
+    index: 29
   - key: event:/sfx/Polaroid/DestroyPin
-    index: 31
+    index: 30
   - key: event:/sfx/Polaroid/MovePin
-    index: 32
+    index: 31
   - key: event:/amb/drain
-    index: 33
+    index: 32
   - key: event:/amb/houseamb
+    index: 33
+  - key: event:/sfx/doors/livingbathdoor
     index: 34
+  - key: event:/sfx/doors/livingkitchdoor
+    index: 35
+  - key: event:/sfx/doors/livingbeddoor
+    index: 36
+  - key: snapshot:/ReverbZones/Bathroom
+    index: 37
+  - key: event:/sfx/doors/door
+    index: 38
+  - key: event:/music/intro
+    index: 39
+--- !u!114 &1174099516141321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/ReverbZones/Bathroom
+  m_EditorClassIdentifier: 
+  Path: snapshot:/ReverbZones/Bathroom
+  Guid:
+    Data1: 1005493121
+    Data2: 1205711380
+    Data3: -1255518839
+    Data4: 2092033058
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &62332142439187926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -910,6 +1006,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9100
+--- !u!114 &1000894157781949058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/doors/livingkitchdoor
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/doors/livingkitchdoor
+  Guid:
+    Data1: 709649707
+    Data2: 1194356108
+    Data3: -1277538651
+    Data4: -1385895035
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 6.8
+  MaxDistance: 15
+  Length: 2435
 --- !u!114 &1333389021337981714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1111,8 +1234,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters: []
-  MinDistance: 0.2
-  MaxDistance: 10
+  MinDistance: 1.8000001
+  MaxDistance: 20
   Length: 10000
 --- !u!114 &3423177855212892901
 MonoBehaviour:
@@ -1165,6 +1288,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &5277908471144387762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/doors/livingbathdoor
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/doors/livingbathdoor
+  Guid:
+    Data1: 284629787
+    Data2: 1211112631
+    Data3: -167397705
+    Data4: 2118382112
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 6.8
+  MaxDistance: 15
+  Length: 2435
 --- !u!114 &5612774436657959316
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -51,7 +51,10 @@ public class GameManager : MonoBehaviour
     public IEnumerator TransitionLevel(string _connectingRooms)
     {
         isTransitioning = true;
-        FModManager.instance.PlaySfx(SfxKey.Door);
+        //Play door sounds 3D spatialized
+        FModManager.instance.PlayDoorSound(_connectingRooms);
+        // Play door sound 2D (boring :( )
+        // FModManager.instance.PlaySfx(SfxKey.Door);
         StartCoroutine(LerpBackgroundColor(renderCam.backgroundColor, new Color(0, 0, 0, 0), 2, renderCam));
         yield return GenericFunctions.instance.FadeImage(levelTransitionImg, 2, 1);
 

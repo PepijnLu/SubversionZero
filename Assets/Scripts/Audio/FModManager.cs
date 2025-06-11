@@ -10,6 +10,7 @@ namespace SubversionZero.Audio
 {
     public enum SfxKey
     {
+        //for PlaySfx method
         PolaroidGrab,
         PolaroidAway,
         PolaroidPic,
@@ -18,8 +19,14 @@ namespace SubversionZero.Audio
         CabinetOpen,
         CabinetClose,
         PlacePin,
-        MovePin,
         DestroyPin,
+        UiHover,
+        UiSelect,
+        UiSlider,
+        UiStart,
+        //for PlayLoopingSfx method
+        MovePin,
+        SnowWind,
     }
     [Serializable]
     public struct SfxEntry
@@ -110,58 +117,75 @@ public class FModManager : MonoBehaviour
 
     [Header("3D SFX")]
     [SerializeField] StudioEventEmitter drainEmitter;
-    
+
+    [Header("3D doors")]
+    [SerializeField] StudioEventEmitter doorLivKitch;
+    [SerializeField] StudioEventEmitter doorLivBath;
+    [SerializeField] StudioEventEmitter doorLivBed;
+    private Dictionary<string, StudioEventEmitter> _doorEmitterLookup;
+
     void Awake()
     {
         _sfxLookup = sfxEntries.ToDictionary(x => x.key, x => x.eventPath);
         _loopingLookup = loopingEntries.ToDictionary(x => x.key, x => x);
         _roomSnapshotLookup = roomSnapshots.ToDictionary(r => r.roomName, r => r.snapshotEvent);
-
+        _doorEmitterLookup = new Dictionary<string, StudioEventEmitter>()
+    {
+        { "LivingRoom,Kitchen", doorLivKitch },
+        { "LivingRoom,Bathroom", doorLivBath },
+        { "LivingRoom,Bedroom",  doorLivBed },
+        };
         instance = this;
         _eventLookup = characterEvents
             .ToDictionary(x => x.character, x => x.dialogueEventPath);
         _musicLookup = musicTracks
             .ToDictionary(x => x.state, x => x.musicEvent);
 
-        FModManager.instance.PlayMusic(MusicState.Investigation);
+        // FModManager.instance.PlayMusic(MusicState.Investigation);
 
     }
 
     void Update()
-    {
-        // Check if the E key is pressed
-        if (Input.GetKeyDown(KeyCode.E))
         {
-            FModManager.instance.PlayMusic(MusicState.Investigation);
-            _currentMusicInstance.setParameterByName("EnoughClues", currentClueValue);
-            Debug.Log($"EnoughClues set to: {currentClueValue}");
-        }
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            FModManager.instance.PlayMusic(MusicState.Freeroam);
-        }
+            // // Check if the E key is pressed
+            // if (Input.GetKeyDown(KeyCode.E))
+            // {
+            //     FModManager.instance.PlayMusic(MusicState.Investigation);
+            //     _currentMusicInstance.setParameterByName("EnoughClues", currentClueValue);
+            //     Debug.Log($"EnoughClues set to: {currentClueValue}");
+            // }
+            // if (Input.GetKeyDown(KeyCode.R))
+            // {
+            //     FModManager.instance.PlayMusic(MusicState.Freeroam);
+            // }
 
-        // Check if the F key is pressed
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            currentClueValue = 1f - currentClueValue; // Toggle between 0 and 1
-            if (_currentMusicInstance.isValid())
-            {
-                _currentMusicInstance.setParameterByName("EnoughClues", currentClueValue);
-                Debug.Log($"EnoughClues set to: {currentClueValue}");
-            }
-            else
-            {
-                Debug.LogWarning("No active music instance to set parameter on.");
-            }
-        }
+            // // Check if the F key is pressed
+            // if (Input.GetKeyDown(KeyCode.F))
+            // {
+            //     currentClueValue = 1f - currentClueValue; // Toggle between 0 and 1
+            //     if (_currentMusicInstance.isValid())
+            //     {
+            //         _currentMusicInstance.setParameterByName("EnoughClues", currentClueValue);
+            //         Debug.Log($"EnoughClues set to: {currentClueValue}");
+            //     }
+            //     else
+            //     {
+            //         Debug.LogWarning("No active music instance to set parameter on.");
+            //     }
+            // }
 
-        // Check if the W key is pressed
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            drainEmitter.Play();
+            // Check if the W key is pressed
+            // if (Input.GetKeyDown(KeyCode.W))
+            // {
+            //     FModManager.instance.StopDrain();
+            //     Debug.Log("Stopping drain sound");
+            // }
+            // if (Input.GetKeyDown(KeyCode.E))
+            // {
+            //     FModManager.instance.PlayDrain();
+            //     Debug.Log("Starting drain sound :o");
+            // }
         }
-    }
 
 
 
@@ -349,6 +373,27 @@ public class FModManager : MonoBehaviour
     {
         if (_loopingSfx.TryGetValue(key, out var inst))
             inst.setParameterByName(param, value);
+    }
+
+    public void PlayDoorSound(string connectingRooms)
+    {
+        if (_doorEmitterLookup.TryGetValue(connectingRooms, out var emitter) && emitter != null)
+        {
+            emitter.Play();
+        }
+        else
+        {
+            Debug.LogWarning($"[FMOD] No door emitter found for key '{connectingRooms}'");
+        }
+    }
+
+    public void PlayDrain()
+    {
+        drainEmitter.Play();
+    }
+    public void StopDrain()
+    {
+        drainEmitter.Stop();
     }
     // public void Test()
     // {
