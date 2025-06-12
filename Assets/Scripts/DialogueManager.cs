@@ -44,7 +44,7 @@ public class DialogueManager : MonoBehaviour
     {
         if(!dialogueIsPlaying) return;
 
-        if(Input.GetKeyDown(KeyCode.Space) && !textManager.showingText && !displayingChoices)
+        if( (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) && !textManager.showingText && !displayingChoices)
         {
             StartCoroutine(ContinueStory(true));
         }
@@ -76,6 +76,7 @@ public class DialogueManager : MonoBehaviour
 
     void ExitDialogueMode()
     {
+        Debug.Log("Exiting dialogue mode");
         dialogueIsPlaying = false;
         pointAndClick.dialoguingChar.meshRenderer.material = pointAndClick.dialoguingChar.defaultCharacterMaterial;
         pointAndClick.dialoguingChar = null;
@@ -110,6 +111,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
+            Debug.Log($"Transitioning character out: {currentStory.canContinue} , {_dontAdvance}");
             StartCoroutine(TransitionCharacter(false, true, false, false));
         }
         yield return null;

@@ -10,7 +10,7 @@ public class Polaroid : MonoBehaviour
 {
     public CapturableObject capturedObject;
     [SerializeField] RectTransform polaroidHoverDet, textHoverDet;
-    [SerializeField] TextMeshProUGUI imageDescription, keyword;
+    [SerializeField] public TextMeshProUGUI imageDescription, keyword;
     [SerializeField] GameObject description;
     public Image polaroidImage;
     bool showingDesc;

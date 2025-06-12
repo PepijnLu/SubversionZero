@@ -2,7 +2,7 @@ What do you want? <sad>
 <i>Evan pushes a hand through his greasy hair , peering at you over his glasses .</i>
 *You’re in an awfully good mood.
 <i>The nerd snorts as he rolls his eyes at your sarcasm .</i>
-I think I’ve earned the right to be in a bad mood , considering there is a corpse in the dining room and we’re trapped here .<neutral>
+I think I’ve earned the right to be in a bad mood , considering there is a corpse in the dining room and we’re trapped here . <neutral>
 ->nerd1
 ==nerd1==
 *Fair , fair . 
@@ -10,9 +10,9 @@ I told you guys from the start , a reunion trip is a terrible idea , but nooooo 
 ->nerd2
 ==nerd2==
 *I don’t think you could’ve predicted this would happen.
-<i>He flushes at your interruption .</i><angry>
+<i>He flushes at your interruption .</i> <angry>
 Irregardless! it would’ve been disastrous, group vacations always are . though I must admit , I did not expect things to become so .. <sad>
-<i>For a moment , Evan seemed genuinely at a loss for words . which was strange, since he normally never managed to keep his mouth shut for more than 10 consecutive minutes . <corruption></i>
+<i>For a moment , Evan seemed genuinely at a loss for words . which was strange, since he normally never managed to keep his mouth shut for more than 10 consecutive minutes . <corruption> </i>
 <i>You nod in response , any comfort you could give him gets caught in your throat .</i>
 ->nerd3
 ==nerd3==
@@ -46,7 +46,7 @@ Aliens .
 -> END 
 
 ==whonerd==
-Did it? that’s preposterous, really I don’t think anyone in our group had some.. deep-seeded hatred for Bridget.<sad>
+Did it? that’s preposterous, really I don’t think anyone in our group had some.. deep-seeded hatred for Bridget. <sad>
 Not enough to kill her, anyways..
 Though if it was murder.. well then it was probably Hayleigh and Bryce, no? they were the ones closest to her, and they heard nothing? 
 *I mean, that is pretty strange .
