@@ -51,9 +51,9 @@ You think it’s haunted ? <scared>
 -> stonerchoice1
 == stonerchoice1 ==
 
-* [What do you think happened ?] -> whatstoner
+*What do you think happened ? -> whatstoner
 
-* [Who do you think did it ?] -> whostoner
+*Who do you think did it ? -> whostoner
 
 
 == whatstoner ==

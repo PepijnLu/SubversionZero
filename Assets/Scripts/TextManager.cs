@@ -121,7 +121,7 @@ public class TextManager : MonoBehaviour
                 alphaText.text += _word + " ";
                 StartCoroutine(FadeInText(fadeInTime));
                 capitalizeNextWord = false;
-                yield return new WaitForSeconds(_timeBetweenWords);
+                yield return new WaitForSeconds(_timeBetweenSentences);
             }
         }
 

@@ -109,6 +109,10 @@ public class DialogueManager : MonoBehaviour
             //textIsBeingWritten = false;
             DisplayChoices();
         }
+        else if (currentStory.currentChoices.Count > 0)
+        {
+            DisplayChoices();
+        }
         else
         {
             Debug.Log($"Transitioning character out: {currentStory.canContinue} , {_dontAdvance}");
