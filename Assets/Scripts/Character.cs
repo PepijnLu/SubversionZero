@@ -10,10 +10,10 @@ public class Character : MonoBehaviour
     public MeshRenderer meshRenderer;
     [SerializeField] DialogueManager dialogueManager;
     public Material defaultCharacterMaterial, hoverCharacterMaterial;
-    [SerializeField] Sprite defaultDialogueSprite, happyDialogueSprite, sadDialogueSprite, angryDialogueSprite, scaredDialogueSprite;
+    [SerializeField] Sprite defaultDialogueSprite, happyDialogueSprite, sadDialogueSprite, angryDialogueSprite, scaredDialogueSprite, corruptedDialogueSprite;
     public Dictionary<string, Sprite> characterSprites;
     public Image charImg;
-    public Sprite defaultSprite, hoverSprite;
+    public Sprite defaultSprite, hoverSprite, nameTag;
 
     void Start()
     {
@@ -25,7 +25,8 @@ public class Character : MonoBehaviour
             ["happy"] = happyDialogueSprite,
             ["sad"] = sadDialogueSprite,
             ["angry"] = angryDialogueSprite,
-            ["scared"] = scaredDialogueSprite
+            ["scared"] = scaredDialogueSprite,
+            ["corrupted"] = corruptedDialogueSprite
         };
     }
 

@@ -22,6 +22,7 @@ public class DialogueManager : MonoBehaviour
     [Header("Dialogue Scene Elements")]
     [SerializeField] float transitionTime;
     [SerializeField] Image textBox;
+    [SerializeField] Image nameTag;
     [SerializeField] Image darkenImg;
     [SerializeField] Image leftCharacter;
     [SerializeField] Image rightCharacter;
@@ -51,6 +52,7 @@ public class DialogueManager : MonoBehaviour
 
     public void SwitchStory(Character _character, TextAsset _txt)
     {
+        nameTag.sprite = _character.nameTag;
         //Initiate story
         if(!charactersStories.ContainsKey(_character))
         {

@@ -34,7 +34,11 @@ public class PointAndClick : MonoBehaviour
     [SerializeField] LayerMask polaroidHoverLayer;
     [SerializeField] LayerMask wordLayer;
 
-
+    [Header("Cursor")]
+    [SerializeField] Texture2D normalCursorTexture; 
+    [SerializeField] Texture2D talkCursorTexture; 
+    [SerializeField] Texture2D doorCursorTexture; 
+    [SerializeField] Texture2D interactCursorTexture; 
     [Header("Panning")]
     [SerializeField] float pannedZoom;
     [SerializeField] float pannedDistance;
@@ -66,6 +70,7 @@ public class PointAndClick : MonoBehaviour
 
     void Start()
     {
+        Cursor.SetCursor(normalCursorTexture, Vector2.zero, CursorMode.Auto);
         SetupCamera();
         transitioned = true;
         lastHoveringChar = gameObject;
@@ -95,6 +100,11 @@ public class PointAndClick : MonoBehaviour
         {
             Character tempChar = hoveringChar.InitiateDialogue();
             if (tempChar != null) dialoguingChar = tempChar;
+        }
+
+        if(GameManager.instance.inBoardView)
+        {
+            Cursor.SetCursor(normalCursorTexture, Vector2.zero, CursorMode.Auto);
         }
 
 
@@ -250,7 +260,11 @@ public class PointAndClick : MonoBehaviour
     {
         if (!transitioned) return;
         if (GameManager.instance.isTransitioning) return;
-        if (GameManager.instance.inDialogue) return;
+        if (GameManager.instance.inDialogue) 
+        {
+            Cursor.SetCursor(normalCursorTexture, Vector2.zero, CursorMode.Auto);
+            return;
+        }
 
         Vector2 localPoint;
         Vector2 screenPosition = Input.mousePosition;
@@ -281,6 +295,36 @@ public class PointAndClick : MonoBehaviour
 
         if (!GameManager.instance.inBoardView)
         {
+            if(!GameManager.instance.inDialogue)
+            {
+                if (CheckColliderLayerMask(_hit.collider, capturableLayer))
+                {
+                    //Cursor.SetCursor(normalCursorTexture, Vector2.zero, CursorMode.Auto);
+                }
+                else if (CheckColliderLayerMask(_hit.collider, inspectionAreaLayer))
+                {
+                    if (_hit.collider != null && !pannedToZone && !GameManager.instance.inBoardView) 
+                    {
+                        Cursor.SetCursor(interactCursorTexture, Vector2.zero, CursorMode.Auto);
+                    }
+                }
+                else if (CheckColliderLayerMask(_hit.collider, doorLayer))
+                {
+                    Cursor.SetCursor(doorCursorTexture, Vector2.zero, CursorMode.Auto);
+                }
+                else if (CheckColliderLayerMask(_hit.collider, characterLayer))
+                {
+                    if (_hit.collider.gameObject != lastHoveringChar)
+                    {
+                        Cursor.SetCursor(talkCursorTexture, Vector2.zero, CursorMode.Auto);
+                    }
+                }
+                else
+                {
+                    Cursor.SetCursor(normalCursorTexture, Vector2.zero, CursorMode.Auto);
+                }
+            }
+
             if (Input.GetMouseButtonDown(0))
             {
                 if (CheckColliderLayerMask(_hit.collider, capturableLayer))
@@ -289,7 +333,10 @@ public class PointAndClick : MonoBehaviour
                 }
                 if (CheckColliderLayerMask(_hit.collider, inspectionAreaLayer))
                 {
-                    if (_hit.collider != null && !pannedToZone && !GameManager.instance.inBoardView) StartCoroutine(PanToZone(_hit));
+                    if (_hit.collider != null && !pannedToZone && !GameManager.instance.inBoardView) 
+                    {
+                        StartCoroutine(PanToZone(_hit));
+                    }
                 }
                 if (CheckColliderLayerMask(_hit.collider, doorLayer))
                 {
