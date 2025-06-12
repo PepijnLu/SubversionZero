@@ -43,7 +43,7 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638852897146086301
+  lastModified: 638853142056735685
   FileSizes: []
   Exists: 1
 --- !u!114 &-9061139736093554273
@@ -88,7 +88,7 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638852897146096328
+  lastModified: 638853142100936379
   FileSizes:
   - Name: 
     Value: 2932
@@ -755,7 +755,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8971094788860569392}
   cacheVersion: 131847
-  cacheTime: 638852897146096328
+  cacheTime: 638853142100936379
   SerializableEventsDict:
   - key: event:/sfx/Polaroid/PlacePin
     index: 0

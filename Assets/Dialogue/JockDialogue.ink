@@ -55,31 +55,31 @@ Dope , man, I’m also doing - <neutral>
 Uh yeah , hit me !<happy>
 -> jockchoice3
 ==jockchoice3==
-*[What do you think happened ?] -> whatjock
+*[What do you think happened?] -> whatjock
 
-*[Who do you think did it ?] -> whojock
+*[Who do you think did it?] -> whojock
 
 
 ==whatjock==
 <i>Bryce is silent for a moment <sad></i>
 To be honest , I have no clue .
-The whole .. her being in the fireplace is weird as fuck , like how did she even get there ? but none of us could’ve done it , and it’s not like ghosts exist .
+The whole .. her being in the fireplace is weird as fuck , like how did she even get there ? But none of us could’ve done it , and it’s not like ghosts exist .
 *I mean one of us could’ve .
 <i>Bryce responded with a confident laugh .</i>
-Nah man , why would anyone wanna kill Bridget anyways ? it was probably just some accident . <neutral>
+Nah man , why would anyone wanna kill Bridget anyways ? It was probably just some accident . <neutral>
 ->jock4
 ==jock4==
-*if you insist ..
-<i>On that frustratingly naive note the conversation petered out . while Bryce's asserted that nobody in this cabin would have any reason or desire to hurt Bridget , you weren't all that convinced .</i>
+*If you insist ..
+<i>On that frustratingly naive note the conversation petered out . While Bryce's asserted that nobody in this cabin would have any reason or desire to hurt Bridget , you weren't all that convinced .</i>
 -> END
 ==whojock ==
-Who did it ? c’mon bro , you can’t be serious <sad>
-*I mean look at where we found the body . some foul play had to be involved 
+Who did it ? C’mon bro , you can’t be serious .<sad>
+*I mean look at where we found the body . some foul play had to be involved .
 </i>Bryce sighs and shakes his head .<i> <neutral>
-Nobody here would do something as crazy as murdering Bridget , man . and I don't think throwing out accusations and shit is a good idea . 
+Nobody here would do something as crazy as murdering Bridget , man . And I don't think throwing out accusations and shit is a good idea . 
 We gotta keep it together for now and just hold out till the cops get here !<corruption>
 ->jock5
 ==jock5==
-*if you insist .. <happy>
-<i>On that frustratingly naive note the conversation petered out . while Bryce's asserted that nobody in this cabin would have any reason or desire to hurt Bridget , you weren't all that convinced . </i>
+*If you insist .. <happy>
+<i>On that frustratingly naive note the conversation petered out . While Bryce's asserted that nobody in this cabin would have any reason or desire to hurt Bridget , you weren't all that convinced . </i>
 -> END
