@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -28,6 +29,25 @@ public class GenericFunctions : MonoBehaviour
 
         color.a = _target;
         _image.color = color;
+    }
+
+    public IEnumerator FadeText(TextMeshProUGUI _text, float _duration, float _target)
+    {
+        float currentValue = _text.color.a;
+        float _elapsedTime = 0;
+        Color color = _text.color;
+
+        while (_elapsedTime <= _duration)
+        {
+            currentValue = Mathf.Lerp(currentValue, _target, _elapsedTime / _duration);
+            color.a = currentValue;
+            _text.color = color;
+            _elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        color.a = _target;
+        _text.color = color;
     }
 
     public IEnumerator LerpTransform(Transform _transform, Vector3 _targetPos, float _duration)
@@ -75,13 +95,13 @@ public class GenericFunctions : MonoBehaviour
         _camera.fieldOfView = targetValue;
     }
 
-    public IEnumerator FlickerLight(Light _light) 
+    public IEnumerator FlickerObject(GameObject _obj) 
     {
         yield return new WaitForSeconds(0.1f);
-        _light.enabled = true;
+        _obj.SetActive(true);
         yield return new WaitForSeconds(0.1f);
-        _light.enabled = false;
+        _obj.SetActive(false);
         yield return new WaitForSeconds(0.2f);
-        _light.enabled = true;
+        _obj.SetActive(true);
     }
 }

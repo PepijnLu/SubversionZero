@@ -53,6 +53,7 @@
     <Compile Include="Assets\Scripts\PolaroidText.cs" />
     <Compile Include="Assets\ThreadClues\OptimizedRopesAndCables\Script\RopeMesh.cs" />
     <Compile Include="Assets\Scripts\crimeBoard.cs" />
+    <Compile Include="Assets\Scripts\StartGame.cs" />
     <Compile Include="Assets\Scripts\PolaroidCam.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PointAndClick.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Assets\Scripts\Polaroid.cs" />
     <Compile Include="Assets\ThreadClues\OptimizedRopesAndCables\Example\Scripts\PointsAssignExample.cs" />
     <Compile Include="Assets\ThreadClues\OptimizedRopesAndCables\Script\Rope.cs" />
+    <Compile Include="Assets\Scripts\CameraPan.cs" />
     <Compile Include="Assets\Scripts\Audio\FollowCamera.cs" />
     <Compile Include="Assets\Ink\Demos\Basic Demo\Scripts\BasicInkExample.cs" />
     <Compile Include="Assets\Scripts\Audio\FModManager.cs" />

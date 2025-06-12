@@ -11,7 +11,7 @@ using System.Drawing;
 public class DialogueManager : MonoBehaviour
 {
     Story currentStory;
-    bool dialogueIsPlaying;
+    bool dialogueIsPlaying, displayingChoices;
     [SerializeField] TextManager textManager;
     [SerializeField] PointAndClick pointAndClick;
     [SerializeField] List<TextMeshProUGUI> choicesTexts;
@@ -22,6 +22,7 @@ public class DialogueManager : MonoBehaviour
     [Header("Dialogue Scene Elements")]
     [SerializeField] float transitionTime;
     [SerializeField] Image textBox;
+    [SerializeField] Image nameTag;
     [SerializeField] Image darkenImg;
     [SerializeField] Image leftCharacter;
     [SerializeField] Image rightCharacter;
@@ -43,14 +44,15 @@ public class DialogueManager : MonoBehaviour
     {
         if(!dialogueIsPlaying) return;
 
-        if(Input.GetKeyDown(KeyCode.Space) && !textManager.showingText)
+        if(Input.GetKeyDown(KeyCode.Space) && !textManager.showingText && !displayingChoices)
         {
-            ContinueStory(true);
+            StartCoroutine(ContinueStory(true));
         }
     }
 
     public void SwitchStory(Character _character, TextAsset _txt)
     {
+        nameTag.sprite = _character.nameTag;
         //Initiate story
         if(!charactersStories.ContainsKey(_character))
         {
@@ -81,12 +83,13 @@ public class DialogueManager : MonoBehaviour
         textManager.DisableText();
     }
 
-    void ContinueStory(bool _dontAdvance)
+    IEnumerator ContinueStory(bool _dontAdvance, bool _showText = true)
     {
         dialogueIsPlaying = true;
 
         if(currentStory.canContinue || !_dontAdvance)
         {
+            //textIsBeingWritten = true;
             string textFromJson;
 
             if(!_dontAdvance) textFromJson = currentStory.currentText;
@@ -100,13 +103,16 @@ public class DialogueManager : MonoBehaviour
             Debug.Log($"New main text: {mainText}");
             
             FModManager.instance.StartDialogue(currentRightCharacter);
-            StartCoroutine(textManager.DisplayPhraseInSyllables(mainText, tag, textManager.timeBetweenSyllables, textManager.timeBetweenWords, textManager.timeBetweenSentences));
+            if(_showText) yield return StartCoroutine(textManager.DisplayPhraseInSyllables(mainText, tag, textManager.timeBetweenSyllables, textManager.timeBetweenWords, textManager.timeBetweenSentences));
+            else StartCoroutine(ContinueStory(true));
+            //textIsBeingWritten = false;
             DisplayChoices();
         }
         else
         {
             StartCoroutine(TransitionCharacter(false, true, false, false));
         }
+        yield return null;
     }
 
     void HandleTag(string _tag)
@@ -136,6 +142,8 @@ public class DialogueManager : MonoBehaviour
         //enable and initliaze the choices
         for(int i = 0; i < currentChoices.Count; i++)
         {
+            displayingChoices = true;
+            GameManager.instance.displayingChoices = true;
             Choice _choice = currentChoices[i];
             choicesTexts[i].transform.parent.gameObject.SetActive(true);
             choicesTexts[i].text = _choice.text;
@@ -153,7 +161,9 @@ public class DialogueManager : MonoBehaviour
             _txt.text = "";
             _txt.transform.parent.gameObject.SetActive(false);
         }
-        ContinueStory(true);
+        displayingChoices = false;
+        GameManager.instance.displayingChoices = false;
+        StartCoroutine(ContinueStory(true, false));
     }
 
     IEnumerator TransitionCharacter(bool _in, bool _right, bool _switch, bool _dontAdvance)
@@ -200,7 +210,7 @@ public class DialogueManager : MonoBehaviour
             //Fade in character sprite
             yield return StartCoroutine(GenericFunctions.instance.LerpTransform(rightCharacter.transform, characterSpriteTargetPos, transitionTime));
 
-            ContinueStory(_dontAdvance);
+            StartCoroutine(ContinueStory(_dontAdvance));
         }
         else
         {

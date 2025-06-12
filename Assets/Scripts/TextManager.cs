@@ -13,7 +13,8 @@ public class TextManager : MonoBehaviour
     [SerializeField] public float timeBetweenSyllables, timeBetweenWords, timeBetweenSentences, fadeInTime;
     [SerializeField] TextMeshProUGUI alphaText, fullText;
     [SerializeField] Transform textHolder;
-    List<string> sentenceEndingPunctiation;
+    [SerializeField] Image nameTag;
+    List<string> sentenceEndingPunctiation, sentenceContinueingPunctuation;
     [SerializeField] DialogueManager dialogueManager;
     [SerializeField] CMUDictLoader cmuDictLoader;
     [Header("Ink JSON")]
@@ -33,6 +34,13 @@ public class TextManager : MonoBehaviour
             "?",
             "!",
             "..."
+        };
+
+        sentenceContinueingPunctuation = new()
+        {
+            ",",
+            ":",
+            ";"
         };
 
         //dialogueManager.EnterDialogueMode(inkJSON);
@@ -56,7 +64,7 @@ public class TextManager : MonoBehaviour
             string _word = words[i];
             if (string.IsNullOrWhiteSpace(_word)) continue;
 
-            if (!sentenceEndingPunctiation.Contains(_word))
+            if (!sentenceEndingPunctiation.Contains(_word) && !sentenceContinueingPunctuation.Contains(_word))
             {
                 List<string> syllables = SplitSyllables(_word, capitalizeNextWord).ToList();
                 capitalizeNextWord = false;
@@ -95,16 +103,23 @@ public class TextManager : MonoBehaviour
 
                 if (i + 1 < words.Count && !sentenceEndingPunctiation.Contains(words[i + 1]))
                 {
-                    alphaText.text += " ";
+                    if(!sentenceContinueingPunctuation.Contains(words[i + 1])) alphaText.text += " ";
                     yield return new WaitForSeconds(_timeBetweenWords);
                 }
             }
-            else
+            else if (sentenceEndingPunctiation.Contains(_word))
             {
                 alphaText.text += _word + " ";
                 StartCoroutine(FadeInText(fadeInTime));
                 capitalizeNextWord = true;
                 yield return new WaitForSeconds(_timeBetweenSentences);
+            }
+            else if (sentenceContinueingPunctuation.Contains(_word))
+            {
+                alphaText.text += _word + " ";
+                StartCoroutine(FadeInText(fadeInTime));
+                capitalizeNextWord = false;
+                yield return new WaitForSeconds(_timeBetweenWords);
             }
         }
 
@@ -159,6 +174,7 @@ public class TextManager : MonoBehaviour
 
     public string[] SplitSyllables(string word, bool firstWord)
     {
+        string[] completeWordInArray = { word };
         var dictToCheck = cmuDictLoader.pronunciations;
         Debug.Log($"Split Syllables Input: {word}, {firstWord}");
 
@@ -179,7 +195,11 @@ public class TextManager : MonoBehaviour
             word = word.Substring(0, word.Length - 1);
 
             //Return empty if wordt still hasn't been found
-            if (!dictToCheck.ContainsKey(word) || (removedChar != "s" || removedChar != "d")) return new string[0];
+            if (!dictToCheck.ContainsKey(word) || (removedChar != "s" || removedChar != "d")) 
+            {
+                Debug.LogWarning($"NotFound: {word}");
+                return completeWordInArray;
+            }
 
             //Otherwise find the string array
             foundArray = dictToCheck[word];
@@ -201,7 +221,11 @@ public class TextManager : MonoBehaviour
         }
 
         //Return empty if wordt still hasn't been found
-        if (!dictToCheck.ContainsKey(word)) return new string[0];
+        if (!dictToCheck.ContainsKey(word)) 
+        {
+            Debug.LogWarning($"NotFound: {word}");
+            return completeWordInArray;
+        }
 
         //Otherwise get the string array from the dictionary
         foundArray = dictToCheck[word];
