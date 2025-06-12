@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 23b1e7e52cca7ea46bd6640332a92292
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4689337967086223056
+    second: HollowSink_0
+  - first:
+      213: -767054998630702307
+    second: HollowSink_1
+  - first:
+      213: -6027232982576655356
+    second: HollowSink_2
+  - first:
+      213: 6441562158133321154
+    second: HollowSink_3
+  - first:
+      213: 2487675319081031884
+    second: HollowSink_4
+  - first:
+      213: 2005278709691927181
+    second: HollowSink_5
+  - first:
+      213: -253459779834255125
+    second: HollowSink_6
+  - first:
+      213: -6954802289207536188
+    second: HollowSink_7
+  - first:
+      213: 4829149349355343372
+    second: HollowSink_8
+  - first:
+      213: -6234413898837452001
+    second: HollowSink_9
+  - first:
+      213: -994298522595636232
+    second: HollowSink_10
+  - first:
+      213: 4119491817464462145
+    second: HollowSink_11
+  - first:
+      213: -11260439935488334
+    second: HollowSink_12
+  - first:
+      213: -8308246480959864424
+    second: HollowSink_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HollowSink_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031c210d6ff1ceeb0800000000000000
+      internalID: -4689337967086223056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13ed63fa8fda55f0800000000000000
+      internalID: -767054998630702307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 101
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40410073987fa5ca0800000000000000
+      internalID: -6027232982576655356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 85
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd922a67a6056950800000000000000
+      internalID: 6441562158133321154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8d45eb58ff58220800000000000000
+      internalID: 2487675319081031884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 64
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a47deac5e24db10800000000000000
+      internalID: 2005278709691927181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 69
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be861225ca78b7cf0800000000000000
+      internalID: -253459779834255125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 80
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c516b48a249b7f90800000000000000
+      internalID: -6954802289207536188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 75
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e42af4fb5940340800000000000000
+      internalID: 4829149349355343372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 47
+        width: 51
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b19012799ea79a0800000000000000
+      internalID: -6234413898837452001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 70
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbcdfff2ca8332f0800000000000000
+      internalID: -994298522595636232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink_11
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 65
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bf8136bff5b2930800000000000000
+      internalID: 4119491817464462145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be61a580bef7dff0800000000000000
+      internalID: -11260439935488334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HollowSink_13
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 37
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8918ff338dd23bc80800000000000000
+      internalID: -8308246480959864424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HollowSink_0: -4689337967086223056
+      HollowSink_1: -767054998630702307
+      HollowSink_10: -994298522595636232
+      HollowSink_11: 4119491817464462145
+      HollowSink_12: -11260439935488334
+      HollowSink_13: -8308246480959864424
+      HollowSink_2: -6027232982576655356
+      HollowSink_3: 6441562158133321154
+      HollowSink_4: 2487675319081031884
+      HollowSink_5: 2005278709691927181
+      HollowSink_6: -253459779834255125
+      HollowSink_7: -6954802289207536188
+      HollowSink_8: 4829149349355343372
+      HollowSink_9: -6234413898837452001
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

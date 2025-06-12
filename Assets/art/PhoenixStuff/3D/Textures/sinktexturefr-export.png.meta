@@ -1,0 +1,3055 @@
+fileFormatVersion: 2
+guid: c49fb4155a18f0a4486bc2620dd8caa2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3979356198162188848
+    second: sinktexturefr-export_0
+  - first:
+      213: 8233570351585581777
+    second: sinktexturefr-export_1
+  - first:
+      213: 5111221508137753024
+    second: sinktexturefr-export_2
+  - first:
+      213: 1851726206715321909
+    second: sinktexturefr-export_3
+  - first:
+      213: 2738083908240439630
+    second: sinktexturefr-export_4
+  - first:
+      213: 8299905823343655695
+    second: sinktexturefr-export_5
+  - first:
+      213: 2857905380417242076
+    second: sinktexturefr-export_6
+  - first:
+      213: 7173987403153990459
+    second: sinktexturefr-export_7
+  - first:
+      213: -1216037886271493152
+    second: sinktexturefr-export_8
+  - first:
+      213: -9062612828042209739
+    second: sinktexturefr-export_9
+  - first:
+      213: 1763205765724460123
+    second: sinktexturefr-export_10
+  - first:
+      213: -5062451783065681485
+    second: sinktexturefr-export_11
+  - first:
+      213: -5015061255905428553
+    second: sinktexturefr-export_12
+  - first:
+      213: 2193566549547922977
+    second: sinktexturefr-export_13
+  - first:
+      213: 8892928935668692678
+    second: sinktexturefr-export_14
+  - first:
+      213: -6240076149332114194
+    second: sinktexturefr-export_15
+  - first:
+      213: 4279182950706639176
+    second: sinktexturefr-export_16
+  - first:
+      213: 5631865471056528515
+    second: sinktexturefr-export_17
+  - first:
+      213: -2940656939014297147
+    second: sinktexturefr-export_18
+  - first:
+      213: 5420116517255956068
+    second: sinktexturefr-export_19
+  - first:
+      213: 8181336551536202976
+    second: sinktexturefr-export_20
+  - first:
+      213: 719816007862854091
+    second: sinktexturefr-export_21
+  - first:
+      213: -2112323773471294765
+    second: sinktexturefr-export_22
+  - first:
+      213: 1074270691176235750
+    second: sinktexturefr-export_23
+  - first:
+      213: -5322570822271697910
+    second: sinktexturefr-export_24
+  - first:
+      213: -4751692623953320300
+    second: sinktexturefr-export_25
+  - first:
+      213: -9180927168238690349
+    second: sinktexturefr-export_26
+  - first:
+      213: 2486202444903032053
+    second: sinktexturefr-export_27
+  - first:
+      213: 8641511601627864551
+    second: sinktexturefr-export_28
+  - first:
+      213: -2393904553801370794
+    second: sinktexturefr-export_29
+  - first:
+      213: 8157332430487001112
+    second: sinktexturefr-export_30
+  - first:
+      213: 7643368068809015867
+    second: sinktexturefr-export_31
+  - first:
+      213: 7090356454295602449
+    second: sinktexturefr-export_32
+  - first:
+      213: 2204811544810952032
+    second: sinktexturefr-export_33
+  - first:
+      213: 6919918770335255894
+    second: sinktexturefr-export_34
+  - first:
+      213: -7792497612533902029
+    second: sinktexturefr-export_35
+  - first:
+      213: 7526247650365386084
+    second: sinktexturefr-export_36
+  - first:
+      213: -4684030827738929930
+    second: sinktexturefr-export_37
+  - first:
+      213: 4147510014094093442
+    second: sinktexturefr-export_38
+  - first:
+      213: -2456087761479733173
+    second: sinktexturefr-export_39
+  - first:
+      213: 5241228608956523327
+    second: sinktexturefr-export_40
+  - first:
+      213: -1316648693327814206
+    second: sinktexturefr-export_41
+  - first:
+      213: -5972646771307293098
+    second: sinktexturefr-export_42
+  - first:
+      213: -5029344613058895099
+    second: sinktexturefr-export_43
+  - first:
+      213: -5303414316464695181
+    second: sinktexturefr-export_44
+  - first:
+      213: 5432072525673787666
+    second: sinktexturefr-export_45
+  - first:
+      213: 1403262995100374398
+    second: sinktexturefr-export_46
+  - first:
+      213: -7051082873976573457
+    second: sinktexturefr-export_47
+  - first:
+      213: -3770593200694672330
+    second: sinktexturefr-export_48
+  - first:
+      213: 6148443138760383931
+    second: sinktexturefr-export_49
+  - first:
+      213: -6668914270774721919
+    second: sinktexturefr-export_50
+  - first:
+      213: -3891169406028360970
+    second: sinktexturefr-export_51
+  - first:
+      213: 4898311654632204081
+    second: sinktexturefr-export_52
+  - first:
+      213: -5660961227071160
+    second: sinktexturefr-export_53
+  - first:
+      213: -8132886958656592717
+    second: sinktexturefr-export_54
+  - first:
+      213: 6638555675305278767
+    second: sinktexturefr-export_55
+  - first:
+      213: -4832823822362175159
+    second: sinktexturefr-export_56
+  - first:
+      213: 4676782890288244839
+    second: sinktexturefr-export_57
+  - first:
+      213: 4002977614865434203
+    second: sinktexturefr-export_58
+  - first:
+      213: -7434975165871834235
+    second: sinktexturefr-export_59
+  - first:
+      213: -6919485288433490781
+    second: sinktexturefr-export_60
+  - first:
+      213: -2749662354274246184
+    second: sinktexturefr-export_61
+  - first:
+      213: -7138341997962299846
+    second: sinktexturefr-export_62
+  - first:
+      213: -4394860828736164607
+    second: sinktexturefr-export_63
+  - first:
+      213: -7165653245212183374
+    second: sinktexturefr-export_64
+  - first:
+      213: 5535686313781138859
+    second: sinktexturefr-export_65
+  - first:
+      213: -1293573032539853415
+    second: sinktexturefr-export_66
+  - first:
+      213: -3064572166805324470
+    second: sinktexturefr-export_67
+  - first:
+      213: -2549759114521259482
+    second: sinktexturefr-export_68
+  - first:
+      213: 3281633915594021036
+    second: sinktexturefr-export_69
+  - first:
+      213: 7865539278133397054
+    second: sinktexturefr-export_70
+  - first:
+      213: 410103387458617513
+    second: sinktexturefr-export_71
+  - first:
+      213: -4503322695269950123
+    second: sinktexturefr-export_72
+  - first:
+      213: 1678410560595435227
+    second: sinktexturefr-export_73
+  - first:
+      213: -1348252499571431809
+    second: sinktexturefr-export_74
+  - first:
+      213: -3756241868151743484
+    second: sinktexturefr-export_75
+  - first:
+      213: 6375204423886255959
+    second: sinktexturefr-export_76
+  - first:
+      213: 2795386286617909564
+    second: sinktexturefr-export_77
+  - first:
+      213: -5756120529977039810
+    second: sinktexturefr-export_78
+  - first:
+      213: -4069596598694348837
+    second: sinktexturefr-export_79
+  - first:
+      213: 755130443837652423
+    second: sinktexturefr-export_80
+  - first:
+      213: -2079859710801147390
+    second: sinktexturefr-export_81
+  - first:
+      213: 5495052009454826762
+    second: sinktexturefr-export_82
+  - first:
+      213: -4136103085665458420
+    second: sinktexturefr-export_83
+  - first:
+      213: -6816259682165839430
+    second: sinktexturefr-export_84
+  - first:
+      213: -1484863095271323175
+    second: sinktexturefr-export_85
+  - first:
+      213: -9211354951417290236
+    second: sinktexturefr-export_86
+  - first:
+      213: -5242004465409966565
+    second: sinktexturefr-export_87
+  - first:
+      213: 7435684842423252943
+    second: sinktexturefr-export_88
+  - first:
+      213: 4190053467417144348
+    second: sinktexturefr-export_89
+  - first:
+      213: 2963417654260106793
+    second: sinktexturefr-export_90
+  - first:
+      213: -7950834782433839848
+    second: sinktexturefr-export_91
+  - first:
+      213: -4534250545069667638
+    second: sinktexturefr-export_92
+  - first:
+      213: -6857078387272972084
+    second: sinktexturefr-export_93
+  - first:
+      213: -6025749197790654887
+    second: sinktexturefr-export_94
+  - first:
+      213: 1090458569788106973
+    second: sinktexturefr-export_95
+  - first:
+      213: -658918145666791676
+    second: sinktexturefr-export_96
+  - first:
+      213: 483164167735157958
+    second: sinktexturefr-export_97
+  - first:
+      213: 1060119885792911712
+    second: sinktexturefr-export_98
+  - first:
+      213: 6351533676891418166
+    second: sinktexturefr-export_99
+  - first:
+      213: 1641789574849906286
+    second: sinktexturefr-export_100
+  - first:
+      213: 8091966995628396343
+    second: sinktexturefr-export_101
+  - first:
+      213: -805815165204153759
+    second: sinktexturefr-export_102
+  - first:
+      213: 5174139265064209354
+    second: sinktexturefr-export_103
+  - first:
+      213: -2001720683901947238
+    second: sinktexturefr-export_104
+  - first:
+      213: 6549489305228644330
+    second: sinktexturefr-export_105
+  - first:
+      213: 9119113861660068922
+    second: sinktexturefr-export_106
+  - first:
+      213: 3641899287945128916
+    second: sinktexturefr-export_107
+  - first:
+      213: -3072184594958844941
+    second: sinktexturefr-export_108
+  - first:
+      213: -3858966165444506633
+    second: sinktexturefr-export_109
+  - first:
+      213: 3003015327569079306
+    second: sinktexturefr-export_110
+  - first:
+      213: -3403427152304320724
+    second: sinktexturefr-export_111
+  - first:
+      213: -674967841657278697
+    second: sinktexturefr-export_112
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sinktexturefr-export_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 519
+        width: 161
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d53bcd0f9c76c8c0800000000000000
+      internalID: -3979356198162188848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 529
+        width: 132
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da52778c94834270800000000000000
+      internalID: 8233570351585581777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 589
+        width: 152
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c913e891e4bee640800000000000000
+      internalID: 5111221508137753024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_3
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 619
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e5c849c27a2b910800000000000000
+      internalID: 1851726206715321909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_4
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 629
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4972ebbec0aff520800000000000000
+      internalID: 2738083908240439630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_5
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 629
+        width: 92
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b389d1f503f2370800000000000000
+      internalID: 8299905823343655695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_6
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 609
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd382793dc159a720800000000000000
+      internalID: 2857905380417242076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 589
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33ee14a88f1f8360800000000000000
+      internalID: 7173987403153990459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_8
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 589
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebee5b3cf3cf1fe0800000000000000
+      internalID: -1216037886271493152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_9
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 529
+        width: 152
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53655af06a12b3280800000000000000
+      internalID: -9062612828042209739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_10
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 559
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b545de35d4a287810800000000000000
+      internalID: 1763205765724460123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_11
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 559
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1c3d1ecee8eb9b0800000000000000
+      internalID: -5062451783065681485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_12
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 569
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbbee2db5ce66ab0800000000000000
+      internalID: -5015061255905428553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_13
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 509
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126bbf0a72d117e10800000000000000
+      internalID: 2193566549547922977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_14
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 539
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6335f00c70a6b70800000000000000
+      internalID: 8892928935668692678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 389
+        width: 141
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee40ca3bdcbc669a0800000000000000
+      internalID: -6240076149332114194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_16
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 399
+        width: 132
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841f6c9b836b26b30800000000000000
+      internalID: 4279182950706639176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_17
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 409
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384cc199ec7682e40800000000000000
+      internalID: 5631865471056528515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_18
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 419
+        width: 32
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9e3cf1810b037d0800000000000000
+      internalID: -2940656939014297147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_19
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 439
+        width: 12
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466c444614f183b40800000000000000
+      internalID: 5420116517255956068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_20
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 509
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e41c3e3f32f98170800000000000000
+      internalID: 8181336551536202976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_21
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 509
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc12e4c68dc4df900800000000000000
+      internalID: 719816007862854091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_22
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 469
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da71a738b48fa2e0800000000000000
+      internalID: -2112323773471294765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_23
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 489
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e24c2c708398ee00800000000000000
+      internalID: 1074270691176235750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_24
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 489
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0cf2ae890e6226b0800000000000000
+      internalID: -5322570822271697910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_25
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 469
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4962b6bebb89e0eb0800000000000000
+      internalID: -4751692623953320300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_26
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 469
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df5664126bc69080800000000000000
+      internalID: -9180927168238690349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_27
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 449
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4272083f3c08220800000000000000
+      internalID: 2486202444903032053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_28
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 449
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed12795401dce770800000000000000
+      internalID: 8641511601627864551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_29
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 389
+        width: 122
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653ba74ed7427ced0800000000000000
+      internalID: -2393904553801370794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_30
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 429
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81893f940aaa43170800000000000000
+      internalID: 8157332430487001112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_31
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 429
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32cce423c2b21a60800000000000000
+      internalID: 7643368068809015867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_32
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 409
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115003df0a1066260800000000000000
+      internalID: 7090356454295602449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_33
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 299
+        width: 132
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065132d1b60199e10800000000000000
+      internalID: 2204811544810952032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_34
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 279
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d0464557d780060800000000000000
+      internalID: 6919918770335255894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_35
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 389
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33556d335bc7bd390800000000000000
+      internalID: -7792497612533902029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 111
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46da5abbc5a927860800000000000000
+      internalID: 7526247650365386084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_37
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 349
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f464ab77cafefeb0800000000000000
+      internalID: -4684030827738929930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_38
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 259
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c2474226aee8930800000000000000
+      internalID: 4147510014094093442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_39
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 359
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40f0df91393aedd0800000000000000
+      internalID: -2456087761479733173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_40
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 359
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33e77f86a59cb840800000000000000
+      internalID: 5241228608956523327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_41
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 369
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1a6344df25abde0800000000000000
+      internalID: -1316648693327814206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_42
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 309
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656585be765ec1da0800000000000000
+      internalID: -5972646771307293098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_43
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 349
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503a99598bd243ab0800000000000000
+      internalID: -5029344613058895099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_44
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 329
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378966227cc7666b0800000000000000
+      internalID: -5303414316464695181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_45
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 329
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211f1f68e29926b40800000000000000
+      internalID: 5432072525673787666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_46
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 299
+        width: 142
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75986d5244697310800000000000000
+      internalID: 1403262995100374398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_47
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 209
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe139cefb75852e90800000000000000
+      internalID: -7051082873976573457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_48
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 209
+        width: 52
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634471026792cabc0800000000000000
+      internalID: -3770593200694672330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_49
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 279
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd10877578a35550800000000000000
+      internalID: 6148443138760383931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_50
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 239
+        width: 122
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18280fcddc14373a0800000000000000
+      internalID: -6668914270774721919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_51
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 279
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2dfc0aa0acff9c0800000000000000
+      internalID: -3891169406028360970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_52
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 279
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137228d5f7c4af340800000000000000
+      internalID: 4898311654632204081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219
+        width: 81
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84129f0c263ebeff0800000000000000
+      internalID: -5660961227071160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_54
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 189
+        width: 12
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4edd6a66e222f80800000000000000
+      internalID: -8132886958656592717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_55
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 219
+        width: 82
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d7930d633e02c50800000000000000
+      internalID: 6638555675305278767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_56
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 149
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9499e06c65c5eecb0800000000000000
+      internalID: -4832823822362175159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_57
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 249
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7686143924547e040800000000000000
+      internalID: 4676782890288244839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 179
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5605e99eee6d8730800000000000000
+      internalID: 4002977614865434203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_59
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 169
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bbb549a79a1d890800000000000000
+      internalID: -7434975165871834235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_60
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 199
+        width: 82
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4616a8acc09ff90800000000000000
+      internalID: -6919485288433490781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_61
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 129
+        width: 32
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1283938ac37d9d0800000000000000
+      internalID: -2749662354274246184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_62
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 209
+        width: 142
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36743ef5c38fec90800000000000000
+      internalID: -7138341997962299846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_63
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 159
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10de6e97c515203c0800000000000000
+      internalID: -4394860828736164607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_64
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 149
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4b087b65c7e8c90800000000000000
+      internalID: -7165653245212183374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_65
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 179
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba59ae08f55b2dc40800000000000000
+      internalID: 5535686313781138859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_66
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 179
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99def683e2e4c0ee0800000000000000
+      internalID: -1293573032539853415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_67
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 169
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4df401e9d37875d0800000000000000
+      internalID: -3064572166805324470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_68
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 149
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6225524389f6d9cd0800000000000000
+      internalID: -2549759114521259482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_69
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 179
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca81bddc8a4ba8d20800000000000000
+      internalID: 3281633915594021036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_70
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 189
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e360600dc42082d60800000000000000
+      internalID: 7865539278133397054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_71
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 189
+        width: 92
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0c7aaabdaf0b500800000000000000
+      internalID: 410103387458617513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55dda774edbf081c0800000000000000
+      internalID: -4503322695269950123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_73
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 149
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde1e832389ea4710800000000000000
+      internalID: 1678410560595435227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_74
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 149
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f762387be7b0a4de0800000000000000
+      internalID: -1348252499571431809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_75
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 159
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c9d5e1ce52fdbc0800000000000000
+      internalID: -3756241868151743484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_76
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 149
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7573d3075a6497850800000000000000
+      internalID: 6375204423886255959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_77
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 149
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39dbdf54053bc620800000000000000
+      internalID: 2795386286617909564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_78
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 149
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34a26e00e62e10b0800000000000000
+      internalID: -5756120529977039810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_79
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 149
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd77fa38473e587c0800000000000000
+      internalID: -4069596598694348837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_80
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 139
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdb6084323ca7a00800000000000000
+      internalID: 755130443837652423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_81
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 149
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a0d03dc9ad223e0800000000000000
+      internalID: -2079859710801147390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_82
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 149
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05f9d540b8524c40800000000000000
+      internalID: 5495052009454826762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_83
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 159
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c076388582c9996c0800000000000000
+      internalID: -4136103085665458420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab920b3eee7c761a0800000000000000
+      internalID: -6816259682165839430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_85
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 119
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9044ac1e4b46be0800000000000000
+      internalID: -1484863095271323175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_86
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 119
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402acbcb971ba2080800000000000000
+      internalID: -9211354951417290236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_87
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 129
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e3a3846b8a047b0800000000000000
+      internalID: -5242004465409966565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_88
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 129
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7f46ed7fbd03760800000000000000
+      internalID: 7435684842423252943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_89
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 129
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cea43cd6f062a30800000000000000
+      internalID: 4190053467417144348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_90
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 119
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9268b4bd7ac202920800000000000000
+      internalID: 2963417654260106793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_91
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 129
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815f53504e5f8a190800000000000000
+      internalID: -7950834782433839848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_92
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 119
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca408a172b1311c0800000000000000
+      internalID: -4534250545069667638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_93
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 119
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc806918983c6d0a0800000000000000
+      internalID: -6857078387272972084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_94
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 129
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ec718c70d306ca0800000000000000
+      internalID: -6025749197790654887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_95
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 119
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8208eaa46122f00800000000000000
+      internalID: 1090458569788106973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_96
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 129
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407c877007d0bd6f0800000000000000
+      internalID: -658918145666791676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_97
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 129
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c42d0a204b84b600800000000000000
+      internalID: 483164167735157958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_98
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 119
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061a30c5b6d46be00800000000000000
+      internalID: 1060119885792911712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_99
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 129
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e2b0e2a3e252850800000000000000
+      internalID: 6351533676891418166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_100
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 129
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e664ed47beec8c610800000000000000
+      internalID: 1641789574849906286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_101
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 119
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f8d940c117c4070800000000000000
+      internalID: 8091966995628396343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_102
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 139
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a326b606b21d4f0800000000000000
+      internalID: -805815165204153759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb8d807f3c3ec740800000000000000
+      internalID: 5174139265064209354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_104
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 109
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92f870c4a57834e0800000000000000
+      internalID: -2001720683901947238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_105
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 109
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef8f5a82d574ea50800000000000000
+      internalID: 6549489305228644330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_106
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 109
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cc696fdb99d8e70800000000000000
+      internalID: 9119113861660068922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_107
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 109
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dba7b55b10aa8230800000000000000
+      internalID: 3641899287945128916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_108
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 29
+        width: 12
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbfc0553686d55d0800000000000000
+      internalID: -3072184594958844941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_109
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 29
+        width: 12
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbcd6cd7b2327ac0800000000000000
+      internalID: -3858966165444506633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_110
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 119
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ceece978adca920800000000000000
+      internalID: 3003015327569079306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_111
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 119
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f4bff790994c0d0800000000000000
+      internalID: -3403427152304320724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sinktexturefr-export_112
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 119
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fa43bf25802a6f0800000000000000
+      internalID: -674967841657278697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sinktexturefr-export_0: -3979356198162188848
+      sinktexturefr-export_1: 8233570351585581777
+      sinktexturefr-export_10: 1763205765724460123
+      sinktexturefr-export_100: 1641789574849906286
+      sinktexturefr-export_101: 8091966995628396343
+      sinktexturefr-export_102: -805815165204153759
+      sinktexturefr-export_103: 5174139265064209354
+      sinktexturefr-export_104: -2001720683901947238
+      sinktexturefr-export_105: 6549489305228644330
+      sinktexturefr-export_106: 9119113861660068922
+      sinktexturefr-export_107: 3641899287945128916
+      sinktexturefr-export_108: -3072184594958844941
+      sinktexturefr-export_109: -3858966165444506633
+      sinktexturefr-export_11: -5062451783065681485
+      sinktexturefr-export_110: 3003015327569079306
+      sinktexturefr-export_111: -3403427152304320724
+      sinktexturefr-export_112: -674967841657278697
+      sinktexturefr-export_12: -5015061255905428553
+      sinktexturefr-export_13: 2193566549547922977
+      sinktexturefr-export_14: 8892928935668692678
+      sinktexturefr-export_15: -6240076149332114194
+      sinktexturefr-export_16: 4279182950706639176
+      sinktexturefr-export_17: 5631865471056528515
+      sinktexturefr-export_18: -2940656939014297147
+      sinktexturefr-export_19: 5420116517255956068
+      sinktexturefr-export_2: 5111221508137753024
+      sinktexturefr-export_20: 8181336551536202976
+      sinktexturefr-export_21: 719816007862854091
+      sinktexturefr-export_22: -2112323773471294765
+      sinktexturefr-export_23: 1074270691176235750
+      sinktexturefr-export_24: -5322570822271697910
+      sinktexturefr-export_25: -4751692623953320300
+      sinktexturefr-export_26: -9180927168238690349
+      sinktexturefr-export_27: 2486202444903032053
+      sinktexturefr-export_28: 8641511601627864551
+      sinktexturefr-export_29: -2393904553801370794
+      sinktexturefr-export_3: 1851726206715321909
+      sinktexturefr-export_30: 8157332430487001112
+      sinktexturefr-export_31: 7643368068809015867
+      sinktexturefr-export_32: 7090356454295602449
+      sinktexturefr-export_33: 2204811544810952032
+      sinktexturefr-export_34: 6919918770335255894
+      sinktexturefr-export_35: -7792497612533902029
+      sinktexturefr-export_36: 7526247650365386084
+      sinktexturefr-export_37: -4684030827738929930
+      sinktexturefr-export_38: 4147510014094093442
+      sinktexturefr-export_39: -2456087761479733173
+      sinktexturefr-export_4: 2738083908240439630
+      sinktexturefr-export_40: 5241228608956523327
+      sinktexturefr-export_41: -1316648693327814206
+      sinktexturefr-export_42: -5972646771307293098
+      sinktexturefr-export_43: -5029344613058895099
+      sinktexturefr-export_44: -5303414316464695181
+      sinktexturefr-export_45: 5432072525673787666
+      sinktexturefr-export_46: 1403262995100374398
+      sinktexturefr-export_47: -7051082873976573457
+      sinktexturefr-export_48: -3770593200694672330
+      sinktexturefr-export_49: 6148443138760383931
+      sinktexturefr-export_5: 8299905823343655695
+      sinktexturefr-export_50: -6668914270774721919
+      sinktexturefr-export_51: -3891169406028360970
+      sinktexturefr-export_52: 4898311654632204081
+      sinktexturefr-export_53: -5660961227071160
+      sinktexturefr-export_54: -8132886958656592717
+      sinktexturefr-export_55: 6638555675305278767
+      sinktexturefr-export_56: -4832823822362175159
+      sinktexturefr-export_57: 4676782890288244839
+      sinktexturefr-export_58: 4002977614865434203
+      sinktexturefr-export_59: -7434975165871834235
+      sinktexturefr-export_6: 2857905380417242076
+      sinktexturefr-export_60: -6919485288433490781
+      sinktexturefr-export_61: -2749662354274246184
+      sinktexturefr-export_62: -7138341997962299846
+      sinktexturefr-export_63: -4394860828736164607
+      sinktexturefr-export_64: -7165653245212183374
+      sinktexturefr-export_65: 5535686313781138859
+      sinktexturefr-export_66: -1293573032539853415
+      sinktexturefr-export_67: -3064572166805324470
+      sinktexturefr-export_68: -2549759114521259482
+      sinktexturefr-export_69: 3281633915594021036
+      sinktexturefr-export_7: 7173987403153990459
+      sinktexturefr-export_70: 7865539278133397054
+      sinktexturefr-export_71: 410103387458617513
+      sinktexturefr-export_72: -4503322695269950123
+      sinktexturefr-export_73: 1678410560595435227
+      sinktexturefr-export_74: -1348252499571431809
+      sinktexturefr-export_75: -3756241868151743484
+      sinktexturefr-export_76: 6375204423886255959
+      sinktexturefr-export_77: 2795386286617909564
+      sinktexturefr-export_78: -5756120529977039810
+      sinktexturefr-export_79: -4069596598694348837
+      sinktexturefr-export_8: -1216037886271493152
+      sinktexturefr-export_80: 755130443837652423
+      sinktexturefr-export_81: -2079859710801147390
+      sinktexturefr-export_82: 5495052009454826762
+      sinktexturefr-export_83: -4136103085665458420
+      sinktexturefr-export_84: -6816259682165839430
+      sinktexturefr-export_85: -1484863095271323175
+      sinktexturefr-export_86: -9211354951417290236
+      sinktexturefr-export_87: -5242004465409966565
+      sinktexturefr-export_88: 7435684842423252943
+      sinktexturefr-export_89: 4190053467417144348
+      sinktexturefr-export_9: -9062612828042209739
+      sinktexturefr-export_90: 2963417654260106793
+      sinktexturefr-export_91: -7950834782433839848
+      sinktexturefr-export_92: -4534250545069667638
+      sinktexturefr-export_93: -6857078387272972084
+      sinktexturefr-export_94: -6025749197790654887
+      sinktexturefr-export_95: 1090458569788106973
+      sinktexturefr-export_96: -658918145666791676
+      sinktexturefr-export_97: 483164167735157958
+      sinktexturefr-export_98: 1060119885792911712
+      sinktexturefr-export_99: 6351533676891418166
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

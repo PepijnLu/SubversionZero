@@ -1,0 +1,1911 @@
+fileFormatVersion: 2
+guid: 284af118be197b84793f192347ce28f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1972460855643056828
+    second: couchtexture-export_0
+  - first:
+      213: 5884241185958781105
+    second: couchtexture-export_1
+  - first:
+      213: -8809487818495347962
+    second: couchtexture-export_2
+  - first:
+      213: 658681291866841998
+    second: couchtexture-export_3
+  - first:
+      213: 2378070388809961736
+    second: couchtexture-export_4
+  - first:
+      213: 3100089178780444558
+    second: couchtexture-export_5
+  - first:
+      213: -3630884542319838200
+    second: couchtexture-export_6
+  - first:
+      213: -2828083530476748617
+    second: couchtexture-export_7
+  - first:
+      213: -7348044939837818226
+    second: couchtexture-export_8
+  - first:
+      213: -7732402994393218657
+    second: couchtexture-export_9
+  - first:
+      213: -9181691734209704501
+    second: couchtexture-export_10
+  - first:
+      213: 5524683124974686962
+    second: couchtexture-export_11
+  - first:
+      213: 8763436817088209971
+    second: couchtexture-export_12
+  - first:
+      213: 909393903832313547
+    second: couchtexture-export_13
+  - first:
+      213: -8073754956607385314
+    second: couchtexture-export_14
+  - first:
+      213: -4231759491301279559
+    second: couchtexture-export_15
+  - first:
+      213: -6329286862566007374
+    second: couchtexture-export_16
+  - first:
+      213: -8988298897643265894
+    second: couchtexture-export_17
+  - first:
+      213: -2024604049065113191
+    second: couchtexture-export_18
+  - first:
+      213: -7899818105601269512
+    second: couchtexture-export_19
+  - first:
+      213: 2743283825498048638
+    second: couchtexture-export_20
+  - first:
+      213: 8932570482520591416
+    second: couchtexture-export_21
+  - first:
+      213: 3783616156945423090
+    second: couchtexture-export_22
+  - first:
+      213: -7211589073681574243
+    second: couchtexture-export_23
+  - first:
+      213: 1876456619025746390
+    second: couchtexture-export_24
+  - first:
+      213: -2613445403716616822
+    second: couchtexture-export_25
+  - first:
+      213: -4381960123307943346
+    second: couchtexture-export_26
+  - first:
+      213: 1495654454473435091
+    second: couchtexture-export_27
+  - first:
+      213: -2886529884701581642
+    second: couchtexture-export_28
+  - first:
+      213: -6580734406779475983
+    second: couchtexture-export_29
+  - first:
+      213: 7147331276630374727
+    second: couchtexture-export_30
+  - first:
+      213: 2602678788562791978
+    second: couchtexture-export_31
+  - first:
+      213: -5086339025116959898
+    second: couchtexture-export_32
+  - first:
+      213: -9149542675660117662
+    second: couchtexture-export_33
+  - first:
+      213: 8110132948511139848
+    second: couchtexture-export_34
+  - first:
+      213: -7034037965456902042
+    second: couchtexture-export_35
+  - first:
+      213: -5242834224646955635
+    second: couchtexture-export_36
+  - first:
+      213: 3769591641948325728
+    second: couchtexture-export_37
+  - first:
+      213: 3076407904426735046
+    second: couchtexture-export_38
+  - first:
+      213: -2129746344617105908
+    second: couchtexture-export_39
+  - first:
+      213: -2892855651735415800
+    second: couchtexture-export_40
+  - first:
+      213: 5456919327025559101
+    second: couchtexture-export_41
+  - first:
+      213: -1245358077942997813
+    second: couchtexture-export_42
+  - first:
+      213: -5170254859900844571
+    second: couchtexture-export_43
+  - first:
+      213: 4068295102453793563
+    second: couchtexture-export_44
+  - first:
+      213: -4249734761659562993
+    second: couchtexture-export_45
+  - first:
+      213: -2127863603014874108
+    second: couchtexture-export_46
+  - first:
+      213: 4297105580925860777
+    second: couchtexture-export_47
+  - first:
+      213: -4356986868601219487
+    second: couchtexture-export_48
+  - first:
+      213: 3712521087890441206
+    second: couchtexture-export_49
+  - first:
+      213: 4169597584189700807
+    second: couchtexture-export_50
+  - first:
+      213: 3197786279312044335
+    second: couchtexture-export_51
+  - first:
+      213: 7150304414061845743
+    second: couchtexture-export_52
+  - first:
+      213: 1058134998772871400
+    second: couchtexture-export_53
+  - first:
+      213: 6123453063940247370
+    second: couchtexture-export_54
+  - first:
+      213: 1046783016951023937
+    second: couchtexture-export_55
+  - first:
+      213: 630128416646207352
+    second: couchtexture-export_56
+  - first:
+      213: -8329812939006108208
+    second: couchtexture-export_57
+  - first:
+      213: -8150962480232755803
+    second: couchtexture-export_58
+  - first:
+      213: 7741867305383073271
+    second: couchtexture-export_59
+  - first:
+      213: -7371512384663947640
+    second: couchtexture-export_60
+  - first:
+      213: -3006666190438488775
+    second: couchtexture-export_61
+  - first:
+      213: -2015104494963939562
+    second: couchtexture-export_62
+  - first:
+      213: 6054618948272709991
+    second: couchtexture-export_63
+  - first:
+      213: 9147039316826323080
+    second: couchtexture-export_64
+  - first:
+      213: -3510003092080083211
+    second: couchtexture-export_65
+  - first:
+      213: -765832300826466972
+    second: couchtexture-export_66
+  - first:
+      213: -4767307711326714671
+    second: couchtexture-export_67
+  - first:
+      213: -2918315845685100772
+    second: couchtexture-export_68
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: couchtexture-export_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 909
+        width: 261
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44558066d4960a4e0800000000000000
+      internalID: -1972460855643056828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 939
+        width: 262
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0ebcdbe2609a150800000000000000
+      internalID: 5884241185958781105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_2
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1179
+        width: 382
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6033475f0896eb580800000000000000
+      internalID: -8809487818495347962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_3
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1079
+        width: 312
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e832be5252b142900800000000000000
+      internalID: 658681291866841998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_4
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1109
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80194e74b6a900120800000000000000
+      internalID: 2378070388809961736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_5
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1139
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87ad31eeaab50b20800000000000000
+      internalID: 3100089178780444558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_6
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 969
+        width: 192
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cb19afeb18c9dc0800000000000000
+      internalID: -3630884542319838200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_7
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1079
+        width: 112
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b00dca4301a0c8d0800000000000000
+      internalID: -2828083530476748617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_8
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1009
+        width: 192
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a3c5f0f00860a90800000000000000
+      internalID: -7348044939837818226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_9
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 969
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f918603d17cf0b490800000000000000
+      internalID: -7732402994393218657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_10
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 969
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd4a41b304149080800000000000000
+      internalID: -9181691734209704501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_11
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 939
+        width: 152
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f216b8f70e9bac40800000000000000
+      internalID: 5524683124974686962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 679
+        width: 271
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3346f1eba5bfd9970800000000000000
+      internalID: 8763436817088209971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_13
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 869
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcea4d6ffe0de9c00800000000000000
+      internalID: 909393903832313547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_14
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 739
+        width: 312
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e111edfb4a244ff80800000000000000
+      internalID: -8073754956607385314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 859
+        width: 182
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8791ad925c545c0800000000000000
+      internalID: -4231759491301279559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_16
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 869
+        width: 152
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdd43be12bd928a0800000000000000
+      internalID: -6329286862566007374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_17
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 749
+        width: 22
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9020fe46c5234380800000000000000
+      internalID: -8988298897643265894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_18
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 789
+        width: 192
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99908ac185927e3e0800000000000000
+      internalID: -2024604049065113191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_19
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 749
+        width: 82
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0ef69b9453e5290800000000000000
+      internalID: -7899818105601269512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_20
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 759
+        width: 112
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78c2e0da1a121620800000000000000
+      internalID: 2743283825498048638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_21
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 749
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c87cde68dd6fb70800000000000000
+      internalID: 8932570482520591416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_22
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 549
+        width: 122
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa192929da128430800000000000000
+      internalID: 3783616156945423090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_23
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 669
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d961f1532f94beb90800000000000000
+      internalID: -7211589073681574243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_24
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 629
+        width: 372
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9c5756a538a0a10800000000000000
+      internalID: 1876456619025746390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_25
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 689
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8df79f704d2bbbd0800000000000000
+      internalID: -2613445403716616822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 459
+        width: 91
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a9d460c762033c0800000000000000
+      internalID: -4381960123307943346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_27
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 469
+        width: 102
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7ae915dc1a1c410800000000000000
+      internalID: 1495654454473435091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_28
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 549
+        width: 62
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be10d40d5cf0f7d0800000000000000
+      internalID: -2886529884701581642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_29
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 629
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7e7ba5ce88ca4a0800000000000000
+      internalID: -6580734406779475983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_30
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 659
+        width: 112
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749b79b8deb603360800000000000000
+      internalID: 7147331276630374727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_31
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 509
+        width: 132
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2eaab091929e1420800000000000000
+      internalID: 2602678788562791978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_32
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 519
+        width: 62
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b62b0fa91b969b0800000000000000
+      internalID: -5086339025116959898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_33
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 519
+        width: 132
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2696000b96b460180800000000000000
+      internalID: -9149542675660117662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_34
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 579
+        width: 162
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808a23582fafc8070800000000000000
+      internalID: 8110132948511139848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_35
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 409
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66874540db3126e90800000000000000
+      internalID: -7034037965456902042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_36
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 509
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d58a7ec06bd37b0800000000000000
+      internalID: -5242834224646955635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_37
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 509
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0678c9e40a7405430800000000000000
+      internalID: 3769591641948325728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_38
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 529
+        width: 122
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c53f8780b891ba20800000000000000
+      internalID: 3076407904426735046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_39
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 539
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c062963cbfe9172e0800000000000000
+      internalID: -2129746344617105908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_40
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 429
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80454db9c138ad7d0800000000000000
+      internalID: -2892855651735415800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_41
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 439
+        width: 192
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d367257473fdabb40800000000000000
+      internalID: 5456919327025559101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_42
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 379
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc5b022d6997bee0800000000000000
+      internalID: -1245358077942997813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_43
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 389
+        width: 72
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e58f5d19909f38b0800000000000000
+      internalID: -5170254859900844571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_44
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 459
+        width: 192
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13483747dc757830800000000000000
+      internalID: 4068295102453793563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 389
+        width: 161
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0407a510c8e505c0800000000000000
+      internalID: -4249734761659562993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_46
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 259
+        width: 42
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cc0d3b35f4872e0800000000000000
+      internalID: -2127863603014874108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_47
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 379
+        width: 132
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab3f6142c262ab30800000000000000
+      internalID: 4297105580925860777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_48
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 369
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1669bfdf68fd883c0800000000000000
+      internalID: -4356986868601219487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_49
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 329
+        width: 72
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f34bd87246858330800000000000000
+      internalID: 3712521087890441206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_50
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 319
+        width: 62
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca34fd49e26dd930800000000000000
+      internalID: 4169597584189700807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_51
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 419
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21330eada1d06c20800000000000000
+      internalID: 3197786279312044335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 349
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec501c0bfbfa3360800000000000000
+      internalID: 7150304414061845743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_53
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 349
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0f346dc204fae00800000000000000
+      internalID: 1058134998772871400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_54
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 349
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f8fe24e10eaf450800000000000000
+      internalID: 6123453063940247370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_55
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 349
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149074a9b9be68e00800000000000000
+      internalID: 1046783016951023937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_56
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 339
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8779315d47aaeb800800000000000000
+      internalID: 630128416646207352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_57
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 339
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd9615e34f866c80800000000000000
+      internalID: -8329812939006108208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_58
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 339
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad80345fc6f1ee80800000000000000
+      internalID: -8150962480232755803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_59
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 349
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5919bcb43a07b60800000000000000
+      internalID: 7741867305383073271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_60
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 359
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88676b6ca8023b990800000000000000
+      internalID: -7371512384663947640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_61
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 379
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935acb0a70d2646d0800000000000000
+      internalID: -3006666190438488775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_62
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 339
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617a1686329e804e0800000000000000
+      internalID: -2015104494963939562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_63
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 339
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761e42ecad3560450800000000000000
+      internalID: 6054618948272709991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_64
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 339
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888f6f9abcfc0fe70800000000000000
+      internalID: 9147039316826323080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_65
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 339
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe3b08d8c6f94fc0800000000000000
+      internalID: -3510003092080083211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_66
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 339
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465e7b774973f55f0800000000000000
+      internalID: -765832300826466972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_67
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 339
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4046315ee17ddb0800000000000000
+      internalID: -4767307711326714671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couchtexture-export_68
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 339
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fbb83433f0087d0800000000000000
+      internalID: -2918315845685100772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      couchtexture-export_0: -1972460855643056828
+      couchtexture-export_1: 5884241185958781105
+      couchtexture-export_10: -9181691734209704501
+      couchtexture-export_11: 5524683124974686962
+      couchtexture-export_12: 8763436817088209971
+      couchtexture-export_13: 909393903832313547
+      couchtexture-export_14: -8073754956607385314
+      couchtexture-export_15: -4231759491301279559
+      couchtexture-export_16: -6329286862566007374
+      couchtexture-export_17: -8988298897643265894
+      couchtexture-export_18: -2024604049065113191
+      couchtexture-export_19: -7899818105601269512
+      couchtexture-export_2: -8809487818495347962
+      couchtexture-export_20: 2743283825498048638
+      couchtexture-export_21: 8932570482520591416
+      couchtexture-export_22: 3783616156945423090
+      couchtexture-export_23: -7211589073681574243
+      couchtexture-export_24: 1876456619025746390
+      couchtexture-export_25: -2613445403716616822
+      couchtexture-export_26: -4381960123307943346
+      couchtexture-export_27: 1495654454473435091
+      couchtexture-export_28: -2886529884701581642
+      couchtexture-export_29: -6580734406779475983
+      couchtexture-export_3: 658681291866841998
+      couchtexture-export_30: 7147331276630374727
+      couchtexture-export_31: 2602678788562791978
+      couchtexture-export_32: -5086339025116959898
+      couchtexture-export_33: -9149542675660117662
+      couchtexture-export_34: 8110132948511139848
+      couchtexture-export_35: -7034037965456902042
+      couchtexture-export_36: -5242834224646955635
+      couchtexture-export_37: 3769591641948325728
+      couchtexture-export_38: 3076407904426735046
+      couchtexture-export_39: -2129746344617105908
+      couchtexture-export_4: 2378070388809961736
+      couchtexture-export_40: -2892855651735415800
+      couchtexture-export_41: 5456919327025559101
+      couchtexture-export_42: -1245358077942997813
+      couchtexture-export_43: -5170254859900844571
+      couchtexture-export_44: 4068295102453793563
+      couchtexture-export_45: -4249734761659562993
+      couchtexture-export_46: -2127863603014874108
+      couchtexture-export_47: 4297105580925860777
+      couchtexture-export_48: -4356986868601219487
+      couchtexture-export_49: 3712521087890441206
+      couchtexture-export_5: 3100089178780444558
+      couchtexture-export_50: 4169597584189700807
+      couchtexture-export_51: 3197786279312044335
+      couchtexture-export_52: 7150304414061845743
+      couchtexture-export_53: 1058134998772871400
+      couchtexture-export_54: 6123453063940247370
+      couchtexture-export_55: 1046783016951023937
+      couchtexture-export_56: 630128416646207352
+      couchtexture-export_57: -8329812939006108208
+      couchtexture-export_58: -8150962480232755803
+      couchtexture-export_59: 7741867305383073271
+      couchtexture-export_6: -3630884542319838200
+      couchtexture-export_60: -7371512384663947640
+      couchtexture-export_61: -3006666190438488775
+      couchtexture-export_62: -2015104494963939562
+      couchtexture-export_63: 6054618948272709991
+      couchtexture-export_64: 9147039316826323080
+      couchtexture-export_65: -3510003092080083211
+      couchtexture-export_66: -765832300826466972
+      couchtexture-export_67: -4767307711326714671
+      couchtexture-export_68: -2918315845685100772
+      couchtexture-export_7: -2828083530476748617
+      couchtexture-export_8: -7348044939837818226
+      couchtexture-export_9: -7732402994393218657
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
