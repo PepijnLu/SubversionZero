@@ -51,9 +51,9 @@ You think it’s haunted ? <scared>
 -> stonerchoice1
 == stonerchoice1 ==
 
-*What do you think happened ? -> whatstoner
+* [What do you think happened?] -> whatstoner
 
-*Who do you think did it ? -> whostoner
+* [Who do you think did it?] -> whostoner
 
 
 == whatstoner ==
@@ -65,24 +65,24 @@ Ghosts..
 * ... I’ll just get you another glass of water .
 ->stoner15
 ==stoner15==
-</i>You hurry off to the kitchen , rolling your eyes . this wasn’t worth investigating </i>
+</i>You hurry off to the kitchen , rolling your eyes . This wasn’t worth investigating . </i>
 -> END
 
 ==whostoner ==
 Who? C’mon dude, ghosts .
 ->stoner16
 ==stoner16==
-*… ghosts? 
+*... Ghosts? 
 ->stoner17
 ==stoner17==
-Like I said , this house is so old .. maybe it was the site of some fucked up shit ? maybe that’s why this place is so .. dusty .. like . nobody wants to stay here .
-<i>you’re not sure whether or not you want to entertain this idea .</i>
-Maybe there’s someone in the walls … watching 
+Like I said , this house is so old .. maybe it was the site of some fucked up shit ? Maybe that’s why this place is so .. dusty .. like . Nobody wants to stay here .
+<i>You’re not sure whether or not you want to entertain this idea .</i>
+Maybe there’s someone in the walls … watching .
 <i>You don’t want to entertain this idea . </i>
-<i>Bodies in log walls ? even if the walls were drywall that’d be a stretch . </i>
+<i>Bodies in log walls ? Even if the walls were drywall that’d be a stretch . </i>
 ->stoner18
 ==stoner18==
 *I’ll just get you another glass of water . 
-<i>you hurry off to the kitchen , rolling your eyes  . this wasn’t worth investigating</i>
+<i>You hurry off to the kitchen , rolling your eyes . This wasn’t worth investigating</i>
 -> END
 

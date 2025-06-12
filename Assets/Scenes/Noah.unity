@@ -459,12 +459,6 @@ MonoBehaviour:
       Data3: 1460405387
       Data4: 2123617939
     Path: event:/amb/pinboard
-  - Guid:
-      Data1: 753252832
-      Data2: 1239540087
-      Data3: 143232413
-      Data4: -1712043805
-    Path: event:/amb/pinboardtonal
   pinboardExitEvents:
   - Guid:
       Data1: 1160154579
