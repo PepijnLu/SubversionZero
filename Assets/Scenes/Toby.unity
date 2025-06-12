@@ -1844,6 +1844,7 @@ MonoBehaviour:
   inBoardView: 0
   isTransitioning: 0
   inDialogue: 0
+  placingPin: 0
   renderCamTransform: {fileID: 330585546}
   levels:
   - {fileID: 32984996}
@@ -15685,7 +15686,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6b6b0001e34cb2f4a98a40c52a59e15b, type: 2}
+  - {fileID: 2100000, guid: 28295509842d24d4e973aded773a2207, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
