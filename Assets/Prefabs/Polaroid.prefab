@@ -177,7 +177,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 24.9, y: 15.3, z: -68.90075}
-  m_LocalScale: {x: 0.19999999, y: 0.19999999, z: 0.19999999}
+  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3279021798472140450}
@@ -206,6 +206,8 @@ MonoBehaviour:
   imageDescription: {fileID: 8914692385289211070}
   keyword: {fileID: 3243161885838956008}
   description: {fileID: 1644091607371443683}
+  polaroidImage: {fileID: 0}
+  indexesOfBoldedWords: 
 --- !u!1 &1644091607371443683
 GameObject:
   m_ObjectHideFlags: 0

@@ -39,6 +39,7 @@ public class PointAndClick : MonoBehaviour
     [SerializeField] Texture2D talkCursorTexture; 
     [SerializeField] Texture2D doorCursorTexture; 
     [SerializeField] Texture2D interactCursorTexture; 
+    [SerializeField] Texture2D cameraCursorTexture; 
     [Header("Panning")]
     [SerializeField] float pannedZoom;
     [SerializeField] float pannedDistance;
@@ -243,6 +244,7 @@ public class PointAndClick : MonoBehaviour
 
         lastCamPos = renderCam.transform.position;
         lastCamRot = renderCam.transform.rotation;
+        originalFov = renderCam.fieldOfView;
 
         Vector3 targetPostion = targetCam.transform.position;
         Quaternion targetRotation = targetCam.transform.rotation;
@@ -260,7 +262,7 @@ public class PointAndClick : MonoBehaviour
     {
         if (!transitioned) return;
         if (GameManager.instance.isTransitioning) return;
-        if (GameManager.instance.inDialogue) 
+        if (GameManager.instance.inDialogue || GameManager.instance.displayingChoices) 
         {
             Cursor.SetCursor(normalCursorTexture, Vector2.zero, CursorMode.Auto);
             return;
@@ -299,7 +301,8 @@ public class PointAndClick : MonoBehaviour
             {
                 if (CheckColliderLayerMask(_hit.collider, capturableLayer))
                 {
-                    //Cursor.SetCursor(normalCursorTexture, Vector2.zero, CursorMode.Auto);
+                    if(!picturedObjects.Contains(_hit.collider.gameObject)) Cursor.SetCursor(cameraCursorTexture, Vector2.zero, CursorMode.Auto);
+                    else Cursor.SetCursor(normalCursorTexture, Vector2.zero, CursorMode.Auto);
                 }
                 else if (CheckColliderLayerMask(_hit.collider, inspectionAreaLayer))
                 {
@@ -329,7 +332,7 @@ public class PointAndClick : MonoBehaviour
             {
                 if (CheckColliderLayerMask(_hit.collider, capturableLayer))
                 {
-                    if (inPhotoMode) TakePicture(_hit);
+                    if(pannedToZone) TakePicture(_hit);
                 }
                 if (CheckColliderLayerMask(_hit.collider, inspectionAreaLayer))
                 {
