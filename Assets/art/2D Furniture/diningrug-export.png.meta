@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      diningrug-export_0: -6767112229116889039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
