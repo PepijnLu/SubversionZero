@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 9236857a1005ec54d8e4f60f75c57f18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7692651818225500558
+    second: texturestairs_0
+  - first:
+      213: 4169029182075076565
+    second: texturestairs_1
+  - first:
+      213: 6546522152302833829
+    second: texturestairs_2
+  - first:
+      213: -4443416278314615930
+    second: texturestairs_3
+  - first:
+      213: -4811079814239026501
+    second: texturestairs_4
+  - first:
+      213: -2706681799063536178
+    second: texturestairs_5
+  - first:
+      213: 4746694082651956048
+    second: texturestairs_6
+  - first:
+      213: -2092898758112602823
+    second: texturestairs_7
+  - first:
+      213: 5223373762767881260
+    second: texturestairs_8
+  - first:
+      213: 1075998595939577367
+    second: texturestairs_9
+  - first:
+      213: 7884866698646149138
+    second: texturestairs_10
+  - first:
+      213: 3164283794529595050
+    second: texturestairs_11
+  - first:
+      213: 3764265417502598160
+    second: texturestairs_12
+  - first:
+      213: 6930031208636444088
+    second: texturestairs_13
+  - first:
+      213: -6395337917054520380
+    second: texturestairs_14
+  - first:
+      213: -3397950182069405106
+    second: texturestairs_15
+  - first:
+      213: 7821134885331230318
+    second: texturestairs_16
+  - first:
+      213: 3792342170360672776
+    second: texturestairs_17
+  - first:
+      213: 3809216755993085621
+    second: texturestairs_18
+  - first:
+      213: -6979580331514425433
+    second: texturestairs_19
+  - first:
+      213: -6342876784593592202
+    second: texturestairs_20
+  - first:
+      213: 6182372117445528625
+    second: texturestairs_21
+  - first:
+      213: 8317852660417527342
+    second: texturestairs_22
+  - first:
+      213: 7315158572778126151
+    second: texturestairs_23
+  - first:
+      213: 6166361928192686061
+    second: texturestairs_24
+  - first:
+      213: -3568950295010130698
+    second: texturestairs_25
+  - first:
+      213: -3286791330517999636
+    second: texturestairs_26
+  - first:
+      213: 7494835402759087525
+    second: texturestairs_27
+  - first:
+      213: -3450271803467734256
+    second: texturestairs_28
+  - first:
+      213: 1121982615125793134
+    second: texturestairs_29
+  - first:
+      213: -2956169735749123896
+    second: texturestairs_30
+  - first:
+      213: -3931085954978543075
+    second: texturestairs_31
+  - first:
+      213: 4210695726268447171
+    second: texturestairs_32
+  - first:
+      213: 2504933629459977771
+    second: texturestairs_33
+  - first:
+      213: -2818509991160858094
+    second: texturestairs_34
+  - first:
+      213: 2750666254749996834
+    second: texturestairs_35
+  - first:
+      213: -3460977851657407932
+    second: texturestairs_36
+  - first:
+      213: 4984382121085439096
+    second: texturestairs_37
+  - first:
+      213: 7468281434887516860
+    second: texturestairs_38
+  - first:
+      213: 8058609675099614503
+    second: texturestairs_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: texturestairs_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 189
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ef7e1cde53e3590800000000000000
+      internalID: -7692651818225500558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 486
+        width: 110
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df72dfd3fd5bd930800000000000000
+      internalID: 4169029182075076565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 486
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a07c3a663be9da50800000000000000
+      internalID: 6546522152302833829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 447
+        width: 153
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b7ed5ef60d552c0800000000000000
+      internalID: -4443416278314615930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 491
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb20b3e266c9b3db0800000000000000
+      internalID: -4811079814239026501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_5
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 505
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd7dce8e3fef6ad0800000000000000
+      internalID: -2706681799063536178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 498
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0532bed7e15afd140800000000000000
+      internalID: 4746694082651956048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 476
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93597db0ba784f2e0800000000000000
+      internalID: -2092898758112602823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 469
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2400ea33c62d7840800000000000000
+      internalID: 5223373762767881260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_9
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 476
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e2cc9a507beee00800000000000000
+      internalID: 1075998595939577367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 450
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2185c129c7cac6d60800000000000000
+      internalID: 7884866698646149138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 457
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae2675985bc9eb20800000000000000
+      internalID: 3164283794529595050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_12
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 457
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014a78a047b5d3430800000000000000
+      internalID: 3764265417502598160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_13
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 476
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd6529daaa6c2060800000000000000
+      internalID: 6930031208636444088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_14
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 469
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3f0636c023f37a0800000000000000
+      internalID: -6395337917054520380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 304
+        width: 116
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a7741005e08d0d0800000000000000
+      internalID: -3397950182069405106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 443
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e55947db04a8c60800000000000000
+      internalID: 7821134885331230318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 462
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802f41b7c1b11a430800000000000000
+      internalID: 3792342170360672776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_18
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 455
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b60f6d157e0dd430800000000000000
+      internalID: 3809216755993085621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_19
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 462
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af87cafaac832f90800000000000000
+      internalID: -6979580331514425433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_20
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 455
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6702a30ab2399f7a0800000000000000
+      internalID: -6342876784593592202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_21
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 434
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13cce996fa23cc550800000000000000
+      internalID: 6182372117445528625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_22
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 413
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e793ebce2fe6370800000000000000
+      internalID: 8317852660417527342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295
+        width: 26
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bf71ee6f9a48560800000000000000
+      internalID: 7315158572778126151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 258
+        width: 6
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7fa6eb081539550800000000000000
+      internalID: 6166361928192686061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_25
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 257
+        width: 6
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f445e4ad9a887ec0800000000000000
+      internalID: -3568950295010130698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_26
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 377
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef14a5f2b8f262d0800000000000000
+      internalID: -3286791330517999636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_27
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 377
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a52a77e611030860800000000000000
+      internalID: 7494835402759087525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_28
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 396
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01362c7331c2e10d0800000000000000
+      internalID: -3450271803467734256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 370
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e699cb27e35129f00800000000000000
+      internalID: 1121982615125793134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_30
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 392
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0c9eca94399f6d0800000000000000
+      internalID: -2956169735749123896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_31
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 308
+        width: 7
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a0af7d62af179c0800000000000000
+      internalID: -3931085954978543075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_32
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 351
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c97c7d24756f6a30800000000000000
+      internalID: 4210695726268447171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_33
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 318
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2654e14ddf43c220800000000000000
+      internalID: 2504933629459977771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_34
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 351
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ab7fc9814a2e8d0800000000000000
+      internalID: -2818509991160858094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_35
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 325
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227170292645c2620800000000000000
+      internalID: 2750666254749996834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_36
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 325
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44237702bf228ffc0800000000000000
+      internalID: -3460977851657407932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_37
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 329
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c0b1871251c2540800000000000000
+      internalID: 4984382121085439096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_38
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 329
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb27d19756aa4a760800000000000000
+      internalID: 7468281434887516860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: texturestairs_39
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 304
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72da6db9dcee5df60800000000000000
+      internalID: 8058609675099614503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      texturestairs_0: -7692651818225500558
+      texturestairs_1: 4169029182075076565
+      texturestairs_10: 7884866698646149138
+      texturestairs_11: 3164283794529595050
+      texturestairs_12: 3764265417502598160
+      texturestairs_13: 6930031208636444088
+      texturestairs_14: -6395337917054520380
+      texturestairs_15: -3397950182069405106
+      texturestairs_16: 7821134885331230318
+      texturestairs_17: 3792342170360672776
+      texturestairs_18: 3809216755993085621
+      texturestairs_19: -6979580331514425433
+      texturestairs_2: 6546522152302833829
+      texturestairs_20: -6342876784593592202
+      texturestairs_21: 6182372117445528625
+      texturestairs_22: 8317852660417527342
+      texturestairs_23: 7315158572778126151
+      texturestairs_24: 6166361928192686061
+      texturestairs_25: -3568950295010130698
+      texturestairs_26: -3286791330517999636
+      texturestairs_27: 7494835402759087525
+      texturestairs_28: -3450271803467734256
+      texturestairs_29: 1121982615125793134
+      texturestairs_3: -4443416278314615930
+      texturestairs_30: -2956169735749123896
+      texturestairs_31: -3931085954978543075
+      texturestairs_32: 4210695726268447171
+      texturestairs_33: 2504933629459977771
+      texturestairs_34: -2818509991160858094
+      texturestairs_35: 2750666254749996834
+      texturestairs_36: -3460977851657407932
+      texturestairs_37: 4984382121085439096
+      texturestairs_38: 7468281434887516860
+      texturestairs_39: 8058609675099614503
+      texturestairs_4: -4811079814239026501
+      texturestairs_5: -2706681799063536178
+      texturestairs_6: 4746694082651956048
+      texturestairs_7: -2092898758112602823
+      texturestairs_8: 5223373762767881260
+      texturestairs_9: 1075998595939577367
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
