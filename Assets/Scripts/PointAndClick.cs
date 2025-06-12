@@ -66,6 +66,7 @@ public class PointAndClick : MonoBehaviour
     [SerializeField] private float moveThreshold = 0.05f; // Minimum move speed to count as movement
     private float lastMoveAmount;
     private float lastMoveTime;
+    string keywordPin1, keywordPin2;
 
     private Vector2 _lastMousePos;
 
@@ -301,7 +302,7 @@ public class PointAndClick : MonoBehaviour
             {
                 if (CheckColliderLayerMask(_hit.collider, capturableLayer))
                 {
-                    if(!picturedObjects.Contains(_hit.collider.gameObject)) Cursor.SetCursor(cameraCursorTexture, Vector2.zero, CursorMode.Auto);
+                    if(!picturedObjects.Contains(_hit.collider.gameObject) && pannedToZone) Cursor.SetCursor(cameraCursorTexture, Vector2.zero, CursorMode.Auto);
                     else Cursor.SetCursor(normalCursorTexture, Vector2.zero, CursorMode.Auto);
                 }
                 else if (CheckColliderLayerMask(_hit.collider, inspectionAreaLayer))
@@ -419,9 +420,13 @@ public class PointAndClick : MonoBehaviour
                 pinToBePlaced.transform.position = placePosition;
                 if (CheckColliderLayerMask(_hit.collider, pinLayer) && Input.GetMouseButtonDown(0) && _hit.collider.gameObject != originPin)
                 {
+                    Polaroid polaroid = _hit.collider.transform.parent.GetComponent<Polaroid>();
+                    keywordPin2 = polaroid.keyword.text;
+
                     PlacePin();
                 }
-                else if (Input.GetKeyDown(KeyCode.Escape))
+
+                if (Input.GetKeyDown(KeyCode.Escape))
                 {
                     StopPlacingPin();
                 }
@@ -454,18 +459,24 @@ public class PointAndClick : MonoBehaviour
             if (CheckColliderLayerMask(_hit.collider, pinLayer) && Input.GetMouseButtonDown(0))
             {
                 //Create pin and thread
-                FModManager.instance.PlaySfx(SfxKey.PlacePin);
-                Transform pinLocation = _hit.collider.transform;
-                originPin = _hit.collider.gameObject;
-                placingPin = true;
-                FModManager.instance.PlayLoopingSfx(SfxKey.MovePin);
-                GameManager.instance.placingPin = true;
-                otherPin = Instantiate(pin, pinLocation);
-                pinToBePlaced = Instantiate(pin, pinLocation);
-                ropeToBePlaced = Instantiate(thread, pinLocation);
+                Polaroid polaroid = _hit.collider.transform.parent.GetComponent<Polaroid>();
+                keywordPin1 = polaroid.keyword.text;
 
-                ropeToBePlaced.SetStartPoint(originPin.transform);
-                ropeToBePlaced.SetEndPoint(pinToBePlaced.transform);
+                if(keywordPin1 != "")
+                {
+                    FModManager.instance.PlaySfx(SfxKey.PlacePin);
+                    Transform pinLocation = _hit.collider.transform;
+                    originPin = _hit.collider.gameObject;
+                    placingPin = true;
+                    FModManager.instance.PlayLoopingSfx(SfxKey.MovePin);
+                    GameManager.instance.placingPin = true;
+                    otherPin = Instantiate(pin, pinLocation);
+                    pinToBePlaced = Instantiate(pin, pinLocation);
+                    ropeToBePlaced = Instantiate(thread, pinLocation);
+
+                    ropeToBePlaced.SetStartPoint(originPin.transform);
+                    ropeToBePlaced.SetEndPoint(pinToBePlaced.transform);
+                }
 
                 //ropeToBePlaced.Recalculate();
                 //ropeToBePlaced.CustomStart();
@@ -489,6 +500,8 @@ public class PointAndClick : MonoBehaviour
         Destroy(pinToBePlaced);
         Destroy(ropeToBePlaced.gameObject);
         placingPin = false;
+        keywordPin1 = "";
+        keywordPin2 = "";
         GameManager.instance.placingPin = false;
     }
 

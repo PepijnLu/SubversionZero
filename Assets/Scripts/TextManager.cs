@@ -58,6 +58,7 @@ public class TextManager : MonoBehaviour
 
         List<string> words = GetWordsInPhrase(_phrase);
         bool capitalizeNextWord = true;
+        bool isItalic = _phrase.Contains("<i>") || _phrase.Contains("</i>");
 
         for (int i = 0; i < words.Count; i++)
         {
@@ -94,7 +95,8 @@ public class TextManager : MonoBehaviour
                     }
 
                     Debug.Log($"Playing syllable sound -> nextIsPunct: {nextIsPunct}, syllableType: {syllableType}, syllable: '{syll}'");
-                    FModManager.instance.PlaySyllableSound(syllableType);
+                    
+                    if(!isItalic) FModManager.instance.PlaySyllableSound(syllableType);
 
                     alphaText.text += syll;
                     StartCoroutine(FadeInText(fadeInTime));

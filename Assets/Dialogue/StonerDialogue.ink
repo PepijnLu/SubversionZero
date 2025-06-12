@@ -1,18 +1,18 @@
 … 
-<i>Marty doesn’t say anything, just stares ahead blanky. as you come closer, you notice the familiar scent of weed wafting off him .</i> <neutral>
+<i>Marty doesn’t say anything, just stares ahead blanky. as you come closer, you notice the familiar scent of weed wafting off him . </i> <neutral>
 -> stoner1
 ==stoner1 ==
 *uh .. hey ?
 ->stoner2
 ==stoner2==
-His gaze snaps over to yours , eyes wide for just a moment . <scared>
+<i>His gaze snaps over to yours , eyes wide for just a moment . </i> <scared>
 Oh it’s just you.. man sorry , I’m kind of .. yea . <neutral>
 ->stoner3
 ==stoner3==
 *Uh-huh .. I mean you couldn’t have known someone would die while you were smoking ..
 ->stoner4
 ==stoner4==
-<i>The house groans , settling as the wind bangs against the windows and Marty flinches like he’s been poked with a cattle prod . his gaze snaps over to the offending beams before looking back at you .</i>
+<i>The house groans , settling as the wind bangs against the windows and Marty flinches like he’s been poked with a cattle prod . his gaze snaps over to the offending beams before looking back at you . </i>
 This place has like … terrible vibes , maaan . <sad>
 ->stoner5
 ==stoner5==
