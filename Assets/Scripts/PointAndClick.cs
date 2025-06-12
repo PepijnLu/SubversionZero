@@ -505,7 +505,7 @@ public class PointAndClick : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && !isTransitioning)
         {
             StartCoroutine(SwitchProjection(!isOrthographic));
-            StartCoroutine(GenericFunctions.instance.FlickerLight(overheadLight));
+            StartCoroutine(GenericFunctions.instance.FlickerObject(overheadLight.gameObject));
         }
     }
 

@@ -65,14 +65,25 @@ public class GameManager : MonoBehaviour
         newLevel.gameObject.SetActive(true);
 
         Camera newLevelCam = newLevel.GetChild(0).GetComponent<Camera>();
-        Light newLevelLight = newLevel.GetChild(1).GetComponent<Light>();
-
         renderCam.transform.position = newLevelCam.transform.position;
         renderCam.transform.rotation = newLevelCam.transform.rotation;
         renderCam.fieldOfView = newLevelCam.fieldOfView;
 
+        //Light newLevelLight = newLevel.GetChild(1).GetComponent<Light>();
+
         StartCoroutine(GenericFunctions.instance.FadeImage(levelTransitionImg, 0, 0));
-        yield return GenericFunctions.instance.FlickerLight(newLevelLight);
+        for (int i = 0; i < newLevel.childCount; i++)
+        {
+            GameObject child = newLevel.GetChild(i).gameObject;
+            if ((child.GetComponent<Light>() != null) || (child.GetComponent<Character>() != null))
+            {
+                StartCoroutine(GenericFunctions.instance.FlickerObject(child));
+            }
+            Debug.Log(child.name);
+        }
+
+
+        yield return new WaitForSeconds(0.4f);
 
         //yield return LerpBackgroundColor(renderCam.backgroundColor, originalColor, 2, renderCam);
 

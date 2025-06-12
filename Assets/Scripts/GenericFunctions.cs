@@ -75,13 +75,13 @@ public class GenericFunctions : MonoBehaviour
         _camera.fieldOfView = targetValue;
     }
 
-    public IEnumerator FlickerLight(Light _light) 
+    public IEnumerator FlickerObject(GameObject _obj) 
     {
         yield return new WaitForSeconds(0.1f);
-        _light.enabled = true;
+        _obj.SetActive(true);
         yield return new WaitForSeconds(0.1f);
-        _light.enabled = false;
+        _obj.SetActive(false);
         yield return new WaitForSeconds(0.2f);
-        _light.enabled = true;
+        _obj.SetActive(true);
     }
 }
