@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 8b9a55a010da71845876f0a12c42f3ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5147202248160248716
+    second: DoortoDiningRoomtexture-export_0
+  - first:
+      213: -3215300020018823026
+    second: DoortoDiningRoomtexture-export_1
+  - first:
+      213: 89390709896669534
+    second: DoortoDiningRoomtexture-export_2
+  - first:
+      213: -9027442011042071954
+    second: DoortoDiningRoomtexture-export_3
+  - first:
+      213: 8582612959010961841
+    second: DoortoDiningRoomtexture-export_4
+  - first:
+      213: 488470580232476469
+    second: DoortoDiningRoomtexture-export_5
+  - first:
+      213: 3963587253081880303
+    second: DoortoDiningRoomtexture-export_6
+  - first:
+      213: 7812768747243529052
+    second: DoortoDiningRoomtexture-export_7
+  - first:
+      213: 2599957304517483593
+    second: DoortoDiningRoomtexture-export_8
+  - first:
+      213: 1461727699970657965
+    second: DoortoDiningRoomtexture-export_9
+  - first:
+      213: 8044415281810270255
+    second: DoortoDiningRoomtexture-export_10
+  - first:
+      213: 4396851290427671675
+    second: DoortoDiningRoomtexture-export_11
+  - first:
+      213: -30423816856628740
+    second: DoortoDiningRoomtexture-export_12
+  - first:
+      213: 3692232080753679638
+    second: DoortoDiningRoomtexture-export_13
+  - first:
+      213: -6553748745787144106
+    second: DoortoDiningRoomtexture-export_14
+  - first:
+      213: -2272580872654148316
+    second: DoortoDiningRoomtexture-export_15
+  - first:
+      213: -5036924963767007798
+    second: DoortoDiningRoomtexture-export_16
+  - first:
+      213: -8377074651378418629
+    second: DoortoDiningRoomtexture-export_17
+  - first:
+      213: -7846511025668321020
+    second: DoortoDiningRoomtexture-export_18
+  - first:
+      213: -7837255046891736895
+    second: DoortoDiningRoomtexture-export_19
+  - first:
+      213: -8889706356836208705
+    second: DoortoDiningRoomtexture-export_20
+  - first:
+      213: -7868606423824682508
+    second: DoortoDiningRoomtexture-export_21
+  - first:
+      213: 1005992947554749296
+    second: DoortoDiningRoomtexture-export_22
+  - first:
+      213: -5100759273266216174
+    second: DoortoDiningRoomtexture-export_23
+  - first:
+      213: 4754148931533057712
+    second: DoortoDiningRoomtexture-export_24
+  - first:
+      213: -1738890561069442175
+    second: DoortoDiningRoomtexture-export_25
+  - first:
+      213: -9128525646349003203
+    second: DoortoDiningRoomtexture-export_26
+  - first:
+      213: -3973473386445100809
+    second: DoortoDiningRoomtexture-export_27
+  - first:
+      213: 8662890253706520897
+    second: DoortoDiningRoomtexture-export_28
+  - first:
+      213: 2715434297772913624
+    second: DoortoDiningRoomtexture-export_29
+  - first:
+      213: 733850343355369635
+    second: DoortoDiningRoomtexture-export_30
+  - first:
+      213: -1500256516124849895
+    second: DoortoDiningRoomtexture-export_31
+  - first:
+      213: 7431275814225631000
+    second: DoortoDiningRoomtexture-export_32
+  - first:
+      213: -4938141518871968541
+    second: DoortoDiningRoomtexture-export_33
+  - first:
+      213: -993032512319903006
+    second: DoortoDiningRoomtexture-export_34
+  - first:
+      213: 6045853168014650056
+    second: DoortoDiningRoomtexture-export_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1979
+        width: 581
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47cf05b83d67198b0800000000000000
+      internalID: -5147202248160248716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_1
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1819
+        width: 62
+        height: 741
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80c87ccaa5f063d0800000000000000
+      internalID: -3215300020018823026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_2
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1819
+        width: 62
+        height: 741
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e596c9580649d3100800000000000000
+      internalID: 89390709896669534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_3
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 2499
+        width: 742
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a3665025518b280800000000000000
+      internalID: -9027442011042071954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_4
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 2429
+        width: 742
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9338a73019b1770800000000000000
+      internalID: 8582612959010961841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_5
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1679
+        width: 62
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5375cf9976567c600800000000000000
+      internalID: 488470580232476469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_6
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1839
+        width: 72
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe636305b9d710730800000000000000
+      internalID: 3963587253081880303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_7
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1839
+        width: 72
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5369b328c78c6c60800000000000000
+      internalID: 7812768747243529052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_8
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1679
+        width: 42
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c52fea467e41420800000000000000
+      internalID: 2599957304517483593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_9
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1679
+        width: 42
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae891b3999194410800000000000000
+      internalID: 1461727699970657965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_10
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1739
+        width: 22
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f286602e31183af60800000000000000
+      internalID: 8044415281810270255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_11
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1739
+        width: 22
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74c82004f0c40d30800000000000000
+      internalID: 4396851290427671675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_12
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1739
+        width: 12
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf19c8323b9e39ff0800000000000000
+      internalID: -30423816856628740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_13
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 2359
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ddf91e3817d3330800000000000000
+      internalID: 3692232080753679638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_14
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 2289
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658023c2d386c05a0800000000000000
+      internalID: -6553748745787144106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_15
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 2219
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d2a1aacbb2670e0800000000000000
+      internalID: -2272580872654148316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_16
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 2149
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5ce56ae6f391ab0800000000000000
+      internalID: -5036924963767007798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_17
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 2079
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cf8abfcf6aebb80800000000000000
+      internalID: -8377074651378418629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_18
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 2009
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4019ad47bc79b1390800000000000000
+      internalID: -7846511025668321020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_19
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1989
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c071e3fe0a7c3390800000000000000
+      internalID: -7837255046891736895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1389
+        width: 581
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfee3b0b2b61a480800000000000000
+      internalID: -8889706356836208705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_21
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1969
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1b29ea5281dc290800000000000000
+      internalID: -7868606423824682508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_22
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1949
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b8c8d714106fd00800000000000000
+      internalID: 1005992947554749296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_23
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1929
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213003847767639b0800000000000000
+      internalID: -5100759273266216174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_24
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1069
+        width: 62
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bea451c3412af140800000000000000
+      internalID: 4754148931533057712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_25
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1069
+        width: 42
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b1d2c6f383ed7e0800000000000000
+      internalID: -1738890561069442175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_26
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 929
+        width: 42
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3613562a46f05180800000000000000
+      internalID: -9128525646349003203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_27
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 989
+        width: 22
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8a874e1036bd8c0800000000000000
+      internalID: -3973473386445100809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_28
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1249
+        width: 72
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149ee5ca9c4c83870800000000000000
+      internalID: 8662890253706520897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_29
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1249
+        width: 72
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3baa95b192fa520800000000000000
+      internalID: 2715434297772913624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_30
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 929
+        width: 42
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8cef9cff82f2a00800000000000000
+      internalID: 733850343355369635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_31
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 929
+        width: 42
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919c964b5a40e2be0800000000000000
+      internalID: -1500256516124849895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_32
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1049
+        width: 22
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817dedefaf1312760800000000000000
+      internalID: 7431275814225631000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_33
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1049
+        width: 12
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e44705b372387bb0800000000000000
+      internalID: -4938141518871968541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_34
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1049
+        width: 12
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea22ccf03a0832f0800000000000000
+      internalID: -993032512319903006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoortoDiningRoomtexture-export_35
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1049
+        width: 12
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8caeeab8c6f27e350800000000000000
+      internalID: 6045853168014650056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DoortoDiningRoomtexture-export_0: -5147202248160248716
+      DoortoDiningRoomtexture-export_1: -3215300020018823026
+      DoortoDiningRoomtexture-export_10: 8044415281810270255
+      DoortoDiningRoomtexture-export_11: 4396851290427671675
+      DoortoDiningRoomtexture-export_12: -30423816856628740
+      DoortoDiningRoomtexture-export_13: 3692232080753679638
+      DoortoDiningRoomtexture-export_14: -6553748745787144106
+      DoortoDiningRoomtexture-export_15: -2272580872654148316
+      DoortoDiningRoomtexture-export_16: -5036924963767007798
+      DoortoDiningRoomtexture-export_17: -8377074651378418629
+      DoortoDiningRoomtexture-export_18: -7846511025668321020
+      DoortoDiningRoomtexture-export_19: -7837255046891736895
+      DoortoDiningRoomtexture-export_2: 89390709896669534
+      DoortoDiningRoomtexture-export_20: -8889706356836208705
+      DoortoDiningRoomtexture-export_21: -7868606423824682508
+      DoortoDiningRoomtexture-export_22: 1005992947554749296
+      DoortoDiningRoomtexture-export_23: -5100759273266216174
+      DoortoDiningRoomtexture-export_24: 4754148931533057712
+      DoortoDiningRoomtexture-export_25: -1738890561069442175
+      DoortoDiningRoomtexture-export_26: -9128525646349003203
+      DoortoDiningRoomtexture-export_27: -3973473386445100809
+      DoortoDiningRoomtexture-export_28: 8662890253706520897
+      DoortoDiningRoomtexture-export_29: 2715434297772913624
+      DoortoDiningRoomtexture-export_3: -9027442011042071954
+      DoortoDiningRoomtexture-export_30: 733850343355369635
+      DoortoDiningRoomtexture-export_31: -1500256516124849895
+      DoortoDiningRoomtexture-export_32: 7431275814225631000
+      DoortoDiningRoomtexture-export_33: -4938141518871968541
+      DoortoDiningRoomtexture-export_34: -993032512319903006
+      DoortoDiningRoomtexture-export_35: 6045853168014650056
+      DoortoDiningRoomtexture-export_4: 8582612959010961841
+      DoortoDiningRoomtexture-export_5: 488470580232476469
+      DoortoDiningRoomtexture-export_6: 3963587253081880303
+      DoortoDiningRoomtexture-export_7: 7812768747243529052
+      DoortoDiningRoomtexture-export_8: 2599957304517483593
+      DoortoDiningRoomtexture-export_9: 1461727699970657965
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

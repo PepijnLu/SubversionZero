@@ -1,0 +1,2925 @@
+fileFormatVersion: 2
+guid: f8cddea9a2c8bdd4f9c1a61b35fe718e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6954819420185393436
+    second: armchair texture 2_0
+  - first:
+      213: 2867876611845383388
+    second: armchair texture 2_1
+  - first:
+      213: 5797794683555952916
+    second: armchair texture 2_2
+  - first:
+      213: -3620170025335123147
+    second: armchair texture 2_3
+  - first:
+      213: -8123080536601171120
+    second: armchair texture 2_4
+  - first:
+      213: -8935756374794648615
+    second: armchair texture 2_5
+  - first:
+      213: 7086013701731085781
+    second: armchair texture 2_6
+  - first:
+      213: 2854632335926185686
+    second: armchair texture 2_7
+  - first:
+      213: 1472148423104597838
+    second: armchair texture 2_8
+  - first:
+      213: -7955958933741766247
+    second: armchair texture 2_9
+  - first:
+      213: -6572209105911965090
+    second: armchair texture 2_10
+  - first:
+      213: -5545987441700537158
+    second: armchair texture 2_11
+  - first:
+      213: 8199891962967063226
+    second: armchair texture 2_12
+  - first:
+      213: -8683162529883102265
+    second: armchair texture 2_13
+  - first:
+      213: -6579245244736985621
+    second: armchair texture 2_14
+  - first:
+      213: -8280201075643319716
+    second: armchair texture 2_15
+  - first:
+      213: -1819542104394703701
+    second: armchair texture 2_16
+  - first:
+      213: 7683636341792264364
+    second: armchair texture 2_17
+  - first:
+      213: -754623899700821694
+    second: armchair texture 2_18
+  - first:
+      213: -2051783426082984955
+    second: armchair texture 2_19
+  - first:
+      213: -8863038030559379576
+    second: armchair texture 2_20
+  - first:
+      213: -7658659882767637316
+    second: armchair texture 2_21
+  - first:
+      213: 5230786010649704067
+    second: armchair texture 2_22
+  - first:
+      213: -2707299368289553609
+    second: armchair texture 2_23
+  - first:
+      213: -711416620853895108
+    second: armchair texture 2_24
+  - first:
+      213: -9012359526760648370
+    second: armchair texture 2_25
+  - first:
+      213: -8890969495614986791
+    second: armchair texture 2_26
+  - first:
+      213: 395970127942599924
+    second: armchair texture 2_27
+  - first:
+      213: -1863784685885998751
+    second: armchair texture 2_28
+  - first:
+      213: 6058151110683203710
+    second: armchair texture 2_29
+  - first:
+      213: -1153394914606796490
+    second: armchair texture 2_30
+  - first:
+      213: -6643892670533002891
+    second: armchair texture 2_31
+  - first:
+      213: 948489970528787348
+    second: armchair texture 2_32
+  - first:
+      213: -1770078639623780507
+    second: armchair texture 2_33
+  - first:
+      213: 2887488253937701770
+    second: armchair texture 2_34
+  - first:
+      213: -1004233761535645068
+    second: armchair texture 2_35
+  - first:
+      213: -8515076850313458846
+    second: armchair texture 2_36
+  - first:
+      213: -5458397312426834384
+    second: armchair texture 2_37
+  - first:
+      213: 3476603824610282517
+    second: armchair texture 2_38
+  - first:
+      213: 5570435403159413709
+    second: armchair texture 2_39
+  - first:
+      213: -3156636499468772531
+    second: armchair texture 2_40
+  - first:
+      213: -2078946637585719149
+    second: armchair texture 2_41
+  - first:
+      213: -2635606149969377159
+    second: armchair texture 2_42
+  - first:
+      213: 5284867476218711717
+    second: armchair texture 2_43
+  - first:
+      213: -6293606100104520468
+    second: armchair texture 2_44
+  - first:
+      213: -8910723463057075755
+    second: armchair texture 2_45
+  - first:
+      213: -2391554855598028517
+    second: armchair texture 2_46
+  - first:
+      213: 3167880980844603576
+    second: armchair texture 2_47
+  - first:
+      213: 977247722058315294
+    second: armchair texture 2_48
+  - first:
+      213: -6637664334241661077
+    second: armchair texture 2_49
+  - first:
+      213: -2869787208022590550
+    second: armchair texture 2_50
+  - first:
+      213: -2628055451218902174
+    second: armchair texture 2_51
+  - first:
+      213: 1614326875821571354
+    second: armchair texture 2_52
+  - first:
+      213: -1629623815949237318
+    second: armchair texture 2_53
+  - first:
+      213: -4455577713426591091
+    second: armchair texture 2_54
+  - first:
+      213: -6160516364666499943
+    second: armchair texture 2_55
+  - first:
+      213: 5923479269325507943
+    second: armchair texture 2_56
+  - first:
+      213: 1316861396555090145
+    second: armchair texture 2_57
+  - first:
+      213: -2411205075063206484
+    second: armchair texture 2_58
+  - first:
+      213: -2489681169075855281
+    second: armchair texture 2_59
+  - first:
+      213: -6117239169143725889
+    second: armchair texture 2_60
+  - first:
+      213: -6823407228118883570
+    second: armchair texture 2_61
+  - first:
+      213: -77142318168301828
+    second: armchair texture 2_62
+  - first:
+      213: -5587914707982264190
+    second: armchair texture 2_63
+  - first:
+      213: 5003457127396737509
+    second: armchair texture 2_64
+  - first:
+      213: 1815475647626995468
+    second: armchair texture 2_65
+  - first:
+      213: 2192522806928452502
+    second: armchair texture 2_66
+  - first:
+      213: -5337316530873766968
+    second: armchair texture 2_67
+  - first:
+      213: -2447817482627141202
+    second: armchair texture 2_68
+  - first:
+      213: 891605271017367124
+    second: armchair texture 2_69
+  - first:
+      213: 4513500257408050272
+    second: armchair texture 2_70
+  - first:
+      213: 9174163302643780753
+    second: armchair texture 2_71
+  - first:
+      213: -3811341382975849787
+    second: armchair texture 2_72
+  - first:
+      213: 5587841772703628352
+    second: armchair texture 2_73
+  - first:
+      213: -1852503175852563537
+    second: armchair texture 2_74
+  - first:
+      213: -3897250297036171379
+    second: armchair texture 2_75
+  - first:
+      213: 3664623985574567578
+    second: armchair texture 2_76
+  - first:
+      213: 7420521627021287795
+    second: armchair texture 2_77
+  - first:
+      213: -5352141139592506152
+    second: armchair texture 2_78
+  - first:
+      213: 8843169970993775273
+    second: armchair texture 2_79
+  - first:
+      213: -4269050462865450240
+    second: armchair texture 2_80
+  - first:
+      213: -5218899913089672270
+    second: armchair texture 2_81
+  - first:
+      213: 3558846827289161791
+    second: armchair texture 2_82
+  - first:
+      213: 1063158484670859297
+    second: armchair texture 2_83
+  - first:
+      213: -7386852838049826140
+    second: armchair texture 2_84
+  - first:
+      213: -1654422301476767929
+    second: armchair texture 2_85
+  - first:
+      213: -5044544083702902766
+    second: armchair texture 2_86
+  - first:
+      213: 7854830304424154188
+    second: armchair texture 2_87
+  - first:
+      213: 3685515450970012382
+    second: armchair texture 2_88
+  - first:
+      213: -4719015590848047146
+    second: armchair texture 2_89
+  - first:
+      213: 2665136585901177918
+    second: armchair texture 2_90
+  - first:
+      213: -4738359523529907733
+    second: armchair texture 2_91
+  - first:
+      213: 1556578319372857285
+    second: armchair texture 2_92
+  - first:
+      213: 3304315279183644966
+    second: armchair texture 2_93
+  - first:
+      213: 6272683325795149811
+    second: armchair texture 2_94
+  - first:
+      213: 2114819239885016545
+    second: armchair texture 2_95
+  - first:
+      213: 2743847563090729777
+    second: armchair texture 2_96
+  - first:
+      213: -3942520702754034370
+    second: armchair texture 2_97
+  - first:
+      213: -2500854011497226772
+    second: armchair texture 2_98
+  - first:
+      213: -4537422527282820489
+    second: armchair texture 2_99
+  - first:
+      213: -816041833080840185
+    second: armchair texture 2_100
+  - first:
+      213: 5707115454554681680
+    second: armchair texture 2_101
+  - first:
+      213: -8074204878901121799
+    second: armchair texture 2_102
+  - first:
+      213: -7401184979017280390
+    second: armchair texture 2_103
+  - first:
+      213: 8870472799486377302
+    second: armchair texture 2_104
+  - first:
+      213: -7774323934129469457
+    second: armchair texture 2_105
+  - first:
+      213: -6279548083577880017
+    second: armchair texture 2_106
+  - first:
+      213: -1596024926464669970
+    second: armchair texture 2_107
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: armchair texture 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e68cd6e5948b7f90800000000000000
+      internalID: -6954819420185393436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 207
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4e1b4759ebcc720800000000000000
+      internalID: 2867876611845383388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 241
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4193002fb87e57050800000000000000
+      internalID: 5797794683555952916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 246
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533126dda8292cdc0800000000000000
+      internalID: -3620170025335123147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 250
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b6ff53a45054f80800000000000000
+      internalID: -8123080536601171120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_5
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 245
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3cee8bbe0ddf380800000000000000
+      internalID: -8935756374794648615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 226
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd6b3d1be3965260800000000000000
+      internalID: 7086013701731085781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 237
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de493b2cf0bd9720800000000000000
+      internalID: 2854632335926185686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 240
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f0dc7e03f1e6410800000000000000
+      internalID: 1472148423104597838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 235
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999f9b29081c69190800000000000000
+      internalID: -7955958933741766247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 228
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a9784a3a2dac4a0800000000000000
+      internalID: -6572209105911965090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 230
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc79a04ec1b803b0800000000000000
+      internalID: -5545987441700537158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_12
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 225
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba7b31ab4edbc170800000000000000
+      internalID: 8199891962967063226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_13
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 211
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3e5573fa53f7780800000000000000
+      internalID: -8683162529883102265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 219
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be52649ee43d1b4a0800000000000000
+      internalID: -6579245244736985621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 211
+        width: 45
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5af879fdf0d61d80800000000000000
+      internalID: -8280201075643319716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_16
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 220
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacdfada810bfb6e0800000000000000
+      internalID: -1819542104394703701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 180
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca05fcf0b82c1aa60800000000000000
+      internalID: 7683636341792264364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_18
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 196
+        width: 55
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2410057bf890785f0800000000000000
+      internalID: -754623899700821694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_19
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 206
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c2a4448d99683e0800000000000000
+      internalID: -2051783426082984955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 211
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ffabd9ed9200580800000000000000
+      internalID: -8863038030559379576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4a918f969f6b590800000000000000
+      internalID: -7658659882767637316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_22
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 191
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386bbdca92c779840800000000000000
+      internalID: 5230786010649704067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_23
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 179
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7333674819dbd6ad0800000000000000
+      internalID: -2707299368289553609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 187
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30e1b24a5a8026f0800000000000000
+      internalID: -711416620853895108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_25
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 192
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41f25b82caade280800000000000000
+      internalID: -9012359526760648370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_26
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 187
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5e801a95eec9480800000000000000
+      internalID: -8890969495614986791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_27
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 193
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f44fa1cbb4ce7500800000000000000
+      internalID: 395970127942599924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 131
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169b3f3f3b18226e0800000000000000
+      internalID: -1863784685885998751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_29
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 185
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7819e37650e21450800000000000000
+      internalID: 6058151110683203710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_30
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 180
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631be15af615effe0800000000000000
+      internalID: -1153394914606796490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_31
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 182
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5791f0721d62cc3a0800000000000000
+      internalID: -6643892670533002891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b93665a96b92d00800000000000000
+      internalID: 948489970528787348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_33
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 129
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567c7b40bda6f67e0800000000000000
+      internalID: -1770078639623780507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_34
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 155
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83d115b44b621820800000000000000
+      internalID: 2887488253937701770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_35
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 155
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47aa63ce6be3012f0800000000000000
+      internalID: -1004233761535645068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_36
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 153
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b0aed28be54d980800000000000000
+      internalID: -8515076850313458846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_37
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 173
+        width: 51
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0360add6090ef34b0800000000000000
+      internalID: -5458397312426834384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_38
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 177
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c09a632c06f3030800000000000000
+      internalID: 3476603824610282517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3a3995c792e4d40800000000000000
+      internalID: 5570435403159413709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_40
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 164
+        width: 55
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b912c04df5134d0800000000000000
+      internalID: -3156636499468772531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_41
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 154
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390e5bf3c091623e0800000000000000
+      internalID: -2078946637585719149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_42
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 159
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9788d3fab227c6bd0800000000000000
+      internalID: -2635606149969377159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae080d18fe975940800000000000000
+      internalID: 5284867476218711717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_44
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 130
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cecd90fc89e98a8a0800000000000000
+      internalID: -6293606100104520468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_45
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 130
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d19ebca830c65480800000000000000
+      internalID: -8910723463057075755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_46
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 136
+        width: 6
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b190833a78d7fced0800000000000000
+      internalID: -2391554855598028517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_47
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 131
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b865f9c7f296fb20800000000000000
+      internalID: 3167880980844603576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_48
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 144
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1678d220a1ef8d00800000000000000
+      internalID: 977247722058315294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_49
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 144
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ffe33b47742e3a0800000000000000
+      internalID: -6637664334241661077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_50
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 144
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab7ad43db77c28d0800000000000000
+      internalID: -2869787208022590550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_51
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 154
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263811cbd75478bd0800000000000000
+      internalID: -2628055451218902174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_52
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 149
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1df5b09dbd376610800000000000000
+      internalID: 1614326875821571354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_53
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 135
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab344d406c96269e0800000000000000
+      internalID: -1629623815949237318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_54
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 136
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d829f022dab9a22c0800000000000000
+      internalID: -4455577713426591091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_55
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 137
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c82139103718aa0800000000000000
+      internalID: -6160516364666499943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_56
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 141
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d8982f20d643250800000000000000
+      internalID: 5923479269325507943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_57
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 134
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e84710967e664210800000000000000
+      internalID: 1316861396555090145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_58
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 136
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad0d3462cda98ed0800000000000000
+      internalID: -2411205075063206484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f402149ea20e27dd0800000000000000
+      internalID: -2489681169075855281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_60
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 125
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0251dd2633b1ba0800000000000000
+      internalID: -6117239169143725889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_61
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 129
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03242a27436e41a0800000000000000
+      internalID: -6823407228118883570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_62
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 124
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe9d68687fedeef0800000000000000
+      internalID: -77142318168301828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_63
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 130
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288598bdd2db372b0800000000000000
+      internalID: -5587914707982264190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_64
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 125
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e101677fb9df6540800000000000000
+      internalID: 5003457127396737509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_65
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 131
+        width: 35
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07ed239b7dd13910800000000000000
+      internalID: 1815475647626995468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 125
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ba9ec50e76d6e10800000000000000
+      internalID: 2192522806928452502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_67
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 125
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbe27bb4ea0ee5b0800000000000000
+      internalID: -5337316530873766968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_68
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 131
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1b409f7fa970ed0800000000000000
+      internalID: -2447817482627141202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_69
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 115
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4562bd2254e9f5c00800000000000000
+      internalID: 891605271017367124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_70
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 110
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064e070129c23ae30800000000000000
+      internalID: 4513500257408050272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_71
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 103
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cc18dbaec215f70800000000000000
+      internalID: 9174163302643780753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_72
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 110
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca7afd94356b1bc0800000000000000
+      internalID: -3811341382975849787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_73
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 100
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cb6139c700c8d40800000000000000
+      internalID: 5587841772703628352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_74
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 117
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa366023d269a46e0800000000000000
+      internalID: -1852503175852563537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_75
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 124
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d879f5cd08f2ae9c0800000000000000
+      internalID: -3897250297036171379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_76
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 119
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e5c8f491c5bd230800000000000000
+      internalID: 3664623985574567578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_77
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 100
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37125baaa1dfaf660800000000000000
+      internalID: 7420521627021287795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_78
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 120
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d495da8dff59b5b0800000000000000
+      internalID: -5352141139592506152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_79
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 120
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a24c794c3049ba70800000000000000
+      internalID: 8843169970993775273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b10b0f83941c4c0800000000000000
+      internalID: -4269050462865450240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_81
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 106
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb19f11e2eb297b0800000000000000
+      internalID: -5218899913089672270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_82
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 107
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30b8967550936130800000000000000
+      internalID: 3558846827289161791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_83
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 103
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128cfba420911ce00800000000000000
+      internalID: 1063158484670859297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_84
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 104
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa34f32b70ac7990800000000000000
+      internalID: -7386852838049826140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_85
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 112
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7473efbaeaf4a09e0800000000000000
+      internalID: -1654422301476767929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_86
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210171d02ed2ef9b0800000000000000
+      internalID: -5044544083702902766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_87
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 113
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44dc229b86f10d60800000000000000
+      internalID: 7854830304424154188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 113
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edaf745a6c4952330800000000000000
+      internalID: 3685515450970012382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_89
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7d8f19250b28eb0800000000000000
+      internalID: -4719015590848047146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_90
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c7988ba977cf420800000000000000
+      internalID: 2665136585901177918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_91
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be129e54e17fd3eb0800000000000000
+      internalID: -4738359523529907733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_92
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf2b4ffbb31a9510800000000000000
+      internalID: 1556578319372857285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_93
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62903a94d394bdd20800000000000000
+      internalID: 3304315279183644966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_94
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7298e204c0d0750800000000000000
+      internalID: 6272683325795149811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_95
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 115
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed0285d4e8595d10800000000000000
+      internalID: 2114819239885016545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_96
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 110
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b18d332da141620800000000000000
+      internalID: 2743847563090729777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3de8b82f4a5949c0800000000000000
+      internalID: -3942520702754034370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_98
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 107
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedd891d68e2b4dd0800000000000000
+      internalID: -2500854011497226772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_99
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 107
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ac3717046d701c0800000000000000
+      internalID: -4537422527282820489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_100
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700ab51c646dca4f0800000000000000
+      internalID: -816041833080840185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_101
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051bfd0b44fb33f40800000000000000
+      internalID: 5707115454554681680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_102
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc6f5d0179a2ff80800000000000000
+      internalID: -8074204878901121799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_103
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 104
+        width: 44
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74d7b88975b94990800000000000000
+      internalID: -7401184979017280390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_104
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d762b63004a1b70800000000000000
+      internalID: 8870472799486377302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_105
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe74561729d0c1490800000000000000
+      internalID: -7774323934129469457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_106
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f220b58d9409ad8a0800000000000000
+      internalID: -6279548083577880017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armchair texture 2_107
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6876519c7c9d9e0800000000000000
+      internalID: -1596024926464669970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      armchair texture 2_0: -6954819420185393436
+      armchair texture 2_1: 2867876611845383388
+      armchair texture 2_10: -6572209105911965090
+      armchair texture 2_100: -816041833080840185
+      armchair texture 2_101: 5707115454554681680
+      armchair texture 2_102: -8074204878901121799
+      armchair texture 2_103: -7401184979017280390
+      armchair texture 2_104: 8870472799486377302
+      armchair texture 2_105: -7774323934129469457
+      armchair texture 2_106: -6279548083577880017
+      armchair texture 2_107: -1596024926464669970
+      armchair texture 2_11: -5545987441700537158
+      armchair texture 2_12: 8199891962967063226
+      armchair texture 2_13: -8683162529883102265
+      armchair texture 2_14: -6579245244736985621
+      armchair texture 2_15: -8280201075643319716
+      armchair texture 2_16: -1819542104394703701
+      armchair texture 2_17: 7683636341792264364
+      armchair texture 2_18: -754623899700821694
+      armchair texture 2_19: -2051783426082984955
+      armchair texture 2_2: 5797794683555952916
+      armchair texture 2_20: -8863038030559379576
+      armchair texture 2_21: -7658659882767637316
+      armchair texture 2_22: 5230786010649704067
+      armchair texture 2_23: -2707299368289553609
+      armchair texture 2_24: -711416620853895108
+      armchair texture 2_25: -9012359526760648370
+      armchair texture 2_26: -8890969495614986791
+      armchair texture 2_27: 395970127942599924
+      armchair texture 2_28: -1863784685885998751
+      armchair texture 2_29: 6058151110683203710
+      armchair texture 2_3: -3620170025335123147
+      armchair texture 2_30: -1153394914606796490
+      armchair texture 2_31: -6643892670533002891
+      armchair texture 2_32: 948489970528787348
+      armchair texture 2_33: -1770078639623780507
+      armchair texture 2_34: 2887488253937701770
+      armchair texture 2_35: -1004233761535645068
+      armchair texture 2_36: -8515076850313458846
+      armchair texture 2_37: -5458397312426834384
+      armchair texture 2_38: 3476603824610282517
+      armchair texture 2_39: 5570435403159413709
+      armchair texture 2_4: -8123080536601171120
+      armchair texture 2_40: -3156636499468772531
+      armchair texture 2_41: -2078946637585719149
+      armchair texture 2_42: -2635606149969377159
+      armchair texture 2_43: 5284867476218711717
+      armchair texture 2_44: -6293606100104520468
+      armchair texture 2_45: -8910723463057075755
+      armchair texture 2_46: -2391554855598028517
+      armchair texture 2_47: 3167880980844603576
+      armchair texture 2_48: 977247722058315294
+      armchair texture 2_49: -6637664334241661077
+      armchair texture 2_5: -8935756374794648615
+      armchair texture 2_50: -2869787208022590550
+      armchair texture 2_51: -2628055451218902174
+      armchair texture 2_52: 1614326875821571354
+      armchair texture 2_53: -1629623815949237318
+      armchair texture 2_54: -4455577713426591091
+      armchair texture 2_55: -6160516364666499943
+      armchair texture 2_56: 5923479269325507943
+      armchair texture 2_57: 1316861396555090145
+      armchair texture 2_58: -2411205075063206484
+      armchair texture 2_59: -2489681169075855281
+      armchair texture 2_6: 7086013701731085781
+      armchair texture 2_60: -6117239169143725889
+      armchair texture 2_61: -6823407228118883570
+      armchair texture 2_62: -77142318168301828
+      armchair texture 2_63: -5587914707982264190
+      armchair texture 2_64: 5003457127396737509
+      armchair texture 2_65: 1815475647626995468
+      armchair texture 2_66: 2192522806928452502
+      armchair texture 2_67: -5337316530873766968
+      armchair texture 2_68: -2447817482627141202
+      armchair texture 2_69: 891605271017367124
+      armchair texture 2_7: 2854632335926185686
+      armchair texture 2_70: 4513500257408050272
+      armchair texture 2_71: 9174163302643780753
+      armchair texture 2_72: -3811341382975849787
+      armchair texture 2_73: 5587841772703628352
+      armchair texture 2_74: -1852503175852563537
+      armchair texture 2_75: -3897250297036171379
+      armchair texture 2_76: 3664623985574567578
+      armchair texture 2_77: 7420521627021287795
+      armchair texture 2_78: -5352141139592506152
+      armchair texture 2_79: 8843169970993775273
+      armchair texture 2_8: 1472148423104597838
+      armchair texture 2_80: -4269050462865450240
+      armchair texture 2_81: -5218899913089672270
+      armchair texture 2_82: 3558846827289161791
+      armchair texture 2_83: 1063158484670859297
+      armchair texture 2_84: -7386852838049826140
+      armchair texture 2_85: -1654422301476767929
+      armchair texture 2_86: -5044544083702902766
+      armchair texture 2_87: 7854830304424154188
+      armchair texture 2_88: 3685515450970012382
+      armchair texture 2_89: -4719015590848047146
+      armchair texture 2_9: -7955958933741766247
+      armchair texture 2_90: 2665136585901177918
+      armchair texture 2_91: -4738359523529907733
+      armchair texture 2_92: 1556578319372857285
+      armchair texture 2_93: 3304315279183644966
+      armchair texture 2_94: 6272683325795149811
+      armchair texture 2_95: 2114819239885016545
+      armchair texture 2_96: 2743847563090729777
+      armchair texture 2_97: -3942520702754034370
+      armchair texture 2_98: -2500854011497226772
+      armchair texture 2_99: -4537422527282820489
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
