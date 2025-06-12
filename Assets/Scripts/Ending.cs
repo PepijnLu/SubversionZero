@@ -8,7 +8,7 @@ public class Ending : MonoBehaviour
 {
     bool ending;
     [SerializeField] private float timeInMinutes = 15f;
-    private float timeRemaining;
+    [SerializeField] float timeRemaining;
     private bool timerRunning = false;
     [SerializeField] Image black;
     [SerializeField] TextMeshProUGUI text1, text2, text3, text4, text5;

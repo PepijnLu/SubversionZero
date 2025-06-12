@@ -83,7 +83,7 @@ public class PointAndClick : MonoBehaviour
         ///
         polaroidPairs = new()
         {
-            ["corpse"] = "ring",
+            ["ring"] = "ring",
             ["warm"] = "warm",
             ["fabric"] = "pattern"
         };

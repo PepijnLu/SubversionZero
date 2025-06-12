@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 22fa41cc7d2b9cc498004802f6a57e42
+guid: fb30b369d93c2ee4a9f11f85cb88ec71
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5185692241838334791
-    second: nerdBodyStanding_0
+      213: 5223058262154256617
+    second: nerdBodyStanding 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nerdBodyStanding_0
+      name: nerdBodyStanding 1_0
       rect:
         serializedVersion: 2
         x: 15
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9bc1aba8168b808b0800000000000000
-      internalID: -5185692241838334791
+      spriteID: 9e0afd401d70c7840800000000000000
+      internalID: 5223058262154256617
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nerdBodyStanding_0: -5185692241838334791
+      nerdBodyStanding 1_0: 5223058262154256617
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
