@@ -1,4 +1,4 @@
-Hey man <sad>
+Hey man . <sad>
 <i>Dan is wringing his hands , face pale and hands shaky . Still , he forces a strained smile on his face .</i>
 Man , sure sucks this happened . I mean , our first time meeting in years and someone actually dies ? that's gotta be like , crazy bad luck , right ? <neutral>
 *I suppose you could chalk it up to bad luck .
@@ -29,13 +29,13 @@ Right yes - sorry , y’know me , always just running my mouth . blahblahblah, h
 ->foolcont
 
 ==foolcont==
-P : Actually I wanted to ask you ...
+Actually I wanted to ask you ...
 ->foolchoice2
 ==foolchoice2==
 
-*[P : What do you think happened?] -> whatfool
+*[What do you think happened?] -> whatfool
 
-*[P : who do you think did it?] -> whofool
+*[Who do you think did it?] -> whofool
 
 ==whatfool ==
 I mean , who knows , haha -
@@ -65,8 +65,8 @@ Yeah, maybe, I mean the circumstances are fairly strange . <corruption>
 <i>After a beat of silence , Dan laughed again . More to break the silence than anything else .<i> <happy>
 Though maybe it’s aliens ! Or just a boring ol’ heart attack !
 Yeah .. <neutral>
-<i>You leave the conversation at that , recognising that Dan would probably agree with you no matter what you say . </i>
-<i>You're pretty sure you could claim it was a time travelling cult that killed Bridget and he'd still give the same response . </i>
-<i>That wasn't a problem, not every eyewitness testimony would contain important information . You'd solve this mystery either way . </i>
+<i>You leave the conversation at that , recognising that Dan would probably agree with you no matter what you say .</i>
+<i>You're pretty sure you could claim it was a time travelling cult that killed Bridget and he'd still give the same response .</i>
+<i>That wasn't a problem, not every eyewitness testimony would contain important information . You'd solve this mystery either way .</i>
 -> END
 

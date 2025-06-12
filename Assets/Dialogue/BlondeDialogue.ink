@@ -34,6 +34,9 @@ Okay ? <angry>
 
 ==blondewhat ==
 To Bridget ? I can’t say for certain . I mean like , I don’t wanna mess with the corpse in case foul play was involved , but I doubt that . <neutral>
+->blonde31
+
+==blonde31==
 *Doubt that ?
 ->blonde4
 ==blonde4==
@@ -50,8 +53,10 @@ Well Joshua , I’m not here to play detective .
 -> END
 
 == blondewho ==
-
 I beg your pardon ? <angry>
+->blondewho1
+
+==blondewho1==
 *Like who killed -
 ->blonde7
 ==blonde7==
