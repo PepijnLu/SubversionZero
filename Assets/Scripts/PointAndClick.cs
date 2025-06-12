@@ -55,10 +55,12 @@ public class PointAndClick : MonoBehaviour
     [SerializeField] float flashFadeTime;
     [SerializeField] GameObject pin;
     [SerializeField] Rope thread;
+    Dictionary<string, string> polaroidPairs;
     int picturesTaken;
     bool takingPicture;
     bool placingPin;
     GameObject originPin, pinToBePlaced, otherPin;
+    List<GameObject> usedPins = new();
     Rope ropeToBePlaced;
     // Track mouse speed to adjust FMOD parameter
     [SerializeField] private float maxMouseSpeed = 100f;
@@ -78,6 +80,13 @@ public class PointAndClick : MonoBehaviour
         lastHoveringChar = gameObject;
         //Example of how to set an emitters parameter
         ///FModManager.instance.SetParameter(flashSfx, "Surface Type", 1);
+        ///
+        polaroidPairs = new()
+        {
+            ["corpse"] = "ring",
+            ["warm"] = "warm",
+            ["fabric"] = "pattern"
+        };
     }
 
     void Update()
@@ -104,7 +113,7 @@ public class PointAndClick : MonoBehaviour
             if (tempChar != null) dialoguingChar = tempChar;
         }
 
-        if(GameManager.instance.inBoardView)
+        if(GameManager.instance.inBoardView || GameManager.instance.isTransitioning)
         {
             Cursor.SetCursor(normalCursorTexture, Vector2.zero, CursorMode.Auto);
         }
@@ -418,12 +427,31 @@ public class PointAndClick : MonoBehaviour
                 Vector3 placePosition = hitPoint;
                 placePosition.z = pinToBePlaced.transform.position.z;
                 pinToBePlaced.transform.position = placePosition;
-                if (CheckColliderLayerMask(_hit.collider, pinLayer) && Input.GetMouseButtonDown(0) && _hit.collider.gameObject != originPin)
+                if (CheckColliderLayerMask(_hit.collider, pinLayer) && Input.GetMouseButtonDown(0) && _hit.collider.gameObject != originPin && (!usedPins.Contains(_hit.collider.gameObject)))
                 {
                     Polaroid polaroid = _hit.collider.transform.parent.GetComponent<Polaroid>();
                     keywordPin2 = polaroid.keyword.text;
+                    bool canPlace = false;
 
-                    PlacePin();
+                    foreach(KeyValuePair<string, string> _kvp in polaroidPairs)
+                    {
+                        if(_kvp.Value == keywordPin1)
+                        {
+                            if(_kvp.Key == keywordPin2) canPlace = true;
+                        }
+                        else if(_kvp.Value == keywordPin2)
+                        {
+                            if(_kvp.Key == keywordPin1) canPlace = true;
+                        }
+                        
+                    }
+
+                    if(canPlace)
+                    {
+                        usedPins.Add(_hit.collider.gameObject);
+                        usedPins.Add(originPin);
+                        PlacePin();
+                    }
                 }
 
                 if (Input.GetKeyDown(KeyCode.Escape))
@@ -456,7 +484,7 @@ public class PointAndClick : MonoBehaviour
                 }
             }
 
-            if (CheckColliderLayerMask(_hit.collider, pinLayer) && Input.GetMouseButtonDown(0))
+            if (CheckColliderLayerMask(_hit.collider, pinLayer) && Input.GetMouseButtonDown(0) && (!usedPins.Contains(_hit.collider.gameObject)))
             {
                 //Create pin and thread
                 Polaroid polaroid = _hit.collider.transform.parent.GetComponent<Polaroid>();
@@ -490,6 +518,7 @@ public class PointAndClick : MonoBehaviour
         FModManager.instance.PlaySfx(SfxKey.PlacePin);
         placingPin = false;
         GameManager.instance.placingPin = false;
+        GameManager.instance.succesfulConnections++;
     }
 
     void StopPlacingPin()

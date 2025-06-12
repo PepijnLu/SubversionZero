@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     Dictionary<string, GameObject> levelNames;
     [SerializeField] Image levelTransitionImg;
     public string currentLevel;
+    public int succesfulConnections;
 
     public Camera RenderCam => renderCam;
     public Transform RenderCamTransform => renderCamTransform;
@@ -70,6 +71,14 @@ public class GameManager : MonoBehaviour
         renderCam.fieldOfView = newLevelCam.fieldOfView;
 
         //Light newLevelLight = newLevel.GetChild(1).GetComponent<Light>();
+        for (int i = 0; i < newLevel.childCount; i++)
+        {
+            GameObject child = newLevel.GetChild(i).gameObject;
+            if ((child.GetComponent<Light>() != null) || (child.GetComponent<Character>() != null))
+            {
+                child.SetActive(false);
+            }
+        }
 
         StartCoroutine(GenericFunctions.instance.FadeImage(levelTransitionImg, 0, 0));
         for (int i = 0; i < newLevel.childCount; i++)
