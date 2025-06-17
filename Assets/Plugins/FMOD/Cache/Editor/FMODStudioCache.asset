@@ -165,6 +165,33 @@ MonoBehaviour:
   MinDistance: 6.8
   MaxDistance: 15
   Length: 2435
+--- !u!114 &-6583934505241766772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/cam flash
+  m_EditorClassIdentifier: 
+  Path: event:/cam flash
+  Guid:
+    Data1: 425802884
+    Data2: 1253401636
+    Data3: -2141858930
+    Data4: -1664933475
+  Banks:
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 100
+  Length: 0
 --- !u!114 &-6285220666011988287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,7 +325,7 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638852861769138197
+  lastModified: 638857687717862716
   FileSizes: []
   Exists: 1
 --- !u!114 &-4421671963120496869
@@ -516,7 +543,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
-  MaxDistance: 7.6
+  MaxDistance: 9.400001
   Length: 9303
 --- !u!114 &-1930580926412620964
 MonoBehaviour:
@@ -587,10 +614,10 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638852861769249168
+  lastModified: 638857687718026559
   FileSizes:
   - Name: 
-    Value: 3182
+    Value: 3500
   Exists: 1
 --- !u!114 &-1122138807009194882
 MonoBehaviour:
@@ -759,13 +786,14 @@ MonoBehaviour:
   - {fileID: 1174099516141321}
   - {fileID: -7040343124874535794}
   - {fileID: -7073998701135718994}
+  - {fileID: -6583934505241766772}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4997359098897101286}
   StringsBanks:
   - {fileID: -1724225176518313470}
   cacheVersion: 131847
-  cacheTime: 638852861769249168
+  cacheTime: 638857687718026559
   SerializableEventsDict:
   - key: snapshot:/Pinboard
     index: 0
@@ -847,6 +875,8 @@ MonoBehaviour:
     index: 38
   - key: event:/music/intro
     index: 39
+  - key: event:/cam flash
+    index: 40
 --- !u!114 &1174099516141321
 MonoBehaviour:
   m_ObjectHideFlags: 0

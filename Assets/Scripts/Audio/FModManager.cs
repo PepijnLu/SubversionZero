@@ -141,50 +141,51 @@ public class FModManager : MonoBehaviour
         _musicLookup = musicTracks
             .ToDictionary(x => x.state, x => x.musicEvent);
 
-        // FModManager.instance.PlayMusic(MusicState.Investigation);
+        FModManager.instance.PlayMusic(MusicState.Investigation);
 
     }
 
     void Update()
+    {
+        // Check if the G key is pressed
+        if (Input.GetKeyDown(KeyCode.G))
         {
-            // // Check if the E key is pressed
-            // if (Input.GetKeyDown(KeyCode.E))
-            // {
-            //     FModManager.instance.PlayMusic(MusicState.Investigation);
-            //     _currentMusicInstance.setParameterByName("EnoughClues", currentClueValue);
-            //     Debug.Log($"EnoughClues set to: {currentClueValue}");
-            // }
-            // if (Input.GetKeyDown(KeyCode.R))
-            // {
-            //     FModManager.instance.PlayMusic(MusicState.Freeroam);
-            // }
+            FModManager.instance.PlayMusic(MusicState.Investigation);
+            _currentMusicInstance.setParameterByName("EnoughClues", currentClueValue);
+            Debug.Log($"EnoughClues set to: {currentClueValue}");
+        }
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                FModManager.instance.StopMusic();
+                // FModManager.instance.PlayMusic(MusicState.Freeroam);
+            }
 
-            // // Check if the F key is pressed
-            // if (Input.GetKeyDown(KeyCode.F))
-            // {
-            //     currentClueValue = 1f - currentClueValue; // Toggle between 0 and 1
-            //     if (_currentMusicInstance.isValid())
-            //     {
-            //         _currentMusicInstance.setParameterByName("EnoughClues", currentClueValue);
-            //         Debug.Log($"EnoughClues set to: {currentClueValue}");
-            //     }
-            //     else
-            //     {
-            //         Debug.LogWarning("No active music instance to set parameter on.");
-            //     }
-            // }
+            // Check if the F key is pressed
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                currentClueValue = 1f - currentClueValue; // Toggle between 0 and 1
+                if (_currentMusicInstance.isValid())
+                {
+                    _currentMusicInstance.setParameterByName("EnoughClues", currentClueValue);
+                    Debug.Log($"EnoughClues set to: {currentClueValue}");
+                }
+                else
+                {
+                    Debug.LogWarning("No active music instance to set parameter on.");
+                }
+            }
 
             // Check if the W key is pressed
-            // if (Input.GetKeyDown(KeyCode.W))
-            // {
-            //     FModManager.instance.StopDrain();
-            //     Debug.Log("Stopping drain sound");
-            // }
-            // if (Input.GetKeyDown(KeyCode.E))
-            // {
-            //     FModManager.instance.PlayDrain();
-            //     Debug.Log("Starting drain sound :o");
-            // }
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                FModManager.instance.StopDrain();
+                Debug.Log("Stopping drain sound");
+            }
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                FModManager.instance.PlayDrain();
+                Debug.Log("Starting drain sound :o");
+            }
         }
 
 
