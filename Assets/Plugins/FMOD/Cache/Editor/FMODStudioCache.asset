@@ -43,7 +43,11 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
+<<<<<<< HEAD
   lastModified: 638853234741007591
+=======
+  lastModified: 638853196298495952
+>>>>>>> origin/lorena
   FileSizes: []
   Exists: 1
 --- !u!114 &-9061139736093554273
@@ -88,7 +92,11 @@ MonoBehaviour:
   Path: FMODAssets/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
+<<<<<<< HEAD
   lastModified: 638853234740297294
+=======
+  lastModified: 638853196298495952
+>>>>>>> origin/lorena
   FileSizes:
   - Name: 
     Value: 2932
@@ -168,7 +176,168 @@ MonoBehaviour:
     Data3: 1445036455
     Data4: -80562055
   Banks:
+<<<<<<< HEAD
   - {fileID: -9131927438053010231}
+=======
+  - {fileID: -4997359098897101286}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5149414866966332058}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -1724225176518313470}
+  - {fileID: -4997359098897101286}
+  EditorEvents:
+  - {fileID: -9116125018311567026}
+  - {fileID: 1333389021337981714}
+  - {fileID: 7478892357440478533}
+  - {fileID: 951563620545404126}
+  - {fileID: 3167311598890847064}
+  - {fileID: -3569650472029103349}
+  - {fileID: -1109767399459117860}
+  - {fileID: -99949773005201845}
+  - {fileID: 6037180975923887063}
+  - {fileID: -4186475432024525392}
+  - {fileID: 5612774436657959316}
+  - {fileID: -674914184413596670}
+  - {fileID: 6814558035609912053}
+  - {fileID: -3751883532273888763}
+  - {fileID: -4421671963120496869}
+  - {fileID: 6089789446115884778}
+  - {fileID: -1122138807009194882}
+  - {fileID: 303946794561022137}
+  - {fileID: -4180372984890732527}
+  - {fileID: -5445913370315889164}
+  - {fileID: 5970937056573003441}
+  - {fileID: -1233296606768162690}
+  - {fileID: -1744011232998739766}
+  - {fileID: 312418305798545786}
+  - {fileID: 8753931297408411485}
+  - {fileID: 2670282613070421814}
+  - {fileID: -2999894986652017446}
+  - {fileID: 62332142439187926}
+  - {fileID: -5061622928612472922}
+  - {fileID: 7970840081925780195}
+  - {fileID: 3423177855212892901}
+  - {fileID: -1930580926412620964}
+  - {fileID: -7928931318104705155}
+  - {fileID: -2147888321418985146}
+  - {fileID: 3401294054380772440}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -4997359098897101286}
+  StringsBanks:
+  - {fileID: -1724225176518313470}
+  cacheVersion: 131847
+  cacheTime: 638853196298495952
+  SerializableEventsDict:
+  - key: snapshot:/Pinboard
+    index: 0
+  - key: event:/music/freeroam
+    index: 1
+  - key: event:/char/footsteps
+    index: 2
+  - key: event:/amb/pinboard
+    index: 3
+  - key: event:/ui/pinboard_exit
+    index: 4
+  - key: event:/ui/pinboard_enter
+    index: 5
+  - key: event:/music/investigation
+    index: 6
+  - key: event:/char/dialogue/blonde
+    index: 7
+  - key: event:/char/dialogue/nerd
+    index: 8
+  - key: event:/char/dialogue/jock
+    index: 9
+  - key: event:/char/dialogue/joshua
+    index: 10
+  - key: event:/char/dialogue/fool
+    index: 11
+  - key: event:/char/dialogue/stoner
+    index: 12
+  - key: snapshot:/ReverbZones/Kitchen
+    index: 13
+  - key: snapshot:/ReverbZones/Living Room
+    index: 14
+  - key: snapshot:/ReverbZones/Bedroom
+    index: 15
+  - key: event:/music/maintheme
+    index: 16
+  - key: event:/sfx/Polaroid/PolaroidPic
+    index: 17
+  - key: event:/sfx/Polaroid/PolaroidAway
+    index: 18
+  - key: event:/sfx/Polaroid/PolaroidGrab
+    index: 19
+  - key: event:/ui/ui_slider
+    index: 20
+  - key: event:/sfx/door_openclose
+    index: 21
+  - key: event:/ui/ui_select
+    index: 22
+  - key: event:/ui/ui_startgame
+    index: 23
+  - key: event:/sfx/cabinet/CabinetOpen
+    index: 24
+  - key: event:/ui/ui_hover
+    index: 25
+  - key: event:/sfx/cabinet/CabinetClose
+    index: 26
+  - key: event:/sfx/Polaroid/PolaroidHover
+    index: 27
+  - key: event:/amb/pinboardtonal
+    index: 28
+  - key: event:/amb/snowwind
+    index: 29
+  - key: event:/sfx/Polaroid/PlacePin
+    index: 30
+  - key: event:/sfx/Polaroid/DestroyPin
+    index: 31
+  - key: event:/sfx/Polaroid/MovePin
+    index: 32
+  - key: event:/amb/drain
+    index: 33
+  - key: event:/amb/houseamb
+    index: 34
+--- !u!114 &62332142439187926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/Polaroid/PolaroidHover
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/Polaroid/PolaroidHover
+  Guid:
+    Data1: 918234339
+    Data2: 1145405667
+    Data3: 2024566168
+    Data4: 947965688
+  Banks:
+  - {fileID: -4997359098897101286}
+>>>>>>> origin/lorena
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
